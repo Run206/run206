@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="canonical" href="https://{{DOMAIN}}/map/">
+<meta name="theme-color" content="#FCFBF9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101315" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃</text></svg>">
+<style>{{LEAFLET_CSS}}</style>
+<style>{{STYLES}}</style>
+</head>
+<body>
+<a class="skip" href="#map">Skip to map</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="crumb"><a href="/">Run<span>206</span></a> &rsaquo; Map</p>
+    <p class="tagline">{{COUNT}} events placed on the map. Tap a dot for details.</p>
+  </div>
+</header>
+
+<div class="filters">
+  <div class="wrap">
+    <div class="chips" id="f-type" role="group" aria-label="Filter by event type">
+      <button class="chip" type="button" data-value="All" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-value="Race" aria-pressed="false">Races</button>
+      <button class="chip" type="button" data-value="Club Run" aria-pressed="false">Club runs</button>
+      <button class="chip" type="button" data-value="Brand Event" aria-pressed="false">Brand events</button>
+    </div>
+    <div class="chips" id="f-when" role="group" aria-label="Filter by date range">
+      <button class="chip" type="button" data-value="all" aria-pressed="true">Any time</button>
+      <button class="chip" type="button" data-value="7" aria-pressed="false">Next 7 days</button>
+      <button class="chip" type="button" data-value="30" aria-pressed="false">Next 30 days</button>
+      <button class="chip" type="button" data-value="90" aria-pressed="false">Next 3 months</button>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div id="map" role="application" aria-label="Map of Seattle-area running events"></div>
+  <p class="map-legend">
+    <span class="key key-race"></span> Race
+    <span class="key key-club"></span> Club run
+    <span class="key key-brand"></span> Brand event
+    <span class="map-count" id="map-count"></span>
+  </p>
+  <p class="map-note">Showing events with a location precise enough to place. Everything is on the <a href="/">main list</a>, and the whole calendar is available as an <a href="/calendar.ics">iCal feed</a>.</p>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="disclosure">{{DISCLOSURE}}</p>
+    <p><a href="/">All events</a> &middot; <a href="/calendar.ics">Calendar feed</a> &middot; {{UPDATED}}</p>
+  </div>
+</footer>
+
+<script>{{LEAFLET_JS}}</script>
+<script>{{MAP_JS}}</script>
+</body>
+</html>

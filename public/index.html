@@ -287,6 +287,110 @@ a { color: inherit; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ---------- event detail pages ---------- */
+
+.crumb { margin: 0; font-size: 14px; color: var(--ink-3); }
+.crumb a { font-weight: 700; letter-spacing: -0.3px; text-decoration: none; color: var(--ink); }
+.crumb a span { color: var(--accent); }
+
+.detail { padding-bottom: 20px; }
+.detail-title {
+  font-size: clamp(26px, 4.4vw, 36px); line-height: 1.15;
+  letter-spacing: -0.6px; margin: 6px 0 6px;
+}
+.detail-when {
+  margin: 0 0 22px; font-size: 16px; color: var(--accent); font-weight: 600;
+}
+
+.detail-facts {
+  display: grid; grid-template-columns: max-content 1fr;
+  gap: 8px 20px; margin: 0 0 24px; padding: 18px 0;
+  border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  font-size: 15px;
+}
+.detail-facts dt {
+  color: var(--ink-3); font-size: 13px; text-transform: uppercase;
+  letter-spacing: 0.05em; padding-top: 2px;
+}
+.detail-facts dd { margin: 0; }
+
+.detail-body { font-size: 16px; color: var(--ink-2); margin: 0 0 24px; }
+
+.detail-cta { margin: 0 0 22px; }
+.button {
+  display: inline-block; padding: 11px 20px; border-radius: var(--radius);
+  background: var(--accent); color: #fff; text-decoration: none;
+  font-weight: 600; font-size: 15px;
+}
+.button:hover { opacity: .9; }
+.detail-cta .aff { display: inline; margin-left: 10px; font-size: 12px; }
+
+.detail-cal {
+  font-size: 14px; color: var(--ink-2); margin: 0 0 30px;
+  padding: 13px 15px; background: var(--surface-2); border-radius: var(--radius);
+}
+
+.related { border-top: 1px solid var(--line); padding-top: 18px; }
+.related h2 {
+  font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--ink-3); margin: 0 0 10px;
+}
+.related ul { list-style: none; margin: 0; padding: 0; }
+.related li {
+  display: flex; justify-content: space-between; gap: 16px;
+  padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 15px;
+}
+.related li span { color: var(--ink-3); font-size: 13px; white-space: nowrap; }
+
+@media (max-width: 560px) {
+  .detail-facts { grid-template-columns: 1fr; gap: 2px 0; }
+  .detail-facts dd { margin-bottom: 10px; }
+}
+
+/* ---------- map page ---------- */
+
+#map {
+  height: min(66vh, 620px);
+  min-height: 380px;
+  border-radius: 12px;
+  border: 1px solid var(--line-strong);
+  margin-top: 16px;
+  background: var(--surface-2);
+}
+/* Leaflet paints its own light chrome; keep it readable in dark mode without
+   inverting the tiles themselves. */
+:root[data-theme="dark"] .leaflet-container,
+:root[data-theme="dark"] .leaflet-popup-content-wrapper,
+:root[data-theme="dark"] .leaflet-popup-tip { background: var(--surface); color: var(--ink); }
+:root[data-theme="dark"] .leaflet-control-attribution {
+  background: rgba(23,27,30,.85) !important; color: var(--ink-3);
+}
+:root[data-theme="dark"] .leaflet-control-attribution a { color: var(--ink-2); }
+
+.map-legend {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px;
+  margin: 12px 0 6px; font-size: 13px; color: var(--ink-2);
+}
+.key {
+  display: inline-block; width: 11px; height: 11px; border-radius: 50%;
+  margin-right: 2px; vertical-align: -1px;
+}
+.key-race { background: var(--accent); }
+.key-club { background: var(--moss); }
+.key-brand { background: var(--dusk); }
+.map-count { margin-left: auto; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+.map-note { font-size: 13px; color: var(--ink-3); margin: 0 0 8px; }
+
+.pop-name { display: block; font-size: 14px; line-height: 1.35; margin-bottom: 2px; }
+.pop-date { display: block; font-size: 12px; color: var(--accent); font-weight: 600; }
+.pop-meta { display: block; font-size: 12px; color: var(--ink-2); margin-top: 3px; }
+.pop-link {
+  display: inline-block; margin-top: 7px; font-size: 12.5px;
+  font-weight: 600; color: var(--accent); text-decoration: none;
+}
+.leaflet-popup-content { margin: 11px 14px; min-width: 170px; }
 </style>
 </head>
 <body>
@@ -301,7 +405,7 @@ a { color: inherit; }
       </div>
       <button class="theme-toggle" id="theme" type="button" aria-label="Switch theme">☾</button>
     </div>
-    <p class="stats"><b>188</b> races &middot; <b>34</b> weekly runs &middot; <b>20</b> clubs &amp; brands</p>
+    <p class="stats"><b>190</b> races &middot; <b>34</b> weekly runs &middot; <b>20</b> clubs &amp; brands</p>
   </div>
 </header>
 
@@ -1125,7 +1229,7 @@ a { color: inherit; }
   </article>
 </section>
 <section class="group" data-group="2026-09">
-  <h2 class="group-head">September<span class="group-count">152</span></h2>
+  <h2 class="group-head">September<span class="group-count">151</span></h2>
   <article class="row" data-type="Brand Event" data-tags="10K" data-free="1">
     <time class="date" datetime="2026-09-01"><div class="date-dow">Tue</div><div class="date-day">1</div><div class="date-mon">Sep</div></time>
     <div class="body">
@@ -1539,15 +1643,6 @@ a { color: inherit; }
       <div class="desc">The 9/11 Heroes Run 5K welcomes runners, ruckers, and walkers of all ages and fitness levels to honor the heroes of 9/11 and those who&#x27;ve served our…</div>
     </div>
     <div class="aside"><div class="price">$36–$41</div><a class="cta" href="https://runsignup.com/Race/WA/Tacoma/911HeroesRunTacomaWA" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
-  </article>
-  <article class="row" data-type="Race" data-tags="Marathon,Half" data-free="0">
-    <time class="date" datetime="2026-09-12"><div class="date-dow">Sat</div><div class="date-day">12</div><div class="date-mon">Sep</div></time>
-    <div class="body">
-      <div class="title-line"><span class="title"><a href="https://runsignup.com/Race/WA/NorthBend/CascadeExpressMarathonHalfMarathon" target="_blank" rel="noopener nofollow sponsored">Cascade Express Marathon &amp; Half Marathon</a></span><span class="tag tag-race">Race</span></div>
-      <div class="meta"><span>Half Marathon, Marathon</span><span class="sep">·</span><span>North Bend, WA</span><span class="sep">·</span><span>7:00 AM</span></div>
-      <div class="desc">Chasing a Boston Qualifier? 1 in 4 Runners BQ here Ranked the #5 Fastest Boston Qualifier Course in the United States by FindMyMarathon Designed for…</div>
-    </div>
-    <div class="aside"><div class="price">$119–$149</div><a class="cta" href="https://runsignup.com/Race/WA/NorthBend/CascadeExpressMarathonHalfMarathon" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
   </article>
   <article class="row" data-type="Club Run" data-tags="" data-free="1">
     <time class="date" datetime="2026-09-12"><div class="date-dow">Sat</div><div class="date-day">12</div><div class="date-mon">Sep</div></time>
@@ -3192,7 +3287,7 @@ a { color: inherit; }
   </article>
 </section>
 <section class="group" data-group="2026-11">
-  <h2 class="group-head">November<span class="group-count">24</span></h2>
+  <h2 class="group-head">November<span class="group-count">25</span></h2>
   <article class="row" data-type="Race" data-tags="Half,10K,5K" data-free="0">
     <time class="date" datetime="2026-11-07"><div class="date-dow">Sat</div><div class="date-day">7</div><div class="date-mon">Nov</div></time>
     <div class="body">
@@ -3247,6 +3342,15 @@ a { color: inherit; }
     </div>
     <div class="aside"><div class="price is-free">Free</div><a class="cta" href="https://runsignup.com/Race/WA/Enumclaw/Neverendingnolte6hour" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
   </article>
+  <article class="row" data-type="Race" data-tags="" data-free="0">
+    <time class="date" datetime="2026-11-15"><div class="date-dow">Sun</div><div class="date-day">15</div><div class="date-mon">Nov</div></time>
+    <div class="body">
+      <div class="title-line"><span class="title"><a href="https://raceroster.com/events/2026/112982/2026-kirkland-turkey-trot" target="_blank" rel="noopener nofollow sponsored">2026 Kirkland Turkey Trot</a></span><span class="tag tag-race">Race</span></div>
+      <div class="meta"><span>Kirkland, WA</span><span class="sep">·</span><span>9:00 AM</span></div>
+      <div class="desc">9703 Juanita Drive Northeast, Kirkland, WA 98034 - The Kirkland Turkey Trot 5k,10K and Kids Race Get ready for…</div>
+    </div>
+    <div class="aside"><a class="cta" href="https://raceroster.com/events/2026/112982/2026-kirkland-turkey-trot" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
+  </article>
   <article class="row" data-type="Race" data-tags="5K" data-free="0">
     <time class="date" datetime="2026-11-15"><div class="date-dow">Sun</div><div class="date-day">15</div><div class="date-mon">Nov</div></time>
     <div class="body">
@@ -3283,6 +3387,15 @@ a { color: inherit; }
     </div>
     <div class="aside"><div class="price">$24–$34</div><a class="cta" href="https://runsignup.com/Race/WA/Seattle/TackyTurkeySweater5k" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
   </article>
+  <article class="row" data-type="Race" data-tags="" data-free="0">
+    <time class="date" datetime="2026-11-26"><div class="date-dow">Thu</div><div class="date-day">26</div><div class="date-mon">Nov</div></time>
+    <div class="body">
+      <div class="title-line"><span class="title"><a href="https://raceroster.com/events/2026/110566/2026-mukilteo-turkey-trot" target="_blank" rel="noopener nofollow sponsored">2026 Mukilteo Turkey Trot</a></span><span class="tag tag-race">Race</span></div>
+      <div class="meta"><span>Mukilteo, WA</span><span class="sep">·</span><span>7:30 AM</span></div>
+      <div class="desc">Kamiak High School, Harbour Pointe Boulevard, Mukilteo, WA - Thanksgiving Day, November 26th, 2026Kamiak High…</div>
+    </div>
+    <div class="aside"><a class="cta" href="https://raceroster.com/events/2026/110566/2026-mukilteo-turkey-trot" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
+  </article>
   <article class="row" data-type="Race" data-tags="5K" data-free="0">
     <time class="date" datetime="2026-11-26"><div class="date-dow">Thu</div><div class="date-day">26</div><div class="date-mon">Nov</div></time>
     <div class="body">
@@ -3300,15 +3413,6 @@ a { color: inherit; }
       <div class="desc">Date of the Event- Thursday, Thanksgiving Morning!! 8am! Thursday, Day of event registration price doubles to $60. The event is timed by Tortoise &amp;…</div>
     </div>
     <div class="aside"><div class="price">$30</div><a class="cta" href="https://runsignup.com/Race/WA/GigHarbor/GigHarborTurkeyTrot" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
-  </article>
-  <article class="row" data-type="Race" data-tags="10K,5K" data-free="0">
-    <time class="date" datetime="2026-11-26"><div class="date-dow">Thu</div><div class="date-day">26</div><div class="date-mon">Nov</div></time>
-    <div class="body">
-      <div class="title-line"><span class="title"><a href="https://runsignup.com/Race/WA/Mukilteo/2017MukilteoTurkeyTrot" target="_blank" rel="noopener nofollow sponsored">2026 Mukilteo Turkey Trot 5K and 10K</a></span><span class="tag tag-race">Race</span></div>
-      <div class="meta"><span>5K, 10K</span><span class="sep">·</span><span>Mukilteo, WA</span><span class="sep">·</span><span>8:15 AM</span></div>
-      <div class="desc">Thanksgiving Day, November 26th, 2026 Kamiak High School Mukilteo, WA Join Snohomish Running Company for the 12th annual Mukilteo Turkey Trot…</div>
-    </div>
-    <div class="aside"><div class="price">$40–$50</div><a class="cta" href="https://runsignup.com/Race/WA/Mukilteo/2017MukilteoTurkeyTrot" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
   </article>
   <article class="row" data-type="Race" data-tags="Kids,10K,5K" data-free="0">
     <time class="date" datetime="2026-11-26"><div class="date-dow">Thu</div><div class="date-day">26</div><div class="date-mon">Nov</div></time>
@@ -3400,14 +3504,14 @@ a { color: inherit; }
     </div>
     <div class="aside"><div class="price">$30–$45</div><a class="cta" href="https://runsignup.com/Race/WA/Seattle/ThanksgivingGobbleTrotRun5K10KSEATTLE1128" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
   </article>
-  <article class="row" data-type="Race" data-tags="Marathon,Half" data-free="0">
-    <time class="date" datetime="2026-11-29"><div class="date-dow">Sun</div><div class="date-day">29</div><div class="date-mon">Nov</div></time>
+  <article class="row" data-type="Race" data-tags="Kids,Marathon" data-free="0">
+    <time class="date" datetime="2026-11-28"><div class="date-dow">Sat</div><div class="date-day">28</div><div class="date-mon">Nov</div></time>
     <div class="body">
-      <div class="title-line"><span class="title"><a href="https://raceroster.com/events/2026/112954/" target="_blank" rel="noopener nofollow sponsored">UW Medicine Seattle Marathon &amp; Half</a></span><span class="tag tag-race">Race</span></div>
-      <div class="meta"><span>Seattle Marathon Association</span><span class="sep">·</span><span>Marathon, Half Marathon</span><span class="sep">·</span><span>Downtown Seattle</span></div>
-      <div class="desc">Seattle&#x27;s original marathon, run every Thanksgiving weekend since 1970.</div>
+      <div class="title-line"><span class="title"><a href="https://raceroster.com/events/2026/115515/2026-seattle-kids-marathon" target="_blank" rel="noopener nofollow sponsored">2026 Seattle Kids Marathon</a></span><span class="tag tag-race">Race</span></div>
+      <div class="meta"><span>Seattle, WA</span><span class="sep">·</span><span>9:00 AM</span></div>
+      <div class="desc">USA - Saturday, November 28, 2026Location: Bell Harbor, Pier…</div>
     </div>
-    <div class="aside"><div class="price">$85–$145</div><a class="cta" href="https://raceroster.com/events/2026/112954/" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
+    <div class="aside"><a class="cta" href="https://raceroster.com/events/2026/115515/2026-seattle-kids-marathon" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
   </article>
 </section>
 <section class="group" data-group="2026-12">
@@ -3717,7 +3821,7 @@ a { color: inherit; }
   </article>
 </section>
 <section class="group" data-group="2027-03">
-  <h2 class="group-head">March 2027<span class="group-count">9</span></h2>
+  <h2 class="group-head">March 2027<span class="group-count">10</span></h2>
   <article class="row" data-type="Race" data-tags="Half" data-free="0">
     <time class="date" datetime="2027-03-06"><div class="date-dow">Sat</div><div class="date-day">6</div><div class="date-mon">Mar</div></time>
     <div class="body">
@@ -3744,6 +3848,15 @@ a { color: inherit; }
       <div class="desc">Join us in Celebrating Women! Women in history to those women who are leaders in our community. All registrations include bib, medal and race day…</div>
     </div>
     <div class="aside"><div class="price">$30–$35</div><a class="cta" href="https://runsignup.com/Race/WA/Puyallup/198236" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
+  </article>
+  <article class="row" data-type="Race" data-tags="" data-free="0">
+    <time class="date" datetime="2027-03-13"><div class="date-dow">Sat</div><div class="date-day">13</div><div class="date-mon">Mar</div></time>
+    <div class="body">
+      <div class="title-line"><span class="title"><a href="https://raceroster.com/events/2027/116539/2027-kirkland-shamrock-run" target="_blank" rel="noopener nofollow sponsored">2027 Kirkland Shamrock Run</a></span><span class="tag tag-race">Race</span></div>
+      <div class="meta"><span>Kirkland, WA</span><span class="sep">·</span><span>9:00 AM</span></div>
+      <div class="desc">Marina Park Public Beach, 25 Lakeshore Plaza, Kirkland, WA - Come join Lake Washington Physical Therapy and Cascade…</div>
+    </div>
+    <div class="aside"><a class="cta" href="https://raceroster.com/events/2027/116539/2027-kirkland-shamrock-run" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
   </article>
   <article class="row" data-type="Race" data-tags="Kids,5K" data-free="0">
     <time class="date" datetime="2027-03-14"><div class="date-dow">Sun</div><div class="date-day">14</div><div class="date-mon">Mar</div></time>
@@ -3915,7 +4028,7 @@ a { color: inherit; }
   </article>
 </section>
 <section class="group" data-group="2027-06">
-  <h2 class="group-head">June 2027<span class="group-count">1</span></h2>
+  <h2 class="group-head">June 2027<span class="group-count">2</span></h2>
   <article class="row" data-type="Race" data-tags="5K" data-free="0">
     <time class="date" datetime="2027-06-01"><div class="date-dow">Tue</div><div class="date-day">1</div><div class="date-mon">Jun</div></time>
     <div class="body">
@@ -3924,6 +4037,15 @@ a { color: inherit; }
       <div class="desc">A Community 5K for Every Pace A day of movement, connection, and community impact! The Northshore Spring 5K for Schools is proudly presented and…</div>
     </div>
     <div class="aside"><div class="price">$25</div><a class="cta" href="https://runsignup.com/Race/WA/Seattle/NorthshoreSpring5kForSchools" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
+  </article>
+  <article class="row" data-type="Race" data-tags="Marathon" data-free="0">
+    <time class="date" datetime="2027-06-05"><div class="date-dow">Sat</div><div class="date-day">5</div><div class="date-mon">Jun</div></time>
+    <div class="body">
+      <div class="title-line"><span class="title"><a href="https://raceroster.com/events/2027/138588/2027-seattle-marathon-summer-events" target="_blank" rel="noopener nofollow sponsored">2027 Seattle Marathon Summer Events</a></span><span class="tag tag-race">Race</span></div>
+      <div class="meta"><span>Seattle, WA</span><span class="sep">·</span><span>6:00 AM</span></div>
+      <div class="desc">Seward Park, 5900 Lake Washington Boulevard South, Seattle, WA, USA - Join us for our annual family-friendly run at Seward Park…</div>
+    </div>
+    <div class="aside"><a class="cta" href="https://raceroster.com/events/2027/138588/2027-seattle-marathon-summer-events" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></div>
   </article>
 </section>
 <section class="group" data-group="2027-07">
@@ -3981,9 +4103,14 @@ a { color: inherit; }
     Run206 earns a small share of the booking fee at no extra cost to you. It never
     changes your price, and it never affects which events are listed or how they
     are ordered.</p>
-    <p>Races update automatically twice a day from RunSignUp. Club runs are
-    maintained by hand — spot something wrong or missing?
-    <a href="mailto:hello@run206.com">Send a correction</a>.</p>
+    <p><strong>Take it with you.</strong> Subscribe to the
+    <a href="/calendar.ics">full calendar</a>, or just
+    <a href="/races.ics">races</a> or <a href="/club-runs.ics">club runs</a>, and
+    every event lands in your own calendar automatically. See them all on the
+    <a href="/map/">map</a>.</p>
+    <p>Races update automatically twice a day from RunSignUp and Race Roster.
+    Club runs are maintained by hand.
+    <a href="">Submit a run or fix a mistake</a> — it takes a minute.</p>
     <p>Updated 16 August 2026 · Built in Seattle · <a href="/events.json">events.json</a></p>
   </div>
 </footer>

@@ -124,49 +124,124 @@ def summarize_distances(names, limit=4):
     return ", ".join(found[:limit])
 
 
-def apply_affiliate(url, token):
-    """Append the RunSignUp affiliate token to a runsignup.com URL.
+# Query parameters that must never survive on an outbound link: they're either
+# a stale referral code from the old spreadsheet or a competing affiliate tag.
+_STRIP_PARAMS = {"raceRefCode", "affiliateToken", "aff", "utm_source",
+                 "utm_medium", "utm_campaign", "referrer"}
 
-    Applied centrally at build time so no link is ever hand-tagged, and so
-    rotating the token is a one-line change.
+
+def apply_affiliate(url, platforms):
+    """Tag an outbound link for whichever affiliate platform owns that domain.
+
+    `platforms` is a list of {domain, param, token, enabled} dicts from
+    config.yml, so adding a new partner is configuration rather than code, and
+    rotating a token touches one line.
+
+    Returns (url, platform_name_or_None). The caller uses the second value to
+    decide whether to show the "affiliate" disclosure marker — a link is only
+    labelled when it genuinely carries a tag.
     """
-    if not url or not token:
-        return url
+    if not url:
+        return url, None
+
     parts = urllib.parse.urlsplit(url)
-    if not parts.netloc.lower().endswith("runsignup.com"):
-        return url
+    host = parts.netloc.lower()
+
+    match = None
+    for platform in platforms or []:
+        domain = str(platform.get("domain", "")).lower().strip()
+        if not domain:
+            continue
+        if host == domain or host.endswith("." + domain):
+            match = platform
+            break
+
     query = urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
-    query = [(k, v) for k, v in query if k not in ("affiliateToken", "raceRefCode")]
-    query.append(("affiliateToken", token))
-    return urllib.parse.urlunsplit(
-        (parts.scheme, parts.netloc, parts.path, urllib.parse.urlencode(query), parts.fragment)
-    )
+    query = [(k, v) for k, v in query if k not in _STRIP_PARAMS]
+
+    tagged_by = None
+    if match and match.get("enabled") and match.get("token") and match.get("param"):
+        query.append((str(match["param"]), str(match["token"])))
+        tagged_by = match.get("name") or match.get("domain")
+
+    rebuilt = urllib.parse.urlunsplit((
+        parts.scheme, parts.netloc, parts.path,
+        urllib.parse.urlencode(query), parts.fragment,
+    ))
+    return rebuilt, tagged_by
 
 
-_NOISE_RE = re.compile(r"\b(the|a|an|annual|\d{1,2}(st|nd|rd|th)|20\d\d)\b", re.I)
-_NONWORD_RE = re.compile(r"[^a-z0-9]+")
+_NOISE_WORDS = {
+    "the", "a", "an", "and", "of", "at", "in", "on", "annual", "presented",
+    "by", "run", "race", "event", "events", "marathon",
+}
+_ORDINAL_RE = re.compile(r"^\d{1,3}(st|nd|rd|th)$", re.I)
+_YEAR_RE = re.compile(r"^20\d\d$")
 
 
-def dedupe_key(name, event_date):
-    """Loose identity for an event, so API and manual entries collapse.
+def name_tokens(name):
+    """Significant words in an event name, for loose identity matching.
 
-    Strips ordinals and years so "17th Annual Parkland Pace" and
-    "Parkland Pace 2026" match.
+    Drops years, ordinals and filler so "2026 UW Medicine Seattle Marathon and
+    Half Marathon" and "UW Medicine Seattle Marathon & Half" reduce to
+    overlapping sets. "&" becomes "and" first so the two spellings agree.
     """
-    text = _NOISE_RE.sub(" ", str(name or "").lower())
-    text = _NONWORD_RE.sub("", text)
-    return "{}|{}".format(text, event_date or "")
+    text = str(name or "").lower().replace("&", " and ")
+    words = re.split(r"[^a-z0-9]+", text)
+    return {
+        w for w in words
+        if w and w not in _NOISE_WORDS
+        and not _ORDINAL_RE.match(w) and not _YEAR_RE.match(w)
+    }
 
 
 def dedupe(events):
-    """Keep the first occurrence of each key. Manual entries should be passed
-    in first so they win over API-sourced duplicates."""
-    seen = {}
+    """Collapse the same event arriving from more than one source.
+
+    Exact-string matching isn't enough: the Seattle Marathon is "UW Medicine
+    Seattle Marathon & Half" by hand and "2026 UW Medicine Seattle Marathon and
+    Half Marathon" from Race Roster. So two events on the same date are treated
+    as one when either's significant-word set contains the other's.
+
+    At least two shared significant words are required, so "Seattle 5K" and
+    "Seattle 10K" on the same day stay separate rather than collapsing on the
+    single word "seattle".
+
+    Sources are passed in priority order, so the first occurrence wins.
+    """
+    kept = []
     out = []
+
     for event in events:
-        key = dedupe_key(event.get("name"), event.get("date"))
-        if key in seen:
+        tokens = name_tokens(event.get("name"))
+        day = event.get("date") or ""
+
+        duplicate = False
+        for seen_day, seen_tokens in kept:
+            if seen_day != day:
+                continue
+            smaller = tokens if len(tokens) <= len(seen_tokens) else seen_tokens
+            if len(smaller) >= 2 and (tokens <= seen_tokens or seen_tokens <= tokens):
+                duplicate = True
+                break
+
+        if duplicate:
             continue
-        seen[key] = True
+        kept.append((day, tokens))
         out.append(event)
+
     return out
+
+
+# Listings that are registrations but not runnable events. Race Roster carries
+# volunteer shifts, sponsorship packages and donation-only entries alongside
+# real races, and they look identical in the sitemap.
+_NON_EVENT_RE = re.compile(
+    r"\bvolunteer(s|ing)?\b|\bsponsorship\b|\bdonation\b|\bdonate\b|"
+    r"\bmerchandise\b|\bpacket pick|\bspectator\b|\bparking\b|\braffle\b",
+    re.I)
+
+
+def is_runnable(name):
+    """False for volunteer shifts, sponsorships and other non-race listings."""
+    return not _NON_EVENT_RE.search(str(name or ""))

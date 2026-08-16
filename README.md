@@ -15,11 +15,19 @@ Pages. There is no server and no database.
 GitHub Actions (06:00 + 18:00 Pacific)
   └─ python3 scripts/build.py
        ├─ RunSignUp API      ~190 races within a 40-mile radius of 98101
+       ├─ Race Roster        local events found via their published sitemap
        ├─ Heylo              CSRD's posted events, incl. brand collabs
        ├─ data/clubs.yml     recurrence rules expanded into real dates
-       ├─ data/races-manual.yml   races not listed on RunSignUp
+       ├─ data/races-manual.yml   races on neither platform
        ├─ normalise · dedupe · drop past · tag affiliate links · escape HTML
-       └─ public/{index.html, events.json, sitemap.xml, robots.txt, CNAME}
+       ├─ geocode (cached)   coordinates for the map
+       └─ public/
+            index.html          the list
+            e/<slug>/           one page per event, for search
+            map/                filterable map
+            calendar.ics        subscribable feed (+ races.ics, club-runs.ics)
+            events.json         raw data
+            sitemap.xml, robots.txt, CNAME
   └─ python3 scripts/verify.py     refuses to publish a broken build
   └─ actions/deploy-pages
 ```
@@ -50,7 +58,7 @@ call and reuses the races already in `public/events.json`.
 | Add a Heylo club | `data/config.yml` under `sources.heylo` |
 | A race not on RunSignUp | `data/races-manual.yml` |
 | Hide a bad API race | `data/overrides.yml` (add its `race_id`) |
-| Radius, date window, affiliate token | `data/config.yml` |
+| Radius, date window, affiliate tokens | `data/config.yml` |
 | Page copy, layout, styling | `site/template.html`, `site/styles.css` |
 
 Push to `main` and the site rebuilds and redeploys.
@@ -96,11 +104,32 @@ These cost time to discover, so they're documented rather than rediscovered:
   *names* instead, in `lib/normalize.summarize_distances`.
 - **Prices live in `registration_periods`**, not `registration_fee`.
 
+## Submissions
+
+The footer links to a GitHub issue form. A submission is parsed by
+`scripts/submission.py`, validated (required fields, plain-http links, no markup,
+no duplicates), and opened as a pull request against `data/clubs.yml`. Nothing
+reaches the site without review.
+
+Point `site.submit_url` in `data/config.yml` at:
+`https://github.com/<you>/run206/issues/new?template=submit-event.yml`
+
+## Calendar feeds
+
+`/calendar.ics`, `/races.ics` and `/club-runs.ics`. UIDs are stable across
+rebuilds, so a subscriber's calendar updates in place instead of accumulating
+duplicates. `verify.py` checks the folding, block balance and UID uniqueness,
+because a malformed `.ics` fails silently in calendar apps.
+
 ## Money
 
-Race links carry a RunSignUp affiliate token, applied centrally at build time in
-`lib/normalize.apply_affiliate` — no link is ever tagged by hand. The token goes
-in `data/config.yml`; it is a public tracking parameter, not a secret.
+Outbound links are tagged per platform by `lib/normalize.apply_affiliate`, driven
+by the `affiliate.platforms` list in `data/config.yml` — no link is ever tagged
+by hand, and adding a partner is configuration rather than code. Tokens are
+public tracking parameters, not secrets.
+
+A link is only labelled "affiliate" on the page when it actually carries a tag,
+so the disclosure never over-claims.
 
 Realistically this pays for the domain. RunSignUp's processing fee is about
 6% + $1, so roughly $5.20 on a $70 race, and the affiliate share is 15% of that

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="canonical" href="https://{{DOMAIN}}/e/{{SLUG}}/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="https://{{DOMAIN}}/e/{{SLUG}}/">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#FCFBF9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101315" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃</text></svg>">
+<style>{{STYLES}}</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="crumb"><a href="/">Run<span>206</span></a> &rsaquo; {{TYPE}}</p>
+  </div>
+</header>
+
+<main class="wrap detail" id="main">
+  <h1 class="detail-title">{{NAME}}</h1>
+  <p class="detail-when">{{WHEN}}</p>
+
+  <dl class="detail-facts">
+    {{FACTS}}
+  </dl>
+
+  {{BODY}}
+
+  {{CTA}}
+
+  <p class="detail-cal"><a href="/calendar.ics">Subscribe to the full Seattle calendar</a> to get this and every other local race in your own calendar automatically.</p>
+
+  {{RELATED}}
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="disclosure">{{DISCLOSURE}}</p>
+    <p><a href="/">All Seattle running events</a> &middot; <a href="/calendar.ics">Calendar feed</a> &middot; {{UPDATED}}</p>
+  </div>
+</footer>
+{{JSONLD}}
+</body>
+</html>

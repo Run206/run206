@@ -2,6 +2,10 @@ site:
   name: Run206
   domain: run206.com
   tagline: Every race, club run, and shakeout within 40 miles of Seattle.
+  # Where the footer's "submit a run" link points. Set this to the repo's
+  # issue-form URL once the repo exists:
+  #   https://github.com/<you>/run206/issues/new?template=submit-event.yml
+  submit_url: ""
   description: >-
     A complete, automatically updated calendar of running races, club runs, and
     brand events across Seattle and the surrounding suburbs.
@@ -37,14 +41,34 @@ sources:
     brand_keywords: null
 
 affiliate:
-  # Get this from https://runsignup.com/affiliate — it is a public tracking
-  # token, not a secret; it ships in the page HTML either way.
+  # One entry per registration platform. Tokens are public tracking parameters,
+  # not secrets — they ship in the page HTML either way.
   #
-  # NOTE: this is NOT the same as a raceRefCode. A raceRefCode is a per-race
-  # referral reward tied to a registrant account and pays nothing on races whose
-  # director hasn't enabled it. Leave this blank until the affiliate signup is
-  # approved; the build will simply emit untagged links and warn.
-  runsignup_token: ""
+  # A link is only marked "affiliate" on the site when it actually carries a
+  # tag, so disclosure never over-claims. Setting `enabled: false` leaves links
+  # clean rather than appending a dead parameter.
+  #
+  # These are NOT raceRefCodes. A raceRefCode is a per-race referral reward tied
+  # to one registrant account; it pays nothing on races whose director hasn't
+  # enabled it, and it is stripped from every outbound link.
+  platforms:
+    - name: RunSignUp
+      domain: runsignup.com
+      param: affiliateToken
+      token: ""
+      enabled: false        # flip to true once the token below is filled in
+      signup: https://runsignup.com/affiliate
+
+    # RaceRoster has no public affiliate programme as of August 2026. Their
+    # robots.txt disallows `/*?aff=*`, which strongly implies an `aff` tracking
+    # parameter exists internally — worth asking their partnerships team about,
+    # but do not assume it pays anything. Left disabled deliberately.
+    - name: Race Roster
+      domain: raceroster.com
+      param: aff
+      token: ""
+      enabled: false
+      signup: ""
 
 build:
   # How far ahead to expand weekly club runs into concrete dates.

@@ -1,0 +1,135 @@
+name: Submit a run or event
+description: Add a club run, group run, or brand event to Run206. Free, takes a minute.
+title: "Event: "
+labels: ["event-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the Seattle running calendar complete.
+
+        **Races on RunSignUp or Race Roster are already picked up automatically** —
+        no need to submit those. This form is for recurring club runs, group runs,
+        and brand or shop events that aren't on a registration platform.
+
+        Your submission opens a pull request for review. Nothing goes live until
+        it's checked.
+
+  - type: input
+    id: name
+    attributes:
+      label: Event name
+      description: Just the run itself, not the club name.
+      placeholder: Saturday Morning Miles
+    validations:
+      required: true
+
+  - type: input
+    id: club
+    attributes:
+      label: Club, shop, or brand
+      placeholder: Club Seattle Runners Division
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of event is this?
+      options:
+        - Club Run
+        - Brand Event
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cadence
+    attributes:
+      label: How often does it happen?
+      description: >
+        Pick "Every week" only if it genuinely runs the same day every week —
+        those get shown with real dates. Anything else is listed with its
+        schedule text instead, because putting a wrong date on a run sends
+        people to the wrong place.
+      options:
+        - Every week, same day
+        - Something else (biweekly, monthly, varies)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: days
+    attributes:
+      label: Which day(s)?
+      description: Only needed for weekly runs.
+      options:
+        - label: Monday
+        - label: Tuesday
+        - label: Wednesday
+        - label: Thursday
+        - label: Friday
+        - label: Saturday
+        - label: Sunday
+
+  - type: input
+    id: time
+    attributes:
+      label: Start time
+      description: 24-hour format for weekly runs, e.g. 18:30. Otherwise describe it.
+      placeholder: "18:30"
+
+  - type: input
+    id: schedule
+    attributes:
+      label: Schedule, in words
+      description: Only for events that aren't weekly. Shown to readers as written.
+      placeholder: Second Sunday of each month, 9 AM
+
+  - type: input
+    id: location
+    attributes:
+      label: Meeting point
+      description: Specific enough to find and to place on the map.
+      placeholder: MOHAI, under the canopy by the museum
+    validations:
+      required: true
+
+  - type: input
+    id: distances
+    attributes:
+      label: Distance or format
+      placeholder: 3-6 miles
+
+  - type: textarea
+    id: desc
+    attributes:
+      label: Short description
+      description: One or two sentences. What's the vibe, what happens after?
+      placeholder: All paces welcome. Coffee at the bakery afterwards.
+
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: Where someone can find details or RSVP.
+      placeholder: https://
+
+  - type: input
+    id: instagram
+    attributes:
+      label: Instagram handle
+      placeholder: "@run_csrd"
+
+  - type: input
+    id: price
+    attributes:
+      label: Cost
+      placeholder: Free
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This event is open to the public and I'm happy for it to be listed.
+          required: true

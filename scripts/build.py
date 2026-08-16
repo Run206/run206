@@ -21,11 +21,13 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
 import yaml  # noqa: E402
 
-from lib import recurrence  # noqa: E402
-from lib.normalize import apply_affiliate, dedupe, distance_tags  # noqa: E402
+from lib import geocode, recurrence  # noqa: E402
+from lib.normalize import (  # noqa: E402
+    apply_affiliate, dedupe, distance_tags, is_runnable,
+)
 from lib.util import slugify  # noqa: E402
 from lib.render import render_site  # noqa: E402
-from sources import heylo, runsignup  # noqa: E402
+from sources import heylo, raceroster, runsignup  # noqa: E402
 
 DATA_DIR = os.path.join(ROOT, "data")
 OUT_DIR = os.path.join(ROOT, "public")
@@ -111,7 +113,7 @@ def _suppress_superseded(recurring, heylo_events, config, log=print):
 
 
 def build_events(config, today, offline=False):
-    token = (config.get("affiliate") or {}).get("runsignup_token") or ""
+    platforms = (config.get("affiliate") or {}).get("platforms") or []
     weeks = int((config.get("build") or {}).get("club_weeks_ahead", 8))
 
     # Manual entries go first so they win any dedupe against the API.
@@ -148,13 +150,15 @@ def build_events(config, today, offline=False):
             with open(cached) as handle:
                 previous = json.load(handle).get("events", [])
             remote = [e for e in previous
-                      if e.get("source") in ("runsignup", "heylo")]
+                      if e.get("source") in ("runsignup", "heylo", "raceroster")]
             print("offline: reused {} cached remote events".format(len(remote)))
     else:
         print("fetching Heylo community events…")
         remote = heylo.fetch(config, today, log=print)
         print("fetching RunSignUp races…")
         remote.extend(runsignup.fetch(config, today, log=print))
+        print("fetching Race Roster events…")
+        remote.extend(raceroster.fetch(config, today, log=print))
 
     heylo_events = [e for e in remote if e.get("source") == "heylo"]
     recurring = _suppress_superseded(recurring, heylo_events, config, log=print)
@@ -170,6 +174,9 @@ def build_events(config, today, offline=False):
     for event in events:
         if event.get("source_id") and event["source_id"] in excluded:
             continue
+        # Volunteer shifts and sponsorship packages are registrations, not runs.
+        if not is_runnable(event.get("name")):
+            continue
         if event.get("date"):
             try:
                 if date.fromisoformat(event["date"]) < today:
@@ -180,7 +187,7 @@ def build_events(config, today, offline=False):
         group, group_label, group_order = assign_group(event.get("date"), today)
         price = (event.get("price") or "").strip()
         url = event.get("url") or ""
-        tagged = apply_affiliate(url, token)
+        tagged, tagged_by = apply_affiliate(url, platforms)
 
         prepared.append({
             "id": "{}-{}".format(slugify(event["name"]), event.get("date") or "ongoing"),
@@ -196,7 +203,8 @@ def build_events(config, today, offline=False):
             "org": event.get("org", ""),
             "desc": event.get("desc", ""),
             "url": tagged,
-            "affiliate": bool(tagged and tagged != url),
+            "affiliate": bool(tagged_by),
+            "affiliate_platform": tagged_by or "",
             "price": price,
             "free": price.lower() in ("free", "$0", "0"),
             "recurring": bool(event.get("recurring")),
@@ -228,11 +236,19 @@ def main():
     config = load_yaml("config.yml", {})
     today = date.today()
 
-    if not (config.get("affiliate") or {}).get("runsignup_token"):
-        print("WARNING: no affiliate token set in data/config.yml — links will be "
-              "untagged and will earn nothing. See runsignup.com/affiliate.")
+    active = [p.get("name") for p in (config.get("affiliate") or {}).get("platforms") or []
+              if p.get("enabled") and p.get("token")]
+    if active:
+        print("affiliate platforms active: {}".format(", ".join(active)))
+    else:
+        print("WARNING: no affiliate platform enabled in data/config.yml — links "
+              "are untagged and earn nothing. See runsignup.com/affiliate.")
 
     events = build_events(config, today, offline=args.offline)
+
+    print("geocoding event locations…")
+    located = geocode.resolve(events, ROOT, log=print)
+    print("  {} of {} events placed on the map".format(located, len(events)))
 
     if not os.path.isdir(OUT_DIR):
         os.makedirs(OUT_DIR)

@@ -10,14 +10,9 @@
 #
 # Fields: name, date (YYYY-MM-DD), distances, location, org, desc, url, price
 
-- name: UW Medicine Seattle Marathon & Half
-  date: 2026-11-29
-  distances: Marathon, Half Marathon
-  location: Downtown Seattle
-  org: Seattle Marathon Association
-  desc: Seattle's original marathon, run every Thanksgiving weekend since 1970.
-  url: https://raceroster.com/events/2026/112954/
-  price: $85–$145
+# The UW Medicine Seattle Marathon was listed here by hand. It now arrives
+# automatically from Race Roster with a URL that actually resolves — the
+# hand-entered one had rotted. Removed deliberately; don't re-add it.
 
 - name: Cascade Express Marathon & Half
   date: 2026-09-12

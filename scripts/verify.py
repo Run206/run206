@@ -22,7 +22,9 @@ PUBLIC = os.path.join(ROOT, "public")
 MIN_EVENTS = 100
 MIN_RATIO = 0.5
 
-REQUIRED_FILES = ["index.html", "events.json", "sitemap.xml", "robots.txt", "CNAME"]
+REQUIRED_FILES = ["index.html", "events.json", "sitemap.xml", "robots.txt",
+                  "CNAME", "calendar.ics", "races.ics", "club-runs.ics",
+                  os.path.join("map", "index.html")]
 
 failures = []
 warnings = []
@@ -90,28 +92,37 @@ def check_events(data, baseline):
     return events
 
 
-def check_affiliate(events, token):
-    runsignup = [e for e in events if "runsignup.com" in (e.get("url") or "")]
-    if not runsignup:
-        warn("no RunSignUp links found at all — is the API source working?")
-        return
-
-    if not token:
-        warn("no affiliate token configured, so {} RunSignUp links are untagged "
-             "and will earn nothing. Set affiliate.runsignup_token in "
-             "data/config.yml once approved at runsignup.com/affiliate."
-             .format(len(runsignup)))
-        return
-
-    untagged = [e for e in runsignup if "affiliateToken=" not in e["url"]]
-    if untagged:
-        fail("{} RunSignUp links missing the affiliate token, e.g. {}".format(
-            len(untagged), untagged[0]["name"]))
-
+def check_affiliate(events, platforms):
+    """Per-platform coverage: every link on a monetisable domain must carry the
+    tag once that platform is enabled."""
     stale = [e for e in events if "raceRefCode=" in (e.get("url") or "")]
     if stale:
-        fail("{} links still carry a legacy raceRefCode, which earns nothing"
-             .format(len(stale)))
+        fail("{} links still carry a legacy raceRefCode, which earns nothing "
+             "and is stripped on purpose".format(len(stale)))
+
+    for platform in platforms:
+        domain = str(platform.get("domain", "")).lower()
+        name = platform.get("name") or domain
+        if not domain:
+            continue
+
+        on_domain = [e for e in events if domain in (e.get("url") or "").lower()]
+        if not on_domain:
+            continue
+
+        if not (platform.get("enabled") and platform.get("token")):
+            warn("{}: {} link(s) untagged and earning nothing — no token set. {}"
+                 .format(name, len(on_domain),
+                         platform.get("signup") or "no public programme"))
+            continue
+
+        needle = "{}=".format(platform.get("param"))
+        untagged = [e for e in on_domain if needle not in e["url"]]
+        if untagged:
+            fail("{}: {} of {} links missing the affiliate tag, e.g. {}".format(
+                name, len(untagged), len(on_domain), untagged[0]["name"]))
+        else:
+            print("OK: {} — all {} links tagged".format(name, len(on_domain)))
 
 
 def check_html():
@@ -149,6 +160,60 @@ def check_html():
         fail("affiliate disclosure missing from the page")
 
 
+def check_calendar():
+    """A malformed .ics fails silently in calendar apps, so check the shape."""
+    path = os.path.join(PUBLIC, "calendar.ics")
+    if not os.path.exists(path):
+        return
+    with open(path, "rb") as handle:
+        raw = handle.read().decode("utf-8")
+
+    lines = raw.split("\r\n")
+    if len(lines) < 5:
+        fail("calendar.ics is not CRLF terminated")
+        return
+    long_lines = [l for l in lines if len(l.encode("utf-8")) > 75]
+    if long_lines:
+        fail("calendar.ics has {} line(s) over 75 octets, e.g. {!r}".format(
+            len(long_lines), long_lines[0][:60]))
+    for tag in ("VCALENDAR", "VEVENT", "VTIMEZONE"):
+        opens = sum(1 for l in lines if l == "BEGIN:" + tag)
+        closes = sum(1 for l in lines if l == "END:" + tag)
+        if opens != closes:
+            fail("calendar.ics has unbalanced {} blocks ({} vs {})".format(
+                tag, opens, closes))
+    uids = [l for l in lines if l.startswith("UID:")]
+    if len(uids) != len(set(uids)):
+        fail("calendar.ics has duplicate UIDs — subscribers would see "
+             "duplicated events")
+    if not uids:
+        warn("calendar.ics contains no events")
+
+
+def check_event_pages(events):
+    directory = os.path.join(PUBLIC, "e")
+    if not os.path.isdir(directory):
+        warn("no per-event pages were generated")
+        return
+    pages = [d for d in os.listdir(directory)
+             if os.path.exists(os.path.join(directory, d, "index.html"))]
+    dated = [e for e in events if e.get("date")]
+    if len(pages) < len(dated) * 0.9:
+        warn("only {} event pages for {} dated events".format(
+            len(pages), len(dated)))
+
+    if pages:
+        sample = os.path.join(directory, pages[0], "index.html")
+        with open(sample) as handle:
+            html = handle.read()
+        leftover = re.findall(r"\{\{[A-Z_]+\}\}", html)
+        if leftover:
+            fail("event pages have unreplaced tokens: {}".format(
+                ", ".join(sorted(set(leftover)))))
+        if "application/ld+json" not in html:
+            fail("event pages are missing JSON-LD, which is their whole purpose")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--baseline", help="previous events.json to compare against")
@@ -175,15 +240,17 @@ def main():
     events = check_events(data, baseline)
 
     config_path = os.path.join(ROOT, "data", "config.yml")
-    token = ""
+    platforms = []
     if os.path.exists(config_path):
         import yaml
         with open(config_path) as handle:
             config = yaml.safe_load(handle) or {}
-        token = (config.get("affiliate") or {}).get("runsignup_token") or ""
+        platforms = (config.get("affiliate") or {}).get("platforms") or []
 
-    check_affiliate(events, token)
+    check_affiliate(events, platforms)
     check_html()
+    check_calendar()
+    check_event_pages(events)
 
     for message in warnings:
         print("WARN: {}".format(message))
