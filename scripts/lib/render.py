@@ -63,6 +63,12 @@ def render_site(config, events, today, out_dir, root):
     _write(os.path.join(out_dir, "robots.txt"),
            "User-agent: *\nAllow: /\n\nSitemap: https://{}/sitemap.xml\n".format(domain))
 
+    # The homepage keeps its CSS inline: it's the entry point, and saving a
+    # round trip matters most there. Event pages link this shared copy instead —
+    # 392 pages inlining the same 13 KB was 5 MB of duplication, rewritten in
+    # full on every CSS change and committed twice a day.
+    _write(os.path.join(out_dir, "styles.css"), styles)
+
     _write_calendars(events, domain, out_dir)
     slugs = _write_event_pages(config, events, today, out_dir, styles)
     _write_map(config, events, today, out_dir, root, styles)
@@ -511,7 +517,6 @@ def _event_replacements(event, by_month, domain, today, styles):
         "{{DESCRIPTION}}": esc(" ".join(description.split())),
         "{{DOMAIN}}": esc(domain),
         "{{SLUG}}": esc(event["id"]),
-        "{{STYLES}}": styles,
         "{{NAME}}": esc(event["name"]),
         "{{WHEN}}": esc(when),
         "{{TYPE}}": esc(event.get("type", "Race")),
