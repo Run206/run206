@@ -126,8 +126,14 @@ def summarize_distances(names, limit=4):
 
 # Query parameters that must never survive on an outbound link: they're either
 # a stale referral code from the old spreadsheet or a competing affiliate tag.
-_STRIP_PARAMS = {"raceRefCode", "affiliateToken", "aff", "utm_source",
-                 "utm_medium", "utm_campaign", "referrer"}
+_STRIP_PARAMS = {
+    # Our own tag, stripped before being re-added so rebuilds are idempotent.
+    "aflt_token",
+    # Wrong parameter names that look plausible but earn nothing. Stripped so a
+    # stale one can never sit alongside the real tag and muddy attribution.
+    "affiliateToken", "affiliate_token", "raceRefCode", "aff",
+    "utm_source", "utm_medium", "utm_campaign", "referrer",
+}
 
 
 def apply_affiliate(url, platforms):

@@ -1,0 +1,81 @@
+name: Weekly maintenance
+
+on:
+  schedule:
+    # Thursday 07:00 Pacific — early enough to review and send the digest
+    # before the weekend, and to fix a dead link before anyone follows it.
+    - cron: "0 14 * * 4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --quiet pyyaml
+
+      - name: Build fresh data
+        run: python3 scripts/build.py
+
+      - name: Generate the weekly digest
+        run: python3 scripts/digest.py --days 8
+
+      - name: Check hand-maintained links
+        id: links
+        run: |
+          python3 scripts/linkcheck.py --json > /tmp/links.json
+          echo "broken=$(python3 -c "import json;print(len(json.load(open('/tmp/links.json'))['broken']))")" >> "$GITHUB_OUTPUT"
+
+      - name: Commit the digest
+        run: |
+          git config user.name  "run206-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/ data/
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "weekly: refresh digest and data"
+            git push
+          fi
+
+      - name: Open the digest as a draft issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create digest --color 0E8A16 \
+            --description "Weekly newsletter draft" 2>/dev/null || true
+          gh issue create \
+            --title "Digest for week of $(date -u +%-d\ %B)" \
+            --label digest \
+            --body-file public/digest/latest.md
+
+      - name: Report dead links
+        if: steps.links.outputs.broken != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create broken-link --color D93F0B \
+            --description "A hand-maintained URL stopped resolving" 2>/dev/null || true
+          {
+            echo "These URLs in \`data/\` no longer resolve. API-sourced links"
+            echo "aren't checked — they look after themselves."
+            echo
+            echo '```json'
+            cat /tmp/links.json
+            echo '```'
+          } > /tmp/body.md
+          EXISTING=$(gh issue list --label broken-link --state open \
+            --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file /tmp/body.md
+          else
+            gh issue create --title "Dead links in data/" \
+              --label broken-link --body-file /tmp/body.md
+          fi

@@ -52,12 +52,18 @@ affiliate:
   # to one registrant account; it pays nothing on races whose director hasn't
   # enabled it, and it is stripped from every outbound link.
   platforms:
+    # The parameter is `aflt_token`. Not `affiliateToken`, not `raceRefCode` —
+    # both are silently ignored for affiliate credit, which is exactly how a
+    # broken setup looks like a working one. Per RunSignUp's affiliate docs it
+    # is credited on race, registration, donation and store pages.
+    # Docs: https://runsignup.com/Affiliate/Doc
     - name: RunSignUp
       domain: runsignup.com
-      param: affiliateToken
-      token: ""
-      enabled: false        # flip to true once the token below is filled in
+      param: aflt_token
+      token: wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+      enabled: true
       signup: https://runsignup.com/affiliate
+      dashboard: https://runsignup.com/Affiliate/745/Info
 
     # RaceRoster has no public affiliate programme as of August 2026. Their
     # robots.txt disallows `/*?aff=*`, which strongly implies an `aff` tracking
@@ -69,6 +75,27 @@ affiliate:
       token: ""
       enabled: false
       signup: ""
+
+analytics:
+  # Cloudflare Web Analytics. Free, unlimited, cookie-free — so no consent
+  # banner is needed, unlike Google Analytics.
+  #
+  # This is the only thing that adds a third-party request to the page, which is
+  # why it's off until you set a token. Get one at:
+  #   Cloudflare dashboard -> Analytics & Logs -> Web Analytics -> Add a site
+  # Paste the token from the data-cf-beacon snippet (just the token value).
+  cloudflare_token: ""
+
+newsletter:
+  # Buttondown's free tier covers the first 100 subscribers and needs no
+  # JavaScript — the form posts directly. Set your username to switch the
+  # signup box on.
+  buttondown_username: ""
+  heading: The week ahead, by email
+  blurb: >-
+    One email on Thursday with everything worth running that weekend.
+    No spam, unsubscribe in one click.
+  note: Sent weekly. Your address is never shared.
 
 build:
   # How far ahead to expand weekly club runs into concrete dates.

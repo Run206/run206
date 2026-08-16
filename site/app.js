@@ -100,7 +100,10 @@
 
     if (empty) empty.style.display = visible ? "none" : "block";
     if (summary) {
-      summary.textContent = visible + (visible === 1 ? " event" : " events");
+      var total = rows.length;
+      summary.textContent = visible === total
+        ? "Showing all " + total + " events"
+        : "Showing " + visible + " of " + total + " events";
     }
     syncUrl();
   }

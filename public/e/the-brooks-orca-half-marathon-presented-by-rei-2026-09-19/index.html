@@ -391,6 +391,67 @@ a { color: inherit; }
   font-weight: 600; color: var(--accent); text-decoration: none;
 }
 .leaflet-popup-content { margin: 11px 14px; min-width: 170px; }
+
+/* ---------- view switcher ---------- */
+
+.views {
+  display: flex; gap: 4px; margin: 16px 0 0;
+  border-bottom: 1px solid var(--line); padding-bottom: 0;
+}
+.view {
+  display: inline-block; padding: 8px 14px 9px;
+  font-size: 14px; font-weight: 500; text-decoration: none;
+  color: var(--ink-3); border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+.view:hover { color: var(--ink); }
+.view.is-current { color: var(--ink); border-bottom-color: var(--accent); }
+.view-cal { margin-left: auto; color: var(--accent); }
+.view-cal:hover { color: var(--accent); }
+
+.result-count {
+  margin: 9px 0 0; font-size: 12.5px; color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- end-of-list prompts ---------- */
+
+.prompts {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px; margin-top: 34px;
+}
+.prompt {
+  background: var(--surface-2); border-radius: 12px; padding: 20px 22px;
+  scroll-margin-top: 90px;
+}
+.prompt h2 {
+  margin: 0 0 7px; font-size: 17px; letter-spacing: -0.3px;
+}
+.prompt p { margin: 0 0 12px; font-size: 14px; color: var(--ink-2); line-height: 1.6; }
+.prompt-links { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px !important; }
+.button-quiet {
+  background: transparent; color: var(--ink);
+  border: 1px solid var(--line-strong);
+}
+.button-quiet:hover { background: var(--surface); opacity: 1; }
+.prompt-note { font-size: 12.5px !important; color: var(--ink-3) !important; margin: 0 !important; }
+
+.empty-ask { margin-top: 16px !important; }
+.empty-ask a { color: var(--accent); font-weight: 600; text-decoration: none; font-size: 14px; }
+.empty-ask a:hover { text-decoration: underline; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.news-form { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.news-form input {
+  flex: 1 1 190px; min-width: 0; height: 40px; padding: 0 12px;
+  border: 1px solid var(--line-strong); border-radius: var(--radius);
+  background: var(--surface); color: var(--ink); font: inherit; font-size: 15px;
+}
+.news-form input::placeholder { color: var(--ink-3); }
+.news-form .button { border: 0; cursor: pointer; font-family: inherit; }
 </style>
 </head>
 <body>
@@ -416,7 +477,7 @@ a { color: inherit; }
 
   <p class="detail-body">The Brooks Orca Half is a half marathon along the shores of West Seattle, starting at Lincoln Park and finishing at Don Armeni Boat Launch. The half…</p>
 
-  <p class="detail-cta"><a class="button" href="https://runsignup.com/Race/WA/Seattle/OrcaHalf" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a></p>
+  <p class="detail-cta"><a class="button" href="https://runsignup.com/Race/WA/Seattle/OrcaHalf?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt" target="_blank" rel="noopener nofollow sponsored">Register &rarr;</a> <span class="aff">affiliate link</span></p>
 
   <p class="detail-cal"><a href="/calendar.ics">Subscribe to the full Seattle calendar</a> to get this and every other local race in your own calendar automatically.</p>
 
@@ -437,10 +498,10 @@ a { color: inherit; }
 
 <footer class="foot">
   <div class="wrap">
-    <p class="disclosure">Run206 earns nothing from this listing — it&#x27;s here because it&#x27;s a Seattle running event.</p>
+    <p class="disclosure">This page contains an affiliate link. If you register through it, Run206 earns a small share of the booking fee at no extra cost to you.</p>
     <p><a href="/">All Seattle running events</a> &middot; <a href="/calendar.ics">Calendar feed</a> &middot; Updated 16 August 2026</p>
   </div>
 </footer>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsEvent","name":"The Brooks Orca Half Marathon presented by REI","startDate":"2026-09-19","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","url":"https://run206.com/e/the-brooks-orca-half-marathon-presented-by-rei-2026-09-19/","location":{"@type":"Place","name":"Seattle, WA","address":{"@type":"PostalAddress","addressLocality":"Seattle","addressRegion":"WA","addressCountry":"US"}},"description":"The Brooks Orca Half is a half marathon along the shores of West Seattle, starting at Lincoln Park and finishing at Don Armeni Boat Launch. The half…","offers":{"@type":"Offer","url":"https://runsignup.com/Race/WA/Seattle/OrcaHalf","availability":"https://schema.org/InStock"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsEvent","name":"The Brooks Orca Half Marathon presented by REI","startDate":"2026-09-19","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","url":"https://run206.com/e/the-brooks-orca-half-marathon-presented-by-rei-2026-09-19/","location":{"@type":"Place","name":"Seattle, WA","address":{"@type":"PostalAddress","addressLocality":"Seattle","addressRegion":"WA","addressCountry":"US"}},"description":"The Brooks Orca Half is a half marathon along the shores of West Seattle, starting at Lincoln Park and finishing at Don Armeni Boat Launch. The half…","offers":{"@type":"Offer","url":"https://runsignup.com/Race/WA/Seattle/OrcaHalf?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt","availability":"https://schema.org/InStock"}}</script>
 </body>
 </html>

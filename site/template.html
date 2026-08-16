@@ -29,6 +29,12 @@
       <button class="theme-toggle" id="theme" type="button" aria-label="Switch theme">☾</button>
     </div>
     <p class="stats">{{STATS}}</p>
+
+    <nav class="views" aria-label="Views">
+      <a class="view is-current" href="/" aria-current="page">List</a>
+      <a class="view" href="/map/">Map</a>
+      <a class="view view-cal" href="#subscribe">Subscribe</a>
+    </nav>
   </div>
 </header>
 
@@ -46,6 +52,7 @@
     <div class="chips" id="f-dist" role="group" aria-label="Filter by distance">
       {{DIST_CHIPS}}
     </div>
+    <p class="result-count" id="summary" role="status" aria-live="polite"></p>
   </div>
 </div>
 
@@ -54,8 +61,34 @@
   <div class="empty" id="empty">
     <p>Nothing matches those filters.</p>
     <small>Try a wider distance or clear the search.</small>
+    <p class="empty-ask"><a href="{{SUBMIT_URL}}">Know a run we're missing? Add it &rarr;</a></p>
   </div>
 </main>
+
+<section class="wrap prompts">
+  <div class="prompt" id="subscribe">
+    <h2>Never check this site again</h2>
+    <p>Subscribe once and every Seattle running event lands in your own calendar,
+    updating itself twice a day.</p>
+    <p class="prompt-links">
+      <a class="button" href="/calendar.ics">Everything</a>
+      <a class="button button-quiet" href="/races.ics">Races only</a>
+      <a class="button button-quiet" href="/club-runs.ics">Club runs only</a>
+    </p>
+    <p class="prompt-note">Works with Apple Calendar, Google Calendar and Outlook.
+    In Google Calendar use <em>Other calendars &rarr; From URL</em>.</p>
+  </div>
+
+  {{NEWSLETTER}}
+
+  <div class="prompt prompt-submit">
+    <h2>Something missing?</h2>
+    <p>Races on RunSignUp and Race Roster appear here automatically. Club runs,
+    shop runs and brand events are added by hand — so if yours isn't listed,
+    it's because nobody's told us yet.</p>
+    <p class="prompt-links"><a class="button" href="{{SUBMIT_URL}}">Add a run</a></p>
+  </div>
+</section>
 
 <footer class="foot">
   <div class="wrap">
@@ -76,6 +109,7 @@
   </div>
 </footer>
 
+{{ANALYTICS}}
 <script>{{APP_JS}}</script>
 {{JSONLD}}
 </body>

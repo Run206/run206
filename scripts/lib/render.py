@@ -48,8 +48,10 @@ def render_site(config, events, today, out_dir, root):
         "{{LIST}}": _list(events, today),
         "{{JSONLD}}": _jsonld(events, domain),
         "{{UPDATED}}": "Updated {}".format(today.strftime("%-d %B %Y")),
-        "{{SUBMIT_URL}}": esc(site.get("submit_url", "mailto:hello@" + domain)),
+        "{{SUBMIT_URL}}": esc(site.get("submit_url") or "mailto:hello@" + domain),
         "{{YEAR}}": str(today.year),
+        "{{ANALYTICS}}": _analytics(config),
+        "{{NEWSLETTER}}": _newsletter(config),
     }
 
     html = template
@@ -150,6 +152,49 @@ def _write_sitemap(domain, today, slugs, out_dir):
            '<?xml version="1.0" encoding="UTF-8"?>\n'
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
            + "\n".join(urls) + "\n</urlset>\n")
+
+
+def _analytics(config):
+    """Cloudflare Web Analytics, only if a token is configured.
+
+    This is the one thing that adds a third-party request to the page, so it is
+    opt-in and off by default. Cloudflare's is cookie-free, which means no
+    consent banner is required — unlike Google Analytics.
+    """
+    token = ((config.get("analytics") or {}).get("cloudflare_token") or "").strip()
+    if not token:
+        return ""
+    return ('<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
+            "data-cf-beacon='{{\"token\": \"%s\"}}'></script>" % esc(token))
+
+
+def _newsletter(config):
+    """Weekly-digest signup form, only if a provider is configured."""
+    settings = config.get("newsletter") or {}
+    username = (settings.get("buttondown_username") or "").strip()
+    if not username:
+        return ""
+    action = "https://buttondown.email/api/emails/embed-subscribe/" + esc(username)
+    return (
+        '<div class="prompt prompt-news">\n'
+        "  <h2>{}</h2>\n"
+        "  <p>{}</p>\n"
+        '  <form class="news-form" action="{}" method="post" target="_blank">\n'
+        '    <label class="sr-only" for="news-email">Email address</label>\n'
+        '    <input id="news-email" type="email" name="email" required '
+        'placeholder="you@example.com" autocomplete="email">\n'
+        '    <button class="button" type="submit">Subscribe</button>\n'
+        "  </form>\n"
+        '  <p class="prompt-note">{}</p>\n'
+        "</div>"
+    ).format(
+        esc(settings.get("heading") or "The week ahead, by email"),
+        esc(settings.get("blurb") or
+            "One email on Thursday with everything worth running that weekend. "
+            "No spam, unsubscribe in one click."),
+        action,
+        esc(settings.get("note") or "Sent weekly. Your address is never shared."),
+    )
 
 
 def _write(path, content):
