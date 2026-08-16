@@ -1,6 +1,6 @@
-# Running in Seattle: Sunday, 16 August – Sunday, 23 August
+# Running in Seattle: Sunday, 16 August – Monday, 24 August
 
-8 races and 25 club sessions in the next 7 days.
+8 races and 30 club sessions in the next 8 days.
 
 ## Races
 
@@ -67,10 +67,17 @@
   Fall Marathon Festival + Saturday Morning Miles — Club Seattle Runners Division · 2125 Terry Avenue, Seattle · 8:30 AM  
   Mid-Morning Run — Seattle Green Lake Running Group · Green Lake, near the Waiting for the Interurban statue · 9:00 AM  
 
+**Monday, 24 August**  
+  Monday Morning On Track — Seattle Green Lake Running Group · Roosevelt High School track · 5:30 AM  
+  Monday Run at Flying Lion — Seattle Running Club · Flying Lion Brewing, Columbia City · 6:00 PM  
+  Monday Evening Track — Seattle Green Lake Running Group · Lower Woodland Park track · 6:30 PM  
+  Monday Miles — Club Seattle Runners Division · MOHAI, under the canopy by the museum · 6:30 PM  
+  Monday Group Run — Super Jock 'n Jill · Green Lake store · Evening  
+
 ---
 
-All 33 upcoming events: https://run206.com/  
-On a map: https://run206.com/map/  
-Subscribe in your calendar: https://run206.com/calendar.ics
+All 38 upcoming events: https://www.run206.com/  
+On a map: https://www.run206.com/map/  
+Subscribe in your calendar: https://www.run206.com/calendar.ics
 
 *Some race links are affiliate links — Run206 earns a small share of the booking fee at no extra cost to you.*
