@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://run206.com/sitemap.xml
+Sitemap: https://www.run206.com/sitemap.xml
