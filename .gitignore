@@ -8,3 +8,9 @@ venv/
 # public/ is deliberately NOT ignored — the built site and events.json are
 # committed so the data has a version history and so CI has a baseline to
 # compare each refresh against.
+
+# Business strategy and planning notes — deliberately kept out of the public
+# repo. They live on your machine only. Backups in /tmp were made at the time
+# these were purged from history; keep your own copy somewhere durable.
+MONETISATION.md
+NEXT-STEPS.md
