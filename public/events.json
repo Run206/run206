@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-16T00:00:00Z",
- "count": 401,
+ "count": 403,
  "events": [
   {
    "id": "chief-seattle-days-5k-2026-08-16",
@@ -1806,6 +1806,36 @@
    "coords": [
     47.17037,
     -122.59629
+   ]
+  },
+  {
+   "id": "lemay-5k-2026-08-29",
+   "name": "LeMay 5K",
+   "date": "2026-08-29",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Tacoma, WA",
+   "org": "",
+   "desc": "Museum Run",
+   "url": "https://runsignup.com/Race/WA/Tacoma/LeMay5K",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "$35",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.2455,
+    -122.43833
    ]
   },
   {
@@ -9449,34 +9479,6 @@
    ]
   },
   {
-   "id": "2026-mukilteo-turkey-trot-2026-11-26",
-   "name": "2026 Mukilteo Turkey Trot",
-   "date": "2026-11-26",
-   "time": "7:30 AM",
-   "type": "Race",
-   "distances": "",
-   "distance_tags": [],
-   "location": "Mukilteo, WA",
-   "org": "",
-   "desc": "Kamiak High School, Harbour Pointe Boulevard, Mukilteo, WA - Thanksgiving Day, November 26th, 2026Kamiak High…",
-   "url": "https://raceroster.com/events/2026/110566/2026-mukilteo-turkey-trot",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "raceroster",
-   "community_id": "",
-   "group": "2026-11",
-   "group_label": "November",
-   "group_order": 24325,
-   "coords": [
-    47.9474,
-    -122.3037
-   ]
-  },
-  {
    "id": "8th-annual-maple-valley-turkey-trot-thanksgiving-day-5k-2026-11-26",
    "name": "8th Annual Maple Valley Turkey Trot: Thanksgiving Day 5K",
    "date": "2026-11-26",
@@ -9532,6 +9534,37 @@
    "coords": [
     47.32597,
     -122.58787
+   ]
+  },
+  {
+   "id": "2026-mukilteo-turkey-trot-5k-and-10k-2026-11-26",
+   "name": "2026 Mukilteo Turkey Trot 5K and 10K",
+   "date": "2026-11-26",
+   "time": "8:15 AM",
+   "type": "Race",
+   "distances": "5K, 10K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Mukilteo, WA",
+   "org": "",
+   "desc": "Thanksgiving Day, November 26th, 2026 Kamiak High School Mukilteo, WA Join Snohomish Running Company for the 12th annual Mukilteo Turkey Trot…",
+   "url": "https://runsignup.com/Race/WA/Mukilteo/2017MukilteoTurkeyTrot",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "$40–$50",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.9474,
+    -122.3037
    ]
   },
   {
@@ -9864,6 +9897,37 @@
    "org": "",
    "desc": "USA - Saturday, November 28, 2026Location: Bell Harbor, Pier…",
    "url": "https://raceroster.com/events/2026/115515/2026-seattle-kids-marathon",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "raceroster",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
+   "id": "2026-uw-medicine-seattle-marathon-and-half-marathon-2026-11-29",
+   "name": "2026 UW Medicine Seattle Marathon and Half Marathon",
+   "date": "2026-11-29",
+   "time": "7:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [
+    "Marathon",
+    "Half"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "The UW Medicine Seattle Marathon…",
+   "url": "https://raceroster.com/events/2026/112954/2026-uw-medicine-seattle-marathon-and-half-marathon",
    "affiliate": false,
    "affiliate_platform": "",
    "price": "",

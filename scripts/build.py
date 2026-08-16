@@ -218,6 +218,8 @@ def build_events(config, today, offline=False):
             "group_order": group_order,
         })
 
+    _ensure_unique_ids(prepared)
+
     prepared.sort(key=lambda e: (
         e["group_order"],
         e["date"] or "9999-99-99",
@@ -225,6 +227,34 @@ def build_events(config, today, offline=False):
         e["name"],
     ))
     return prepared
+
+
+def _ensure_unique_ids(events):
+    """Guarantee every event id is unique.
+
+    The id is both the per-event page path (/e/<id>/) and the calendar UID, so
+    a collision means one event silently overwrites another's page and
+    subscribers see duplicated calendar entries.
+
+    Dedupe should already have merged genuine duplicates, but it matches names
+    heuristically and will always miss some edge case — two distinct races can
+    legitimately share a name and date in different cities. This makes the
+    consequences structural rather than relying on the heuristic being perfect.
+    """
+    seen = {}
+    for event in events:
+        base = event["id"]
+        if base not in seen:
+            seen[base] = 1
+            continue
+        seen[base] += 1
+        suffix = event.get("source") or str(seen[base])
+        candidate = "{}-{}".format(base, slugify(suffix))
+        while candidate in seen:
+            seen[base] += 1
+            candidate = "{}-{}-{}".format(base, slugify(suffix), seen[base])
+        seen[candidate] = 1
+        event["id"] = candidate
 
 
 def main():

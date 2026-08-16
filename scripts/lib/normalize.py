@@ -171,9 +171,14 @@ def apply_affiliate(url, platforms):
     return rebuilt, tagged_by
 
 
+# Only genuine filler. Words like "run", "race" and "marathon" are load-bearing
+# in event names and must stay: stripping them reduced "Run the Bay" to the
+# single token {bay}, which fell below the two-token floor and let a duplicate
+# through. "Marathon" doesn't need stripping either — subset matching already
+# makes {…, half} a match for {…, half, marathon}.
 _NOISE_WORDS = {
-    "the", "a", "an", "and", "of", "at", "in", "on", "annual", "presented",
-    "by", "run", "race", "event", "events", "marathon",
+    "the", "a", "an", "and", "of", "at", "in", "on", "for",
+    "annual", "presented", "by", "with",
 }
 _ORDINAL_RE = re.compile(r"^\d{1,3}(st|nd|rd|th)$", re.I)
 _YEAR_RE = re.compile(r"^20\d\d$")

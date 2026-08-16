@@ -380,7 +380,37 @@ def _write_event_pages(config, events, today, out_dir, styles):
         _write(os.path.join(directory, "index.html"), html)
         slugs.append(slug)
 
+    _prune_event_pages(out_dir, set(slugs))
     return slugs
+
+
+def _prune_event_pages(out_dir, current):
+    """Delete pages for events that no longer exist.
+
+    public/ is committed, so without this every past or withdrawn event leaves
+    a page behind forever — still reachable, still crawlable, still ranking for
+    a race that isn't happening.
+    """
+    directory = os.path.join(out_dir, "e")
+    if not os.path.isdir(directory):
+        return
+
+    removed = 0
+    for name in os.listdir(directory):
+        path = os.path.join(directory, name)
+        if not os.path.isdir(path) or name in current:
+            continue
+        page = os.path.join(path, "index.html")
+        if os.path.exists(page):
+            os.remove(page)
+        try:
+            os.rmdir(path)
+            removed += 1
+        except OSError:
+            pass   # something unexpected inside; leave it alone
+
+    if removed:
+        print("  pruned {} stale event page(s)".format(removed))
 
 
 def _event_replacements(event, by_month, domain, today, styles):
