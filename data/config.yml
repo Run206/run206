@@ -17,6 +17,25 @@ sources:
     # local events calendar.
     exclude_virtual: true
 
+  heylo:
+    # Heylo groups whose public events should be pulled in. This is what
+    # captures one-off club events — brand collabs, marathon festivals, socials
+    # — that a weekly recurrence rule in clubs.yml can't express.
+    #
+    # `org` is the display name used on the site. `suppresses` should list the
+    # club names in clubs.yml that this group posts for: when Heylo has a real
+    # event on a given day, the generated weekly placeholder for those clubs is
+    # dropped for that day, so the actual posted event wins.
+    communities:
+      - id: d1fdc906-b4d4-4ac4-9788-cd7b5df4b691
+        org: Club Seattle Runners Division
+        suppresses:
+          - Club Seattle Runners Division
+
+    # Events whose title or notes mention any of these are typed as brand
+    # events rather than club runs. Leave unset to use the built-in list.
+    brand_keywords: null
+
 affiliate:
   # Get this from https://runsignup.com/affiliate — it is a public tracking
   # token, not a secret; it ships in the page HTML either way.

@@ -25,7 +25,7 @@ from lib import recurrence  # noqa: E402
 from lib.normalize import apply_affiliate, dedupe, distance_tags  # noqa: E402
 from lib.util import slugify  # noqa: E402
 from lib.render import render_site  # noqa: E402
-from sources import runsignup  # noqa: E402
+from sources import heylo, runsignup  # noqa: E402
 
 DATA_DIR = os.path.join(ROOT, "data")
 OUT_DIR = os.path.join(ROOT, "public")
@@ -71,6 +71,45 @@ def assign_group(event_date, today):
     return key, label, 2 + parsed.year * 12 + parsed.month
 
 
+def _suppress_superseded(recurring, heylo_events, config, log=print):
+    """Drop generated weekly occurrences that a real posted event replaces.
+
+    CSRD's "Monday Miles" exists both as a weekly rule in clubs.yml and, when
+    they actually post it, as a dated event on Heylo — often renamed for a
+    collab ("Monday Night Miles with New Balance"). Showing both would list the
+    same run twice under two different names.
+
+    Name matching can't catch that, so suppression is by organiser and date: if
+    a Heylo community has any event on a given day, the weekly placeholders for
+    the clubs it posts for are dropped for that day. The real event wins.
+    """
+    communities = ((config.get("sources") or {}).get("heylo") or {}).get(
+        "communities") or []
+
+    blocked = set()
+    for community in communities:
+        orgs = community.get("suppresses") or []
+        if not orgs:
+            continue
+        dates = {e["date"] for e in heylo_events
+                 if e.get("community_id") == community.get("id") and e.get("date")}
+        for org in orgs:
+            for day in dates:
+                blocked.add((org.strip().lower(), day))
+
+    if not blocked:
+        return recurring
+
+    kept = [e for e in recurring
+            if ((e.get("org") or "").strip().lower(), e.get("date")) not in blocked]
+
+    dropped = len(recurring) - len(kept)
+    if dropped:
+        log("  superseded {} generated occurrence(s) with real Heylo events"
+            .format(dropped))
+    return kept
+
+
 def build_events(config, today, offline=False):
     token = (config.get("affiliate") or {}).get("runsignup_token") or ""
     weeks = int((config.get("build") or {}).get("club_weeks_ahead", 8))
@@ -96,22 +135,33 @@ def build_events(config, today, offline=False):
             "recurring": False,
         })
 
+    recurring = []
     for entry in load_yaml("clubs.yml"):
         if not entry or not entry.get("name"):
             continue
-        events.extend(recurrence.expand(entry, today, weeks))
+        recurring.extend(recurrence.expand(entry, today, weeks))
 
     if offline:
         cached = os.path.join(OUT_DIR, "events.json")
+        remote = []
         if os.path.exists(cached):
             with open(cached) as handle:
                 previous = json.load(handle).get("events", [])
-            cached_races = [e for e in previous if e.get("source") == "runsignup"]
-            events.extend(cached_races)
-            print("offline: reused {} cached API races".format(len(cached_races)))
+            remote = [e for e in previous
+                      if e.get("source") in ("runsignup", "heylo")]
+            print("offline: reused {} cached remote events".format(len(remote)))
     else:
+        print("fetching Heylo community events…")
+        remote = heylo.fetch(config, today, log=print)
         print("fetching RunSignUp races…")
-        events.extend(runsignup.fetch(config, today, log=print))
+        remote.extend(runsignup.fetch(config, today, log=print))
+
+    heylo_events = [e for e in remote if e.get("source") == "heylo"]
+    recurring = _suppress_superseded(recurring, heylo_events, config, log=print)
+
+    events.extend(heylo_events)
+    events.extend([e for e in remote if e.get("source") != "heylo"])
+    events.extend(recurring)
 
     events = dedupe(events)
 
@@ -152,6 +202,9 @@ def build_events(config, today, offline=False):
             "recurring": bool(event.get("recurring")),
             "schedule": event.get("schedule", ""),
             "source": event.get("source", ""),
+            # Preserved so an --offline rebuild reproduces the same suppression
+            # decisions as the online build that cached this data.
+            "community_id": event.get("community_id", ""),
             "group": group,
             "group_label": group_label,
             "group_order": group_order,

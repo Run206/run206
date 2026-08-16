@@ -149,7 +149,12 @@ def _row(event, today):
         date_html = '<div class="date-rep" aria-hidden="true">↻</div>'
         datetime_attr = ""
 
-    meta_bits = [b for b in [event["distances"], event["location"], event["time"]] if b]
+    # Organiser leads the meta line for club and brand events — "Monday Morning
+    # On Track" is meaningless without "Seattle Green Lake Running Group"
+    # attached, and since search reads the row's own text, an unrendered field
+    # is also an unsearchable one. Races carry no organiser, so nothing shows.
+    meta_bits = [b for b in [event["org"], event["distances"],
+                             event["location"], event["time"]] if b]
     meta = '<span class="sep">·</span>'.join(
         "<span>{}</span>".format(esc(b)) for b in meta_bits
     )

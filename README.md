@@ -15,6 +15,7 @@ Pages. There is no server and no database.
 GitHub Actions (06:00 + 18:00 Pacific)
   └─ python3 scripts/build.py
        ├─ RunSignUp API      ~190 races within a 40-mile radius of 98101
+       ├─ Heylo              CSRD's posted events, incl. brand collabs
        ├─ data/clubs.yml     recurrence rules expanded into real dates
        ├─ data/races-manual.yml   races not listed on RunSignUp
        ├─ normalise · dedupe · drop past · tag affiliate links · escape HTML
@@ -46,6 +47,7 @@ call and reuses the races already in `public/events.json`.
 | To change | Edit |
 |---|---|
 | A club or brand run | `data/clubs.yml` |
+| Add a Heylo club | `data/config.yml` under `sources.heylo` |
 | A race not on RunSignUp | `data/races-manual.yml` |
 | Hide a bad API race | `data/overrides.yml` (add its `race_id`) |
 | Radius, date window, affiliate token | `data/config.yml` |
@@ -74,6 +76,9 @@ Only `weekly` entries get concrete dates. Anything biweekly, monthly, or vague
 stays in the "Ongoing & irregular" group with its schedule text shown as-is.
 Guessing which Sunday a twice-monthly run lands on would send people to a park
 on the wrong day, which is worse than showing no date at all.
+
+Which sources can and can't be automated — and why REI, Super Jock 'n Jill
+and Strava are *not* scraped — is documented in [SOURCES.md](SOURCES.md).
 
 ## Things worth knowing about the RunSignUp API
 
