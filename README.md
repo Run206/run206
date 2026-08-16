@@ -4,7 +4,8 @@ Every race, club run, and shakeout within 40 miles of Seattle — collected
 automatically, in one filterable page.
 
 Live at **[run206.com](https://run206.com)**. Deployment and DNS steps are in
-[DEPLOY.md](DEPLOY.md).
+[DEPLOY.md](DEPLOY.md); what's still outstanding is in
+[NEXT-STEPS.md](NEXT-STEPS.md).
 
 ## How it works
 
@@ -143,13 +144,24 @@ build if a `raceRefCode` reappears in any link.
 ## Layout
 
 ```
-data/          content you edit by hand + config
+data/            content you edit by hand + config + caches
 scripts/
-  build.py     orchestrator
-  verify.py    pre-publish checks
-  sources/     one module per data source
-  lib/         recurrence, normalisation, rendering, helpers
-site/          template, styles, client-side filtering
-public/        build output, served by Pages (committed on purpose)
-reference/     the original mockups and spreadsheet, kept for reference
+  build.py       orchestrator
+  verify.py      pre-publish checks
+  digest.py      weekly newsletter, as markdown and paste-ready HTML
+  linkcheck.py   dead-link check over hand-maintained URLs only
+  submission.py  issue form -> validated clubs.yml entry
+  sources/       one module per data source
+  lib/           recurrence, normalisation, rendering, ics, geocoding, helpers
+site/            templates, styles, client-side filtering, vendored Leaflet
+public/          build output, served by Pages (committed on purpose)
+reference/       the original mockups and spreadsheet, kept for reference
 ```
+
+## Scheduled work
+
+| When | Workflow | What happens |
+|---|---|---|
+| 06:00 + 18:00 PT | `build.yml` | Refresh all sources, verify, deploy. A failure opens an issue and leaves the last good site up. |
+| Thursday 07:00 PT | `weekly.yml` | Write the digest, open it as a draft issue, report dead links. |
+| On submission | `submission.yml` | Validate an issue-form submission and open a PR. |
