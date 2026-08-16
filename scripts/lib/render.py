@@ -48,7 +48,7 @@ def render_site(config, events, today, out_dir, root):
         "{{LIST}}": _list(events, today),
         "{{JSONLD}}": _jsonld(events, domain),
         "{{UPDATED}}": "Updated {}".format(today.strftime("%-d %B %Y")),
-        "{{SUBMIT_URL}}": esc(site.get("submit_url") or "mailto:hello@" + domain),
+        "{{SUBMIT_URL}}": esc(site.get("submit_url") or "mailto:info@" + domain),
         "{{YEAR}}": str(today.year),
         "{{ANALYTICS}}": _analytics(config),
         "{{NEWSLETTER}}": _newsletter(config),
