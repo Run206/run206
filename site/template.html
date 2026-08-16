@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="canonical" href="https://{{DOMAIN}}/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="https://{{DOMAIN}}/">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#FCFBF9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101315" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃</text></svg>">
+<style>{{STYLES}}</style>
+</head>
+<body>
+<a class="skip" href="#list">Skip to events</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead-top">
+      <div>
+        <h1 class="brand">Run<span>206</span></h1>
+        <p class="tagline">{{TAGLINE}}</p>
+      </div>
+      <button class="theme-toggle" id="theme" type="button" aria-label="Switch theme">☾</button>
+    </div>
+    <p class="stats">{{STATS}}</p>
+  </div>
+</header>
+
+<div class="filters">
+  <div class="wrap">
+    <input class="search" id="search" type="search" autocomplete="off"
+           aria-label="Search events by name, club, location or distance"
+           placeholder="Search races, clubs, neighbourhoods…">
+    <div class="chips" id="f-type" role="group" aria-label="Filter by event type">
+      <button class="chip" type="button" data-value="All" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-value="Race" aria-pressed="false">Races</button>
+      <button class="chip" type="button" data-value="Club Run" aria-pressed="false">Club runs</button>
+      <button class="chip" type="button" data-value="Brand Event" aria-pressed="false">Brand events</button>
+    </div>
+    <div class="chips" id="f-dist" role="group" aria-label="Filter by distance">
+      {{DIST_CHIPS}}
+    </div>
+  </div>
+</div>
+
+<main class="wrap" id="list">
+  {{LIST}}
+  <div class="empty" id="empty">
+    <p>Nothing matches those filters.</p>
+    <small>Try a wider distance or clear the search.</small>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="disclosure"><strong>How this site makes money:</strong> some race links
+    are affiliate links, marked <em>affiliate</em>. If you register through one,
+    Run206 earns a small share of the booking fee at no extra cost to you. It never
+    changes your price, and it never affects which events are listed or how they
+    are ordered.</p>
+    <p>Races update automatically twice a day from RunSignUp. Club runs are
+    maintained by hand — spot something wrong or missing?
+    <a href="{{SUBMIT_URL}}">Send a correction</a>.</p>
+    <p>{{UPDATED}} · Built in Seattle · <a href="/events.json">events.json</a></p>
+  </div>
+</footer>
+
+<script>{{APP_JS}}</script>
+{{JSONLD}}
+</body>
+</html>

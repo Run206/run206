@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEATTLE RUNS — Every stride, one place.</title>
+<meta name="description" content="The complete calendar of running races, club runs, and brand events across the Seattle area.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0C0C0C;
+  --surface: #161616;
+  --surface-2: #1E1E1E;
+  --text: #F0F0F0;
+  --text-2: #A0A0A0;
+  --text-3: #5A5A5A;
+  --border: #2A2A2A;
+  --neon: #CCFF00;
+  --neon-dim: #99CC00;
+  --race: #FF3B30;
+  --club: #30D158;
+  --brand: #5E5CE6;
+  --race-bg: rgba(255,59,48,.12);
+  --club-bg: rgba(48,209,88,.12);
+  --brand-bg: rgba(94,92,230,.12);
+  --font-display: 'Bebas Neue', Impact, sans-serif;
+  --font-body: 'Barlow', -apple-system, sans-serif;
+  --font-condensed: 'Barlow Condensed', sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--neon);color:#000}
+
+/* HERO */
+.hero{padding:72px 24px 48px;max-width:960px;margin:0 auto;position:relative}
+.hero::after{content:'RUN';position:absolute;right:-40px;top:20px;font-family:var(--font-display);font-size:280px;color:var(--surface);pointer-events:none;line-height:1;letter-spacing:-8px;z-index:0;user-select:none}
+.hero-content{position:relative;z-index:1}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;background:var(--neon);color:#000;font-family:var(--font-condensed);font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px}
+.hero-tag::before{content:'';width:6px;height:6px;background:#000;border-radius:50%;animation:blink 1.5s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.hero h1{font-family:var(--font-display);font-size:clamp(64px,12vw,120px);line-height:.85;letter-spacing:2px;text-transform:uppercase;margin-bottom:16px}
+.hero h1 .accent{color:var(--neon);display:block}
+.hero-sub{font-family:var(--font-condensed);font-size:18px;color:var(--text-2);font-weight:400;letter-spacing:.5px;max-width:400px;line-height:1.5}
+
+/* STATS */
+.stats{display:flex;gap:40px;margin-top:32px;flex-wrap:wrap}
+.stat-val{font-family:var(--font-display);font-size:48px;line-height:1;color:var(--neon)}
+.stat-lbl{font-family:var(--font-condensed);font-size:12px;color:var(--text-3);text-transform:uppercase;letter-spacing:2px;margin-top:2px}
+
+/* CONTAINER */
+.container{max-width:960px;margin:0 auto;padding:0 24px 80px}
+
+/* DIVIDER LINE */
+.divider{height:1px;background:linear-gradient(90deg,var(--neon),var(--border) 40%,transparent);margin:0 0 32px;opacity:.6}
+
+/* FILTERS */
+.filters{position:sticky;top:0;z-index:100;background:var(--bg);padding:16px 0 14px;border-bottom:1px solid var(--border);margin-bottom:20px}
+.search-box{width:100%;padding:12px 16px;background:var(--surface);border:1px solid var(--border);color:var(--text);font-family:var(--font-body);font-size:14px;outline:none;margin-bottom:10px;transition:border-color .2s}
+.search-box:focus{border-color:var(--neon)}
+.search-box::placeholder{color:var(--text-3)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{padding:6px 16px;border:1px solid var(--border);background:transparent;color:var(--text-2);font-family:var(--font-condensed);font-size:13px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;transition:all .15s;white-space:nowrap}
+.chip:hover{border-color:var(--text-3);color:var(--text)}
+.chip.on-all{background:var(--neon);border-color:var(--neon);color:#000}
+.chip.on-race{background:var(--race-bg);border-color:var(--race);color:var(--race)}
+.chip.on-club{background:var(--club-bg);border-color:var(--club);color:var(--club)}
+.chip.on-brand{background:var(--brand-bg);border-color:var(--brand);color:var(--brand)}
+.dist-chips{margin-top:8px;display:flex;gap:4px;flex-wrap:wrap}
+.dchip{padding:4px 12px;border:1px solid var(--border);background:transparent;color:var(--text-3);font-family:var(--font-condensed);font-size:11px;font-weight:500;letter-spacing:.5px;text-transform:uppercase;cursor:pointer;transition:all .15s}
+.dchip:hover{color:var(--text-2);border-color:var(--text-3)}
+.dchip.on{background:var(--text);border-color:var(--text);color:var(--bg)}
+
+/* RESULTS */
+.results-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.rcount{font-family:var(--font-condensed);font-size:13px;color:var(--text-3);text-transform:uppercase;letter-spacing:1px}
+
+/* EVENTS */
+.elist{display:flex;flex-direction:column;gap:2px}
+.ecard{background:var(--surface);border-left:3px solid transparent;padding:16px 20px;cursor:pointer;transition:all .15s;position:relative;overflow:hidden}
+.ecard:hover{background:var(--surface-2);border-left-color:var(--neon)}
+.ecard.open{background:var(--surface-2);border-left-color:var(--neon)}
+.ecard.open .earrow{transform:rotate(90deg)}
+.etop{display:flex;gap:16px;align-items:flex-start}
+.edate{min-width:50px;text-align:center;flex-shrink:0}
+.edate .emo{font-family:var(--font-condensed);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--neon-dim)}
+.edate .edy{font-family:var(--font-display);font-size:32px;line-height:1;color:var(--text)}
+.edate .eyr{font-family:var(--font-condensed);font-size:10px;color:var(--text-3);letter-spacing:1px}
+.edate .erec{font-size:20px;color:var(--club);margin-top:4px}
+.einfo{flex:1;min-width:0}
+.ehead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:4px}
+.ename{font-family:var(--font-condensed);font-weight:700;font-size:17px;text-transform:uppercase;letter-spacing:.3px}
+.etag{font-family:var(--font-condensed);font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:2px 8px}
+.etag-race{background:var(--race-bg);color:var(--race)}
+.etag-club{background:var(--club-bg);color:var(--club)}
+.etag-brand{background:var(--brand-bg);color:var(--brand)}
+.emeta{font-family:var(--font-condensed);font-size:13px;color:var(--text-2);display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.emeta .sep{color:var(--border)}
+.erecur{color:var(--club);font-weight:600}
+.edays{font-family:var(--font-condensed);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:1px;margin-top:6px}
+.edays-hot{color:var(--neon)}
+.edays-cold{color:var(--text-3)}
+.earrow{color:var(--text-3);font-size:16px;padding-top:4px;transition:transform .15s;flex-shrink:0}
+
+.edetails{display:none;margin-top:14px;padding-top:14px;border-top:1px solid var(--border)}
+.ecard.open .edetails{display:block}
+.edesc{font-size:14px;color:var(--text-2);line-height:1.7;margin-bottom:12px}
+.efoot{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.eorg{font-family:var(--font-condensed);font-size:12px;color:var(--text-3);text-transform:uppercase;letter-spacing:.5px}
+.eorg strong{color:var(--text-2)}
+.elink{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-condensed);font-size:13px;font-weight:700;color:var(--neon);text-decoration:none;text-transform:uppercase;letter-spacing:1px;transition:color .15s;padding:6px 14px;border:1px solid var(--neon)}
+.elink:hover{background:var(--neon);color:#000}
+
+/* EMPTY */
+.empty{text-align:center;padding:64px 20px;color:var(--text-3)}
+.empty h3{font-family:var(--font-display);font-size:28px;color:var(--text-2);letter-spacing:2px}
+
+/* CTA */
+.cta{margin-top:48px;background:var(--surface);border:1px solid var(--border);padding:40px 32px;position:relative;overflow:hidden}
+.cta::before{content:'SUBMIT';position:absolute;right:-20px;bottom:-20px;font-family:var(--font-display);font-size:140px;color:var(--surface-2);pointer-events:none;line-height:1;letter-spacing:4px}
+.cta-content{position:relative;z-index:1}
+.cta h2{font-family:var(--font-display);font-size:36px;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.cta p{font-family:var(--font-condensed);font-size:15px;color:var(--text-2);margin-bottom:20px;max-width:480px;letter-spacing:.3px}
+.cta-btn{display:inline-flex;padding:12px 28px;background:var(--neon);color:#000;border:none;font-family:var(--font-condensed);font-size:14px;font-weight:700;letter-spacing:2px;text-transform:uppercase;cursor:pointer;text-decoration:none;transition:all .15s}
+.cta-btn:hover{background:#fff;color:#000}
+
+/* FOOTER */
+footer{max-width:960px;margin:0 auto;padding:32px 24px 48px;border-top:1px solid var(--border);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+footer p{font-family:var(--font-condensed);font-size:12px;color:var(--text-3);text-transform:uppercase;letter-spacing:1px}
+footer a{color:var(--text-2);text-decoration:none}
+footer a:hover{color:var(--neon)}
+
+/* LOADING */
+.loading{text-align:center;padding:80px 20px;color:var(--text-3)}
+.spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--neon);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 16px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+  .hero{padding:48px 20px 32px}
+  .hero h1{font-size:52px}
+  .hero::after{font-size:140px;right:-20px;top:40px}
+  .stat-val{font-size:36px}
+  .container{padding:0 16px 60px}
+  .ecard{padding:12px 14px}
+  .edate .edy{font-size:26px}
+  .ename{font-size:15px}
+  .cta::before{font-size:80px}
+}
+
+/* ANIMATIONS */
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.anim{animation:slideUp .5s ease both}
+.anim-1{animation-delay:.05s}.anim-2{animation-delay:.1s}.anim-3{animation-delay:.15s}.anim-4{animation-delay:.2s}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero::after"></div>
+  <div class="hero-content">
+    <div class="hero-tag anim">Seattle Runs</div>
+    <h1 class="anim anim-1">Every stride,<span class="accent">one place.</span></h1>
+    <p class="hero-sub anim anim-2">Races. Club runs. Brand events. The complete running calendar for the Seattle area.</p>
+    <div class="stats anim anim-3">
+      <div><div class="stat-val" id="sEvents">—</div><div class="stat-lbl">Events</div></div>
+      <div><div class="stat-val" id="sClubs">—</div><div class="stat-lbl">Clubs</div></div>
+      <div><div class="stat-val" id="sFree">—</div><div class="stat-lbl">Free Runs</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="divider"></div>
+
+  <div class="filters">
+    <input type="text" class="search-box" id="searchInput" placeholder="Search events, clubs, locations…">
+    <div class="chips" id="typeFilters">
+      <button class="chip on-all" data-type="All">All</button>
+      <button class="chip" data-type="Race">Races</button>
+      <button class="chip" data-type="Club Run">Club Runs</button>
+      <button class="chip" data-type="Brand Event">Brand</button>
+    </div>
+    <div class="dist-chips" id="distFilters">
+      <button class="dchip on" data-dist="All">All</button>
+      <button class="dchip" data-dist="5K">5K</button>
+      <button class="dchip" data-dist="10K">10K</button>
+      <button class="dchip" data-dist="Half">Half</button>
+      <button class="dchip" data-dist="Marathon">Marathon</button>
+      <button class="dchip" data-dist="Ultra">Ultra</button>
+      <button class="dchip" data-dist="Track">Track</button>
+    </div>
+  </div>
+
+  <div class="results-bar"><span class="rcount" id="resultsCount"></span></div>
+  <div class="loading" id="loading"><div class="spinner"></div><p>Loading events…</p></div>
+  <div class="elist" id="eventsList"></div>
+
+  <div class="cta">
+    <div class="cta-content">
+      <h2>Know an event we're missing?</h2>
+      <p>Race directors, club leaders, runners — help us build Seattle's most complete running calendar.</p>
+      <a href="https://forms.gle/YOUR_GOOGLE_FORM_ID" target="_blank" class="cta-btn">Submit an Event →</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>Seattle Runs · Community-powered</p>
+  <p><a href="https://runsignup.com/affiliate" target="_blank">Affiliate disclosure</a></p>
+</footer>
+
+<script>
+const SHEET_CSV_URL = '';
+
+const FALLBACK_DATA = [
+  // RACES
+  {name:"Tenacious 10",date:"2026-04-04",type:"Race",distances:"10 Mile, 10K",location:"Lake Union, Seattle",org:"Run Super Series",desc:"Seattle's iconic Lake Union loop race.",url:"https://runsuperseries.com",affiliate:"",price:"$50-$80",recurring:""},
+  {name:"Birch Bay Road Race",date:"2026-04-11",type:"Race",distances:"30K, 15K, 5K",location:"Blaine, WA",org:"Orca Running",desc:"Scenic road race near the Canadian border with ocean views. Carbon neutral event.",url:"https://runsignup.com/Race/WA/Blaine/BirchBayRoadRace?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$50-$85",recurring:""},
+  {name:"Seattle Cherry Blossom Run",date:"2026-04-18",type:"Race",distances:"5K, 10K, Half Marathon",location:"Seward Park, Seattle",org:"Run Super Series",desc:"Run through Seward Park surrounded by cherry blossoms along Lake Washington Blvd. Sells out every year.",url:"https://runsignup.com/Race/Events/WA/Seattle/CherryBlossomRun?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$60-$95",recurring:""},
+  {name:"The Best Races Spring Run",date:"2026-04-25",type:"Race",distances:"5K, 10K, Half Marathon, 1 Mile",location:"Seattle, WA",org:"The Best Races",desc:"Spring edition of The Best Races series at a Seattle park.",url:"https://runsignup.com/Race/WA/Seattle/TheBestRacesSpring?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$35-$45",recurring:""},
+  {name:"Kirkland Half & 5K",date:"2026-05-03",type:"Race",distances:"Half Marathon, 5K",location:"Kirkland, WA",org:"Orca Running",desc:"Lakeside course through Kirkland. Benefits local charity.",url:"https://runsignup.com/Race/WA/Kirkland/MothersDayHalf5k?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$55-$90",recurring:""},
+  {name:"San Juan Island Half",date:"2026-05-09",type:"Race",distances:"Half Marathon",location:"Friday Harbor, WA",org:"Orca Running",desc:"Destination half marathon on beautiful San Juan Island.",url:"https://runsignup.com/Race/WA/FridayHarbor/SanJuanIslandHalf?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$85-$105",recurring:""},
+  {name:"Snohomish Women's Run",date:"2026-05-09",type:"Race",distances:"5K, 10K, Half Marathon",location:"Everett, WA",org:"Run Super Series",desc:"Flat, scenic riverside race celebrating women. All genders welcome.",url:"https://runsuperseries.com",affiliate:"",price:"$45-$90",recurring:""},
+  {name:"The Best Races Summer Run",date:"2026-06-06",type:"Race",distances:"5K, 10K, Half Marathon, 1 Mile",location:"Seattle, WA",org:"The Best Races",desc:"Summer edition of The Best Races series.",url:"https://runsignup.com/Race/WA/Seattle/TheBestRacesSummer?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$35-$45",recurring:""},
+  {name:"Rainier to Ruston Relay",date:"2026-06-06",type:"Race",distances:"50 Mile Relay",location:"Mt. Rainier to Tacoma",org:"Run Super Series",desc:"Epic 50-mile relay from Mount Rainier to the Tacoma waterfront. Teams of 2-6.",url:"https://runsuperseries.com",affiliate:"",price:"$150-$300",recurring:""},
+  {name:"The Great Ferry Race",date:"2026-06-07",type:"Race",distances:"Half Marathon",location:"Bainbridge Island, WA",org:"Orca Running",desc:"Take the ferry to Bainbridge, then run a half around the island. 2/3 road, 1/3 trail.",url:"https://runsignup.com/Race/WA/BainbridgeIsland/TheGreatFerryRace?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$94-$99",recurring:""},
+  {name:"Super Hyak Marathon & Half",date:"2026-06-13",type:"Race",distances:"Marathon, Half Marathon",location:"North Bend, WA",org:"Run Super Series",desc:"Fast downhill BQ course along Keechelus Lake through the Snoqualmie Tunnel.",url:"https://runsuperseries.com",affiliate:"",price:"$80-$130",recurring:""},
+  {name:"Run & Walk with Pride",date:"2026-06-19",type:"Race",distances:"4K, 8K",location:"Seward Park, Seattle",org:"Seattle Frontrunners",desc:"Annual Pride event benefiting Peer Seattle and Seattle Pride.",url:"https://runsignup.com/Race/WA/Seattle/RunWalkwithPride?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$35-$50",recurring:""},
+  {name:"Snoqualmie Valley Half",date:"2026-06-20",type:"Race",distances:"Half Marathon, 10K",location:"Carnation, WA",org:"Orca Running",desc:"Scenic course through the Snoqualmie Valley.",url:"https://runsignup.com/Race/WA/Carnation/SnoqualmieValley?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$65-$90",recurring:""},
+  {name:"Seattle Marathon Summer Run",date:"2026-06-27",type:"Race",distances:"5K, 10K, Half, Kids Run",location:"Seward Park, Seattle",org:"Seattle Marathon Association",desc:"Family-friendly run with Lake Washington and Mt. Rainier views. Dogs welcome.",url:"https://raceroster.com/events/2026/112954/",affiliate:"",price:"$40-$85",recurring:""},
+  {name:"July 4th Run Seattle",date:"2026-07-04",type:"Race",distances:"5K, 10K, Half Marathon, 1 Mile",location:"Magnuson Park, Seattle",org:"The Best Races",desc:"Independence Day celebration run at Magnuson Park.",url:"https://runsignup.com/Race/WA/Seattle/JulyThRun5K10KSEATTLE?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$35-$45",recurring:""},
+  {name:"Lookin' For A Cure 5K",date:"2026-07-18",type:"Race",distances:"5K",location:"Seattle, WA",org:"Lookin For A Cure",desc:"Charity 5K to help find a cure for Ocular Melanoma.",url:"https://runsignup.com/Race/WA/Seattle/LookinForACureSeattle?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$30-$40",recurring:""},
+  {name:"Jack & Jill Marathon & Half",date:"2026-07-25",type:"Race",distances:"Marathon, Half Marathon",location:"North Bend, WA",org:"Run Super Series",desc:"Downhill BQ course on the Palouse to Cascades Trail.",url:"https://runsuperseries.com",affiliate:"",price:"$80-$130",recurring:""},
+  {name:"Craft Classic",date:"2026-08-02",type:"Race",distances:"Half Marathon, 5K",location:"Redmond, WA",org:"Orca Running",desc:"Race ends at a craft beer festival. Georgetown Brewery at the finish.",url:"https://runsignup.com/Race/WA/Redmond/CraftClassicSeattle?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$65-$95",recurring:""},
+  {name:"One Step Closer",date:"2026-08-15",type:"Race",distances:"3/6/12/18 hour timed",location:"Seattle, WA",org:"Orca Running",desc:"Fixed-time endurance event. Run as far as you can.",url:"https://runsignup.com/Race/WA/Seattle/OneStepCloser?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$60-$120",recurring:""},
+  {name:"Twilight at the Bay",date:"2026-08-15",type:"Race",distances:"5K, 10K, Half Marathon",location:"Chambers Bay, University Place",org:"Run Super Series",desc:"Evening race with Puget Sound views at Chambers Bay.",url:"https://runsuperseries.com",affiliate:"",price:"$45-$90",recurring:""},
+  {name:"Emerald City 5K",date:"2026-08-16",type:"Race",distances:"5K",location:"Gas Works Park, Seattle",org:"Run2BeFit",desc:"5K run/walk at Gas Works Park. Family friendly with free kids entries.",url:"https://runsignup.com/Race/WA/Seattle/EmeraldCity5k?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$30-$40",recurring:""},
+  {name:"Sloth Run Seattle",date:"2026-08-29",type:"Race",distances:"5K, 10K, Half Marathon, 1 Mile",location:"Lincoln Park, Seattle",org:"The Best Races",desc:"Take it easy — or don't. Multiple distances at Lincoln Park.",url:"https://runsignup.com/Race/WA/Seattle/SlothRun5K10KSEATTLE829?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$37-$45",recurring:""},
+  {name:"Iron Horse Half",date:"2026-08-30",type:"Race",distances:"Half Marathon",location:"North Bend, WA",org:"Orca Running",desc:"Trail half — 2026 course rerouted due to flood damage.",url:"https://runsignup.com/Race/WA/NorthBend/IronHorseHalfMarathon?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$75-$95",recurring:""},
+  {name:"Cascade Express Marathon",date:"2026-09-12",type:"Race",distances:"Marathon, Half Marathon",location:"North Bend, WA",org:"Run Super Series",desc:"Fast BQ course through the Snoqualmie Tunnel.",url:"https://runsuperseries.com",affiliate:"",price:"$80-$130",recurring:""},
+  {name:"Orca Half Marathon",date:"2026-09-19",type:"Race",distances:"Half Marathon, 8 Mile",location:"West Seattle (Lincoln Park to Alki)",org:"Orca Running",desc:"Point-to-point along West Seattle shoreline. Stunning views. $10 referral per friend.",url:"https://runsignup.com/Race/WA/Seattle/OrcaHalf?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$80-$100",recurring:""},
+  {name:"Ultra Fest",date:"2026-09-19",type:"Race",distances:"25K, 50K, 50M, 100K, 100M",location:"Easton, WA",org:"Run Super Series",desc:"Fast and scenic ultras in the Cascades.",url:"https://runsuperseries.com",affiliate:"",price:"$75-$250",recurring:""},
+  {name:"Oktoberfest Run Seattle",date:"2026-09-26",type:"Race",distances:"5K, 10K, Half Marathon, 1 Mile",location:"Lincoln Park, Seattle",org:"The Best Races",desc:"Fall-themed run at Lincoln Park with multiple distances.",url:"https://runsignup.com/Race/WA/Seattle/OktoberfestRun5K10KSEATTLE?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$37-$45",recurring:""},
+  {name:"Poulsbo Half",date:"2026-10-04",type:"Race",distances:"Half Marathon, 10K",location:"Poulsbo, WA",org:"Orca Running",desc:"Race through the 'Little Norway' of the Pacific Northwest.",url:"https://runsignup.com/Race/WA/Poulsbo/ThePoulsboHalf10k?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$65-$90",recurring:""},
+  {name:"Pumpkin Spice Run",date:"2026-10-11",type:"Race",distances:"10K, 5K, 1 Mile, Kid's Run",location:"Seattle, WA",org:"Orca Running",desc:"Fall-themed family-friendly race. Costumes encouraged!",url:"https://runsignup.com/Race/WA/Seattle/PumpkinSpiceRun?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$35-$60",recurring:""},
+  {name:"Lake Washington Half",date:"2026-10-17",type:"Race",distances:"Half Marathon",location:"Kirkland, WA",org:"Orca Running",desc:"Fall half along the shores of Lake Washington.",url:"https://runsignup.com/Race/WA/Kirkland/LakeWashingtonHalf?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$75-$95",recurring:""},
+  {name:"Captain Jack's Treasure Run",date:"2026-10-25",type:"Race",distances:"5K, 8K, 12K",location:"Redmond, WA",org:"Orca Running",desc:"Halloween/pirate themed fun run.",url:"https://runsignup.com/Race/WA/Redmond/CaptainJacksTreasureRun?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$35-$55",recurring:""},
+  {name:"Run the Bay",date:"2026-11-08",type:"Race",distances:"5K, 10K, Half Marathon",location:"Chambers Bay, University Place",org:"Run Super Series",desc:"Fall race with Puget Sound views.",url:"https://runsuperseries.com",affiliate:"",price:"$45-$90",recurring:""},
+  {name:"Seattle Ghost Marathon, Half & 50K",date:"2026-11-28",type:"Race",distances:"Marathon, Half Marathon, 50K",location:"Seattle, WA",org:"Seattle Ghost Marathon",desc:"Thanksgiving weekend marathon, half, and 50K ultra.",url:"https://runsignup.com/Race/WA/Seattle/2026SeattleGhostMarathonHalf50K?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"TBD",recurring:""},
+  {name:"UW Medicine Seattle Marathon & Half",date:"2026-11-29",type:"Race",distances:"Marathon, Half Marathon",location:"Downtown Seattle",org:"Seattle Marathon Association",desc:"Seattle's original marathon since 1970. Thanksgiving weekend tradition.",url:"https://raceroster.com/events/2026/112954/",affiliate:"",price:"$85-$145",recurring:""},
+  {name:"Electric Cookie Run",date:"2026-12-05",type:"Race",distances:"5K, 10K",location:"Seattle, WA",org:"Orca Running",desc:"Holiday evening run with lights. Cookies at the finish.",url:"https://runsignup.com/Race/WA/Seattle/TheElectricCookieRun?raceRefCode=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",affiliate:"",price:"$40-$60",recurring:""},
+  // CLUB RUNS
+  {name:"CSRD Monday Miles",date:"",type:"Club Run",distances:"1-5 miles",location:"MOHAI, South Lake Union",org:"Club Seattle Runners Division",desc:"All paces and all faces welcome. Seattle's biggest independent run crew, 850+ members.",url:"https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",affiliate:"",price:"Free",recurring:"Every Monday 6:30 PM"},
+  {name:"CSRD Saturday Morning Miles",date:"",type:"Club Run",distances:"All miles",location:"MOHAI Parking Lot",org:"Club Seattle Runners Division",desc:"Saturday long run — all distances welcome.",url:"https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",affiliate:"",price:"Free",recurring:"Every Saturday 8:00 AM"},
+  {name:"SGLRG Monday Evening Track",date:"",type:"Club Run",distances:"Track workout",location:"Lower Woodland Park Track",org:"Seattle Green Lake Running Group",desc:"Intervals, drills, all speeds. Milkshakes at Kidd Valley after. 13,500+ member club.",url:"https://www.meetup.com/seattle-greenlake-running-group",affiliate:"",price:"Free",recurring:"Every Monday 6:30 PM"},
+  {name:"SGLRG Tuesday Evening Run",date:"",type:"Club Run",distances:"3, 5, or 7 miles",location:"Green Lake Wading Pool",org:"Seattle Green Lake Running Group",desc:"Three route options through Phinney Ridge. Pizza at Zeeks after.",url:"https://www.meetup.com/seattle-greenlake-running-group",affiliate:"",price:"Free",recurring:"Every Tuesday 6:30 PM"},
+  {name:"SGLRG Wednesday Night Run",date:"",type:"Club Run",distances:"~4 miles (hilly)",location:"Brooks Trailhead, 3400 Stone Way N",org:"Seattle Green Lake Running Group",desc:"Scenic hilly routes through Fremont. ~90 runners/week year-round. Fremont Brewing after.",url:"https://www.meetup.com/seattle-greenlake-running-group",affiliate:"",price:"Free",recurring:"Every Wednesday 5:30 PM"},
+  {name:"SGLRG Saturday Rise & Shine",date:"",type:"Club Run",distances:"Long run (various)",location:"Green Lake",org:"Seattle Green Lake Running Group",desc:"The big Saturday long run. 80+ runners. Pace groups. Official Seattle Marathon pace team.",url:"https://www.meetup.com/seattle-greenlake-running-group",affiliate:"",price:"Free",recurring:"Every Saturday 7:00 AM"},
+  {name:"SRC Monday at Flying Lion",date:"",type:"Club Run",distances:"5 miles",location:"Flying Lion Brewing, Columbia City",org:"Seattle Running Club",desc:"All paces welcome. $1 off first pint for members. Est. 2005, trail-focused club.",url:"https://www.seattlerunningclub.org",affiliate:"",price:"Free",recurring:"Every Monday 6:00 PM"},
+  {name:"SRC Wednesday Trail Run",date:"",type:"Club Run",distances:"~1 hour trail",location:"Seven Hills Running Shop, Magnolia",org:"Seattle Running Club",desc:"Discovery Park trail run. All abilities.",url:"https://www.seattlerunningclub.org",affiliate:"",price:"Free",recurring:"Every Wednesday 6:30 PM"},
+  {name:"Brooks Run Club Seattle",date:"",type:"Club Run",distances:"3-6 miles",location:"Brooks Trailhead, 3400 Stone Way N",org:"Brooks Running",desc:"Group runs from Brooks HQ. Rotating routes, all paces.",url:"https://www.brooksrunning.com/en_us/brooks-run-club",affiliate:"",price:"Free",recurring:"Every Tue & Thu 6:00 PM"},
+  {name:"West Seattle Runner Track Night",date:"",type:"Club Run",distances:"Track workout",location:"Hiawatha Track, West Seattle",org:"West Seattle Runner",desc:"Structured speed work with coach. Three levels offered.",url:"https://www.westseattlerunner.com/events",affiliate:"",price:"Free",recurring:"Every Tuesday 6:15 PM"},
+  {name:"West Seattle Runner Group Run",date:"",type:"Club Run",distances:"3-6 miles",location:"West Seattle Runner store",org:"West Seattle Runner",desc:"Midweek community run from the shop.",url:"https://www.westseattlerunner.com/events",affiliate:"",price:"Free",recurring:"Every Wednesday 6:15 PM"},
+  {name:"West Seattle Runner Long Run",date:"",type:"Club Run",distances:"3-10+ miles",location:"West Seattle Runner store",org:"West Seattle Runner",desc:"Weekend long run. Choose your distance.",url:"https://www.westseattlerunner.com/events",affiliate:"",price:"Free",recurring:"Every Saturday 8:00 AM"},
+  {name:"Fleet Feet Seattle Run Club",date:"",type:"Club Run",distances:"3-5 miles",location:"Fleet Feet Capitol Hill & Ballard",org:"Fleet Feet",desc:"Social runs from both stores. Thursday is Pub Run ending at a brewery.",url:"https://www.fleetfeet.com/seattle",affiliate:"",price:"Free",recurring:"Every Tue & Thu 6:00 PM"},
+  {name:"REI Seattle Run Club",date:"",type:"Club Run",distances:"Various",location:"Seattle REI flagship",org:"REI",desc:"Party Pace — no one left behind.",url:"https://www.rei.com/events/99630/seattle-rei-run-club-party-pace",affiliate:"",price:"Free",recurring:"Biweekly Sundays 10:00 AM"},
+  {name:"Seattle Front Runners",date:"",type:"Club Run",distances:"Various",location:"Roosevelt HS / Volunteer Park / Green Lake",org:"Seattle Front Runners",desc:"LGBTQ+ friendly running club.",url:"https://seattlefrontrunners.org",affiliate:"",price:"Free",recurring:"Tue / Wed / Sat"},
+  {name:"Rainier Beach Running Club Track",date:"",type:"Club Run",distances:"Track workout",location:"Cleveland HS Track (13th & Lucile)",org:"Rainier Beach Running Club",desc:"Weekly track workouts, different each week. South Seattle community.",url:"https://rbrunclub.wordpress.com",affiliate:"",price:"Free",recurring:"Every Wednesday evening"},
+  // BRAND EVENTS
+  {name:"CSRD x lululemon All Crews Run",date:"",type:"Brand Event",distances:"Various",location:"lululemon Seattle stores",org:"CSRD + lululemon",desc:"Special collaboration runs between CSRD and lululemon.",url:"https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",affiliate:"",price:"Free",recurring:"Monthly — check CSRD"},
+  {name:"CSRD x 1 Hotel Morning Miles",date:"",type:"Brand Event",distances:"Various",location:"1 Hotel Seattle",org:"CSRD + 1 Hotel",desc:"Hotel-partnered Saturday morning runs.",url:"https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",affiliate:"",price:"Free",recurring:"Monthly — check CSRD"},
+  {name:"CSRD x Shake Shack",date:"",type:"Brand Event",distances:"Various",location:"Shake Shack Seattle",org:"CSRD + Shake Shack",desc:"Run + food events with Shake Shack.",url:"https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",affiliate:"",price:"Free",recurring:"Occasional — check CSRD"},
+];
+
+// --- ENGINE (same logic as v1) ---
+function parseCSV(t){const l=t.split('\n').filter(l=>l.trim());if(l.length<2)return[];return l.slice(1).map(r=>{const c=(r.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g)||[]).map(c=>c.replace(/^"|"$/g,'').trim());return{name:c[0]||'',date:c[1]||'',type:c[2]||'Race',distances:c[3]||'',location:c[4]||'',org:c[5]||'',desc:c[6]||'',url:c[7]||'',affiliate:c[8]||'',price:c[9]||'',recurring:c[10]||''}}).filter(e=>e.name)}
+function parseDate(d){if(!d||d.includes('Every')||d.includes('TBD'))return null;const p=new Date(d+'T00:00:00');return isNaN(p)?null:p}
+function daysUntil(d){const p=parseDate(d);if(!p)return null;const n=new Date();n.setHours(0,0,0,0);return Math.ceil((p-n)/864e5)}
+function fmtDate(d){const p=parseDate(d);if(!p)return null;return{m:p.toLocaleDateString('en-US',{month:'short'}),d:p.getDate(),y:p.getFullYear()}}
+function matchDist(ds,f){const d=ds.toLowerCase();switch(f){case'5K':return/5k|5 k|1 mile|4k|8k/.test(d);case'10K':return/10k|10 k|10 mile|15k|12k|8k|30k/.test(d);case'Half':return/half|13\.1/.test(d);case'Marathon':return d.includes('marathon')&&!d.includes('half');case'Ultra':return/ultra|50k|50 mile|100|hour/.test(d);case'Track':return d.includes('track');default:return true}}
+
+let all=[],tF='All',dF='All',sq='';
+
+function render(){
+  const el=document.getElementById('eventsList'),q=sq.toLowerCase();
+  let f=all.filter(e=>{
+    if(tF!=='All'&&e.type!==tF)return false;
+    if(dF!=='All'&&!matchDist(e.distances,dF))return false;
+    if(q&&!(e.name+e.org+e.location+e.distances+e.desc).toLowerCase().includes(q))return false;
+    return true;
+  });
+  f.sort((a,b)=>{const da=daysUntil(a.date),db=daysUntil(b.date),af=da!==null&&da>=0,bf=db!==null&&db>=0,ar=!!a.recurring,br=!!b.recurring;if(af&&!bf&&!br)return-1;if(!af&&!ar&&bf)return 1;if(af&&bf)return da-db;if(ar&&!br&&!bf)return-1;if(!ar&&!af&&br)return 1;return 0});
+  document.getElementById('resultsCount').textContent=f.length+' event'+(f.length!==1?'s':'');
+  if(!f.length){el.innerHTML='<div class="empty"><h3>No events found</h3><p>Try different filters</p></div>';return}
+  el.innerHTML=f.map(e=>{
+    const fd=fmtDate(e.date),days=daysUntil(e.date),tc=e.type==='Race'?'etag-race':e.type==='Club Run'?'etag-club':'etag-brand',link=e.affiliate||e.url;
+    let dh='';if(days!==null){if(days===0)dh='<div class="edays edays-hot">TODAY</div>';else if(days>0&&days<=21)dh=`<div class="edays edays-hot">${days}D AWAY</div>`;else if(days>21)dh=`<div class="edays edays-cold">${days}D AWAY</div>`;else dh='<div class="edays edays-cold">PAST</div>'}
+    return`<div class="ecard" onclick="this.classList.toggle('open')"><div class="etop"><div class="edate">${fd?`<div class="emo">${fd.m}</div><div class="edy">${fd.d}</div><div class="eyr">${fd.y}</div>`:`<div class="erec">⟳</div>`}</div><div class="einfo"><div class="ehead"><span class="ename">${e.name}</span><span class="etag ${tc}">${e.type}</span></div><div class="emeta"><span>${e.location}</span><span class="sep">·</span><span>${e.distances}</span>${e.price?`<span class="sep">·</span><span>${e.price}</span>`:''}${e.recurring?`<span class="sep">·</span><span class="erecur">${e.recurring}</span>`:''}</div>${dh}</div><div class="earrow">›</div></div><div class="edetails"><p class="edesc">${e.desc}</p><div class="efoot"><span class="eorg">By <strong>${e.org}</strong></span>${link?`<a href="${link}" target="_blank" rel="noopener" class="elink" onclick="event.stopPropagation()">Register →</a>`:''}</div></div></div>`
+  }).join('');
+}
+function updateStats(){const c=new Set(all.filter(e=>e.type==='Club Run').map(e=>e.org)),fr=all.filter(e=>e.price&&e.price.toLowerCase().includes('free')).length;document.getElementById('sEvents').textContent=all.length;document.getElementById('sClubs').textContent=c.size;document.getElementById('sFree').textContent=fr}
+document.getElementById('typeFilters').addEventListener('click',e=>{if(!e.target.classList.contains('chip'))return;tF=e.target.dataset.type;document.querySelectorAll('#typeFilters .chip').forEach(c=>c.className='chip');e.target.classList.add(tF==='All'?'on-all':tF==='Race'?'on-race':tF==='Club Run'?'on-club':'on-brand');render()});
+document.getElementById('distFilters').addEventListener('click',e=>{if(!e.target.classList.contains('dchip'))return;dF=e.target.dataset.dist;document.querySelectorAll('#distFilters .dchip').forEach(c=>c.classList.remove('on'));e.target.classList.add('on');render()});
+document.getElementById('searchInput').addEventListener('input',e=>{sq=e.target.value;render()});
+async function load(){if(SHEET_CSV_URL){try{const r=await fetch(SHEET_CSV_URL);all=parseCSV(await r.text())}catch(e){all=FALLBACK_DATA}}else{all=FALLBACK_DATA}document.getElementById('loading').style.display='none';updateStats();render()}
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Manual corrections applied on top of API data.
+#
+# exclude_race_ids: RunSignUp race_id values to drop entirely. Use for races
+# that are outside the real Seattle area despite matching the radius, are
+# duplicates, or that you don't want listed.
+#
+# Find a race_id by searching public/events.json for the event name.
+
+exclude_race_ids: []

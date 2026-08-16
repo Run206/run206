@@ -1,0 +1,47 @@
+# Races that are NOT on RunSignUp and so can't be picked up automatically.
+#
+# Keep this list short. Anything registered through RunSignUp arrives via the
+# API — adding it here just creates a duplicate to dedupe. Entries here are
+# matched against API results on a loose name+date key, so near-identical
+# spellings collapse rather than double up.
+#
+# No affiliate revenue is earned on these; they're listed because leaving out
+# Seattle's biggest marathon would make the calendar useless.
+#
+# Fields: name, date (YYYY-MM-DD), distances, location, org, desc, url, price
+
+- name: UW Medicine Seattle Marathon & Half
+  date: 2026-11-29
+  distances: Marathon, Half Marathon
+  location: Downtown Seattle
+  org: Seattle Marathon Association
+  desc: Seattle's original marathon, run every Thanksgiving weekend since 1970.
+  url: https://raceroster.com/events/2026/112954/
+  price: $85–$145
+
+- name: Cascade Express Marathon & Half
+  date: 2026-09-12
+  distances: Marathon, Half Marathon
+  location: North Bend, WA
+  org: Run Super Series
+  desc: Fast downhill Boston-qualifying course through the Snoqualmie Tunnel.
+  url: https://runsuperseries.com
+  price: $80–$130
+
+- name: Ultra Fest
+  date: 2026-09-19
+  distances: 25K, 50K, 50 Mile, 100K, 100 Mile
+  location: Easton, WA
+  org: Run Super Series
+  desc: Fast and scenic Cascade ultras across five distances.
+  url: https://runsuperseries.com
+  price: $75–$250
+
+- name: Run the Bay
+  date: 2026-11-08
+  distances: 5K, 10K, Half Marathon
+  location: Chambers Bay, University Place
+  org: Run Super Series
+  desc: Autumn race with Puget Sound views across the Chambers Bay course.
+  url: https://runsuperseries.com
+  price: $45–$90

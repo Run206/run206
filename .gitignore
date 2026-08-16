@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+*.log
+
+# public/ is deliberately NOT ignored — the built site and events.json are
+# committed so the data has a version history and so CI has a baseline to
+# compare each refresh against.

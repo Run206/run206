@@ -1,0 +1,444 @@
+# Recurring club runs and brand events.
+#
+# Two kinds of entry:
+#
+#   cadence: weekly    + days: [monday] + time: "18:30"
+#       -> the build expands this into real dates for the next 8 weeks, so the
+#          run sorts and filters alongside races.
+#
+#   cadence: irregular + schedule: "Monthly - check Instagram"
+#       -> no dates invented. Shown in the "Ongoing" group with its text as-is.
+#          Use this whenever the real schedule can't be computed. Sending someone
+#          to a run on a day it isn't happening is worse than showing no date.
+#
+# Times are 24h "HH:MM". Omit `time` if the club only says "evening"; put the
+# vague wording in `time_text` instead.
+
+- name: Monday Miles
+  club: Club Seattle Runners Division
+  type: Club Run
+  cadence: weekly
+  days: [monday]
+  time: "18:30"
+  location: MOHAI, under the canopy by the museum
+  distances: 1-5 miles
+  desc: All paces and all faces welcome. Seattle's largest independent run crew.
+  url: https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691
+  instagram: "@run_csrd"
+  price: Free
+
+- name: Saturday Morning Miles
+  club: Club Seattle Runners Division
+  type: Club Run
+  cadence: weekly
+  days: [saturday]
+  time: "08:00"
+  location: MOHAI parking lot
+  distances: All distances
+  desc: Saturday long run, all distances welcome. Check Heylo for collab events.
+  url: https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691
+  instagram: "@run_csrd"
+  price: Free
+
+- name: Monday Morning On Track
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [monday]
+  time: "05:30"
+  location: Roosevelt High School track
+  distances: Track workout
+  desc: Early-bird speed work before the workday.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Monday Evening Track
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [monday]
+  time: "18:30"
+  location: Lower Woodland Park track
+  distances: Track workout
+  desc: Intervals and drills for all speeds. Milkshakes at Kidd Valley after.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Tuesday Evening Run
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [tuesday]
+  time: "18:30"
+  location: Green Lake wading pool
+  distances: 3, 5, or 7 miles
+  desc: Three route options through Phinney Ridge. Pizza at Zeeks after.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Wake Up Wednesday
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [wednesday]
+  time: "05:30"
+  location: Starbucks Green Lake
+  distances: 3-6 miles
+  desc: Lake loops, off-lake routes, or a tempo option.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Wednesday Night Run
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [wednesday]
+  time: "17:30"
+  location: Brooks Trailhead, 3400 Stone Way N
+  distances: ~4 miles, hilly
+  desc: Scenic hilly routes through Fremont, year-round. Fremont Brewing after.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Thursday Evening Casual Run
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [thursday]
+  time: "18:30"
+  location: Green Lake
+  distances: 3-5 miles
+  desc: The most social run of the week. Takeout dinner by the lake after.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Friday Lake Union Run
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [friday]
+  time: "06:00"
+  location: Lake Union - check Meetup for the exact spot
+  distances: Various
+  desc: Early Friday miles around Lake Union.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Rise & Shine Long Run
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [saturday]
+  time: "07:00"
+  location: Green Lake
+  distances: Long run, various
+  desc: 80+ runners with pace groups. Official Seattle Marathon pace team.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Mid-Morning Run
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: weekly
+  days: [saturday]
+  time: "09:00"
+  location: Green Lake, near the Waiting for the Interurban statue
+  distances: Various
+  desc: Lake Union loop at a relaxed hour. Coffee at Milstead & Co. after.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Sunday Trail Run
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: irregular
+  schedule: Twice a month on Sundays, 9-10 AM
+  location: Seven Hills Running Shop, or varies
+  distances: 3-5 miles trail
+  desc: Discovery Park plus occasional away runs. Dogs welcome.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Sunday Morning Bakery Run
+  club: Seattle Green Lake Running Group
+  type: Club Run
+  cadence: irregular
+  schedule: Monthly on a Sunday, 9-10 AM
+  location: Varies - check Meetup
+  distances: Various
+  desc: Run to a bakery. The destination changes each month.
+  url: https://www.meetup.com/seattle-greenlake-running-group
+  instagram: "@gosglrg"
+  price: Free
+
+- name: Monday Run at Flying Lion
+  club: Seattle Running Club
+  type: Club Run
+  cadence: weekly
+  days: [monday]
+  time: "18:00"
+  location: Flying Lion Brewing, Columbia City
+  distances: 5 miles
+  desc: All paces. Members get $1 off the first pint. Trail-focused club, est. 2005.
+  url: https://www.seattlerunningclub.org
+  instagram: "@seattlerunning"
+  price: Free
+
+- name: Wednesday Trail Run
+  club: Seattle Running Club
+  type: Club Run
+  cadence: weekly
+  days: [wednesday]
+  time: "18:30"
+  location: Seven Hills Running Shop, Magnolia
+  distances: ~1 hour on trail
+  desc: Discovery Park trail run. All abilities welcome.
+  url: https://www.seattlerunningclub.org
+  instagram: "@seattlerunning"
+  price: Free
+
+- name: Track Night
+  club: West Seattle Runner
+  type: Club Run
+  cadence: weekly
+  days: [tuesday]
+  time: "18:15"
+  location: Hiawatha track - meet at the store
+  distances: Track workout
+  desc: Structured speed work with a coach, three levels. Good for track beginners.
+  url: https://www.westseattlerunner.com/events
+  instagram: "@westseattlerunner"
+  price: Free
+
+- name: Midweek Group Run
+  club: West Seattle Runner
+  type: Club Run
+  cadence: weekly
+  days: [wednesday]
+  time: "18:15"
+  location: West Seattle Runner store
+  distances: 3-6 miles
+  desc: Midweek community run from the shop.
+  url: https://www.westseattlerunner.com/events
+  instagram: "@westseattlerunner"
+  price: Free
+
+- name: Saturday Long Run
+  club: West Seattle Runner
+  type: Club Run
+  cadence: weekly
+  days: [saturday]
+  time: "08:00"
+  location: West Seattle Runner store
+  distances: 3-10+ miles
+  desc: Weekend long run with a route provided. Choose your distance.
+  url: https://www.westseattlerunner.com/events
+  instagram: "@westseattlerunner"
+  price: Free
+
+- name: Alki Beach Run
+  club: West Seattle Running Club
+  type: Club Run
+  cadence: irregular
+  schedule: Sunday mornings
+  time_text: Morning
+  location: Alki Beach
+  distances: 3-10 miles
+  desc: Beach run along Alki. Contact the group before your first time.
+  url: null
+  price: Free
+
+- name: Wednesday Track
+  club: Rainier Beach Running Club
+  type: Club Run
+  cadence: weekly
+  days: [wednesday]
+  time_text: Evening
+  location: Cleveland High School track, 13th & Lucile
+  distances: Track workout
+  desc: Weekly track workouts, different each week. South Seattle community.
+  url: https://rbrunclub.wordpress.com
+  price: Free
+
+- name: Weekly Runs
+  club: Seattle Front Runners
+  type: Club Run
+  cadence: irregular
+  schedule: Tuesday track, Wednesday Volunteer Park, Saturday Green Lake
+  location: Roosevelt HS / Volunteer Park / Green Lake
+  distances: Various
+  desc: LGBTQ+ friendly running club. Also hosts the annual Run & Walk with Pride.
+  url: https://seattlefrontrunners.org
+  instagram: "@seattlefrontrunners"
+  price: Free
+
+- name: Monday Group Run
+  club: Super Jock 'n Jill
+  type: Club Run
+  cadence: weekly
+  days: [monday]
+  time_text: Evening
+  location: Green Lake store
+  distances: Various
+  desc: Group run from Seattle's iconic running store.
+  url: https://www.superjocknjill.com
+  instagram: "@superjocknjill"
+  price: Free
+
+- name: Thursday Brewery Run
+  club: Frelard Run Club
+  type: Club Run
+  cadence: weekly
+  days: [thursday]
+  time_text: Evening
+  location: Rotating breweries in Fremont and Ballard
+  distances: 5-10K
+  desc: Social run ending at a brewery. Check Instagram for the week's location.
+  url: null
+  instagram: "@frelardrunclub"
+  price: Free
+
+- name: Tuesday Pub Run
+  club: Seattle Pub Runners
+  type: Club Run
+  cadence: weekly
+  days: [tuesday]
+  time_text: Evening
+  location: Rotating breweries around Seattle
+  distances: Various
+  desc: Run to and from a different brewery each week. Check Facebook for location.
+  url: null
+  price: Free
+
+- name: Wednesday Group Run
+  club: Snoqualmie Running Company
+  type: Club Run
+  cadence: weekly
+  days: [wednesday]
+  time: "18:00"
+  location: 38843 SE Newton St, Snoqualmie
+  distances: Various
+  desc: Group run from a woman-owned trail and road shop. Members get 10% off.
+  url: https://www.snoqualmierunning.com
+  instagram: "@snoqualmierunning"
+  price: Free
+
+- name: Team Workouts
+  club: Club Northwest
+  type: Club Run
+  cadence: irregular
+  schedule: Varies - see the club site
+  location: Seattle area
+  distances: Various
+  desc: Competitive Brooks-sponsored team since 1972. For serious racers.
+  url: https://www.clubnorthwest.org
+  instagram: "@club_northwest_running"
+  price: Membership required
+
+- name: Group Runs
+  club: PNW Ladies Running Group
+  type: Club Run
+  cadence: irregular
+  schedule: Varies - active Facebook community
+  location: Seattle area
+  distances: Various
+  desc: Running community for self-identifying women across the Puget Sound area.
+  url: null
+  instagram: "@pnwladies"
+  price: Free
+
+# ---- Brand and retailer events ----
+
+- name: Brooks Run Club
+  club: Brooks Running
+  type: Brand Event
+  cadence: weekly
+  days: [tuesday, thursday]
+  time: "18:00"
+  location: Brooks Trailhead, 3400 Stone Way N
+  distances: 3-6 miles
+  desc: Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.
+  url: https://www.brooksrunning.com/en_us/brooks-run-club
+  instagram: "@brookstrailhead"
+  price: Free
+
+- name: Fleet Feet Run Club
+  club: Fleet Feet Seattle
+  type: Brand Event
+  cadence: weekly
+  days: [tuesday, thursday]
+  time: "18:00"
+  location: Capitol Hill and Ballard stores
+  distances: 3-5 miles
+  desc: Social runs from both stores. Thursday is a pub run ending at a brewery.
+  url: https://www.fleetfeet.com/seattle
+  instagram: "@fleetfeetseattle"
+  price: Free
+
+- name: "REI Run Club: Party Pace"
+  club: REI
+  type: Brand Event
+  cadence: irregular
+  schedule: Biweekly on Sundays, 10 AM
+  location: Seattle REI flagship
+  distances: Various
+  desc: No-one-left-behind pace. Register on the REI events page.
+  url: https://www.rei.com/events
+  price: Free
+
+- name: All Crews Run
+  club: lululemon + CSRD
+  type: Brand Event
+  cadence: irregular
+  schedule: Monthly - check CSRD for dates
+  location: Various lululemon stores
+  distances: Various
+  desc: Collaboration runs between lululemon and Club Seattle Runners Division.
+  url: https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691
+  instagram: "@run_csrd"
+  price: Free
+
+- name: Morning Miles
+  club: 1 Hotel Seattle + CSRD
+  type: Brand Event
+  cadence: irregular
+  schedule: Monthly - check CSRD for dates
+  location: 1 Hotel Seattle
+  distances: Various
+  desc: Hotel-partnered Saturday morning runs.
+  url: https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691
+  instagram: "@run_csrd"
+  price: Free
+
+- name: Run + Shake
+  club: Shake Shack + CSRD
+  type: Brand Event
+  cadence: irregular
+  schedule: Occasional - check CSRD
+  location: Shake Shack Seattle
+  distances: Various
+  desc: Run and food events with Shake Shack.
+  url: https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691
+  instagram: "@run_csrd"
+  price: Free
+
+- name: Nike Run Club Seattle
+  club: Nike
+  type: Brand Event
+  cadence: irregular
+  schedule: Check the Nike Run Club app
+  location: Various Seattle locations
+  distances: Various
+  desc: Guided runs and meetups organised through the NRC app.
+  url: https://www.nike.com/nrc
+  price: Free

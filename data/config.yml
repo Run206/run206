@@ -1,0 +1,32 @@
+site:
+  name: Run206
+  domain: run206.com
+  tagline: Every race, club run, and shakeout within 40 miles of Seattle.
+  description: >-
+    A complete, automatically updated calendar of running races, club runs, and
+    brand events across Seattle and the surrounding suburbs.
+
+sources:
+  runsignup:
+    # zipcode + radius is the only geo filter that actually works on this API.
+    # Passing latitude/longitude is silently ignored and returns nationwide results.
+    zipcode: "98101"
+    radius_miles: 40
+    months_ahead: 14
+    # Virtual races have no location to show up at, so they don't belong on a
+    # local events calendar.
+    exclude_virtual: true
+
+affiliate:
+  # Get this from https://runsignup.com/affiliate — it is a public tracking
+  # token, not a secret; it ships in the page HTML either way.
+  #
+  # NOTE: this is NOT the same as a raceRefCode. A raceRefCode is a per-race
+  # referral reward tied to a registrant account and pays nothing on races whose
+  # director hasn't enabled it. Leave this blank until the affiliate signup is
+  # approved; the build will simply emit untagged links and warn.
+  runsignup_token: ""
+
+build:
+  # How far ahead to expand weekly club runs into concrete dates.
+  club_weeks_ahead: 8
