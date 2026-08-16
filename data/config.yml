@@ -5,7 +5,7 @@ site:
   # Where the footer's "submit a run" link points. Set this to the repo's
   # issue-form URL once the repo exists:
   #   https://github.com/<you>/run206/issues/new?template=submit-event.yml
-  submit_url: ""
+  submit_url: "https://github.com/Run206/run206/issues/new?template=submit-event.yml"
   description: >-
     A complete, automatically updated calendar of running races, club runs, and
     brand events across Seattle and the surrounding suburbs.
