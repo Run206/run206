@@ -116,6 +116,7 @@ def _write_map(config, events, today, out_dir, root, styles):
             "Some race links are affiliate links. Run206 earns a small share of "
             "the booking fee at no extra cost to you, and it never affects which "
             "events are listed."),
+        "{{ANALYTICS}}": _analytics(config),
     }
 
     html = template
@@ -170,8 +171,11 @@ def _analytics(config):
     token = ((config.get("analytics") or {}).get("cloudflare_token") or "").strip()
     if not token:
         return ""
+    # Single braces: this is %-formatting, where {{ }} is not an escape and
+    # would emit literal doubled braces, producing invalid JSON that the beacon
+    # silently fails to parse.
     return ('<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
-            "data-cf-beacon='{{\"token\": \"%s\"}}'></script>" % esc(token))
+            "data-cf-beacon='{\"token\": \"%s\"}'></script>" % esc(token))
 
 
 def _newsletter(config):
@@ -399,6 +403,7 @@ EVENT_PAGE_LIMIT = 400
 
 
 def _write_event_pages(config, events, today, out_dir, styles):
+    analytics = _analytics(config)
     """Write /e/<slug>/index.html for each dated event.
 
     These exist for the long tail: nobody searches "Run206", they search
@@ -426,7 +431,7 @@ def _write_event_pages(config, events, today, out_dir, styles):
 
         html = template
         for token, value in _event_replacements(
-                event, by_month, domain, today, styles).items():
+                event, by_month, domain, today, styles, analytics).items():
             html = html.replace(token, value)
         _write(os.path.join(directory, "index.html"), html)
         slugs.append(slug)
@@ -464,7 +469,7 @@ def _prune_event_pages(out_dir, current):
         print("  pruned {} stale event page(s)".format(removed))
 
 
-def _event_replacements(event, by_month, domain, today, styles):
+def _event_replacements(event, by_month, domain, today, styles, analytics=""):
     parsed = date.fromisoformat(event["date"])
     when = "{}, {} {} {}".format(
         WEEKDAYS[parsed.weekday()], parsed.day,
@@ -525,6 +530,7 @@ def _event_replacements(event, by_month, domain, today, styles):
         "{{CTA}}": cta,
         "{{DISCLOSURE}}": esc(disclosure),
         "{{RELATED}}": _related(event, by_month, parsed),
+        "{{ANALYTICS}}": analytics,
         "{{UPDATED}}": "Updated {}".format(today.strftime("%-d %B %Y")),
         "{{JSONLD}}": _event_jsonld(event, domain),
     }
