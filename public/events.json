@@ -1,177 +1,7 @@
 {
- "generated": "2026-08-19T00:00:00Z",
- "count": 409,
+ "generated": "2026-08-20T00:00:00Z",
+ "count": 408,
  "events": [
-  {
-   "id": "wake-up-wednesday-2026-08-19",
-   "name": "Wake Up Wednesday",
-   "date": "2026-08-19",
-   "time": "5:30 AM",
-   "type": "Club Run",
-   "distances": "3-6 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Starbucks Green Lake",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Lake loops, off-lake routes, or a tempo option.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "wednesday-night-run-2026-08-19",
-   "name": "Wednesday Night Run",
-   "date": "2026-08-19",
-   "time": "5:30 PM",
-   "type": "Club Run",
-   "distances": "~4 miles, hilly",
-   "distance_tags": [],
-   "location": "Brooks Trailhead, 3400 Stone Way N",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Scenic hilly routes through Fremont, year-round. Fremont Brewing after.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6497,
-    -122.3424
-   ]
-  },
-  {
-   "id": "wednesday-group-run-2026-08-19",
-   "name": "Wednesday Group Run",
-   "date": "2026-08-19",
-   "time": "6:00 PM",
-   "type": "Club Run",
-   "distances": "Various",
-   "distance_tags": [],
-   "location": "38843 SE Newton St, Snoqualmie",
-   "org": "Snoqualmie Running Company",
-   "desc": "Group run from a woman-owned trail and road shop. Members get 10% off.",
-   "url": "https://www.snoqualmierunning.com",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.52527,
-    -121.82246
-   ]
-  },
-  {
-   "id": "midweek-group-run-2026-08-19",
-   "name": "Midweek Group Run",
-   "date": "2026-08-19",
-   "time": "6:15 PM",
-   "type": "Club Run",
-   "distances": "3-6 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "West Seattle Runner store",
-   "org": "West Seattle Runner",
-   "desc": "Midweek community run from the shop.",
-   "url": "https://www.westseattlerunner.com/events",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0
-  },
-  {
-   "id": "wednesday-trail-run-2026-08-19",
-   "name": "Wednesday Trail Run",
-   "date": "2026-08-19",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "~1 hour on trail",
-   "distance_tags": [],
-   "location": "Seven Hills Running Shop, Magnolia",
-   "org": "Seattle Running Club",
-   "desc": "Discovery Park trail run. All abilities welcome.",
-   "url": "https://www.seattlerunningclub.org",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.66046,
-    -122.39799
-   ]
-  },
-  {
-   "id": "wednesday-track-2026-08-19",
-   "name": "Wednesday Track",
-   "date": "2026-08-19",
-   "time": "Evening",
-   "type": "Club Run",
-   "distances": "Track workout",
-   "distance_tags": [
-    "Track"
-   ],
-   "location": "Cleveland High School track, 13th & Lucile",
-   "org": "Rainier Beach Running Club",
-   "desc": "Weekly track workouts, different each week. South Seattle community.",
-   "url": "https://rbrunclub.wordpress.com",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.5478,
-    -122.3125
-   ]
-  },
   {
    "id": "brooks-run-club-2026-08-20",
    "name": "Brooks Run Club",
@@ -1078,9 +908,9 @@
    "schedule": "Every Tue & Thu",
    "source": "manual",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6497,
     -122.3424
@@ -1108,9 +938,9 @@
    "schedule": "Every Tue & Thu",
    "source": "manual",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0
   },
   {
    "id": "thursday-evening-casual-run-2026-08-27",
@@ -1134,9 +964,9 @@
    "schedule": "Every Thu",
    "source": "manual",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6806,
     -122.3287
@@ -1164,9 +994,9 @@
    "schedule": "Every Thu",
    "source": "manual",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0
   },
   {
    "id": "friday-lake-union-run-2026-08-28",
@@ -2157,6 +1987,118 @@
    ]
   },
   {
+   "id": "brooks-run-club-2026-09-03",
+   "name": "Brooks Run Club",
+   "date": "2026-09-03",
+   "time": "6:00 PM",
+   "type": "Brand Event",
+   "distances": "3-6 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Brooks Trailhead, 3400 Stone Way N",
+   "org": "Brooks Running",
+   "desc": "Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.",
+   "url": "https://www.brooksrunning.com/en_us/brooks-run-club",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Tue & Thu",
+   "source": "manual",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6497,
+    -122.3424
+   ]
+  },
+  {
+   "id": "fleet-feet-run-club-2026-09-03",
+   "name": "Fleet Feet Run Club",
+   "date": "2026-09-03",
+   "time": "6:00 PM",
+   "type": "Brand Event",
+   "distances": "3-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Capitol Hill and Ballard stores",
+   "org": "Fleet Feet Seattle",
+   "desc": "Social runs from both stores. Thursday is a pub run ending at a brewery.",
+   "url": "https://www.fleetfeet.com/s/seattle",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Tue & Thu",
+   "source": "manual",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1
+  },
+  {
+   "id": "thursday-evening-casual-run-2026-09-03",
+   "name": "Thursday Evening Casual Run",
+   "date": "2026-09-03",
+   "time": "6:30 PM",
+   "type": "Club Run",
+   "distances": "3-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Green Lake",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "The most social run of the week. Takeout dinner by the lake after.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Thu",
+   "source": "manual",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
+   "id": "thursday-brewery-run-2026-09-03",
+   "name": "Thursday Brewery Run",
+   "date": "2026-09-03",
+   "time": "Evening",
+   "type": "Club Run",
+   "distances": "5-10K",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Rotating breweries in Fremont and Ballard",
+   "org": "Frelard Run Club",
+   "desc": "Social run ending at a brewery. Check Instagram for the week's location.",
+   "url": "",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Thu",
+   "source": "manual",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1
+  },
+  {
    "id": "alki-beach-run-ongoing",
    "name": "Alki Beach Run",
    "date": null,
@@ -2445,118 +2387,6 @@
     47.6806,
     -122.3287
    ]
-  },
-  {
-   "id": "brooks-run-club-2026-09-03",
-   "name": "Brooks Run Club",
-   "date": "2026-09-03",
-   "time": "6:00 PM",
-   "type": "Brand Event",
-   "distances": "3-6 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Brooks Trailhead, 3400 Stone Way N",
-   "org": "Brooks Running",
-   "desc": "Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.",
-   "url": "https://www.brooksrunning.com/en_us/brooks-run-club",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Tue & Thu",
-   "source": "manual",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323,
-   "coords": [
-    47.6497,
-    -122.3424
-   ]
-  },
-  {
-   "id": "fleet-feet-run-club-2026-09-03",
-   "name": "Fleet Feet Run Club",
-   "date": "2026-09-03",
-   "time": "6:00 PM",
-   "type": "Brand Event",
-   "distances": "3-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Capitol Hill and Ballard stores",
-   "org": "Fleet Feet Seattle",
-   "desc": "Social runs from both stores. Thursday is a pub run ending at a brewery.",
-   "url": "https://www.fleetfeet.com/s/seattle",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Tue & Thu",
-   "source": "manual",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323
-  },
-  {
-   "id": "thursday-evening-casual-run-2026-09-03",
-   "name": "Thursday Evening Casual Run",
-   "date": "2026-09-03",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "3-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Green Lake",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "The most social run of the week. Takeout dinner by the lake after.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Thu",
-   "source": "manual",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "thursday-brewery-run-2026-09-03",
-   "name": "Thursday Brewery Run",
-   "date": "2026-09-03",
-   "time": "Evening",
-   "type": "Club Run",
-   "distances": "5-10K",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Rotating breweries in Fremont and Ballard",
-   "org": "Frelard Run Club",
-   "desc": "Social run ending at a brewery. Check Instagram for the week's location.",
-   "url": "",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Thu",
-   "source": "manual",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323
   },
   {
    "id": "friday-lake-union-run-2026-09-04",
@@ -5871,6 +5701,37 @@
    ]
   },
   {
+   "id": "return-of-the-salmon-celebration-salmon-run-2026-09-26",
+   "name": "Return of the Salmon Celebration - Salmon Run",
+   "date": "2026-09-26",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, Walk",
+   "distance_tags": [
+    "5K",
+    "Mile"
+   ],
+   "location": "Sultan, WA",
+   "org": "",
+   "desc": "Join us for the Celebration of the cultural heritage of the Skykomish River Valley, Honoring the legacy of Chief T'seul-Ted, Protecting our Salmon…",
+   "url": "https://runsignup.com/Race/WA/Sultan/ReturnoftheSalmonCelebrationSalmonRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$20",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "2026-09",
+   "group_label": "September",
+   "group_order": 24323,
+   "coords": [
+    47.86228,
+    -121.81473
+   ]
+  },
+  {
    "id": "second-annual-beat-beethoven-5k-2026-09-26",
    "name": "Second Annual Beat Beethoven 5k",
    "date": "2026-09-26",
@@ -7562,36 +7423,6 @@
    "group_order": 24324
   },
   {
-   "id": "spiritwalk-warrior-run-2026-2026-10-10",
-   "name": "SpiritWalk & Warrior Run 2026",
-   "date": "2026-10-10",
-   "time": "10:15 AM",
-   "type": "Race",
-   "distances": "5K, 25 Mile",
-   "distance_tags": [
-    "5K"
-   ],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "On October 10 from 10 a.m. to 1:00 p.m., join Seattle Indian Health Board for the 30th Annual SpiritWalk & Warrior Run—an opportunity to gather and…",
-   "url": "https://runsignup.com/Race/WA/Seattle/SpiritWalkWarriorRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$40",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
-   "coords": [
-    47.60383,
-    -122.33006
-   ]
-  },
-  {
    "id": "emerald-city-open-2026-10-10",
    "name": "Emerald City Open",
    "date": "2026-10-10",
@@ -7974,6 +7805,36 @@
    "coords": [
     47.6806,
     -122.3287
+   ]
+  },
+  {
+   "id": "spiritwalk-warrior-run-2026-2026-10-10",
+   "name": "SpiritWalk & Warrior Run 2026",
+   "date": "2026-10-10",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K, 25 Mile",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "On October 10 from 10 a.m. to 1:00 p.m., join Seattle Indian Health Board for the 30th Annual SpiritWalk & Warrior Run—an opportunity to gather and…",
+   "url": "https://runsignup.com/Race/WA/Seattle/SpiritWalkWarriorRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$40",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
@@ -8589,6 +8450,118 @@
     47.5478,
     -122.3125
    ]
+  },
+  {
+   "id": "brooks-run-club-2026-10-15",
+   "name": "Brooks Run Club",
+   "date": "2026-10-15",
+   "time": "6:00 PM",
+   "type": "Brand Event",
+   "distances": "3-6 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Brooks Trailhead, 3400 Stone Way N",
+   "org": "Brooks Running",
+   "desc": "Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.",
+   "url": "https://www.brooksrunning.com/en_us/brooks-run-club",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Tue & Thu",
+   "source": "manual",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.6497,
+    -122.3424
+   ]
+  },
+  {
+   "id": "fleet-feet-run-club-2026-10-15",
+   "name": "Fleet Feet Run Club",
+   "date": "2026-10-15",
+   "time": "6:00 PM",
+   "type": "Brand Event",
+   "distances": "3-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Capitol Hill and Ballard stores",
+   "org": "Fleet Feet Seattle",
+   "desc": "Social runs from both stores. Thursday is a pub run ending at a brewery.",
+   "url": "https://www.fleetfeet.com/s/seattle",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Tue & Thu",
+   "source": "manual",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324
+  },
+  {
+   "id": "thursday-evening-casual-run-2026-10-15",
+   "name": "Thursday Evening Casual Run",
+   "date": "2026-10-15",
+   "time": "6:30 PM",
+   "type": "Club Run",
+   "distances": "3-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Green Lake",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "The most social run of the week. Takeout dinner by the lake after.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Thu",
+   "source": "manual",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
+   "id": "thursday-brewery-run-2026-10-15",
+   "name": "Thursday Brewery Run",
+   "date": "2026-10-15",
+   "time": "Evening",
+   "type": "Club Run",
+   "distances": "5-10K",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Rotating breweries in Fremont and Ballard",
+   "org": "Frelard Run Club",
+   "desc": "Social run ending at a brewery. Check Instagram for the week's location.",
+   "url": "",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Thu",
+   "source": "manual",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324
   },
   {
    "id": "where-s-bigfoot-5k-2026-10-17",
