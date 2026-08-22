@@ -1,31 +1,7 @@
 {
- "generated": "2026-08-21T00:00:00Z",
- "count": 408,
+ "generated": "2026-08-22T00:00:00Z",
+ "count": 413,
  "events": [
-  {
-   "id": "friday-lake-union-run-2026-08-21",
-   "name": "Friday Lake Union Run",
-   "date": "2026-08-21",
-   "time": "6:00 AM",
-   "type": "Club Run",
-   "distances": "Various",
-   "distance_tags": [],
-   "location": "Lake Union - check Meetup for the exact spot",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Early Friday miles around Lake Union.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Fri",
-   "source": "manual",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0
-  },
   {
    "id": "2026-kirk-wood-half-marathon-2026-08-22",
    "name": "2026 Kirk-Wood Half Marathon",
@@ -958,9 +934,9 @@
    "schedule": "Every Sat",
    "source": "manual",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6806,
     -122.3287
@@ -989,9 +965,9 @@
    "schedule": "",
    "source": "runsignup",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.66941,
     -122.12388
@@ -1022,9 +998,9 @@
    "schedule": "",
    "source": "runsignup",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.60383,
     -122.33006
@@ -1055,9 +1031,9 @@
    "schedule": "",
    "source": "runsignup",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.60383,
     -122.33006
@@ -1087,9 +1063,9 @@
    "schedule": "",
    "source": "runsignup",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.2455,
     -122.43833
@@ -1115,9 +1091,9 @@
    "schedule": "Every Sat",
    "source": "manual",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0
   },
   {
    "id": "saturday-morning-miles-2026-08-29",
@@ -1139,9 +1115,9 @@
    "schedule": "Every Sat",
    "source": "manual",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6275,
     -122.336
@@ -1169,9 +1145,9 @@
    "schedule": "",
    "source": "runsignup",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.17037,
     -122.59629
@@ -1199,9 +1175,9 @@
    "schedule": "",
    "source": "runsignup",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.2455,
     -122.43833
@@ -1227,9 +1203,9 @@
    "schedule": "Every Sat",
    "source": "manual",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6806,
     -122.3287
@@ -1257,9 +1233,9 @@
    "schedule": "",
    "source": "runsignup",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.66941,
     -122.12388
@@ -1289,9 +1265,9 @@
    "schedule": "",
    "source": "runsignup",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.60383,
     -122.33006
@@ -2039,6 +2015,147 @@
    "group_order": 1
   },
   {
+   "id": "rise-shine-long-run-2026-09-05",
+   "name": "Rise & Shine Long Run",
+   "date": "2026-09-05",
+   "time": "7:00 AM",
+   "type": "Club Run",
+   "distances": "Long run, various",
+   "distance_tags": [],
+   "location": "Green Lake",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "80+ runners with pace groups. Official Seattle Marathon pace team.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
+   "id": "saturday-long-run-2026-09-05",
+   "name": "Saturday Long Run",
+   "date": "2026-09-05",
+   "time": "8:00 AM",
+   "type": "Club Run",
+   "distances": "3-10+ miles",
+   "distance_tags": [],
+   "location": "West Seattle Runner store",
+   "org": "West Seattle Runner",
+   "desc": "Weekend long run with a route provided. Choose your distance.",
+   "url": "https://www.westseattlerunner.com/events",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1
+  },
+  {
+   "id": "saturday-morning-miles-2026-09-05",
+   "name": "Saturday Morning Miles",
+   "date": "2026-09-05",
+   "time": "8:00 AM",
+   "type": "Club Run",
+   "distances": "All distances",
+   "distance_tags": [],
+   "location": "MOHAI parking lot",
+   "org": "Club Seattle Runners Division",
+   "desc": "Saturday long run, all distances welcome. Check Heylo for collab events.",
+   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6275,
+    -122.336
+   ]
+  },
+  {
+   "id": "medal-madness-5k-10k-13-1m-26-2m-at-everett-wa-36-2026-09-05",
+   "name": "Medal Madness 5K, 10K, 13.1M & 26.2M at Everett, WA (36)",
+   "date": "2026-09-05",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon, Marathon",
+   "distance_tags": [
+    "Marathon",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/Langus972024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$95",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.97934,
+    -122.2127
+   ]
+  },
+  {
+   "id": "mid-morning-run-2026-09-05",
+   "name": "Mid-Morning Run",
+   "date": "2026-09-05",
+   "time": "9:00 AM",
+   "type": "Club Run",
+   "distances": "Various",
+   "distance_tags": [],
+   "location": "Green Lake, near the Waiting for the Interurban statue",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Lake Union loop at a relaxed hour. Coffee at Milstead & Co. after.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
    "id": "alki-beach-run-ongoing",
    "name": "Alki Beach Run",
    "date": null,
@@ -2323,147 +2440,6 @@
    "group": "ongoing",
    "group_label": "Ongoing & irregular",
    "group_order": 9999,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "rise-shine-long-run-2026-09-05",
-   "name": "Rise & Shine Long Run",
-   "date": "2026-09-05",
-   "time": "7:00 AM",
-   "type": "Club Run",
-   "distances": "Long run, various",
-   "distance_tags": [],
-   "location": "Green Lake",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "80+ runners with pace groups. Official Seattle Marathon pace team.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Sat",
-   "source": "manual",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "saturday-long-run-2026-09-05",
-   "name": "Saturday Long Run",
-   "date": "2026-09-05",
-   "time": "8:00 AM",
-   "type": "Club Run",
-   "distances": "3-10+ miles",
-   "distance_tags": [],
-   "location": "West Seattle Runner store",
-   "org": "West Seattle Runner",
-   "desc": "Weekend long run with a route provided. Choose your distance.",
-   "url": "https://www.westseattlerunner.com/events",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Sat",
-   "source": "manual",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323
-  },
-  {
-   "id": "saturday-morning-miles-2026-09-05",
-   "name": "Saturday Morning Miles",
-   "date": "2026-09-05",
-   "time": "8:00 AM",
-   "type": "Club Run",
-   "distances": "All distances",
-   "distance_tags": [],
-   "location": "MOHAI parking lot",
-   "org": "Club Seattle Runners Division",
-   "desc": "Saturday long run, all distances welcome. Check Heylo for collab events.",
-   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Sat",
-   "source": "manual",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323,
-   "coords": [
-    47.6275,
-    -122.336
-   ]
-  },
-  {
-   "id": "medal-madness-5k-10k-13-1m-26-2m-at-everett-wa-36-2026-09-05",
-   "name": "Medal Madness 5K, 10K, 13.1M & 26.2M at Everett, WA (36)",
-   "date": "2026-09-05",
-   "time": "8:30 AM",
-   "type": "Race",
-   "distances": "5K, 10K, Half Marathon, Marathon",
-   "distance_tags": [
-    "Marathon",
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "location": "Everett, WA",
-   "org": "",
-   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
-   "url": "https://runsignup.com/Race/WA/Everett/Langus972024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$30–$95",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323,
-   "coords": [
-    47.97934,
-    -122.2127
-   ]
-  },
-  {
-   "id": "mid-morning-run-2026-09-05",
-   "name": "Mid-Morning Run",
-   "date": "2026-09-05",
-   "time": "9:00 AM",
-   "type": "Club Run",
-   "distances": "Various",
-   "distance_tags": [],
-   "location": "Green Lake, near the Waiting for the Interurban statue",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Lake Union loop at a relaxed hour. Coffee at Milstead & Co. after.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Sat",
-   "source": "manual",
-   "community_id": "",
-   "group": "2026-09",
-   "group_label": "September",
-   "group_order": 24323,
    "coords": [
     47.6806,
     -122.3287
@@ -8565,6 +8541,34 @@
    ]
   },
   {
+   "id": "rise-shine-long-run-2026-10-17",
+   "name": "Rise & Shine Long Run",
+   "date": "2026-10-17",
+   "time": "7:00 AM",
+   "type": "Club Run",
+   "distances": "Long run, various",
+   "distance_tags": [],
+   "location": "Green Lake",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "80+ runners with pace groups. Official Seattle Marathon pace team.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
    "id": "lake-washington-half-marathon-2026-10-17",
    "name": "Lake Washington Half Marathon",
    "date": "2026-10-17",
@@ -8592,6 +8596,58 @@
    "coords": [
     47.67654,
     -122.20708
+   ]
+  },
+  {
+   "id": "saturday-long-run-2026-10-17",
+   "name": "Saturday Long Run",
+   "date": "2026-10-17",
+   "time": "8:00 AM",
+   "type": "Club Run",
+   "distances": "3-10+ miles",
+   "distance_tags": [],
+   "location": "West Seattle Runner store",
+   "org": "West Seattle Runner",
+   "desc": "Weekend long run with a route provided. Choose your distance.",
+   "url": "https://www.westseattlerunner.com/events",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324
+  },
+  {
+   "id": "saturday-morning-miles-2026-10-17",
+   "name": "Saturday Morning Miles",
+   "date": "2026-10-17",
+   "time": "8:00 AM",
+   "type": "Club Run",
+   "distances": "All distances",
+   "distance_tags": [],
+   "location": "MOHAI parking lot",
+   "org": "Club Seattle Runners Division",
+   "desc": "Saturday long run, all distances welcome. Check Heylo for collab events.",
+   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.6275,
+    -122.336
    ]
   },
   {
@@ -8624,6 +8680,34 @@
    "coords": [
     47.97934,
     -122.2127
+   ]
+  },
+  {
+   "id": "mid-morning-run-2026-10-17",
+   "name": "Mid-Morning Run",
+   "date": "2026-10-17",
+   "time": "9:00 AM",
+   "type": "Club Run",
+   "distances": "Various",
+   "distance_tags": [],
+   "location": "Green Lake, near the Waiting for the Interurban statue",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Lake Union loop at a relaxed hour. Coffee at Milstead & Co. after.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.6806,
+    -122.3287
    ]
   },
   {
@@ -9252,6 +9336,36 @@
    "coords": [
     47.2015,
     -122.573
+   ]
+  },
+  {
+   "id": "let-me-run-spring-fest-5k-2026-2026-11-14",
+   "name": "Let Me Run Spring Fest 5K 2026",
+   "date": "2026-11-14",
+   "time": "10:00 AM",
+   "type": "Race",
+   "distances": "5K",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Come celebrate the end of season 5K for the Let Me Run program. At Let Me Run we inspire boys through the power of running to be courageous enough to…",
+   "url": "https://runsignup.com/Race/WA/Seattle/LMRFallfest5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
@@ -10011,7 +10125,7 @@
    ],
    "location": "Port Orchard, WA",
    "org": "",
-   "desc": "Join us for a jolly good time and kick off the holiday season for the 2nd annual South Kitsap Rotary Santa Sleighs 5K. This festive event will have…",
+   "desc": "Join us for a jolly good time and kick off the holiday season for the 3rd annual South Kitsap Rotary Santa Sleighs 5K. This festive event will have…",
    "url": "https://runsignup.com/Race/WA/PortOrchard/SantaSleighs5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -10628,6 +10742,37 @@
    "coords": [
     47.30754,
     -122.23018
+   ]
+  },
+  {
+   "id": "resolution-run-5k-and-polar-bear-dive-2027-2027-01-01",
+   "name": "Resolution Run 5K and Polar Bear Dive - 2027",
+   "date": "2027-01-01",
+   "time": "10:30 AM",
+   "type": "Race",
+   "distances": "5K, Kids, Walk",
+   "distance_tags": [
+    "Kids",
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "The Resolution Run is a 5K run/walk and finish festival celebrating the start of the New Year, with an optional Polar Plunge into Lake Washington…",
+   "url": "https://runsignup.com/Race/WA/Seattle/ResolutionRun5KAndPolarBearDive?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$40",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
