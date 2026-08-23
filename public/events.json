@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-23T00:00:00Z",
- "count": 405,
+ "count": 406,
  "events": [
   {
    "id": "sparrks-first-annual-5k-stride-to-recovery-2026-08-23",
@@ -5202,7 +5202,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/OktoberfestRun5K10KSEATTLE?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$30–$50",
+   "price": "$30–$60",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -5235,7 +5235,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/RunForDonuts5K10KSEATTLE926?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$30–$50",
+   "price": "$30–$60",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -11921,6 +11921,38 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "run-a-muk-5k-10k-2027-08-21",
+   "name": "Run A Muk 5k/10k",
+   "date": "2027-08-21",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Kids, Walk",
+   "distance_tags": [
+    "Kids",
+    "10K",
+    "5K"
+   ],
+   "location": "Mukilteo, WA",
+   "org": "",
+   "desc": "Choose from a chip-timed 5k or 10k and enjoy majestic mountain and water views on this pretty route. Runners are likely to see one of several…",
+   "url": "https://runsignup.com/Race/WA/Mukilteo/RunAMuk?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$20–$25",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "2027-08",
+   "group_label": "August 2027",
+   "group_order": 24334,
+   "coords": [
+    47.9474,
+    -122.3037
    ]
   }
  ]
