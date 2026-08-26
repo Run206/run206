@@ -997,11 +997,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.run206.com/e/haunted-5k-10k-13-1m-26-2m-at-everett-wa-40-2026-10-03/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://www.run206.com/e/community-energy-run-2026-10-03/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -2008,6 +2003,11 @@
   </url>
   <url>
     <loc>https://www.run206.com/e/vashon-dock-to-dock-run-15-mile-run-and-relay-2027-08-08/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.run206.com/e/one-step-closer-2027-08-14/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
   </url>

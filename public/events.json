@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-26T00:00:00Z",
- "count": 413,
+ "count": 412,
  "events": [
   {
    "id": "ttac-kids-summer-fun-run-2026-08-26",
@@ -5960,39 +5960,6 @@
    "coords": [
     47.6275,
     -122.336
-   ]
-  },
-  {
-   "id": "haunted-5k-10k-13-1m-26-2m-at-everett-wa-40-2026-10-03",
-   "name": "Haunted 5K, 10K, 13.1M & 26.2M at Everett, WA (40)",
-   "date": "2026-10-03",
-   "time": "8:30 AM",
-   "type": "Race",
-   "distances": "5K, 10K, Half Marathon, Marathon",
-   "distance_tags": [
-    "Marathon",
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "location": "Everett, WA",
-   "org": "",
-   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
-   "url": "https://runsignup.com/Race/WA/Everett/Langus1052024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$30–$95",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
-   "coords": [
-    47.97934,
-    -122.2127
    ]
   },
   {
