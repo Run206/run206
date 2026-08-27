@@ -3956,19 +3956,20 @@
    ]
   },
   {
-   "id": "tacos-cervezas-5k-2026-09-20",
-   "name": "Tacos & Cervezas 5k",
+   "id": "tacos-cervezas-5k-1-mile-2026-09-20",
+   "name": "Tacos & Cervezas 5k & 1 mile",
    "date": "2026-09-20",
    "time": "12:00 PM",
    "type": "Race",
    "distances": "5K, Kids, Walk",
    "distance_tags": [
     "Kids",
-    "5K"
+    "5K",
+    "Mile"
    ],
    "location": "Woodinville, WA",
    "org": "",
-   "desc": "Celebrate Hispanic Heritage Month with us! 5K run/walk Tacos Beer Music + cultura vibes Grab your crew, rep your cultura, and let’s run, celebrate…",
+   "desc": "🌮 TACOS & CERVEZAS 5K 🍺 Run. Eat. Celebrate. Celebrate Hispanic Heritage Month with a fun, festive 5K in Woodinville! Join us Sunday, September 20…",
    "url": "https://runsignup.com/Race/WA/Woodinville/TacosCervezasK?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
