@@ -6996,36 +6996,6 @@
    ]
   },
   {
-   "id": "juanita-unified-5k-heroes-in-motion-2026-10-11",
-   "name": "Juanita Unified 5K - Heroes in motion",
-   "date": "2026-10-11",
-   "time": "9:30 AM",
-   "type": "Race",
-   "distances": "5K, Walk",
-   "distance_tags": [
-    "5K"
-   ],
-   "location": "Kirkland, WA",
-   "org": "",
-   "desc": "The Juanita Unified 5K is more than just a run (or walk!), it's a step toward a more inclusive and connected community. Juanita High School serves…",
-   "url": "https://runsignup.com/Race/WA/Kirkland/JuanitaDECAUnified5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$30",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
-   "coords": [
-    47.67654,
-    -122.20708
-   ]
-  },
-  {
    "id": "monday-morning-on-track-2026-10-12",
    "name": "Monday Morning On Track",
    "date": "2026-10-12",
@@ -7816,6 +7786,36 @@
    "coords": [
     47.6806,
     -122.3287
+   ]
+  },
+  {
+   "id": "juanita-unified-5k-heroes-in-motion-2026-10-17",
+   "name": "Juanita Unified 5K - Heroes in motion",
+   "date": "2026-10-17",
+   "time": "9:30 AM",
+   "type": "Race",
+   "distances": "5K, Walk",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Kirkland, WA",
+   "org": "",
+   "desc": "The Juanita Unified 5K is more than just a run (or walk!), it's a step toward a more inclusive and connected community. Juanita High School serves…",
+   "url": "https://runsignup.com/Race/WA/Kirkland/JuanitaDECAUnified5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.67654,
+    -122.20708
    ]
   },
   {

@@ -1172,11 +1172,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.run206.com/e/juanita-unified-5k-heroes-in-motion-2026-10-11/</loc>
-    <lastmod>2026-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://www.run206.com/e/monday-morning-on-track-2026-10-12/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -1313,6 +1308,11 @@
   </url>
   <url>
     <loc>https://www.run206.com/e/mid-morning-run-2026-10-17/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.run206.com/e/juanita-unified-5k-heroes-in-motion-2026-10-17/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
   </url>
