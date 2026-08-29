@@ -173,6 +173,47 @@ def check_html():
         fail("affiliate disclosure missing from the page")
 
 
+CONFLICT_RE = re.compile(r"^(?:<{7} |={7}$|>{7} )", re.M)
+
+
+def check_conflict_markers():
+    """Refuse to publish anything carrying git conflict markers.
+
+    public/ is generated, so a botched rebase resolves into the *output* rather
+    than the source and every other check still passes — the HTML has rows, the
+    tokens are all replaced, the counts look right. Nothing else here would
+    notice, which is exactly why this exists.
+    """
+    hit = []
+    for base, _dirs, files in os.walk(PUBLIC):
+        for name in files:
+            if not name.endswith((".html", ".json", ".ics", ".xml", ".css", ".txt")):
+                continue
+            path = os.path.join(base, name)
+            try:
+                with open(path, encoding="utf-8", errors="replace") as handle:
+                    if CONFLICT_RE.search(handle.read()):
+                        hit.append(os.path.relpath(path, PUBLIC))
+            except OSError:
+                continue
+    if hit:
+        fail("git conflict markers in {} generated file(s): {}".format(
+            len(hit), ", ".join(sorted(hit)[:4])))
+
+
+def check_json_parses():
+    """events.json is the public data artefact; if it won't parse, it's broken
+    for every consumer even when the HTML looks fine."""
+    path = os.path.join(PUBLIC, "events.json")
+    if not os.path.exists(path):
+        return
+    try:
+        with open(path) as handle:
+            json.load(handle)
+    except ValueError as exc:
+        fail("events.json is not valid JSON: {}".format(exc))
+
+
 def check_calendar():
     """A malformed .ics fails silently in calendar apps, so check the shape."""
     path = os.path.join(PUBLIC, "calendar.ics")
@@ -261,6 +302,8 @@ def main():
         platforms = (config.get("affiliate") or {}).get("platforms") or []
 
     check_affiliate(events, platforms)
+    check_conflict_markers()
+    check_json_parses()
     check_html()
     check_calendar()
     check_event_pages(events)
