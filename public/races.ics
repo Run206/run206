@@ -27,8 +27,479 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:seattle-torch-relay-2026-08-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260829T070000
+DTEND;TZID=America/Los_Angeles:20260829T090000
+SUMMARY:Seattle Torch Relay
+DESCRIPTION:5K\nFree\nSeattle Torch Relay for CMN\nhttps://runsignup.com/Ra
+ ce/WA/Redmond/SeattleTorchRelay?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsn
+ t
+LOCATION:Redmond\, WA
+URL:https://runsignup.com/Race/WA/Redmond/SeattleTorchRelay?aflt_token=wc7B
+ 47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-breast-cancer-5k-10k-13-1-seattle-2026-08-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260829T073000
+DTEND;TZID=America/Los_Angeles:20260829T093000
+SUMMARY:Run for Breast Cancer 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$65\nJoin the Fight: B
+ reast Cancer Run! Lace up and make a difference at our annual Breast Cance
+ r Run! Together\, we can raise awareness and funds to…\nhttps://runsignu
+ p.com/Race/WA/Seattle/RunToBreastCancer5K10KSEATTLE?aflt_token=wc7B47h8BqW
+ 9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunToBreastCancer5K10KSEATTLE?afl
+ t_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sloth-run-5k-10k-13-1-seattle-2026-08-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260829T073000
+DTEND;TZID=America/Los_Angeles:20260829T093000
+SUMMARY:Sloth Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$65\nThe Sloth Run –
+  Slow Is the New Fast! Sloths will get there! Tired of high-speed races an
+ d intense competition? Us too! Welcome to the Sloth Run…\nhttps://runsig
+ nup.com/Race/WA/Seattle/SlothRun5K10KSEATTLE829?aflt_token=wc7B47h8BqW9drL
+ nekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SlothRun5K10KSEATTLE829?aflt_toke
+ n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tacoma-narrows-half-marathon-10k-5k-2026-08-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260829T073000
+DTEND;TZID=America/Los_Angeles:20260829T093000
+SUMMARY:Tacoma Narrows Half Marathon / 10K / 5K
+DESCRIPTION:5K\, 10K\, Half Marathon\n$35–$80\nTake me out to the ballgam
+ e\, but first run over the bridge! Feed me a bagel and electrolytes\, I ju
+ st hope that my hamstrings aren’t tight! The Tacoma…\nhttps://runsignu
+ p.com/Race/WA/Tacoma/TacomaNarrowsHalfTCMA?aflt_token=wc7B47h8BqW9drLnekNy
+ gSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/TacomaNarrowsHalfTCMA?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lemay-5-k-2026-08-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260829T090000
+DTEND;TZID=America/Los_Angeles:20260829T110000
+SUMMARY:LeMay 5 K
+DESCRIPTION:5K\n$35\nRun at the Museum\nhttps://runsignup.com/Race/WA/Steil
+ acoom/BiggerPark?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Steilacoom\, WA
+URL:https://runsignup.com/Race/WA/Steilacoom/BiggerPark?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lemay-5k-2026-08-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260829T090000
+DTEND;TZID=America/Los_Angeles:20260829T110000
+SUMMARY:LeMay 5K
+DESCRIPTION:5K\n$35\nMuseum Run\nhttps://runsignup.com/Race/WA/Tacoma/LeMay
+ 5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/LeMay5K?aflt_token=wc7B47h8BqW9drL
+ nekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:suvidha-international-5k-redmond-seattle-2026-08-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260829T090000
+DTEND;TZID=America/Los_Angeles:20260829T110000
+SUMMARY:Suvidha International 5K Redmond\, Seattle
+DESCRIPTION:5K\n$25\nSuvidha International Foundation is organizing our ann
+ ual 5K Walk/Run in Redmond\, Seattle to support underprivileged kids. By p
+ articipating\, you’ll…\nhttps://runsignup.com/Race/WA/Redmond/SuvidhaI
+ nternationalInPersonandVirtual5KinSeattle?aflt_token=wc7B47h8BqW9drLnekNyg
+ SAMxqwhqsnt
+LOCATION:Redmond\, WA
+URL:https://runsignup.com/Race/WA/Redmond/SuvidhaInternationalInPersonandVi
+ rtual5KinSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:summer-spirit-run-2026-08-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260829T093000
+DTEND;TZID=America/Los_Angeles:20260829T113000
+SUMMARY:Summer Spirit Run
+DESCRIPTION:5K\, 10K\, 15K\, Kids\n$6–$56\nCheck out www.magnusonseries.c
+ om for all the information. Come down to Magnuson Park and enjoy summer at
+  its fullest! We have our classic 5k\, 10k…\nhttps://runsignup.com/Race/
+ WA/Seattle/SummerSpiritRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SummerSpiritRun?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:billy-mills-run-walk-for-life-2026-2026-08-30@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260830T133000
+DTEND;TZID=America/Los_Angeles:20260830T153000
+SUMMARY:Billy Mills Run/Walk for Life 2026
+DESCRIPTION:2 Mile\, 8K\, Kids\, Walk\nFree\nJoin Urban Native Education Al
+ liance for our Billy Mills Run/Walk for Life\, an annual suicide awareness
+  and wellness community-wide event. We will…\nhttps://runsignup.com/Race
+ /WA/Seattle/BillyMillsRunandWalkForLife?aflt_token=wc7B47h8BqW9drLnekNygSA
+ Mxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/BillyMillsRunandWalkForLife?aflt_
+ token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-bonney-lake-triathlon-2026-08-30@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260830T070000
+DTEND;TZID=America/Los_Angeles:20260830T090000
+SUMMARY:2026 Bonney Lake Triathlon
+DESCRIPTION:Relay\n$69–$119\nBonney Lake is back! Bonney Lake Tri Joins t
+ he RTB Summer Series! The 2026 season just got a whole lot bigger. Raise t
+ he Bar is excited to announce…\nhttps://runsignup.com/Race/WA/BonneyLake
+ /BonneyLakeTri?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Bonney Lake\, WA
+URL:https://runsignup.com/Race/WA/BonneyLake/BonneyLakeTri?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:iron-horse-half-marathon-2026-08-30@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260830T070000
+DTEND;TZID=America/Los_Angeles:20260830T090000
+SUMMARY:Iron Horse Half Marathon
+DESCRIPTION:Half Marathon\n$52–$82\nIMPORTANT FOR 2026 : Damage to the Ir
+ on Horse trail from the December floods mean that no events are being held
+  there in 2026\, including the Iron…\nhttps://runsignup.com/Race/WA/Nort
+ hBend/IronHorseHalfMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:North Bend\, WA
+URL:https://runsignup.com/Race/WA/NorthBend/IronHorseHalfMarathon?aflt_toke
+ n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:community-corn-roast-5k-family-fun-run-walk-roll-2026-08-30@www.run206.
+ com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260830T090000
+DTEND;TZID=America/Los_Angeles:20260830T110000
+SUMMARY:Community Corn Roast & 5K Family Fun Run/Walk/Roll
+DESCRIPTION:5K\, Walk\nFree\nThis is our 5th Annual FREE Community Corn Roa
+ st and 5K Family Fun Run/Walk. This event is open to all....whether you ar
+ e running\, walking\, using a…\nhttps://runsignup.com/Race/WA/Tacoma/Com
+ munityCornRoast5KFamilyFunRunWalkRoll26?aflt_token=wc7B47h8BqW9drLnekNygSA
+ Mxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/CommunityCornRoast5KFamilyFunRunWa
+ lkRoll26?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:chambers-bay-2026-08-31@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260831T083000
+DTEND;TZID=America/Los_Angeles:20260831T103000
+SUMMARY:Chambers Bay
+DESCRIPTION:Participant Registration\n$1\,000\nEvent Date : Monday\, August
+  31\, 2026 Registration Fee : $1\,000 per player Registration Opens: 7:30 
+ AM Shotgun Start Time : 9:00 AM As a friendly…\nhttps://runsignup.com/Ra
+ ce/WA/UniversityPlace/ChambersBay?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhq
+ snt
+LOCATION:University Place\, WA
+URL:https://runsignup.com/Race/WA/UniversityPlace/ChambersBay?aflt_token=wc
+ 7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:medal-madness-5k-10k-13-1m-26-2m-at-everett-wa-36-2026-09-05@www.run206
+ .com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260905T083000
+DTEND;TZID=America/Los_Angeles:20260905T103000
+SUMMARY:Medal Madness 5K\, 10K\, 13.1M & 26.2M at Everett\, WA (36)
+DESCRIPTION:5K\, 10K\, Half Marathon\, Marathon\n$30–$95\nUS Road Running
+  Races US Road Running races are built for runners and walkers who like fr
+ iendly\, low-pressure race days with just enough competition…\nhttps://r
+ unsignup.com/Race/WA/Everett/Langus972024?aflt_token=wc7B47h8BqW9drLnekNyg
+ SAMxqwhqsnt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/Langus972024?aflt_token=wc7B47h8B
+ qW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:redmond-harvest-half-marathon-2026-09-07@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260907T083000
+DTEND;TZID=America/Los_Angeles:20260907T103000
+SUMMARY:Redmond Harvest Half Marathon
+DESCRIPTION:Half Marathon\n$59\nHarvest the fruits of your training at the 
+ Redmond Harvest Half Marathon\, to be held Labor Day Monday (September 7\,
+  2026) ! Starting from the Redmond…\nhttps://runsignup.com/Race/WA/Redmo
+ nd/RedmondHarvestHalfMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Redmond\, WA
+URL:https://runsignup.com/Race/WA/Redmond/RedmondHarvestHalfMarathon?aflt_t
+ oken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-the-buns-a-ridiculously-short-0-5k-for-a-meaningful-cause-2026-
+ 09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T110000
+DTEND;TZID=America/Los_Angeles:20260912T130000
+SUMMARY:Run for the Buns: A ridiculously short 0.5K for a meaningful cause
+DESCRIPTION:5K\n$20\nJoin us on Saturday\, Sept 12 for Run for the Buns \, 
+ a wildly unserious 0.5K fun run & fundraiser with a very meaningful missio
+ n. I am training for…\nhttps://runsignup.com/Race/WA/Snoqualmie/RunForTh
+ eBuns?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Snoqualmie\, WA
+URL:https://runsignup.com/Race/WA/Snoqualmie/RunForTheBuns?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:beat-the-blerch-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T120000
+DTEND;TZID=America/Los_Angeles:20260912T140000
+SUMMARY:Beat the Blerch
+DESCRIPTION:5K\, 10K\, Half Marathon\, Marathon\n$40–$120\nBeat The Blerc
+ h is a 5K\, 10K\, half\, and full marathon created by The Oatmeal and insp
+ ired by this comic about running . Our Carnation\, Washington…\nhttps://
+ runsignup.com/Race/WA/Carnation/BeatTheBlerch?aflt_token=wc7B47h8BqW9drLne
+ kNygSAMxqwhqsnt
+LOCATION:Carnation\, WA
+URL:https://runsignup.com/Race/WA/Carnation/BeatTheBlerch?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9-11-heroes-run-tacoma-washington-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T130000
+DTEND;TZID=America/Los_Angeles:20260912T150000
+SUMMARY:9/11 Heroes Run - Tacoma\, Washington
+DESCRIPTION:5K\, Ruck\n$36–$41\nThe 9/11 Heroes Run 5K welcomes runners\,
+  ruckers\, and walkers of all ages and fitness levels to honor the heroes 
+ of 9/11 and those who've served our…\nhttps://runsignup.com/Race/WA/Taco
+ ma/911HeroesRunTacomaWA?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/911HeroesRunTacomaWA?aflt_token=wc
+ 7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:national-chocolate-day-run-for-chocolates-5k-10k-13-1-seattle-2026-09-1
+ 2@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T073000
+DTEND;TZID=America/Los_Angeles:20260912T093000
+SUMMARY:National Chocolate Day: Run for Chocolates 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\nReady\, Set\, Cho
+ colate! Join Us for the Sweetest Run of the Year – The Chocolate Run! La
+ ce up your running shoes and bring your sweet tooth—because…\nhttps://
+ runsignup.com/Race/WA/Seattle/NationalChocolateDayRunForChocolates5K10KSEA
+ TTLE?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/NationalChocolateDayRunForChocola
+ tes5K10KSEATTLE?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-mental-health-5k-10k-13-1-seattle-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T073000
+DTEND;TZID=America/Los_Angeles:20260912T093000
+SUMMARY:Run for Mental Health 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\nJoin the Movement
+  for Mental Health! Introducing the "Run for Mental Health" - an empowerin
+ g journey towards well-being! Run with purpose\, run with…\nhttps://runs
+ ignup.com/Race/WA/Seattle/RunForMentalHealth5K10KSEATTLE912?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForMentalHealth5K10KSEATTLE912
+ ?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktoberfest-fly-away-10k-run-5k-run-walk-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T080000
+DTEND;TZID=America/Los_Angeles:20260912T100000
+SUMMARY:Oktoberfest Fly Away 10K Run & 5K Run/Walk
+DESCRIPTION:5K\, 10K\, Walk\n$40–$50\nRegister Now for the 7th Annual Fly
+  Away Run Join us in 2026 for the 7th Annual Fly Away Run\, a family-frien
+ dly community event featuring both a 5K…\nhttps://runsignup.com/Race/WA/
+ Kenmore/OktoberfestFlyAway5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Kenmore\, WA
+URL:https://runsignup.com/Race/WA/Kenmore/OktoberfestFlyAway5K?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:medal-madness-5k-10k-13-1m-at-everett-wa-37-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T083000
+DTEND;TZID=America/Los_Angeles:20260912T103000
+SUMMARY:Medal Madness 5K\, 10K\, & 13.1M at Everett\, WA (37)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/MedalMadness5K10KMAtEverettWA37?aflt_token=wc7B47h8BqW9d
+ rLnekNygSAMxqwhqsnt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/MedalMadness5K10KMAtEverettWA37?a
+ flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:25th-remembrance-of-9-11-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T090000
+DTEND;TZID=America/Los_Angeles:20260912T110000
+SUMMARY:25th Remembrance of 9/11
+DESCRIPTION:5K\, 11K\n$35–$40\n25th Remembrance of 9/11 5K and 9.11K Hono
+ r those who gave their lives in the Towers and on the Planes on that dark 
+ day in our Nation's history. We…\nhttps://runsignup.com/Race/WA/Puyallup
+ /ThRemembranceOf?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/ThRemembranceOf?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9-11-heroes-run-snohomish-washington-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T090000
+DTEND;TZID=America/Los_Angeles:20260912T110000
+SUMMARY:9/11 Heroes Run - Snohomish\, Washington
+DESCRIPTION:5K\, Ruck\n$36–$41\nThe 9/11 Heroes Run 5K welcomes runners\,
+  ruckers\, and walkers of all ages and fitness levels to honor the heroes 
+ of 9/11 and those who've served our…\nhttps://runsignup.com/Race/WA/Snoh
+ omish/911HeroesRunSnohomishWA?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Snohomish\, WA
+URL:https://runsignup.com/Race/WA/Snohomish/911HeroesRunSnohomishWA?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-flag-forward-dupont-jblm-wa-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T090000
+DTEND;TZID=America/Los_Angeles:20260912T110000
+SUMMARY:One Flag Forward - DuPont-JBLM\, WA
+DESCRIPTION:Walk\nFree\nFrom September 12 -16\, 2026\, while one flag makes
+  its way from Ground Zero to the Global War on Terrorism Memorial\, commun
+ ities across the country…\nhttps://runsignup.com/Race/WA/DuPont/OneFlagF
+ orwardDuPontJBLMWA?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:DuPont\, WA
+URL:https://runsignup.com/Race/WA/DuPont/OneFlagForwardDuPontJBLMWA?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:recovery-5k-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T090000
+DTEND;TZID=America/Los_Angeles:20260912T110000
+SUMMARY:Recovery 5k
+DESCRIPTION:5K\n$30\nCelebrating National Recovery Month every September. J
+ oin us for our 4th Annual Recovery 5K - a fun run\, walk\, and hike throug
+ h the beautiful trails…\nhttps://runsignup.com/Race/WA/Bremerton/SRCReco
+ very5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Bremerton\, WA
+URL:https://runsignup.com/Race/WA/Bremerton/SRCRecovery5k?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:noah-s-5k-duck-dash-run-walk-2026-09-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260912T093000
+DTEND;TZID=America/Los_Angeles:20260912T113000
+SUMMARY:Noah's 5K Duck Dash Run/Walk
+DESCRIPTION:5K\, Kids\, Walk\n$25–$47\nJoin us for the 2nd Annual Noah’
+ s 5K Duck Dash—a family-friendly run/walk honoring the life and legacy o
+ f Noah Lee. More than a race\, this is a day…\nhttps://runsignup.com/Rac
+ e/WA/Auburn/Noahs5KDuckDashWalk?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsn
+ t
+LOCATION:Auburn\, WA
+URL:https://runsignup.com/Race/WA/Auburn/Noahs5KDuckDashWalk?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cascade-express-marathon-half-2026-09-12@www.run206.com
-DTSTAMP:20260829T213118Z
+DTSTAMP:20260829T213440Z
 DTSTART;TZID=America/Los_Angeles:20260912T090000
 DTEND;TZID=America/Los_Angeles:20260912T110000
 SUMMARY:Cascade Express Marathon & Half
@@ -42,8 +513,237 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:move-with-madd-seattle-5k-2026-09-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260913T100000
+DTEND;TZID=America/Los_Angeles:20260913T120000
+SUMMARY:Move With MADD Seattle 5K
+DESCRIPTION:5K\, Walk\n$15–$55\nTogether We Can End Impaired Driving For 
+ Good. Move With MADD Seattle is Mothers Against Drunk Driving (MADD)'s sig
+ nature fundraising event to help…\nhttps://runsignup.com/Race/WA/Seattle
+ /MoveWithMADDSeattle5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/MoveWithMADDSeattle5K?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:seattle-sounders-fc-rave-green-run-presented-by-providence-swedish-2026
+ -09-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260913T100000
+DTEND;TZID=America/Los_Angeles:20260913T120000
+SUMMARY:Seattle Sounders FC Rave Green Run presented by Providence Swedish
+DESCRIPTION:5K\, 6 Mile\, Kids\, Walk\n$20–$35\nJoin your fellow Sounders
+  FC fans at the 2026 Seattle Sounders FC Rave Green Run presented by Provi
+ dence Swedish. This flat\, fast and family-friendly…\nhttps://runsignup.
+ com/Race/WA/Renton/SeattleSoundersFCRaveGreenRun?aflt_token=wc7B47h8BqW9dr
+ LnekNygSAMxqwhqsnt
+LOCATION:Renton\, WA
+URL:https://runsignup.com/Race/WA/Renton/SeattleSoundersFCRaveGreenRun?aflt
+ _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:healthy-kids-running-series-fall-2026-kitsap-county-wa-2026-09-13@www.r
+ un206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260913T140000
+DTEND;TZID=America/Los_Angeles:20260913T160000
+SUMMARY:Healthy Kids Running Series Fall 2026 - Kitsap County\, WA
+DESCRIPTION:1 Mile\, 2 Mile\, 4 Mile\, Kids\n$15–$45\nWho We Are: Healthy
+  Kids Running Series is a five (5) week running program in the spring and 
+ fall for kids Pre-K through 8th grade. Each HKRS Series…\nhttps://runsig
+ nup.com/Race/WA/Bremerton/HealthyKidsRunningSeriesKitsapCountyWA?aflt_toke
+ n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Bremerton\, WA
+URL:https://runsignup.com/Race/WA/Bremerton/HealthyKidsRunningSeriesKitsapC
+ ountyWA?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-flag-forward-tacoma-wa-2026-09-16@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260916T180000
+DTEND;TZID=America/Los_Angeles:20260916T200000
+SUMMARY:One Flag Forward - Tacoma\, WA
+DESCRIPTION:Walk\nFree\nFrom September 12 -16\, 2026\, while one flag makes
+  its way from Ground Zero to the Global War on Terrorism Memorial\, commun
+ ities across the country…\nhttps://runsignup.com/Race/WA/Tacoma/OneFlagF
+ orwardTacomaWA?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/OneFlagForwardTacomaWA?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:test-climb-2026-09-16@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260916T080000
+DTEND;TZID=America/Los_Angeles:20260916T100000
+SUMMARY:Test Climb
+DESCRIPTION:Test Climb\nFree\nSeptember 16 - test climb 7:45am - Check In 8
+ :00am - Climb\nhttps://runsignup.com/Race/WA/Seattle/TestClimb?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/TestClimb?aflt_token=wc7B47h8BqW9
+ drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cirque-series-crystal-mountain-wa-2026-09-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260919T100000
+DTEND;TZID=America/Los_Angeles:20260919T120000
+SUMMARY:Cirque Series - Crystal Mountain\, WA
+DESCRIPTION:Expert Division\, Pro Division\n$99\nJoin us at Cirque Series a
+ t Crystal Mountain. 7.9 miles featuring 2\,614' ft vert. Prizes Prizes wil
+ l be distributed at the end of each race and for…\nhttps://runsignup.com
+ /Race/WA/CrystalMountain/wash?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Crystal Mountain\, WA
+URL:https://runsignup.com/Race/WA/CrystalMountain/wash?aflt_token=wc7B47h8B
+ qW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:there-s-no-place-like-homeward-pet-5k-walk-run-2026-09-19@www.run206.co
+ m
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260919T103000
+DTEND;TZID=America/Los_Angeles:20260919T123000
+SUMMARY:There's No Place Like Homeward Pet - 5K Walk/Run
+DESCRIPTION:5K\, Walk\n$35\nHomeward Pet Adoption Center would like to invi
+ te you to attend our 4th Annual 5k Walk/Run Benefitting the Animals! This 
+ family/pet friendly 5k is…\nhttps://runsignup.com/Race/WA/Woodinville/Ho
+ mewardPets5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Woodinville\, WA
+URL:https://runsignup.com/Race/WA/Woodinville/HomewardPets5K?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-mud-mountain-dam-marathon-half-marathon-2026-09-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260919T070000
+DTEND;TZID=America/Los_Angeles:20260919T090000
+SUMMARY:Fall - Mud Mountain Dam Marathon & Half Marathon
+DESCRIPTION:Half Marathon\, Marathon\n$70–$80\nSeptember 19\, 2026 – Th
+ e Full Marathon Returns! We’re excited to announce that the Full Maratho
+ n is coming back in 2026\, and will also be part of…\nhttps://runsignup.
+ com/Race/WA/Enumclaw/FallMudMountainDamMarathonHalfMarathon?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Enumclaw\, WA
+URL:https://runsignup.com/Race/WA/Enumclaw/FallMudMountainDamMarathonHalfMa
+ rathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the-brooks-orca-half-marathon-presented-by-rei-2026-09-19@www.run206.co
+ m
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260919T072000
+DTEND;TZID=America/Los_Angeles:20260919T092000
+SUMMARY:The Brooks Orca Half Marathon presented by REI
+DESCRIPTION:8 Mile\, Half Marathon\n$60–$138\nThe Brooks Orca Half is a h
+ alf marathon along the shores of West Seattle\, starting at Lincoln Park a
+ nd finishing at Don Armeni Boat Launch. The half…\nhttps://runsignup.com
+ /Race/WA/Seattle/OrcaHalf?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/OrcaHalf?aflt_token=wc7B47h8BqW9d
+ rLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:medal-madness-5k-10k-13-1m-at-everett-wa-38-2026-09-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260919T083000
+DTEND;TZID=America/Los_Angeles:20260919T103000
+SUMMARY:Medal Madness 5K\, 10K & 13.1M at Everett\, WA (38)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/Lowell9212024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsn
+ t
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/Lowell9212024?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:step-by-step-s-race-2026-09-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260919T083000
+DTEND;TZID=America/Los_Angeles:20260919T103000
+SUMMARY:Step By Step's Race
+DESCRIPTION:5K\, 10K\, Kids\, Walk\n$10–$35\nJoin us for the 16th Annual 
+ Step By Step race! Embrace the distance over 10K\, walk/run our 5K family-
+ friendly race\, or have your littles do the Kids…\nhttps://runsignup.com
+ /Race/WA/Puyallup/littlestepsbigdreams?aflt_token=wc7B47h8BqW9drLnekNygSAM
+ xqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/littlestepsbigdreams?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dragonslayer-fantasy-dash-and-strut-2026-09-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260919T090000
+DTEND;TZID=America/Los_Angeles:20260919T110000
+SUMMARY:Dragonslayer Fantasy Dash and Strut
+DESCRIPTION:5K\, Kids\n$30\nStep into your favorite character’s shoes—w
+ hether you’re a superhero\, anti-hero\, villain\, knight\, princess\, or
+  even Sasquatch—and join us for the…\nhttps://runsignup.com/Race/WA/Se
+ attle/Dragonslayer26?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/Dragonslayer26?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:last-splash-of-summer-2026-09-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260919T090000
+DTEND;TZID=America/Los_Angeles:20260919T110000
+SUMMARY:Last Splash of Summer
+DESCRIPTION:1 Mile\, 2 Mile\n$35–$65\nLast Splash of Summer is a family e
+ vent! We have events for adults and kids. HIGHLIGHTS: 500-yard races for a
+ dults and kids\, registration fee $35.00…\nhttps://runsignup.com/Race/WA
+ /Kent/LastSplashOfSummer?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Kent\, WA
+URL:https://runsignup.com/Race/WA/Kent/LastSplashOfSummer?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ultra-fest-2026-09-19@www.run206.com
-DTSTAMP:20260829T213118Z
+DTSTAMP:20260829T213440Z
 DTSTART;TZID=America/Los_Angeles:20260919T090000
 DTEND;TZID=America/Los_Angeles:20260919T110000
 SUMMARY:Ultra Fest
@@ -57,8 +757,1005 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:run-of-hope-seattle-2026-09-20@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260920T100000
+DTEND;TZID=America/Los_Angeles:20260920T120000
+SUMMARY:Run of Hope Seattle
+DESCRIPTION:3K\, 5K\, Kids\, Walk\n$20–$30\nThe 18th annual Run of Hope S
+ eattle offers a 5K Run\, 3K W alk\, Kids Dash (for kids 8 and under) and\,
+  if you can't make it in person\, a Virtual 5K all…\nhttps://runsignup.c
+ om/Race/WA/Seattle/RunofHopeSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqw
+ hqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunofHopeSeattle?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tacos-cervezas-5k-1-mile-2026-09-20@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260920T120000
+DTEND;TZID=America/Los_Angeles:20260920T140000
+SUMMARY:Tacos & Cervezas 5k & 1 mile
+DESCRIPTION:5K\, Kids\, Walk\n$38–$40\nTACOS & CERVEZAS 5K Run. Eat. Cele
+ brate. Celebrate Hispanic Heritage Month with a fun\, festive 5K in Woodin
+ ville! Join us Sunday\, September 20\, 2026…\nhttps://runsignup.com/Race
+ /WA/Woodinville/TacosCervezasK?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Woodinville\, WA
+URL:https://runsignup.com/Race/WA/Woodinville/TacosCervezasK?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:quilcene-oyster-races-2026-09-20@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260920T090000
+DTEND;TZID=America/Los_Angeles:20260920T110000
+SUMMARY:Quilcene Oyster Races
+DESCRIPTION:5K\, 10K\, Marathon\, Kids\n$25–$55\nCome and run or walk our
+  Half Marathon\, 10K\, and 5K races in peaceful Quilcene on the beautiful 
+ Olympic Peninsula! The surroundings include…\nhttps://runsignup.com/Race
+ /WA/Quilcene/QuilceneOysterRaces?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqs
+ nt
+LOCATION:Quilcene\, WA
+URL:https://runsignup.com/Race/WA/Quilcene/QuilceneOysterRaces?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:puesta-del-sol-walkathon-2026-09-25@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260925T150000
+DTEND;TZID=America/Los_Angeles:20260925T170000
+SUMMARY:Puesta del Sol Walkathon
+DESCRIPTION:Walkathon\nFundraising walkathon!\nhttps://runsignup.com/Race/W
+ A/Bellevue/PuestadelSolWalkathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqs
+ nt
+LOCATION:Bellevue\, WA
+URL:https://runsignup.com/Race/WA/Bellevue/PuestadelSolWalkathon?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktoberfest-run-5k-10k-13-1-seattle-2026-09-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260926T073000
+DTEND;TZID=America/Los_Angeles:20260926T093000
+SUMMARY:Oktoberfest Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\nLace up\, get fes
+ tive\, and earn your Oktoberfest celebration the best way possible — by 
+ running for it! Our delightful 'Oktoberfest Fun Run' is back…\nhttps://r
+ unsignup.com/Race/WA/Seattle/OktoberfestRun5K10KSEATTLE?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/OktoberfestRun5K10KSEATTLE?aflt_t
+ oken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-donuts-5k-10k-13-1-seattle-2026-09-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260926T073000
+DTEND;TZID=America/Los_Angeles:20260926T093000
+SUMMARY:Run for Donuts 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\nJoin the Donut Ru
+ n! Get ready for a sweet race! Gather your friends and lace up for our Don
+ ut Run\, where you’ll run a beautiful course and be greeted…\nhttps://
+ runsignup.com/Race/WA/Seattle/RunForDonuts5K10KSEATTLE926?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForDonuts5K10KSEATTLE926?aflt_
+ token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pacific-runderland-5k-kids-run-2026-09-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260926T090000
+DTEND;TZID=America/Los_Angeles:20260926T110000
+SUMMARY:Pacific Runderland 5k & Kids Run
+DESCRIPTION:1K\, 5K\, Kids\n$10–$35\nRun\, walk or skip for Washington’
+ s national parks! The Pacific Runderland 5K & Kids 1k Run is a charity eve
+ nt hosted in partnership with Washington’s…\nhttps://runsignup.com/Rac
+ e/WA/Auburn/PacificRunderland?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Auburn\, WA
+URL:https://runsignup.com/Race/WA/Auburn/PacificRunderland?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:return-of-the-salmon-celebration-salmon-run-2026-09-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260926T090000
+DTEND;TZID=America/Los_Angeles:20260926T110000
+SUMMARY:Return of the Salmon Celebration - Salmon Run
+DESCRIPTION:1 Mile\, 5K\, Walk\n$20\nJoin us for the Celebration of the cul
+ tural heritage of the Skykomish River Valley\, Honoring the legacy of Chie
+ f T'seul-Ted\, Protecting our Salmon…\nhttps://runsignup.com/Race/WA/Sul
+ tan/ReturnoftheSalmonCelebrationSalmonRun?aflt_token=wc7B47h8BqW9drLnekNyg
+ SAMxqwhqsnt
+LOCATION:Sultan\, WA
+URL:https://runsignup.com/Race/WA/Sultan/ReturnoftheSalmonCelebrationSalmon
+ Run?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:second-annual-beat-beethoven-5k-2026-09-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260926T090000
+DTEND;TZID=America/Los_Angeles:20260926T110000
+SUMMARY:Second Annual Beat Beethoven 5k
+DESCRIPTION:5K\n$35\nReady to run it back? Symphony Tacoma invites you to o
+ ur Second Annual Beat Beethoven 5K at Wright Park in Tacoma Washington. Th
+ is a one-of-a-kind…\nhttps://runsignup.com/Race/WA/Tacoma/BeatBeethoven5
+ krun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/BeatBeethoven5krun?aflt_token=wc7B
+ 47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-or-wine-5k-10k-september-2026-2026-09-27@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260927T120000
+DTEND;TZID=America/Los_Angeles:20260927T140000
+SUMMARY:Run or Wine 5k & 10k - September 2026
+DESCRIPTION:5K\, 10K\, Walk\n$38–$61\nWhether you’re racing for a perso
+ nal best or strolling for the wine\, this event is for you! Join us for th
+ e Run or Wine 5K & 10K\, a fun and scenic…\nhttps://runsignup.com/Race/W
+ A/Woodinville/RunorWine5KSeriesSeptember2024?aflt_token=wc7B47h8BqW9drLnek
+ NygSAMxqwhqsnt
+LOCATION:Woodinville\, WA
+URL:https://runsignup.com/Race/WA/Woodinville/RunorWine5KSeriesSeptember202
+ 4?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:puyallup-valley-half-marathon-and-10k-2026-09-27@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260927T070000
+DTEND;TZID=America/Los_Angeles:20260927T090000
+SUMMARY:Puyallup Valley Half Marathon and 10K
+DESCRIPTION:10K\, Half Marathon\n$40–$50\nJoin us in celebrating the rich
+  history of the Puyallup Valley with a scenic run along the river! This is
+  a fast and relatively flat course\, perfect…\nhttps://runsignup.com/Rac
+ e/WA/Puyallup/PuyallupValley?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/PuyallupValley?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:base-2-space-2026-09-27@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260927T073000
+DTEND;TZID=America/Los_Angeles:20260927T093000
+SUMMARY:Base 2 Space
+DESCRIPTION:Kids\n$55–$76\nRegister early! Space is limited to the first 
+ 4\,000 climbers. Adult: $76 registration before June 1 ($90 after June 1) 
+ | $200 minimum fundraising…\nhttps://runsignup.com/Race/WA/Seattle/base2
+ spaceseattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/base2spaceseattle?aflt_token=wc7B
+ 47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-with-the-fishes-annual-5k-10k-kids-fun-run-2026-09-27@www.run206.co
+ m
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20260927T093000
+DTEND;TZID=America/Los_Angeles:20260927T113000
+SUMMARY:Run with the Fishes Annual 5K\, 10K\, & Kids' Fun Run
+DESCRIPTION:1K\, 5K\, 10K\, Kids\n$20–$40\nJoin us as we bring back a che
+ rished Issaquah tradition! The Issaquah Rotary Club’s Run With the Fishe
+ s is back—featuring a 5K\, 10K\, and a 1K Kids’…\nhttps://runsignup.
+ com/Race/WA/Issaquah/RunWithTheFishes5K10K?aflt_token=wc7B47h8BqW9drLnekNy
+ gSAMxqwhqsnt
+LOCATION:Issaquah\, WA
+URL:https://runsignup.com/Race/WA/Issaquah/RunWithTheFishes5K10K?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:north-bend-trail-fest-30k-10k-2026-10-03@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261003T080000
+DTEND;TZID=America/Los_Angeles:20261003T100000
+SUMMARY:North Bend Trail Fest 30k - 10k
+DESCRIPTION:10K\, 30K\nGet ready for the ultimate test of strength and endu
+ rance at the North Bend Trail Fest. This thrilling event features two incr
+ edible mountain running…\nhttps://runsignup.com/Race/WA/NorthBend/NorthB
+ endTrailFestRaces?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:North Bend\, WA
+URL:https://runsignup.com/Race/WA/NorthBend/NorthBendTrailFestRaces?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-the-gnomes-half-marathon-5k-2026-10-03@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261003T080000
+DTEND;TZID=America/Los_Angeles:20261003T100000
+SUMMARY:Run for the Gnomes Half Marathon & 5K
+DESCRIPTION:5K\, Half Marathon\n$32–$80\nExperience the beauty of Maple V
+ alley with a race designed for speed and serenity. This fast\, flat\, and 
+ scenic course offers runners the perfect…\nhttps://runsignup.com/Race/WA
+ /MapleValley/RunForTheGnomesHalfMarathonAnd10K?aflt_token=wc7B47h8BqW9drLn
+ ekNygSAMxqwhqsnt
+LOCATION:Maple Valley\, WA
+URL:https://runsignup.com/Race/WA/MapleValley/RunForTheGnomesHalfMarathonAn
+ d10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:community-energy-run-2026-10-03@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261003T090000
+DTEND;TZID=America/Los_Angeles:20261003T110000
+SUMMARY:Community Energy Run
+DESCRIPTION:Community Energy Run\n$35\nThe Community Energy Run is a 5K eve
+ nt benefiting the Community Energy Fund (CEF) \, which provides assistance
+  to Snohomish County and Camano Island…\nhttps://runsignup.com/Race/WA/L
+ akeStevens/CommunityEnergyRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Lake Stevens\, WA
+URL:https://runsignup.com/Race/WA/LakeStevens/CommunityEnergyRun?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monster-mad-dash-5k-2026-10-03@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261003T090000
+DTEND;TZID=America/Los_Angeles:20261003T110000
+SUMMARY:Monster Mad Dash 5K
+DESCRIPTION:5K\n$35\nJoin the fun at the 18th Annual Monster Mad Dash 5K on
+  October 3\, 2026! This fun-filled 5K is more than just a race\, it's a co
+ mmunity celebration…\nhttps://runsignup.com/Race/WA/MountlakeTerrace/Mon
+ sterMadDash5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Mountlake Terrace\, WA
+URL:https://runsignup.com/Race/WA/MountlakeTerrace/MonsterMadDash5K?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:seattle-kraken-5k-2026-10-03@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261003T093000
+DTEND;TZID=America/Los_Angeles:20261003T113000
+SUMMARY:Seattle Kraken 5K
+DESCRIPTION:5K\, Kids\n$30–$45\nThe Seattle Kraken 5K presented by Virgin
+ ia Mason Franciscan Health (VMFH) will take place Saturday October 3rd at 
+ Green Lake Park in Seattle…\nhttps://runsignup.com/Race/WA/Seattle/Seatt
+ leKraken5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SeattleKraken5K?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:grit-city-backyard-ultra-2026-10-04@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261004T080000
+DTEND;TZID=America/Los_Angeles:20261004T100000
+SUMMARY:Grit City Backyard Ultra
+DESCRIPTION:GCBYU\n$40\nFifteen hours. Hourly loops through downtown Tacoma
+ . See how far you get. The Grit City Backyard Ultra is Tacoma’s take on 
+ the backyard ultra format…\nhttps://runsignup.com/Race/WA/Tacoma/GritCit
+ yBackyardUltra?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/GritCityBackyardUltra?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:poulsbo-half-marathon-10k-2026-10-04@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261004T080000
+DTEND;TZID=America/Los_Angeles:20261004T100000
+SUMMARY:Poulsbo Half Marathon & 10k
+DESCRIPTION:10K\, Half Marathon\n$38–$65\nThe Poulsbo Half Marathon/10k h
+ as a beautiful new loop course that takes you through "Little Norway". It 
+ will feature chip timing\, a participant's…\nhttps://runsignup.com/Race/
+ WA/Poulsbo/ThePoulsboHalf10k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Poulsbo\, WA
+URL:https://runsignup.com/Race/WA/Poulsbo/ThePoulsboHalf10k?aflt_token=wc7B
+ 47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:baby-steps-5k-2026-2026-10-04@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261004T090000
+DTEND;TZID=America/Los_Angeles:20261004T110000
+SUMMARY:Baby Steps 5K 2026
+DESCRIPTION:5K\n$10–$25\nPlease join us for our EIGHTH annual Baby Steps 
+ Foundation 5K to support those affected by pregnancy and infant loss. It's
+  so crazy to see this crazy…\nhttps://runsignup.com/Race/WA/Auburn/BabyS
+ teps5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Auburn\, WA
+URL:https://runsignup.com/Race/WA/Auburn/BabySteps5K?aflt_token=wc7B47h8BqW
+ 9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:emerald-city-open-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T103000
+DTEND;TZID=America/Los_Angeles:20261010T123000
+SUMMARY:Emerald City Open
+DESCRIPTION:2K\, 6K\, 8K\n$5–$20\nEmerald City Open was started by the UW
+  in 1989. In the mid-1990s\, with the advent of the Sundodger Classic\, Se
+ attle University was given the meet to…\nhttps://runsignup.com/Race/WA/S
+ eattle/EmeraldCityOpen?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/EmeraldCityOpen?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:night-nation-run-seattle-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T190000
+DTEND;TZID=America/Los_Angeles:20261010T210000
+SUMMARY:NIGHT NATION RUN - SEATTLE
+DESCRIPTION:STANDARD REGISTRATION\, PREMIUM REGISTRATION\n$39.99–$59.99\n
+ The Night Nation Run is the World’s first Running Music Festival the ult
+ imate blend of a Music Festival and a Fun Run. Experience a music filled
+ …\nhttps://runsignup.com/Race/WA/Seattle/NightNationRunSeattle?aflt_toke
+ n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/NightNationRunSeattle?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:coffee-lovers-run-5k-10k-13-1-seattle-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T073000
+DTEND;TZID=America/Los_Angeles:20261010T093000
+SUMMARY:Coffee Lovers Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nLove running? Lov
+ e coffee? Why not both? Join us for the Coffee Lovers Run\, where every mi
+ le leads you closer to great coffee\, good vibes\, and even…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1010?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1010?a
+ flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cookie-run-5k-10k-13-1-seattle-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T073000
+DTEND;TZID=America/Los_Angeles:20261010T093000
+SUMMARY:Cookie Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nGet Ready for the
+  Cookie Run! Join us for the Cookie Run It's not just a race\, it's an adv
+ enture filled with delicious cookies for those who run with…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/BagelRun5K10KSEATTLE1010?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/BagelRun5K10KSEATTLE1010?aflt_tok
+ en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:defiance-50k-30k-15k-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T080000
+DTEND;TZID=America/Los_Angeles:20261010T100000
+SUMMARY:Defiance 50K / 30K / 15K
+DESCRIPTION:15K\, 30K\, 50K\, Relay\n$57.50–$172.50\nThe Defiance 50K\, 3
+ 0K\, 15K & 3-Person 50K Relay is a scenic race that takes runners through 
+ the beautiful trails of Point Defiance \, with over 700…\nhttps://runsig
+ nup.com/Race/WA/Tacoma/Defiance50K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwh
+ qsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/Defiance50K?aflt_token=wc7B47h8BqW
+ 9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:haunted-5k-10k-13-1m-at-everett-wa-41-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T083000
+DTEND;TZID=America/Los_Angeles:20261010T103000
+SUMMARY:Haunted 5K\, 10K\, & 13.1M at Everett WA (41)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/McCollum41?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/McCollum41?aflt_token=wc7B47h8BqW
+ 9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5th-annual-fall-classic-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T090000
+DTEND;TZID=America/Los_Angeles:20261010T110000
+SUMMARY:5th Annual Fall Classic
+DESCRIPTION:5th Annual Fall Classic\n$15\nRegistrations are also accepted o
+ n the day of the event for an additional charge of $5 7:30 AM - Registrati
+ on + Bib Pick Up Opens 8:50 AM …\nhttps://runsignup.com/Race/WA/Tacoma/F
+ allClassicInvitational?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/FallClassicInvitational?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:howl-o-ween-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T090000
+DTEND;TZID=America/Los_Angeles:20261010T110000
+SUMMARY:Howl - O - Ween
+DESCRIPTION:Small Dog (Under 30 pounds)\, Medium Dog (30 -60 pounds)\n$20\n
+ Get your pups ready for a tail-waggin good time at the Howl-O-Ween Dog Run
+ /Walk on Saturday\, October 10th at beautiful Bradley Lake Park! This even
+ t…\nhttps://runsignup.com/Race/WA/Puyallup/HowlOWeenPuyallup?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/HowlOWeenPuyallup?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:spiritwalk-warrior-run-2026-2026-10-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261010T090000
+DTEND;TZID=America/Los_Angeles:20261010T110000
+SUMMARY:SpiritWalk & Warrior Run 2026
+DESCRIPTION:5K\, 25 Mile\n$40\nOn October 10 from 10 a.m. to 1:00 p.m.\, jo
+ in Seattle Indian Health Board for the 30th Annual SpiritWalk & Warrior Ru
+ n—an opportunity to gather and…\nhttps://runsignup.com/Race/WA/Seattle
+ /SpiritWalkWarriorRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SpiritWalkWarriorRun?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the-stein-dash-2026-10-11@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261011T100000
+DTEND;TZID=America/Los_Angeles:20261011T120000
+SUMMARY:The Stein Dash
+DESCRIPTION:1K\, Kids\n$25–$33\n5Ks are fun. Beer is fun. 5Ks & Beer are 
+ typically not a natural pairing….typically. However\, on Sunday\, Octobe
+ r 11th\, the best of both worlds…\nhttps://runsignup.com/Race/WA/Puyallu
+ p/TheSteinDash?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/TheSteinDash?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pumpkin-spice-run-2026-10-11@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261011T101500
+DTEND;TZID=America/Los_Angeles:20261011T121500
+SUMMARY:Pumpkin Spice Run
+DESCRIPTION:1 Mile\, 5K\, 10K\, Kids\n$12–$44\nNew for 2026: We will have
+  a big pumpkin festival going on during the event. We will have games\, fa
+ ce painting\, and more! We are also adding a .25…\nhttps://runsignup.com
+ /Race/WA/Seattle/PumpkinSpiceRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqs
+ nt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/PumpkinSpiceRun?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hope-and-heroes-run-2026-10-11@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261011T091500
+DTEND;TZID=America/Los_Angeles:20261011T111500
+SUMMARY:Hope and Heroes Run
+DESCRIPTION:5K\, 10K\, Kids\n$5–$36\nCAPES ON. COSTUMES READY. IT'S TIME 
+ TO UNITE. Join us at beautiful Marymoor Park in Redmond for a family-frien
+ dly\, superhero-themed race day…\nhttps://runsignup.com/Race/WA/Redmond/
+ HopeandHeroesrun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Redmond\, WA
+URL:https://runsignup.com/Race/WA/Redmond/HopeandHeroesrun?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-the-snohomish-river-run-marathon-half-marathon-10k-and-5k-2026-10-
+ 11@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261011T093000
+DTEND;TZID=America/Los_Angeles:20261011T113000
+SUMMARY:2026 The Snohomish River Run Marathon\, Half Marathon\, 10K and 5K
+DESCRIPTION:5K\, 10K\, Half Marathon\, Marathon\n$45–$95\nSnohomish River
+  Run – Sunday\, October 11th Experience the magic of fall in the Pacific
+  Northwest at the Snohomish River Run—where crisp autumn air…\nhttps:/
+ /runsignup.com/Race/WA/Snohomish/TheSnohomishRiverRun?aflt_token=wc7B47h8B
+ qW9drLnekNygSAMxqwhqsnt
+LOCATION:Snohomish\, WA
+URL:https://runsignup.com/Race/WA/Snohomish/TheSnohomishRiverRun?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:where-s-bigfoot-5k-2026-10-17@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261017T100000
+DTEND;TZID=America/Los_Angeles:20261017T120000
+SUMMARY:Where's Bigfoot 5k
+DESCRIPTION:5K\, Kids\, Walk\n$34–$39\nGet excited for the 4th annual Whe
+ re's Bigfoot 5k. Big·foot. /ˈbiɡfo͝ot/. noun 1.a large\, hairy\, ape-l
+ ike creature resembling a yeti\, supposedly…\nhttps://runsignup.com/Race
+ /WA/Seattle/WheresBigfoot5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/WheresBigfoot5k?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lake-washington-half-marathon-2026-10-17@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261017T080000
+DTEND;TZID=America/Los_Angeles:20261017T100000
+SUMMARY:Lake Washington Half Marathon
+DESCRIPTION:Half Marathon\n$52–$78\nThe Lake Washington Half marathon is 
+ a beautiful loop course that starts and finishes and Juanita Beach Park in
+  Kirkland. See more details on the…\nhttps://runsignup.com/Race/WA/Kirkl
+ and/LakeWashingtonHalf?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Kirkland\, WA
+URL:https://runsignup.com/Race/WA/Kirkland/LakeWashingtonHalf?aflt_token=wc
+ 7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:haunted-5k-10k-13-1m-at-everett-wa-42-2026-10-17@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261017T083000
+DTEND;TZID=America/Los_Angeles:20261017T103000
+SUMMARY:Haunted 5K\, 10K & 13.1M at Everett\, WA (42)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/Lowell10192024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqs
+ nt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/Lowell10192024?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:juanita-unified-5k-heroes-in-motion-2026-10-17@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261017T093000
+DTEND;TZID=America/Los_Angeles:20261017T113000
+SUMMARY:Juanita Unified 5K - Heroes in motion
+DESCRIPTION:5K\, Walk\n$30\nThe Juanita Unified 5K is more than just a run 
+ (or walk!)\, it's a step toward a more inclusive and connected community. 
+ Juanita High School serves…\nhttps://runsignup.com/Race/WA/Kirkland/Juan
+ itaDECAUnified5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Kirkland\, WA
+URL:https://runsignup.com/Race/WA/Kirkland/JuanitaDECAUnified5K?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:running-scared-5k-13k-seattle-2026-10-18@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261018T150000
+DTEND;TZID=America/Los_Angeles:20261018T170000
+SUMMARY:Running Scared 5K/13K - Seattle
+DESCRIPTION:5K\, 13K\n$30–$55\nGet ready for a spine-tingling race experi
+ ence at the Running Scared 5K & 13K —where thrills\, chills\, and fast t
+ imes collide! Whether you’re brave…\nhttps://runsignup.com/Race/WA/Sea
+ ttle/RunningScared5K13KSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunningScared5K13KSeattle?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alaska-airlines-dawg-dash-5k-10k-2026-10-18@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261018T090000
+DTEND;TZID=America/Los_Angeles:20261018T110000
+SUMMARY:Alaska Airlines Dawg Dash 5K/10K
+DESCRIPTION:5K\, 10K\n$15–$60\nRun with the pack. Show your Purple Pride.
+  Support UW students! Hit the road\, Huskies! Lace up your sneakers and so
+ ak in the fall campus beauty for…\nhttps://runsignup.com/Race/WA/Seattle
+ /AlaskaAirlinesDawgDash?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/AlaskaAirlinesDawgDash?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:i-can-and-i-will-run-2026-10-18@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261018T090000
+DTEND;TZID=America/Los_Angeles:20261018T110000
+SUMMARY:I Can And I Will Run!
+DESCRIPTION:1 Mile\, 5K\, 10K\, Kids\n$20–$50\nI can and I will is the ma
+ ntra Olivia and her mom\, Alisa\, have been saying since 2018. Whether it'
+ s prepping to be poked by a needle or running up a…\nhttps://runsignup.c
+ om/Race/WA/Seattle/ICanAndIWillRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwh
+ qsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/ICanAndIWillRun?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:puyallup-valley-fall-hops-harvest-5k-2026-10-18@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261018T090000
+DTEND;TZID=America/Los_Angeles:20261018T110000
+SUMMARY:Puyallup Valley Fall Hops Harvest 5K
+DESCRIPTION:5K\n$25\nCelebrate the beauty of fall at the Puyallup Valley Fa
+ ll Hops Harvest 5K on Sunday\, October 18th at Firemind Brewing in downtow
+ n Puyallup! Gather…\nhttps://runsignup.com/Race/WA/Puyallup/PuyallupVall
+ eyFallHarvest5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/PuyallupValleyFallHarvest5K?aflt
+ _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:issaquah-schools-foundation-monster-mash-5k-2026-10-24@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261024T100000
+DTEND;TZID=America/Los_Angeles:20261024T120000
+SUMMARY:Issaquah Schools Foundation Monster Mash 5K
+DESCRIPTION:5K\n$35\nHelp us raise a MONSTROUS amount of support for local 
+ students on October 24th! ISF Monster Mash 5K is a community-based\, famil
+ y-friendly event that…\nhttps://runsignup.com/Race/WA/Issaquah/MM5K?aflt
+ _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Issaquah\, WA
+URL:https://runsignup.com/Race/WA/Issaquah/MM5K?aflt_token=wc7B47h8BqW9drLn
+ ekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-greenlake-5k-and-wellness-festival-2026-10-24@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261024T083000
+DTEND;TZID=America/Los_Angeles:20261024T103000
+SUMMARY:2026 Greenlake 5K and Wellness Festival
+DESCRIPTION:5K\, Walk\n$35\nOctober 24th\, 2026 The Green Lake 5K & Wellnes
+ s Festival Get ready for the ultimate blend of movement\, community\, and 
+ good vibes at the Green Lake 5K…\nhttps://runsignup.com/Race/WA/Seattle/
+ Greenlake5KAndWellnessFestival?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/Greenlake5KAndWellnessFestival?af
+ lt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:peaks-and-professors-5k-2026-10-24@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261024T090000
+DTEND;TZID=America/Los_Angeles:20261024T110000
+SUMMARY:Peaks and Professors 5k
+DESCRIPTION:5K\n$15\nPeaks and Professors 5K Run/Walk Saturday\, October 24
+ th | Red Square\, University of Washington Get ready for the most adventur
+ ous race of the quarter…\nhttps://runsignup.com/Race/WA/Seattle/PeaksAnd
+ Professors5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/PeaksAndProfessors5k?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:west-seattle-monster-dash-2026-2026-10-24@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261024T093000
+DTEND;TZID=America/Los_Angeles:20261024T113000
+SUMMARY:West Seattle Monster Dash 2026
+DESCRIPTION:5K\, Kids\, Walk\n$20–$35\nThis race is a costumed 5k trail r
+ un/walk and Kids Dash to support South Seattle College Cooperative Prescho
+ ols. Paid registration includes a t-shirt…\nhttps://runsignup.com/Race/W
+ A/Seattle/WestSeattleMonsterDash?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqs
+ nt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/WestSeattleMonsterDash?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:captain-jack-s-treasure-run-2026-10-25@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261025T100000
+DTEND;TZID=America/Los_Angeles:20261025T120000
+SUMMARY:Captain Jack's Treasure Run
+DESCRIPTION:5K\, 8K\, 12K\, Kids\n$10–$45\nPre-game Halloween with your b
+ est pirate costume while running up a storm on your home turf! Captain Jac
+ k’s Treasure Run has been bringing you oodles…\nhttps://runsignup.com/
+ Race/WA/Redmond/CaptainJacksTreasureRun?aflt_token=wc7B47h8BqW9drLnekNygSA
+ Mxqwhqsnt
+LOCATION:Redmond\, WA
+URL:https://runsignup.com/Race/WA/Redmond/CaptainJacksTreasureRun?aflt_toke
+ n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:snoqualmie-valley-harvest-run-2026-10-25@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261025T093500
+DTEND;TZID=America/Los_Angeles:20261025T113500
+SUMMARY:Snoqualmie Valley Harvest Run
+DESCRIPTION:5K\, 10K\, Kids\n$5–$37\nExperience the beauty of fall in the
+  Pacific Northwest at the Snoqualmie Valley Harvest Dash! Join us for a fe
+ stive autumn celebration featuring a…\nhttps://runsignup.com/Race/WA/Sno
+ qualmie/SnoqualmieValleyHarvestRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwh
+ qsnt
+LOCATION:Snoqualmie\, WA
+URL:https://runsignup.com/Race/WA/Snoqualmie/SnoqualmieValleyHarvestRun?afl
+ t_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-scared-2026-10-25@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261025T094500
+DTEND;TZID=America/Los_Angeles:20261025T114500
+SUMMARY:Run Scared
+DESCRIPTION:2 Mile\, 5K\, 10K\, Kids\n$25–$40\nEarn your candy at the 18t
+ h annual Run Scared\, benefiting Blood Cancer United (formerly The Leukemi
+ a and Lymphoma Society) Choose from 10K\, 5K or 2…\nhttps://runsignup.co
+ m/Race/WA/Seattle/RunScared?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunScared?aflt_token=wc7B47h8BqW9
+ drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ten-trails-active-club-trot-n-treat-relay-scramble-2026-10-28@www.run20
+ 6.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261028T183000
+DTEND;TZID=America/Los_Angeles:20261028T203000
+SUMMARY:Ten Trails Active Club Trot n' Treat Relay Scramble
+DESCRIPTION:Relay\nFree\nJoin the Club! PLEASE READ ALL OF THIS Ghosts are 
+ running amuck in Ten Trails!!! Do you and your team of Ghost Chasers have 
+ what it takes to capture…\nhttps://runsignup.com/Race/WA/BlackDiamond/Te
+ nTrailsActiveClubTrotNTreatRelayScramble?aflt_token=wc7B47h8BqW9drLnekNygS
+ AMxqwhqsnt
+LOCATION:Black Diamond\, WA
+URL:https://runsignup.com/Race/WA/BlackDiamond/TenTrailsActiveClubTrotNTrea
+ tRelayScramble?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:trick-or-treat-5k-2026-10-31@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261031T100000
+DTEND;TZID=America/Los_Angeles:20261031T120000
+SUMMARY:Trick or Treat 5k
+DESCRIPTION:5K\, Kids\, Walk\n$34–$39\nJoin us for a spooktacular time at
+  the Trick-or-Treat 5K! Grab your costume\, lace up your running shoes\, a
+ nd head to Seward Park for a frightfully…\nhttps://runsignup.com/Race/WA
+ /Seattle/TrickorTreat5k2021?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/TrickorTreat5k2021?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:halloween-trick-or-trot-run-5k-10k-13-1-seattle-2026-10-31@www.run206.c
+ om
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261031T073000
+DTEND;TZID=America/Los_Angeles:20261031T093000
+SUMMARY:Halloween Trick or Trot Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nTrick or Trot! Ru
+ n in our annual Halloween Run\, where healthy fitness meets frightful fun!
+  We'll even give you some free Halloween candy after your…\nhttps://runs
+ ignup.com/Race/WA/Seattle/HalloweenTrickOrTrotRun5K10KSEATTLE1031?aflt_tok
+ en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/HalloweenTrickOrTrotRun5K10KSEATT
+ LE1031?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pb-j-fuel-run-5k-10k-13-1-seattle-2026-10-31@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261031T073000
+DTEND;TZID=America/Los_Angeles:20261031T093000
+SUMMARY:PB&J Fuel Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nSmooth vibes. Swe
+ et energy. Bold moves. PB&J Fuel Run is all about a combo that just works.
+  Mix your pace\, spread the fun\, and stick with it all the…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/PBJFuelRun5K10KSEATTLE1031?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/PBJFuelRun5K10KSEATTLE1031?aflt_t
+ oken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cougar-mountain-trail-run-series-october-2026-10-31@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261031T080000
+DTEND;TZID=America/Los_Angeles:20261031T100000
+SUMMARY:Cougar Mountain Trail Run Series (October)
+DESCRIPTION:5K\, 5 Mile\, 6 Mile\, 50K\n$40–$100\nWelcome to the 2025 edi
+ tion of the Cougar Mountain Trail Run Series\, put on by Seattle Running C
+ lub and Northwest Trail Runs. Our events support King…\nhttps://runsignu
+ p.com/Race/WA/Bellevue/CougarMtnTrailSeries102818?aflt_token=wc7B47h8BqW9d
+ rLnekNygSAMxqwhqsnt
+LOCATION:Bellevue\, WA
+URL:https://runsignup.com/Race/WA/Bellevue/CougarMtnTrailSeries102818?aflt_
+ token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:haunted-hustle-5k-10k-2026-10-31@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261031T090000
+DTEND;TZID=America/Los_Angeles:20261031T110000
+SUMMARY:Haunted Hustle 5K & 10K
+DESCRIPTION:5K\, 10K\n$30–$35\nWe’re back from the beyond for the Haunt
+ ed Hustle 5K & 10K Run/Walk—a fun\, costume-themed\, non-timed\, and fam
+ ily-friendly Halloween tradition! Come…\nhttps://runsignup.com/Race/WA/P
+ uyallup/HauntedHustle5K10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/HauntedHustle5K10K?aflt_token=wc
+ 7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wicked-fast-5k-10k-2026-10-31@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261031T093000
+DTEND;TZID=America/Los_Angeles:20261031T113000
+SUMMARY:Wicked Fast 5K & 10K
+DESCRIPTION:1K\, 5K\, 10K\, Kids\n$15–$42.50\nContinuing the Halloween 5K
+  tradition here in Tacoma we have added a 10k distance to the event ! The 
+ Wicked Fast 5K & 10k registration will include…\nhttps://runsignup.com/R
+ ace/WA/Tacoma/WickedFast5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/WickedFast5K?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gobbler-5k-10k-13-1m-at-everett-wa-45-2026-11-07@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261107T083000
+DTEND;TZID=America/Los_Angeles:20261107T103000
+SUMMARY:Gobbler 5K\, 10K\, & 13.1M at Everett\, WA (45)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/Langus1122024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsn
+ t
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/Langus1122024?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:run-the-bay-2026-11-08@www.run206.com
-DTSTAMP:20260829T213118Z
+DTSTAMP:20260829T213440Z
 DTSTART;TZID=America/Los_Angeles:20261108T090000
 DTEND;TZID=America/Los_Angeles:20261108T110000
 SUMMARY:Run the Bay
@@ -67,6 +1764,1641 @@ DESCRIPTION:Run Super Series\n5K\, 10K\, Half Marathon\n$45–$90\nAutumn r
  erseries.com
 LOCATION:Chambers Bay\, University Place
 URL:https://runsuperseries.com
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:let-me-run-spring-fest-5k-2026-2026-11-14@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261114T100000
+DTEND;TZID=America/Los_Angeles:20261114T120000
+SUMMARY:Let Me Run Spring Fest 5K 2026
+DESCRIPTION:5K\n$30\nCome celebrate the end of season 5K for the Let Me Run
+  program. At Let Me Run we inspire boys through the power of running to be
+  courageous enough to…\nhttps://runsignup.com/Race/WA/Seattle/LMRFallfes
+ t5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/LMRFallfest5K?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-mental-health-5k-10k-13-1-seattle-2026-11-14@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261114T073000
+DTEND;TZID=America/Los_Angeles:20261114T093000
+SUMMARY:Run for Mental Health 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the Movement
+  for Mental Health! Introducing the "Run for Mental Health" - an empowerin
+ g journey towards well-being! Run with purpose\, run with…\nhttps://runs
+ ignup.com/Race/WA/Seattle/RunForMentalHealth5K10KSEATTLE1114?aflt_token=wc
+ 7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForMentalHealth5K10KSEATTLE111
+ 4?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:veterans-day-freedom-run-5k-10k-13-1-seattle-2026-11-14@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261114T073000
+DTEND;TZID=America/Los_Angeles:20261114T093000
+SUMMARY:Veterans Day Freedom Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nCelebrate this Ve
+ terans Day with our annual Freedom Run! Kick off your weekend with purpose
+  and pride by joining our 5K\, 10K\, or Half-Marathon…\nhttps://runsignu
+ p.com/Race/WA/Seattle/VeteransDayFreedomRun5K10KSEATTLE1114?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/VeteransDayFreedomRun5K10KSEATTLE
+ 1114?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gobbler-5k-10k-13-1m-at-everett-wa-46-2026-11-14@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261114T083000
+DTEND;TZID=America/Los_Angeles:20261114T103000
+SUMMARY:Gobbler 5K\, 10K\, & 13.1M at Everett\, WA (46)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/McCollum45?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/McCollum45?aflt_token=wc7B47h8BqW
+ 9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:never-ending-nolte-6-hour-2026-11-14@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261114T093000
+DTEND;TZID=America/Los_Angeles:20261114T113000
+SUMMARY:Never Ending Nolte 6-Hour
+DESCRIPTION:Never Ending Nolte 6-Hour\, Volunteer Sign-Up\nFree\nWhat is it
+ ? A 6-Hour race around scenic Nolte State Park\, featuring a 1.4 mile loop
+  course. With minimal elevation gain\, crushed gravel/packed dirt…\nhttp
+ s://runsignup.com/Race/WA/Enumclaw/Neverendingnolte6hour?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Enumclaw\, WA
+URL:https://runsignup.com/Race/WA/Enumclaw/Neverendingnolte6hour?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-kirkland-turkey-trot-2026-11-15@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261115T090000
+DTEND;TZID=America/Los_Angeles:20261115T110000
+SUMMARY:2026 Kirkland Turkey Trot
+DESCRIPTION:9703 Juanita Drive Northeast\, Kirkland\, WA 98034 - The Kirkla
+ nd Turkey Trot 5k\,10K and Kids Race Get ready for…\nhttps://raceroster.
+ com/events/2026/112982/2026-kirkland-turkey-trot
+LOCATION:Kirkland\, WA
+URL:https://raceroster.com/events/2026/112982/2026-kirkland-turkey-trot
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:celebrate-veterans-5k-2026-11-15@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261115T091000
+DTEND;TZID=America/Los_Angeles:20261115T111000
+SUMMARY:Celebrate Veterans 5K
+DESCRIPTION:5K\n$30\nDate: Sunday\, November 15thLocation: Pipeline/Orange 
+ Trail: 84th and Pipeline Road Time: 9:10 AM Packet Pick -up November 15th 
+ 8 - 8:45 AM ( time and…\nhttps://runsignup.com/Race/WA/Tacoma/CelebrateV
+ eterans5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/CelebrateVeterans5K?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gobbler-5k-10k-13-1m-at-everett-wa-47-2026-11-21@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261121T083000
+DTEND;TZID=America/Los_Angeles:20261121T103000
+SUMMARY:Gobbler 5K\, 10K\, & 13.1M at Everett\, WA (47)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/Lowell11162024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqs
+ nt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/Lowell11162024?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:carnation-turkey-trot-2026-2026-11-21@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261121T090000
+DTEND;TZID=America/Los_Angeles:20261121T110000
+SUMMARY:Carnation Turkey Trot 2026
+DESCRIPTION:5K\, Kids\n$5–$25\nGather your flock and join us for our 4th 
+ Annual Carnation Turkey Trot at the beautiful Remlinger Farms in Carnation
+ \, Washington. You will be joining…\nhttps://runsignup.com/Race/WA/Carna
+ tion/CarnationTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Carnation\, WA
+URL:https://runsignup.com/Race/WA/Carnation/CarnationTurkeyTrot?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tacky-turkey-sweater-5k-2026-11-22@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261122T100000
+DTEND;TZID=America/Los_Angeles:20261122T120000
+SUMMARY:Tacky Turkey Sweater 5k
+DESCRIPTION:5K\, Kids\n$24–$39\nGobble\, Jog\, and Strut Your Stuff! Get 
+ ready to hit the pavement in style—questionable style\, that is! Join us
+  for the most hilariously festive run…\nhttps://runsignup.com/Race/WA/Se
+ attle/TackyTurkeySweater5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/TackyTurkeySweater5k?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8th-annual-maple-valley-turkey-trot-thanksgiving-day-5k-2026-11-26@www.
+ run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T073000
+DTEND;TZID=America/Los_Angeles:20261126T093000
+SUMMARY:8th Annual Maple Valley Turkey Trot: Thanksgiving Day 5K
+DESCRIPTION:5K\n$30\nJoin us for the 8th Annual Maple Valley Turkey Trot 5K
+  benefiting the Maple Valley Food Bank! This year's free race t-shirts\, s
+ upplied by our…\nhttps://runsignup.com/Race/WA/MapleValley/MapleValleyTu
+ rkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Maple Valley\, WA
+URL:https://runsignup.com/Race/WA/MapleValley/MapleValleyTurkeyTrot?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holmes-chiropractic-care-gig-harbor-turkey-trot-2026-11-26@www.run206.c
+ om
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T080000
+DTEND;TZID=America/Los_Angeles:20261126T100000
+SUMMARY:Holmes Chiropractic Care Gig Harbor Turkey Trot!
+DESCRIPTION:$30\nDate of the Event- Thursday\, Thanksgiving Morning!! 8am! 
+ Thursday\, Day of event registration price doubles to $60. The event is ti
+ med by Tortoise &…\nhttps://runsignup.com/Race/WA/GigHarbor/GigHarborTur
+ keyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Gig Harbor\, WA
+URL:https://runsignup.com/Race/WA/GigHarbor/GigHarborTurkeyTrot?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-mukilteo-turkey-trot-5k-and-10k-2026-11-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T081500
+DTEND;TZID=America/Los_Angeles:20261126T101500
+SUMMARY:2026 Mukilteo Turkey Trot 5K and 10K
+DESCRIPTION:5K\, 10K\n$40–$50\nThanksgiving Day\, November 26th\, 2026 Ka
+ miak High School Mukilteo\, WA Join Snohomish Running Company for the 12th
+  annual Mukilteo Turkey Trot…\nhttps://runsignup.com/Race/WA/Mukilteo/20
+ 17MukilteoTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Mukilteo\, WA
+URL:https://runsignup.com/Race/WA/Mukilteo/2017MukilteoTurkeyTrot?aflt_toke
+ n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:silverdale-rotary-turkey-trot-2026-2026-11-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T081500
+DTEND;TZID=America/Los_Angeles:20261126T101500
+SUMMARY:Silverdale Rotary Turkey Trot 2026
+DESCRIPTION:5K\, 10K\, Kids\n$5–$40\nPlease join us for our 9th Annual Si
+ lverdale Rotary Turkey Trot! For the fifth straight year we're going free-
+ range with our wild Turkey Trot at…\nhttps://runsignup.com/Race/WA/Silve
+ rdale/TurkeyTrot18?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Silverdale\, WA
+URL:https://runsignup.com/Race/WA/Silverdale/TurkeyTrot18?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ten-trails-active-club-5k-turkey-trot-2026-11-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T083000
+DTEND;TZID=America/Los_Angeles:20261126T103000
+SUMMARY:Ten Trails Active Club 5k Turkey Trot
+DESCRIPTION:5K\nFree\nJoin the Club! PLEASE READ ALL OF THIS We're back at 
+ it again for our 4th year! Given that we had over 250 people register for 
+ last year's race\; you…\nhttps://runsignup.com/Race/WA/BlackDiamond/TenT
+ railsActiveClub5kTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Black Diamond\, WA
+URL:https://runsignup.com/Race/WA/BlackDiamond/TenTrailsActiveClub5kTurkeyT
+ rot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gobble-gobble-5k-10k-2026-11-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T084000
+DTEND;TZID=America/Los_Angeles:20261126T104000
+SUMMARY:Gobble Gobble 5K & 10K
+DESCRIPTION:5K\, 10K\n$30–$35\nKick start your Thanksgiving morning with 
+ Puyallup’s own Gobble Gobble 5K & 10K! Gather your friends and family an
+ d run/walk this festive community…\nhttps://runsignup.com/Race/WA/Puyall
+ up/GobbleGobble5K10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/GobbleGobble5K10K?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tacoma-city-turkey-trot-2026-11-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T090000
+DTEND;TZID=America/Los_Angeles:20261126T110000
+SUMMARY:Tacoma City Turkey Trot
+DESCRIPTION:1K\, 5K\, Kids\n$10–$37.50\nIt’s a family affair! The Tacom
+ a City Turkey Trot offers a 5K Run/Walk and a 1K Kids Run in Tacoma’s be
+ autiful Proctor District. Gobble gobble! The…\nhttps://runsignup.com/Rac
+ e/WA/Tacoma/TCMATurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/TCMATurkeyTrot?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:woodinville-turkey-trot-5k-2026-11-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T090000
+DTEND;TZID=America/Los_Angeles:20261126T110000
+SUMMARY:Woodinville Turkey Trot 5K
+DESCRIPTION:5K\, Kids\, Walk\n$5–$35\nThe Annual Woodinville Turkey Trot 
+ is ready to roll this year! We are planning of having the Kids Parade agai
+ n this year led by the Woodinville HS…\nhttps://runsignup.com/Race/WA/Wo
+ odinville/WoodinvilleTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsn
+ t
+LOCATION:Woodinville\, WA
+URL:https://runsignup.com/Race/WA/Woodinville/WoodinvilleTurkeyTrot?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:magnuson-turkey-trot-2026-11-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T093000
+DTEND;TZID=America/Los_Angeles:20261126T113000
+SUMMARY:Magnuson Turkey Trot
+DESCRIPTION:5K\, 10K\, 15K\, Kids\n$6–$43\nPlease visit our website magnu
+ sonseries.com for all the info.\nhttps://runsignup.com/Race/WA/Seattle/Sea
+ ttleTurkeyTrot2?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SeattleTurkeyTrot2?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-day-apple-cup-5k-2026-11-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261126T093000
+DTEND;TZID=America/Los_Angeles:20261126T113000
+SUMMARY:Thanksgiving Day Apple Cup 5K
+DESCRIPTION:5K\n$25\n**** Please Read in Entirety **** Thanksgiving Day App
+ le Cup 5K - Produced by Hi5K Calling all Turkey Trotters to run (or walk) 
+ in the 8th Annual…\nhttps://runsignup.com/Race/WA/Seattle/AppleCup5K?afl
+ t_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/AppleCup5K?aflt_token=wc7B47h8BqW
+ 9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-seattle-ghost-marathon-half-50k-2026-11-28@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261128T070000
+DTEND;TZID=America/Los_Angeles:20261128T090000
+SUMMARY:2026 Seattle Ghost Marathon\, Half & 50K
+DESCRIPTION:Half Marathon\, Marathon\, 50K\n$120\nNovember 28\, 2026\, will
+  be the 41st running of the Seattle Ghost Marathon. It started in 1985 whe
+ n the Seattle Marathon changed courses and moved…\nhttps://runsignup.com
+ /Race/WA/Seattle/2026SeattleGhostMarathonHalf50K?aflt_token=wc7B47h8BqW9dr
+ LnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/2026SeattleGhostMarathonHalf50K?a
+ flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:coffee-lovers-run-5k-10k-13-1-seattle-2026-11-28@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261128T073000
+DTEND;TZID=America/Los_Angeles:20261128T093000
+SUMMARY:Coffee Lovers Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nLove running? Lov
+ e coffee? Why not both? Join us for the Coffee Lovers Run\, where every mi
+ le leads you closer to great coffee\, good vibes\, and even…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1128?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1128?a
+ flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-gobble-trot-run-5k-10k-13-1-seattle-2026-11-28@www.run206.
+ com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261128T073000
+DTEND;TZID=America/Los_Angeles:20261128T093000
+SUMMARY:Thanksgiving Gobble Trot Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nGet Ready to Wobb
+ le Before You Gobble! Join us for the annual Thanksgiving Gobble Trot! Bef
+ ore you dive into the turkey and stuffing\, enjoy the…\nhttps://runsignu
+ p.com/Race/WA/Seattle/ThanksgivingGobbleTrotRun5K10KSEATTLE1128?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/ThanksgivingGobbleTrotRun5K10KSEA
+ TTLE1128?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-seattle-kids-marathon-2026-11-28@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261128T090000
+DTEND;TZID=America/Los_Angeles:20261128T110000
+SUMMARY:2026 Seattle Kids Marathon
+DESCRIPTION:USA - Saturday\, November 28\, 2026Location: Bell Harbor\, Pier
+ …\nhttps://raceroster.com/events/2026/115515/2026-seattle-kids-marathon
+LOCATION:Seattle\, WA
+URL:https://raceroster.com/events/2026/115515/2026-seattle-kids-marathon
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-uw-medicine-seattle-marathon-and-half-marathon-2026-11-29@www.run2
+ 06.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261129T070000
+DTEND;TZID=America/Los_Angeles:20261129T090000
+SUMMARY:2026 UW Medicine Seattle Marathon and Half Marathon
+DESCRIPTION:The UW Medicine Seattle Marathon…\nhttps://raceroster.com/eve
+ nts/2026/112954/2026-uw-medicine-seattle-marathon-and-half-marathon
+LOCATION:Seattle\, WA
+URL:https://raceroster.com/events/2026/112954/2026-uw-medicine-seattle-mara
+ thon-and-half-marathon
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:santa-sleighs-5k-2026-12-05@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261205T100000
+DTEND;TZID=America/Los_Angeles:20261205T120000
+SUMMARY:Santa Sleighs 5K
+DESCRIPTION:5K\, Kids\n$45\nJoin us for a jolly good time and kick off the 
+ holiday season for the 3rd annual South Kitsap Rotary Santa Sleighs 5K. Th
+ is festive event will have…\nhttps://runsignup.com/Race/WA/PortOrchard/S
+ antaSleighs5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Port Orchard\, WA
+URL:https://runsignup.com/Race/WA/PortOrchard/SantaSleighs5K?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:the-electric-cookie-run-2026-12-05@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261205T170000
+DTEND;TZID=America/Los_Angeles:20261205T190000
+SUMMARY:The Electric Cookie Run
+DESCRIPTION:5K\, 10K\n$42–$52\nJustify your holiday cookie consumption in
+  style at the Electric Cookie Run! It couldn't be any simpler: Dress up in
+  some fun holiday regalia…\nhttps://runsignup.com/Race/WA/Seattle/TheEle
+ ctricCookieRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/TheElectricCookieRun?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-5k-10k-13-1m-at-everett-wa-49-2026-12-05@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261205T083000
+DTEND;TZID=America/Los_Angeles:20261205T103000
+SUMMARY:Holiday 5K\, 10K\, & 13.1M at Everett\, WA (49)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/Langus12724?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/Langus12724?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:celebrate-woodinville-winterfest-5k-2026-12-05@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261205T093000
+DTEND;TZID=America/Los_Angeles:20261205T113000
+SUMMARY:Celebrate Woodinville Winterfest 5k
+DESCRIPTION:5K\n$35\nThe Celebrate Woodinville Winterfest 5k is an annual e
+ vent in the Woodinville community with runners\, walkers\, joggers\, strol
+ lers\, friends and…\nhttps://runsignup.com/Race/WA/Woodinville/Celebrate
+ WoodinvilleWinterfest5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Woodinville\, WA
+URL:https://runsignup.com/Race/WA/Woodinville/CelebrateWoodinvilleWinterfes
+ t5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-or-wine-5k-series-december-2026-2026-12-06@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261206T120000
+DTEND;TZID=America/Los_Angeles:20261206T140000
+SUMMARY:Run or Wine 5K Series - December 2026
+DESCRIPTION:5K\, 10K\, Walk\n$38–$61\nWhether you’re racing for a perso
+ nal best or strolling for the wine\, this event is for you! Join us for th
+ e Run or Wine 5K & 10K\, a fun and scenic…\nhttps://runsignup.com/Race/W
+ A/Woodinville/RunorWine5KSeriesDecember2024?aflt_token=wc7B47h8BqW9drLnekN
+ ygSAMxqwhqsnt
+LOCATION:Woodinville\, WA
+URL:https://runsignup.com/Race/WA/Woodinville/RunorWine5KSeriesDecember2024
+ ?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-holiday-on-the-bay-5k-and-kids-dash-2026-12-06@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261206T090000
+DTEND;TZID=America/Los_Angeles:20261206T110000
+SUMMARY:2026 Holiday on the Bay 5K and Kids Dash
+DESCRIPTION:5K\, Kids\n$15–$35\nHoliday on the Bay 5K Run or Walk and Kid
+ s Dash Sunday\, December 6th Start Time: 9:00 AM You’re invited to join 
+ us at Port of Everett’s Waterfront…\nhttps://runsignup.com/Race/WA/Eve
+ rett/HolidayOnTheBay5KAndKidsDash?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhq
+ snt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/HolidayOnTheBay5KAndKidsDash?aflt
+ _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-grinch-5k-2026-12-06@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261206T090000
+DTEND;TZID=America/Los_Angeles:20261206T110000
+SUMMARY:Holiday Grinch 5K
+DESCRIPTION:5K\n$25\nGrinch Out Puyallup 5K Sunday\, December 6th Get ready
+  to Grinch out the City of Puyallup in this festive\, fun-filled holiday r
+ un! We’ll start and…\nhttps://runsignup.com/Race/WA/Puyallup/HolidayGr
+ inch5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/HolidayGrinch5K?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:k9-candy-cane-5k-fun-run-2026-12-06@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261206T091500
+DTEND;TZID=America/Los_Angeles:20261206T111500
+SUMMARY:K9 Candy Cane 5K Fun Run
+DESCRIPTION:5K\, Walk\n$30\nThe K9 Candy Cane 5K Fun Run and Walk is held a
+ t the Renton Community Center Campus. Runners and walkers travel along the
+  paved beautiful Cedar River…\nhttps://runsignup.com/Race/WA/Renton/K9Ca
+ ndyCane5KRunandWalk?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Renton\, WA
+URL:https://runsignup.com/Race/WA/Renton/K9CandyCane5KRunandWalk?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-breast-cancer-5k-10k-13-1-seattle-2026-12-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261212T073000
+DTEND;TZID=America/Los_Angeles:20261212T093000
+SUMMARY:Run for Breast Cancer 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the Fight: B
+ reast Cancer Run! Lace up and make a difference at our annual Breast Cance
+ r Run! Together\, we can raise awareness and funds to…\nhttps://runsignu
+ p.com/Race/WA/Seattle/RunForBreastCancer5K10KSEATTLE1212?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForBreastCancer5K10KSEATTLE121
+ 2?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sunrise-marathon-5k-10k-13-1-seattle-2026-12-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261212T073000
+DTEND;TZID=America/Los_Angeles:20261212T093000
+SUMMARY:Sunrise Marathon 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nRun at Sunrise wi
+ th pretty scenic views! Start your day — and your journey — with a bre
+ athtaking sunrise and fellow runners chasing greatness. Forget…\nhttps:/
+ /runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE1212?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE1212?a
+ flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:santa-runs-tacoma-2026-12-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261212T081000
+DTEND;TZID=America/Los_Angeles:20261212T101000
+SUMMARY:Santa Runs Tacoma
+DESCRIPTION:5K\, 10K\, Half Marathon\n$35–$70\nGet ready for the most RUN
+ derful time of the year! The half marathon is a gorgeous out-and-back cour
+ se starting in downtown Tacoma\, with a few…\nhttps://runsignup.com/Race
+ /WA/Tacoma/TCMASantaRunsTacoma?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/TCMASantaRunsTacoma?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-5k-10k-13-1m-at-everett-wa-50-2026-12-12@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261212T083000
+DTEND;TZID=America/Los_Angeles:20261212T103000
+SUMMARY:Holiday 5K\, 10K\, & 13.1M at Everett\, WA (50)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/McCollum50?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/McCollum50?aflt_token=wc7B47h8BqW
+ 9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-jingle-bell-run-seattle-wa-2026-12-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261213T083000
+DTEND;TZID=America/Los_Angeles:20261213T103000
+SUMMARY:2026 Jingle Bell Run - Seattle\, WA
+DESCRIPTION:1 Mile\, 5K\, 12K\n$25–$65\nGet ready for this year’s Jingl
+ e Bell Run\, the original festive race for charity brought to you by the A
+ rthritis Foundation. Wear your favorite…\nhttps://runsignup.com/Race/WA/
+ Seattle/JingleBellRunSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/JingleBellRunSeattle?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-fun-run-2026-12-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261219T100000
+DTEND;TZID=America/Los_Angeles:20261219T120000
+SUMMARY:Holiday fun Run
+DESCRIPTION:5K\, 10K\, 15K\, Kids\n$6–$42\nCheck out all the details at h
+ ttps://magnusonseries.com/\nhttps://runsignup.com/Race/WA/Seattle/Holidayf
+ unRun2?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/HolidayfunRun2?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-5k-10k-13-1m-at-everett-wa-51-2026-12-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261219T083000
+DTEND;TZID=America/Los_Angeles:20261219T103000
+SUMMARY:Holiday 5K\, 10K\, & 13.1M at Everett\, WA (51)
+DESCRIPTION:5K\, 10K\, Half Marathon\n$30–$65\nUS Road Running Races US R
+ oad Running races are built for runners and walkers who like friendly\, lo
+ w-pressure race days with just enough competition…\nhttps://runsignup.co
+ m/Race/WA/Everett/Lowell12212024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqs
+ nt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/Lowell12212024?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sleigh-that-5k-2026-12-20@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261220T100000
+DTEND;TZID=America/Los_Angeles:20261220T120000
+SUMMARY:Sleigh that 5k
+DESCRIPTION:5K\, Kids\, Walk\n$34–$39\nSleigh That 5K Dashing Through the
+  Snow... in Running Shoes! Get ready to sleigh your way into the holiday s
+ eason! Join us at Green Lake Park for the…\nhttps://runsignup.com/Race/W
+ A/Seattle/Sleighthat5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/Sleighthat5k?aflt_token=wc7B47h8B
+ qW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-eve-ugly-sweater-2026-12-24@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261224T100000
+DTEND;TZID=America/Los_Angeles:20261224T120000
+SUMMARY:Christmas Eve Ugly Sweater
+DESCRIPTION:5K\, Kids\n$15–$30\nUgly Sweater & Elf Dash – Christmas Eve
+  5K Run/Walk Join us for the 8th Annual Christmas Eve Ugly Sweater & Elf D
+ ash 5K Run/Walk at Bradley Lake Park…\nhttps://runsignup.com/Race/WA/Puy
+ allup/ChristmasEveUglySweater?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/ChristmasEveUglySweater?aflt_tok
+ en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a-merry-christmas-run-5k-10k-13-1-seattle-2026-12-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261226T073000
+DTEND;TZID=America/Los_Angeles:20261226T093000
+SUMMARY:A Merry Christmas Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the Christma
+ s Run! Jingle All the Way: A Merry Christmas Run!" is a delightful Holiday
+  run that reminds us of the true essence of Christmas –…\nhttps://runs
+ ignup.com/Race/WA/Seattle/AMerryChristmasRun5K10KSEATTLE1226?aflt_token=wc
+ 7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/AMerryChristmasRun5K10KSEATTLE122
+ 6?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:new-year-s-run-5k-10k-13-1-seattle-2026-12-26@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20261226T073000
+DTEND;TZID=America/Los_Angeles:20261226T093000
+SUMMARY:New Year's Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nStart Your Year o
+ n the Right Foot! Join the New Year's Run - New Beginnings Starts Today! K
+ ick off the new year with energy\, excitement\, and a…\nhttps://runsignu
+ p.com/Race/WA/Seattle/NewYearSRun5K10KSEATTLE1226?aflt_token=wc7B47h8BqW9d
+ rLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/NewYearSRun5K10KSEATTLE1226?aflt_
+ token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:new-year-s-day-5k-8k-2027-01-01@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270101T100000
+DTEND;TZID=America/Los_Angeles:20270101T120000
+SUMMARY:New Year's Day 5K & 8K
+DESCRIPTION:5K\, 8K\n$25–$30\nDate: January 1\, 2027 Location: Roegner Pa
+ rk\, Auburn\, WA Start the year strong. Start the year moving. Start the y
+ ear with All Things Fun Sports!…\nhttps://runsignup.com/Race/WA/Auburn/N
+ ewYearSDay5K8K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Auburn\, WA
+URL:https://runsignup.com/Race/WA/Auburn/NewYearSDay5K8K?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:resolution-run-5k-and-polar-bear-dive-2027-2027-01-01@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270101T103000
+DTEND;TZID=America/Los_Angeles:20270101T123000
+SUMMARY:Resolution Run 5K and Polar Bear Dive - 2027
+DESCRIPTION:5K\, Kids\, Walk\n$40\nThe Resolution Run is a 5K run/walk and 
+ finish festival celebrating the start of the New Year\, with an optional P
+ olar Plunge into Lake Washington…\nhttps://runsignup.com/Race/WA/Seattle
+ /ResolutionRun5KAndPolarBearDive?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqs
+ nt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/ResolutionRun5KAndPolarBearDive?a
+ flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:unicorns-rainbows-5k-2027-01-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270110T100000
+DTEND;TZID=America/Los_Angeles:20270110T120000
+SUMMARY:Unicorns & Rainbows 5k
+DESCRIPTION:5K\, Kids\n$34–$39\nLet's begin 2026 on a very happy note. Be
+ cause who doesn't like unicorns and rainbows? FAQs: https://run2befit.com/
+ unicorns-%26-rainbows-5k-1\nhttps://runsignup.com/Race/WA/Seattle/Unicorns
+ RainbowsFunRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/UnicornsRainbowsFunRun?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mlk-jr-freedom-run-5k-10k-13-1-seattle-2027-01-16@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270116T073000
+DTEND;TZID=America/Los_Angeles:20270116T093000
+SUMMARY:MLK Jr. Freedom Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin in our annua
+ l Martin Luther King Jr. Day Run! Today\, we gather to honor the legacy of
+  Dr. King and his enduring commitment to justice\, equality…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/MLKJrFreedomRun5K10KSEATTLE?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/MLKJrFreedomRun5K10KSEATTLE?aflt_
+ token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sunrise-marathon-5k-10k-13-1-seattle-2027-01-16@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270116T073000
+DTEND;TZID=America/Los_Angeles:20270116T093000
+SUMMARY:Sunrise Marathon 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nChasing the Sun\,
+  Crushing Goals! Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There i
+ s no better way to start your day than stepping up to the…\nhttps://runs
+ ignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE0116?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE0116?a
+ flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:coffee-lover-run-seattle-2027-01-30@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270130T073000
+DTEND;TZID=America/Los_Angeles:20270130T093000
+SUMMARY:Coffee Lover Run SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nFor all the Coffe
+ e Lovers\, this run is for you! You’ll love the shirt we send you. Set a
+  goal\, bring a friend\, and join this super fun 5K/10K/13.1…\nhttps://r
+ unsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE?aflt_token=wc7B47h8BqW9
+ drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-donut-seattle-2027-01-30@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270130T073000
+DTEND;TZID=America/Los_Angeles:20270130T093000
+SUMMARY:Run for Donut SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nDonut Mind If I D
+ o! Get ready for a race day fueled by laughter\, community\, and a shared 
+ love for the world's best treat! The 2027 Run for Donut is…\nhttps://run
+ signup.com/Race/WA/Seattle/RunForDonutSEATTLE?aflt_token=wc7B47h8BqW9drLne
+ kNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForDonutSEATTLE?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:galentine-s-5k-2027-02-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270213T100000
+DTEND;TZID=America/Los_Angeles:20270213T120000
+SUMMARY:Galentine's 5k
+DESCRIPTION:5K\, Kids\, Walk\n$34–$39\nGalentine’s 5K Fun Run/Walk Beca
+ use nothing says “girl power” like running with your besties! Grab you
+ r gals\, your soul sisters\, your ride-or-dies…\nhttps://runsignup.com/R
+ ace/WA/Seattle/Galentines5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/Galentines5k?aflt_token=wc7B47h8B
+ qW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-chocolate-5k-10k-13-1-seattle-2027-02-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270213T073000
+DTEND;TZID=America/Los_Angeles:20270213T093000
+SUMMARY:Run for Chocolate 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nRun Now\, Chocola
+ te Later! Who says you can't have your chocolate—and run it too? The 202
+ 7 Run for Chocolate is coming\, and it’s sweeter than ever!…\nhttps://
+ runsignup.com/Race/WA/Seattle/RunForChocolate5k10kSEATTLE0213?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForChocolate5k10kSEATTLE0213?a
+ flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:valentine-s-day-run-5k-10k-13-1-seattle-2027-02-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270213T073000
+DTEND;TZID=America/Los_Angeles:20270213T093000
+SUMMARY:Valentine's Day Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nCelebrate love an
+ d fitness this Valentine’s Day with our charming Valentine's Run! Whethe
+ r you’re running solo\, with a partner\, or with friends\, this…\nhttp
+ s://runsignup.com/Race/WA/Seattle/ValentineSDayRun5K10KSEATTLE?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/ValentineSDayRun5K10KSEATTLE?aflt
+ _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ten-trails-active-club-heartfelt-hustle-2027-02-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270213T080000
+DTEND;TZID=America/Los_Angeles:20270213T100000
+SUMMARY:Ten Trails Active Club Heartfelt Hustle
+DESCRIPTION:5K\nFree\nJoin the Club! PLEASE READ ALL OF THIS Is it race sea
+ son yet?!?!... Not quite. But the holiday season isn't over for the Ten Tr
+ ails Active Club\, and…\nhttps://runsignup.com/Race/WA/BlackDiamond/TenT
+ railsActiveClubHeartfeltHustle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Black Diamond\, WA
+URL:https://runsignup.com/Race/WA/BlackDiamond/TenTrailsActiveClubHeartfelt
+ Hustle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:alexander-s-hope-valentine-s-day-dash-2027-02-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270213T090000
+DTEND;TZID=America/Los_Angeles:20270213T110000
+SUMMARY:Alexander's Hope Valentine's Day Dash
+DESCRIPTION:5K\, Kids\, Walk\n$20–$30\nThe Alexander's Hope Valentine's D
+ ay Dash 5k run/walk is back for the 8th year! Dogs & strollers are both we
+ lcome at the race! Our race will start &…\nhttps://runsignup.com/Race/WA
+ /Bellevue/ValentinesDay?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Bellevue\, WA
+URL:https://runsignup.com/Race/WA/Bellevue/ValentinesDay?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:super-seattle-5k-2027-02-14@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270214T093000
+DTEND;TZID=America/Los_Angeles:20270214T113000
+SUMMARY:Super Seattle 5K
+DESCRIPTION:5K\n$25\n**** Please Read in Entirety **** Super Seattle 5K - P
+ roduced by Hi5K Calling all Super Bowl Fans to run (or walk) in the Super 
+ Seattle 5K!!! This is…\nhttps://runsignup.com/Race/WA/Seattle/SuperBowlS
+ unday5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SuperBowlSunday5K?aflt_token=wc7B
+ 47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-mental-health-seattle-2027-02-27@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270227T073000
+DTEND;TZID=America/Los_Angeles:20270227T093000
+SUMMARY:Run For Mental Health SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the "Run for
+  Mental Health"! A journey of hope and connection. Every step is a reminde
+ r that no one has to face life’s challenges alone. Whether…\nhttps://r
+ unsignup.com/Race/WA/Seattle/RunForMentalHealthSEATTLE0227?aflt_token=wc7B
+ 47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForMentalHealthSEATTLE0227?afl
+ t_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-together-against-breast-cancer-seattle-2027-02-27@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270227T073000
+DTEND;TZID=America/Los_Angeles:20270227T093000
+SUMMARY:Run Together Against Breast Cancer SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the Fight: B
+ reast Cancer Run! Lace up and make a difference at our annual Breast Cance
+ r Run! Together\, we can raise awareness and funds to…\nhttps://runsignu
+ p.com/Race/WA/Seattle/RunTogetherAgainstBreastCancerSEATTLE0227?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunTogetherAgainstBreastCancerSEA
+ TTLE0227?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-or-wine-5k-series-february-2027-2027-02-28@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270228T120000
+DTEND;TZID=America/Los_Angeles:20270228T140000
+SUMMARY:Run or Wine 5K Series - February 2027
+DESCRIPTION:5K\, 10K\, Walk\n$44–$64\nWhether you’re racing for a perso
+ nal best or strolling for the wine\, this event is for you! Join us for th
+ e Run or Wine 5K & 10K\, a fun and scenic…\nhttps://runsignup.com/Race/W
+ A/Woodinville/Runorwinefebruary2024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqw
+ hqsnt
+LOCATION:Woodinville\, WA
+URL:https://runsignup.com/Race/WA/Woodinville/Runorwinefebruary2024?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:brooks-lake-sammamish-half-marathon-presented-by-rei-2027-03-06@www.run
+ 206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270306T073000
+DTEND;TZID=America/Los_Angeles:20270306T093000
+SUMMARY:Brooks Lake Sammamish Half Marathon presented by REI
+DESCRIPTION:Half Marathon\n$50–$68\nThe Brooks Lake Sammamish Half Marath
+ on presented by REI is a point to point race from Redmond to Sammamish. Yo
+ u will run along the East Lake…\nhttps://runsignup.com/Race/WA/Redmond/L
+ akeSammamishHalfMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Redmond\, WA
+URL:https://runsignup.com/Race/WA/Redmond/LakeSammamishHalfMarathon?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-woodinville-half-and-10k-2027-03-07@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270307T080000
+DTEND;TZID=America/Los_Angeles:20270307T100000
+SUMMARY:2027 Woodinville Half and 10K
+DESCRIPTION:10K\, Half Marathon\n$50–$60\nJoin us on Sunday\, March 7th 2
+ 027 for the 2nd Annual Woodinville Half and 10K. Participants will enjoy a
+  super flat and fast out and back route along…\nhttps://runsignup.com/Ra
+ ce/WA/Woodinville/WoodinvilleHalfAnd10K?aflt_token=wc7B47h8BqW9drLnekNygSA
+ Mxqwhqsnt
+LOCATION:Woodinville\, WA
+URL:https://runsignup.com/Race/WA/Woodinville/WoodinvilleHalfAnd10K?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:celebrate-women-5k-10k-2027-03-07@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270307T090000
+DTEND;TZID=America/Los_Angeles:20270307T110000
+SUMMARY:Celebrate Women 5K & 10K
+DESCRIPTION:5K\, 10K\n$30–$35\nJoin us in Celebrating Women! Women in his
+ tory to those women who are leaders in our community. All registrations in
+ clude bib\, medal and race day…\nhttps://runsignup.com/Race/WA/Puyallup/
+ 198236?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/198236?aflt_token=wc7B47h8BqW9dr
+ LnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-kirkland-shamrock-run-2027-03-13@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270313T090000
+DTEND;TZID=America/Los_Angeles:20270313T110000
+SUMMARY:2027 Kirkland Shamrock Run
+DESCRIPTION:Marina Park Public Beach\, 25 Lakeshore Plaza\, Kirkland\, WA -
+  Come join Lake Washington Physical Therapy and Cascade…\nhttps://racero
+ ster.com/events/2027/116539/2027-kirkland-shamrock-run
+LOCATION:Kirkland\, WA
+URL:https://raceroster.com/events/2027/116539/2027-kirkland-shamrock-run
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:snoqualmie-valley-st-patrick-s-day-fun-run-2027-03-14@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270314T093000
+DTEND;TZID=America/Los_Angeles:20270314T113000
+SUMMARY:Snoqualmie Valley St. Patrick's Day Fun Run
+DESCRIPTION:5K\, Kids\, Walk\n$35\nJoin us for the Snoqualmie Valley St. Pa
+ trick's Day Fun Run! Celebrate St. Patrick’s Day with this festive\, fam
+ ily-friendly 5K walk/run and Kids…\nhttps://runsignup.com/Race/WA/Snoqua
+ lmie/SnoqualmieValleyShamrockShuffle?aflt_token=wc7B47h8BqW9drLnekNygSAMxq
+ whqsnt
+LOCATION:Snoqualmie\, WA
+URL:https://runsignup.com/Race/WA/Snoqualmie/SnoqualmieValleyShamrockShuffl
+ e?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-paddy-s-day-lucky-run-5k-10k-13-1-seattle-2027-03-20@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270320T073000
+DTEND;TZID=America/Los_Angeles:20270320T093000
+SUMMARY:St. Paddy's Day Lucky Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nSt. Paddy's Day R
+ un: Luck\, Laughs\, and Laces! Celebrate St. Patrick’s Day with a fun an
+ d festive run that’s as much about the spirit of the holiday…\nhttps:/
+ /runsignup.com/Race/WA/Seattle/StPaddySDayLuckyRun5K10KSEATTLE0320?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/StPaddySDayLuckyRun5K10KSEATTLE03
+ 20?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sunrise-marathon-5k-10k-13-1-seattle-2027-03-20@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270320T073000
+DTEND;TZID=America/Los_Angeles:20270320T093000
+SUMMARY:Sunrise Marathon 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nChasing the Sun\,
+  Crushing Goals! Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There i
+ s no better way to start your day than stepping up to the…\nhttps://runs
+ ignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE320?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE320?af
+ lt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-forest-run-5k-2027-03-21@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270321T100000
+DTEND;TZID=America/Los_Angeles:20270321T120000
+SUMMARY:Run Forest Run 5k
+DESCRIPTION:5K\, Kids\, Walk\n$35–$38\nRun Forest Run 5K — A Forrest Gu
+ mp-Inspired Fun Run! If you’ve ever watched Forrest Gump and thought\, 
+ “Hey\, I could run across America too… or at…\nhttps://runsignup.com
+ /Race/WA/Seattle/RunForestRun5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsn
+ t
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForestRun5k?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:test-rr-race-2027-03-25@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270325T093000
+DTEND;TZID=America/Los_Angeles:20270325T113000
+SUMMARY:Test RR Race
+DESCRIPTION:5K\n$35\nTest\nhttps://runsignup.com/Race/WA/Renton/TestRRRace?
+ aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Renton\, WA
+URL:https://runsignup.com/Race/WA/Renton/TestRRRace?aflt_token=wc7B47h8BqW9
+ drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:always-hope-easter-run-seattle-2027-03-27@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270327T073000
+DTEND;TZID=America/Los_Angeles:20270327T093000
+SUMMARY:Always Hope Easter Run SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nHop Into Action a
+ t the Always Hope Easter Run! Spring into the season with purpose\, commun
+ ity\, and fun! Whether you're chasing a personal best…\nhttps://runsignu
+ p.com/Race/WA/Seattle/AlwaysHopeEasterRunSEATTLE0327?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/AlwaysHopeEasterRunSEATTLE0327?af
+ lt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-mill-town-half-marathon-10k-and-5k-2027-03-27@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270327T080000
+DTEND;TZID=America/Los_Angeles:20270327T100000
+SUMMARY:2027 Mill Town Half Marathon\, 10K and 5K
+DESCRIPTION:5K\, 10K\, Half Marathon\n$35–$60\nMill Town Half Half Marath
+ on\, 10K and 5K Saturday\, March 2027 Port of Everett\, Everett\, WA Exper
+ ience the Beauty. Embrace the Challenge. Join the…\nhttps://runsignup.co
+ m/Race/WA/Everett/MillTownHalfMarathon10KAnd5K?aflt_token=wc7B47h8BqW9drLn
+ ekNygSAMxqwhqsnt
+LOCATION:Everett\, WA
+URL:https://runsignup.com/Race/WA/Everett/MillTownHalfMarathon10KAnd5K?aflt
+ _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-for-bagels-5k-10k-13-1-seattle-2027-04-10@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270410T073000
+DTEND;TZID=America/Los_Angeles:20270410T093000
+SUMMARY:Run for Bagels 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nRun for the carbs
+ . Stay for the bagels. Love running? Love bagels? This one’s for you. Wh
+ ether you’re chasing a workout or just here for the carbs…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/RunForBagels5K10KSEATTLE?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/RunForBagels5K10KSEATTLE?aflt_tok
+ en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:washington-state-marathon-2027-04-18@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270418T080000
+DTEND;TZID=America/Los_Angeles:20270418T100000
+SUMMARY:Washington State Marathon
+DESCRIPTION:Marathon\n$99\nFinally! A flat\, fast full marathon in the Seat
+ tle area\, the inaugural Washington State Marathon promises to deliver a s
+ tunning point-to-point race…\nhttps://runsignup.com/Race/WA/Redmond/Wash
+ ingtonStateMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Redmond\, WA
+URL:https://runsignup.com/Race/WA/Redmond/WashingtonStateMarathon?aflt_toke
+ n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:coffee-lover-run-seattle-2027-04-24@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270424T073000
+DTEND;TZID=America/Los_Angeles:20270424T093000
+SUMMARY:Coffee Lover Run SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nFor all the Coffe
+ e Lovers\, this run is for you! You’ll love the shirt we send you. Set a
+  goal\, bring a friend\, and join this super fun 5K/10K/13.1…\nhttps://r
+ unsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE424?aflt_token=wc7B47h8B
+ qW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE424?aflt_tok
+ en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:i-love-the-90s-5k-2027-04-25@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270425T100000
+DTEND;TZID=America/Los_Angeles:20270425T120000
+SUMMARY:I love the 90s 5k
+DESCRIPTION:5K\, Kids\, Walk\n$24–$39\nI love the 90s 5k! Get ready to gr
+ oove and run down memory lane at the I Love the 90s 5K\, where you can lac
+ e up your sneakers & jam to classic 90s…\nhttps://runsignup.com/Race/WA/
+ Seattle/Ilovethe90s?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/Ilovethe90s?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ten-trails-active-club-5k-training-program-2027-04-28@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270428T180000
+DTEND;TZID=America/Los_Angeles:20270428T200000
+SUMMARY:Ten Trails Active Club 5k Training Program
+DESCRIPTION:5K\nFree\nJoin the Club! Our 5K training program is designed to
+  help both true beginners and returning athletes gradually build up their 
+ running ability over…\nhttps://runsignup.com/Race/WA/BlackDiamond/TenTra
+ ilsActiveClub5kProgram?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Black Diamond\, WA
+URL:https://runsignup.com/Race/WA/BlackDiamond/TenTrailsActiveClub5kProgram
+ ?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tacoma-city-marathon-half-ghost-10k-5k-1k-2027-05-01@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270501T073000
+DTEND;TZID=America/Los_Angeles:20270501T093000
+SUMMARY:Tacoma City Marathon / Half / Ghost / 10K / 5K / 1K
+DESCRIPTION:1K\, 5K\, 10K\, Half Marathon\n$10–$190\nJoin us for the retu
+ rn of the Ghost of Tacoma on Saturday and the Tacoma City Marathon on Sund
+ ay with Marathon Relay\, Half Marathon\, 5K\, 10K and Kids…\nhttps://run
+ signup.com/Race/WA/Tacoma/TCMATacomaCityMarathon?aflt_token=wc7B47h8BqW9dr
+ LnekNygSAMxqwhqsnt
+LOCATION:Tacoma\, WA
+URL:https://runsignup.com/Race/WA/Tacoma/TCMATacomaCityMarathon?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:atfs-garage-sale-5k-2027-05-01@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270501T090000
+DTEND;TZID=America/Los_Angeles:20270501T110000
+SUMMARY:ATFS! Garage Sale 5K
+DESCRIPTION:5K\n$10\nLooking for a race that’s a little different? The AT
+ FS! Garage Sale 5K is happening Saturday\, May 1\, 2027! Come run or walk\
+ , bring your friends and…\nhttps://runsignup.com/Race/WA/Auburn/ATFSGara
+ geSale5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Auburn\, WA
+URL:https://runsignup.com/Race/WA/Auburn/ATFSGarageSale5K?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kirkland-half-marathon-5k-2027-05-02@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270502T080000
+DTEND;TZID=America/Los_Angeles:20270502T100000
+SUMMARY:Kirkland Half Marathon & 5K
+DESCRIPTION:5K\, Half Marathon\, Kids\n$12–$75\nThe Mother’s Day Half M
+ arathon & 5K is now the Kirkland Half Marathon and 5K. Still the same grea
+ t course and put on by the same great people. Your…\nhttps://runsignup.c
+ om/Race/WA/Kirkland/KirklandHalf5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwh
+ qsnt
+LOCATION:Kirkland\, WA
+URL:https://runsignup.com/Race/WA/Kirkland/KirklandHalf5k?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bainbridge-island-parks-trails-foundation-trillium-trail-run-2027-05-08
+ @www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270508T090000
+DTEND;TZID=America/Los_Angeles:20270508T110000
+SUMMARY:Bainbridge Island Parks & Trails Foundation Trillium Trail Run
+DESCRIPTION:5K\, 10K\, Kids\n$30–$35\nBainbridge Island's beloved spring 
+ running event is back! Join Bainbridge Island Parks & Trails Foundation in
+  running or walking a 10K or 5K on a…\nhttps://runsignup.com/Race/WA/Bai
+ nbridgeIsland/BainbridgeIslandParksTrailsFoundationTrilliumTrailRun?aflt_t
+ oken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Bainbridge Island\, WA
+URL:https://runsignup.com/Race/WA/BainbridgeIsland/BainbridgeIslandParksTra
+ ilsFoundationTrilliumTrailRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:inspiring-hope-run-5k-10k-2027-05-15@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270515T090000
+DTEND;TZID=America/Los_Angeles:20270515T110000
+SUMMARY:Inspiring Hope Run 5k/10k
+DESCRIPTION:5K\, 10K\, Kids\, Walk\n$20–$25\nThis fun\, family friendly e
+ vent is perfect for athletes of all levels. Runner\, walker and family fri
+ endly. Gentle rolling course. Incredible support…\nhttps://runsignup.com
+ /Race/WA/Mukilteo/inspiringhope?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsn
+ t
+LOCATION:Mukilteo\, WA
+URL:https://runsignup.com/Race/WA/Mukilteo/inspiringhope?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:seattle-ataturk-unity-run-2027-05-16@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270516T094500
+DTEND;TZID=America/Los_Angeles:20270516T114500
+SUMMARY:Seattle Atatürk Unity Run
+DESCRIPTION:5K\, 10K\, Kids\, Walk\n$10–$40\nTACAWA proudly presents the 
+ first annual Seattle Atatürk Unity Run. Join us for a scenic and inspirin
+ g 5K and 10K at Gas Works Park and along the…\nhttps://runsignup.com/Rac
+ e/WA/Seattle/SeattleAtaturkUnityRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqw
+ hqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/SeattleAtaturkUnityRun?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-evergreen-half-and-5-mile-2027-05-23@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270523T080000
+DTEND;TZID=America/Los_Angeles:20270523T100000
+SUMMARY:2027 Evergreen Half and 5 Mile
+DESCRIPTION:5 Mile\, Half Marathon\n$45–$55\nJoin the Snohomish Running C
+ ompany on Sunday\, May 31st for the fastest paved half marathon in the Nor
+ thwest: The Evergreen Half. The Evergreen Half…\nhttps://runsignup.com/R
+ ace/WA/Snohomish/2027EvergreenHalfAnd5Mile?aflt_token=wc7B47h8BqW9drLnekNy
+ gSAMxqwhqsnt
+LOCATION:Snohomish\, WA
+URL:https://runsignup.com/Race/WA/Snohomish/2027EvergreenHalfAnd5Mile?aflt_
+ token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-to-end-weekend-hunger-5k-2027-05-23@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270523T090000
+DTEND;TZID=America/Los_Angeles:20270523T110000
+SUMMARY:Run to END Weekend Hunger 5K
+DESCRIPTION:5K\, Kids\, Walk\n$35\nJoin us at the Run to END Weekend Hunger
+  5K to support Backpack Brigade\, the largest weekend-hunger relief organi
+ zation for schoolchildren in…\nhttps://runsignup.com/Race/WA/Seattle/End
+ WeekendHunger5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/EndWeekendHunger5k?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:lookin-for-a-cure-seattle-2027-05-29@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270529T090000
+DTEND;TZID=America/Los_Angeles:20270529T110000
+SUMMARY:Lookin For A Cure Seattle
+DESCRIPTION:5K\n$25–$40\n"We're "Lookin' For a Cure" in scenic Warren G M
+ agnesun Park! Join A Cure In Sight on Saturday May 29\, 2027 from 8AM-11AM
+ \, to walk or run with us. We…\nhttps://runsignup.com/Race/WA/Seattle/Lo
+ okinForACureSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/LookinForACureSeattle?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:northshore-spring-5k-for-schools-2027-06-01@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270601T090000
+DTEND;TZID=America/Los_Angeles:20270601T110000
+SUMMARY:Northshore Spring 5k for Schools
+DESCRIPTION:5K\n$25\nA Community 5K for Every Pace A day of movement\, conn
+ ection\, and community impact! The Northshore Spring 5K for Schools is pro
+ udly presented and…\nhttps://runsignup.com/Race/WA/Seattle/NorthshoreSpr
+ ing5kForSchools?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/NorthshoreSpring5kForSchools?aflt
+ _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-seattle-marathon-summer-events-2027-06-05@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270605T060000
+DTEND;TZID=America/Los_Angeles:20270605T080000
+SUMMARY:2027 Seattle Marathon Summer Events
+DESCRIPTION:Seward Park\, 5900 Lake Washington Boulevard South\, Seattle\, 
+ WA\, USA - Join us for our annual family-friendly run at Seward Park…\nh
+ ttps://raceroster.com/events/2027/138588/2027-seattle-marathon-summer-even
+ ts
+LOCATION:Seattle\, WA
+URL:https://raceroster.com/events/2027/138588/2027-seattle-marathon-summer-
+ events
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-centennial-100-2027-06-19@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270619T060000
+DTEND;TZID=America/Los_Angeles:20270619T080000
+SUMMARY:2027 Centennial 100
+DESCRIPTION:Relay\n$100–$360\nThe Centennial Relay & Ultra Run isn’t ju
+ st another race. It’s an unforgettable 100K adventure through the heart 
+ of the Pacific Northwest! Covering…\nhttps://runsignup.com/Race/WA/Snoho
+ mish/CENTENNIALRELAY?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Snohomish\, WA
+URL:https://runsignup.com/Race/WA/Snohomish/CENTENNIALRELAY?aflt_token=wc7B
+ 47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:puyallup-trail-challenge-2027-07-24@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270724T090000
+DTEND;TZID=America/Los_Angeles:20270724T110000
+SUMMARY:Puyallup Trail Challenge
+DESCRIPTION:Puyallup Trail Challenge\n$80\nAre You Ready to Accept the Chal
+ lenge? Join us on Saturday\, July 24\, 2027\, for the Puyallup Trail Chall
+ enge—a true test of endurance\, strategy\, and…\nhttps://runsignup.com
+ /Race/WA/Puyallup/PuyallupTrailChallenge?aflt_token=wc7B47h8BqW9drLnekNygS
+ AMxqwhqsnt
+LOCATION:Puyallup\, WA
+URL:https://runsignup.com/Race/WA/Puyallup/PuyallupTrailChallenge?aflt_toke
+ n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:craft-classic-seattle-2027-08-01@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270801T073000
+DTEND;TZID=America/Los_Angeles:20270801T093000
+SUMMARY:Craft Classic Seattle
+DESCRIPTION:5K\, Half Marathon\n$37–$82\nJoin us to indulge in two of Sea
+ ttle’s true loves: Running and Craft Beer! The Craft Classic Half Marath
+ on and 5K offers a unique Seattle area course…\nhttps://runsignup.com/Ra
+ ce/WA/Redmond/CraftClassicSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhq
+ snt
+LOCATION:Redmond\, WA
+URL:https://runsignup.com/Race/WA/Redmond/CraftClassicSeattle?aflt_token=wc
+ 7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:18th-lake-union-10k-run-walk-2027-08-08@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270808T080000
+DTEND;TZID=America/Los_Angeles:20270808T100000
+SUMMARY:18th Lake Union 10K Run/Walk
+DESCRIPTION:10K\, Walk\n$45\n18th Lake Union 10K Run/Walk Sunday 8.8.27 $55
+  special ends noon Monday 8.17.26 (Registration reopens January\, tickets 
+ $69) *Finisher's Medals* *Team…\nhttps://runsignup.com/Race/WA/Seattle/L
+ akeUnion10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/LakeUnion10K?aflt_token=wc7B47h8B
+ qW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vashon-dock-to-dock-run-15-mile-run-and-relay-2027-08-08@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270808T090000
+DTEND;TZID=America/Los_Angeles:20270808T110000
+SUMMARY:Vashon Dock to Dock Run - 15 mile Run and Relay
+DESCRIPTION:15 Mile\, Relay\n$65–$85\nVashon Dock to Dock - 15 Mile Run S
+ unday\, August 9\, 2026 | Vashon Island\, WA Online Registration closes at
+  9pm tonight. You can also register at the…\nhttps://runsignup.com/Race/
+ WA/Vashon/VashonDockToDock15mileAndRelay?aflt_token=wc7B47h8BqW9drLnekNygS
+ AMxqwhqsnt
+LOCATION:Vashon\, WA
+URL:https://runsignup.com/Race/WA/Vashon/VashonDockToDock15mileAndRelay?afl
+ t_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-step-closer-2027-08-14@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270814T200000
+DTEND;TZID=America/Los_Angeles:20270814T220000
+SUMMARY:One Step Closer
+DESCRIPTION:3 Hour\, 6 Hour\, 12 Hour\, 18 Hour\n$15–$140\nWhat do you ge
+ t when you take Orca Running and mix it with Evergreen Trail!? Welcome to 
+ One Step Closer. An exciting summer endurance event created…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/OneStepCloser?aflt_token=wc7B47h8BqW9drLnekNyg
+ SAMxqwhqsnt
+LOCATION:Seattle\, WA
+URL:https://runsignup.com/Race/WA/Seattle/OneStepCloser?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
+CATEGORIES:Race
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:run-a-muk-5k-10k-2027-08-21@www.run206.com
+DTSTAMP:20260829T213440Z
+DTSTART;TZID=America/Los_Angeles:20270821T090000
+DTEND;TZID=America/Los_Angeles:20270821T110000
+SUMMARY:Run A Muk 5k/10k
+DESCRIPTION:5K\, 10K\, Kids\, Walk\n$25\nChoose from a chip-timed 5k or 10k
+  and enjoy majestic mountain and water views on this pretty route. Runners
+  are likely to see one of several…\nhttps://runsignup.com/Race/WA/Mukilt
+ eo/RunAMuk?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+LOCATION:Mukilteo\, WA
+URL:https://runsignup.com/Race/WA/Mukilteo/RunAMuk?aflt_token=wc7B47h8BqW9d
+ rLnekNygSAMxqwhqsnt
 CATEGORIES:Race
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
