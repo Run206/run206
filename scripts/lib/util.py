@@ -73,6 +73,35 @@ _WEEKDAY_RE = re.compile(
 _ZIP_RE = re.compile(r"\b\d{5}(-\d{4})?\b")
 
 
+# Emoji, variation selectors and ZWJ sequences. Race marketing copy is full of
+# them ("🎀 Join the Fight", "🦥🏃‍♂️ The Sloth Run"), and they land at the front
+# where they push the actual information out of the two-line clamp.
+_EMOJI_RE = re.compile(
+    "["
+    "\U0001F000-\U0001FAFF"      # pictographs, emoticons, transport, symbols
+    "\U00002600-\U000027BF"      # misc symbols and dingbats
+    "\U00002B00-\U00002BFF"      # arrows and geometric shapes
+    "\U0001F1E6-\U0001F1FF"      # regional indicators (flags)
+    "\U0000FE00-\U0000FE0F"      # variation selectors
+    "\U0000200D"                  # zero-width joiner
+    "\U000023E9-\U000023FA"      # media symbols
+    "]+", flags=re.UNICODE)
+
+
+def strip_emoji(text):
+    """Remove emoji from imported copy.
+
+    Deliberate editorial choice, not a bug fix: these descriptions are other
+    people's promotional text shown in a two-line clamp, so decorative
+    characters cost information. Revert by dropping this call if you'd rather
+    keep the source copy verbatim.
+    """
+    if not text:
+        return text
+    cleaned = _EMOJI_RE.sub(" ", text)
+    return re.sub(r"\s{2,}", " ", cleaned).strip(" -–—:·|")
+
+
 def clean_description(text):
     """Drop leading logistics boilerplate from a race description.
 

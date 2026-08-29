@@ -165,6 +165,7 @@ def _build(detail, listing, org, community_id, brands, start):
         "desc": notes,
         "url": EVENT_URL.format(detail.get("eventId") or listing.get("id")),
         "price": "Free",
+        "image": detail.get("image") or listing.get("image") or "",
         "source": "heylo",
         "source_id": detail.get("eventId") or listing.get("id"),
         "community_id": community_id,

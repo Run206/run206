@@ -142,19 +142,32 @@ def check_html():
     if "application/ld+json" not in html:
         warn("no JSON-LD structured data emitted")
 
-    # The page must not load anything from a third party at render time. Only
-    # subresource tags count here — outbound <a href> links to race pages are
-    # the entire point of the site.
-    resources = []
+    # Third-party *scripts and stylesheets* are the real concern — they execute.
+    # Event logos are a deliberate exception: they're lazy, no-referrer, and come
+    # from the registration platform the event already lives on. Warning about
+    # them on every build would train you to ignore this check.
+    IMAGE_HOSTS = ("cloudfront.net", "raceroster.com", "heylo.com",
+                   "b-cdn.net", "runsignup.com")
+    executable, images = [], []
     for tag in re.findall(r"<(?:script|img|link)\b[^>]*>", html, re.I):
         if re.search(r'rel="(?:canonical|alternate)"', tag, re.I):
             continue  # a canonical URL is metadata, not a fetched resource
         match = re.search(r'(?:src|href)="(https?://[^"]+)"', tag, re.I)
-        if match:
-            resources.append(match.group(1))
-    if resources:
-        warn("page loads external resources (should be fully self-contained): {}"
-             .format(sorted(set(resources))[:3]))
+        if not match:
+            continue
+        url = match.group(1)
+        is_image = tag.lower().lstrip("<").startswith("img")
+        if is_image and any(host in url for host in IMAGE_HOSTS):
+            images.append(url)
+        else:
+            executable.append(url)
+
+    if executable:
+        fail("page loads third-party executable resources: {}"
+             .format(sorted(set(executable))[:3]))
+    if images:
+        hosts = sorted({re.sub(r"^https?://([^/]+).*", r"\1", u) for u in images})
+        print("OK: {} event logos from {}".format(len(images), ", ".join(hosts)))
 
     if "affiliate" not in html.lower():
         fail("affiliate disclosure missing from the page")

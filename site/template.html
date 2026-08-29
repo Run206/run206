@@ -13,7 +13,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#FCFBF9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#101315" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23C0402A'/><path d='M8 24c0-5 4-5 4-9s-4-4-4-8' stroke='%23fff' stroke-width='3' stroke-linecap='round' fill='none'/><circle cx='22' cy='11' r='3' fill='%23fff'/><path d='M17 24c2-4 4-6 7-6' stroke='%23fff' stroke-width='3' stroke-linecap='round' fill='none'/></svg>">
 <style>{{STYLES}}</style>
 </head>
 <body>
@@ -23,7 +23,7 @@
   <div class="wrap">
     <div class="masthead-top">
       <div>
-        <h1 class="brand">Run<span>206</span></h1>
+        <h1 class="brand"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M8 24c0-5 4-5 4-9s-4-4-4-8" stroke="var(--bg)" stroke-width="3" stroke-linecap="round" fill="none"/><circle cx="22" cy="11" r="3" fill="var(--bg)"/><path d="M17 24c2-4 4-6 7-6" stroke="var(--bg)" stroke-width="3" stroke-linecap="round" fill="none"/></svg>Run<span>206</span></h1>
         <p class="tagline">{{TAGLINE}}</p>
       </div>
       <button class="theme-toggle" id="theme" type="button" aria-label="Switch theme">☾</button>
@@ -43,16 +43,21 @@
     <input class="search" id="search" type="search" autocomplete="off"
            aria-label="Search events by name, club, location or distance"
            placeholder="Search races, clubs, neighbourhoods…">
-    <div class="chips" id="f-type" role="group" aria-label="Filter by event type">
-      <button class="chip" type="button" data-value="All" aria-pressed="true">All</button>
+    <div class="chips" id="f-type" role="group"
+         aria-label="Filter by event type. Combine as many as you like.">
+      <button class="chip chip-all" type="button" data-value="All" aria-pressed="true">All</button>
       <button class="chip" type="button" data-value="Race" aria-pressed="false">Races</button>
       <button class="chip" type="button" data-value="Club Run" aria-pressed="false">Club runs</button>
       <button class="chip" type="button" data-value="Brand Event" aria-pressed="false">Brand events</button>
     </div>
-    <div class="chips" id="f-dist" role="group" aria-label="Filter by distance">
+    <div class="chips chips-scroll" id="f-dist" role="group"
+         aria-label="Filter by distance. Combine as many as you like.">
       {{DIST_CHIPS}}
     </div>
-    <p class="result-count" id="summary" role="status" aria-live="polite"></p>
+    <div class="filter-foot">
+      <p class="result-count" id="summary" role="status" aria-live="polite"></p>
+      <button class="toggle" id="f-free" type="button" aria-pressed="false">Free only</button>
+    </div>
   </div>
 </div>
 

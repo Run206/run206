@@ -5,8 +5,9 @@
  * current filters, keeps the group counts honest, and mirrors filter state into
  * the URL so a filtered view can be shared.
  *
- * Groups are baked in at build time, so filtering never has to move an event
- * between sections — it only hides rows and then hides any section left empty.
+ * Type and distance are multi-select: an empty selection means "all", so the
+ * "All" chip is a clear button rather than a separate mode. Someone can ask for
+ * races and club runs but not brand events, which single-select couldn't do.
  */
 (function () {
   "use strict";
@@ -20,8 +21,9 @@
   var empty = document.getElementById("empty");
   var searchInput = document.getElementById("search");
   var summary = document.getElementById("summary");
+  var freeToggle = document.getElementById("f-free");
 
-  var state = { type: "All", dist: "All", q: "" };
+  var state = { types: [], dists: [], free: false, q: "" };
 
   /* ---------- theme ---------- */
 
@@ -54,22 +56,6 @@
 
   /* ---------- filtering ---------- */
 
-  function matches(row) {
-    if (state.type !== "All" && row.getAttribute("data-type") !== state.type) return false;
-
-    if (state.dist === "Free") {
-      if (row.getAttribute("data-free") !== "1") return false;
-    } else if (state.dist !== "All") {
-      var tags = (row.getAttribute("data-tags") || "").split(",");
-      if (tags.indexOf(state.dist) === -1) return false;
-    }
-
-    if (state.q) {
-      if (haystack(row).indexOf(state.q) === -1) return false;
-    }
-    return true;
-  }
-
   /* Search text comes from the row itself rather than a duplicated data-text
      attribute, computed once per row and cached. */
   var cache = typeof WeakMap !== "undefined" ? new WeakMap() : null;
@@ -81,6 +67,25 @@
     var text = (row.textContent || "").toLowerCase().replace(/\s+/g, " ");
     if (cache) cache.set(row, text);
     return text;
+  }
+
+  function matches(row) {
+    // An empty selection means no constraint, so "All" needs no special case.
+    if (state.types.length &&
+        state.types.indexOf(row.getAttribute("data-type")) === -1) return false;
+
+    if (state.dists.length) {
+      var tags = (row.getAttribute("data-tags") || "").split(",");
+      var hit = false;
+      for (var i = 0; i < state.dists.length; i++) {
+        if (tags.indexOf(state.dists[i]) !== -1) { hit = true; break; }
+      }
+      if (!hit) return false;   // union, not intersection: 5K OR Half
+    }
+
+    if (state.free && row.getAttribute("data-free") !== "1") return false;
+    if (state.q && haystack(row).indexOf(state.q) === -1) return false;
+    return true;
   }
 
   function apply() {
@@ -100,10 +105,9 @@
 
     if (empty) empty.style.display = visible ? "none" : "block";
     if (summary) {
-      var total = rows.length;
-      summary.textContent = visible === total
-        ? "Showing all " + total + " events"
-        : "Showing " + visible + " of " + total + " events";
+      summary.textContent = visible === rows.length
+        ? "Showing all " + rows.length + " events"
+        : "Showing " + visible + " of " + rows.length + " events";
     }
     syncUrl();
   }
@@ -111,11 +115,25 @@
   function syncUrl() {
     if (!window.history || !window.history.replaceState) return;
     var params = new URLSearchParams();
-    if (state.type !== "All") params.set("type", state.type.toLowerCase().replace(/ /g, "-"));
-    if (state.dist !== "All") params.set("d", state.dist.toLowerCase());
+    function slug(v) { return v.toLowerCase().replace(/ /g, "-"); }
+    if (state.types.length) params.set("type", state.types.map(slug).join(","));
+    if (state.dists.length) params.set("d", state.dists.map(slug).join(","));
+    if (state.free) params.set("free", "1");
     if (state.q) params.set("q", state.q);
     var qs = params.toString();
     window.history.replaceState(null, "", qs ? "?" + qs : window.location.pathname);
+  }
+
+  /* ---------- multi-select chip groups ---------- */
+
+  function paint(container, selected) {
+    var chips = container.querySelectorAll(".chip");
+    for (var i = 0; i < chips.length; i++) {
+      var value = chips[i].getAttribute("data-value");
+      var on = value === "All" ? selected.length === 0
+                               : selected.indexOf(value) !== -1;
+      chips[i].setAttribute("aria-pressed", on ? "true" : "false");
+    }
   }
 
   function bindChips(containerId, key) {
@@ -124,17 +142,28 @@
     container.addEventListener("click", function (event) {
       var chip = event.target.closest(".chip");
       if (!chip || !container.contains(chip)) return;
-      var buttons = container.querySelectorAll(".chip");
-      for (var i = 0; i < buttons.length; i++) {
-        buttons[i].setAttribute("aria-pressed", buttons[i] === chip ? "true" : "false");
+      var value = chip.getAttribute("data-value");
+
+      if (value === "All") {
+        state[key] = [];                       // "All" clears the selection
+      } else {
+        var at = state[key].indexOf(value);
+        if (at === -1) state[key].push(value);
+        else state[key].splice(at, 1);
       }
-      state[key] = chip.getAttribute("data-value");
+      paint(container, state[key]);
+      apply();
+    });
+    paint(container, state[key]);
+  }
+
+  if (freeToggle) {
+    freeToggle.addEventListener("click", function () {
+      state.free = !state.free;
+      freeToggle.setAttribute("aria-pressed", state.free ? "true" : "false");
       apply();
     });
   }
-
-  bindChips("f-type", "type");
-  bindChips("f-dist", "dist");
 
   if (searchInput) {
     var timer = null;
@@ -149,29 +178,34 @@
 
   /* ---------- restore state from the URL ---------- */
 
-  function selectChip(containerId, value, key) {
+  function restore(containerId, param, key) {
     var container = document.getElementById(containerId);
-    if (!container || !value) return;
-    var buttons = container.querySelectorAll(".chip");
-    for (var i = 0; i < buttons.length; i++) {
-      var candidate = buttons[i].getAttribute("data-value");
-      if (candidate.toLowerCase().replace(/ /g, "-") === value.toLowerCase()) {
-        for (var j = 0; j < buttons.length; j++) {
-          buttons[j].setAttribute("aria-pressed", buttons[j] === buttons[i] ? "true" : "false");
-        }
-        state[key] = candidate;
-        return;
+    var raw = new URLSearchParams(window.location.search).get(param);
+    if (!container || !raw) return;
+    var wanted = raw.split(",");
+    var chips = container.querySelectorAll(".chip");
+    for (var i = 0; i < chips.length; i++) {
+      var value = chips[i].getAttribute("data-value");
+      if (value === "All") continue;
+      if (wanted.indexOf(value.toLowerCase().replace(/ /g, "-")) !== -1) {
+        state[key].push(value);
       }
     }
   }
 
   var initial = new URLSearchParams(window.location.search);
-  selectChip("f-type", initial.get("type"), "type");
-  selectChip("f-dist", initial.get("d"), "dist");
+  restore("f-type", "type", "types");
+  restore("f-dist", "d", "dists");
+  if (initial.get("free") === "1" && freeToggle) {
+    state.free = true;
+    freeToggle.setAttribute("aria-pressed", "true");
+  }
   if (initial.get("q") && searchInput) {
     searchInput.value = initial.get("q");
     state.q = initial.get("q").trim().toLowerCase();
   }
 
+  bindChips("f-type", "types");
+  bindChips("f-dist", "dists");
   apply();
 })();

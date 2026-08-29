@@ -28,7 +28,11 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T070000
 DTEND;TZID=America/Los_Angeles:20260829T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -43,7 +47,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:seattle-torch-relay-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T070000
 DTEND;TZID=America/Los_Angeles:20260829T090000
 SUMMARY:Seattle Torch Relay
@@ -59,15 +67,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-breast-cancer-5k-10k-13-1-seattle-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T073000
 DTEND;TZID=America/Los_Angeles:20260829T093000
 SUMMARY:Run for Breast Cancer 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$65\n🎀 Join the Fig
- ht: Breast Cancer Run! 🎀 Lace up and make a difference at our annual Br
- east Cancer Run! Together\, we can raise awareness and funds to…\nhttps:
- //runsignup.com/Race/WA/Seattle/RunToBreastCancer5K10KSEATTLE?aflt_token=w
- c7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$65\nJoin the Fight: B
+ reast Cancer Run! Lace up and make a difference at our annual Breast Cance
+ r Run! Together\, we can raise awareness and funds to…\nhttps://runsignu
+ p.com/Race/WA/Seattle/RunToBreastCancer5K10KSEATTLE?aflt_token=wc7B47h8BqW
+ 9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunToBreastCancer5K10KSEATTLE?afl
  t_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -77,15 +89,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sloth-run-5k-10k-13-1-seattle-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T073000
 DTEND;TZID=America/Los_Angeles:20260829T093000
 SUMMARY:Sloth Run 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$65\n🦥🏃‍♂️
-  The Sloth Run – Slow Is the New Fast! 🏃‍♀️🦥 Sloths will get
-  there! Tired of high-speed races and intense competition? Us too! Welcome
-  to the…\nhttps://runsignup.com/Race/WA/Seattle/SlothRun5K10KSEATTLE829?
- aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$65\nThe Sloth Run –
+  Slow Is the New Fast! Sloths will get there! Tired of high-speed races an
+ d intense competition? Us too! Welcome to the Sloth Run…\nhttps://runsig
+ nup.com/Race/WA/Seattle/SlothRun5K10KSEATTLE829?aflt_token=wc7B47h8BqW9drL
+ nekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/SlothRun5K10KSEATTLE829?aflt_toke
  n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -95,7 +111,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tacoma-narrows-half-marathon-10k-5k-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T073000
 DTEND;TZID=America/Los_Angeles:20260829T093000
 SUMMARY:Tacoma Narrows Half Marathon / 10K / 5K
@@ -113,7 +133,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T080000
 DTEND;TZID=America/Los_Angeles:20260829T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -128,7 +152,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T080000
 DTEND;TZID=America/Los_Angeles:20260829T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -143,7 +171,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lemay-5-k-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T090000
 DTEND;TZID=America/Los_Angeles:20260829T110000
 SUMMARY:LeMay 5 K
@@ -158,7 +190,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lemay-5k-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T090000
 DTEND;TZID=America/Los_Angeles:20260829T110000
 SUMMARY:LeMay 5K
@@ -173,7 +209,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T090000
 DTEND;TZID=America/Los_Angeles:20260829T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -188,7 +228,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:suvidha-international-5k-redmond-seattle-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T090000
 DTEND;TZID=America/Los_Angeles:20260829T110000
 SUMMARY:Suvidha International 5K Redmond\, Seattle
@@ -206,7 +250,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:summer-spirit-run-2026-08-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260829T093000
 DTEND;TZID=America/Los_Angeles:20260829T113000
 SUMMARY:Summer Spirit Run
@@ -223,7 +271,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:billy-mills-run-walk-for-life-2026-2026-08-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260830T133000
 DTEND;TZID=America/Los_Angeles:20260830T153000
 SUMMARY:Billy Mills Run/Walk for Life 2026
@@ -241,7 +293,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bonney-lake-triathlon-2026-08-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260830T070000
 DTEND;TZID=America/Los_Angeles:20260830T090000
 SUMMARY:2026 Bonney Lake Triathlon
@@ -258,7 +314,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:iron-horse-half-marathon-2026-08-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260830T070000
 DTEND;TZID=America/Los_Angeles:20260830T090000
 SUMMARY:Iron Horse Half Marathon
@@ -276,7 +336,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:community-corn-roast-5k-family-fun-run-walk-roll-2026-08-30@www.run206.
  com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260830T090000
 DTEND;TZID=America/Los_Angeles:20260830T110000
 SUMMARY:Community Corn Roast & 5K Family Fun Run/Walk/Roll
@@ -294,7 +358,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-morning-on-track-2026-08-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260831T053000
 DTEND;TZID=America/Los_Angeles:20260831T073000
 SUMMARY:Monday Morning On Track (Club Run)
@@ -309,7 +377,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-run-at-flying-lion-2026-08-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260831T180000
 DTEND;TZID=America/Los_Angeles:20260831T200000
 SUMMARY:Monday Run at Flying Lion (Club Run)
@@ -324,7 +396,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-evening-track-2026-08-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260831T183000
 DTEND;TZID=America/Los_Angeles:20260831T203000
 SUMMARY:Monday Evening Track (Club Run)
@@ -339,7 +415,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-miles-2026-08-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260831T183000
 DTEND;TZID=America/Los_Angeles:20260831T203000
 SUMMARY:Monday Miles (Club Run)
@@ -354,7 +434,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:chambers-bay-2026-08-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260831T083000
 DTEND;TZID=America/Los_Angeles:20260831T103000
 SUMMARY:Chambers Bay
@@ -372,7 +456,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-group-run-2026-08-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260831T090000
 DTEND;TZID=America/Los_Angeles:20260831T110000
 SUMMARY:Monday Group Run (Club Run)
@@ -386,7 +474,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260901T180000
 DTEND;TZID=America/Los_Angeles:20260901T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -401,7 +493,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260901T180000
 DTEND;TZID=America/Los_Angeles:20260901T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -416,7 +512,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:track-night-2026-09-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260901T181500
 DTEND;TZID=America/Los_Angeles:20260901T201500
 SUMMARY:Track Night (Club Run)
@@ -431,7 +531,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-evening-run-2026-09-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260901T183000
 DTEND;TZID=America/Los_Angeles:20260901T203000
 SUMMARY:Tuesday Evening Run (Club Run)
@@ -446,7 +550,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-pub-run-2026-09-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260901T090000
 DTEND;TZID=America/Los_Angeles:20260901T110000
 SUMMARY:Tuesday Pub Run (Club Run)
@@ -459,7 +567,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wake-up-wednesday-2026-09-02@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260902T053000
 DTEND;TZID=America/Los_Angeles:20260902T073000
 SUMMARY:Wake Up Wednesday (Club Run)
@@ -474,7 +586,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-night-run-2026-09-02@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260902T173000
 DTEND;TZID=America/Los_Angeles:20260902T193000
 SUMMARY:Wednesday Night Run (Club Run)
@@ -489,7 +605,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-group-run-2026-09-02@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260902T180000
 DTEND;TZID=America/Los_Angeles:20260902T200000
 SUMMARY:Wednesday Group Run (Club Run)
@@ -504,7 +624,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midweek-group-run-2026-09-02@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260902T181500
 DTEND;TZID=America/Los_Angeles:20260902T201500
 SUMMARY:Midweek Group Run (Club Run)
@@ -518,7 +642,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-trail-run-2026-09-02@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260902T183000
 DTEND;TZID=America/Los_Angeles:20260902T203000
 SUMMARY:Wednesday Trail Run (Club Run)
@@ -532,7 +660,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-track-2026-09-02@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260902T090000
 DTEND;TZID=America/Los_Angeles:20260902T110000
 SUMMARY:Wednesday Track (Club Run)
@@ -547,7 +679,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260903T180000
 DTEND;TZID=America/Los_Angeles:20260903T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -562,7 +698,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260903T180000
 DTEND;TZID=America/Los_Angeles:20260903T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -577,7 +717,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-evening-casual-run-2026-09-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260903T183000
 DTEND;TZID=America/Los_Angeles:20260903T203000
 SUMMARY:Thursday Evening Casual Run (Club Run)
@@ -592,7 +736,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-brewery-run-2026-09-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260903T090000
 DTEND;TZID=America/Los_Angeles:20260903T110000
 SUMMARY:Thursday Brewery Run (Club Run)
@@ -605,7 +753,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-lake-union-run-2026-09-04@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260904T060000
 DTEND;TZID=America/Los_Angeles:20260904T080000
 SUMMARY:Friday Lake Union Run (Club Run)
@@ -620,7 +772,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-09-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260905T070000
 DTEND;TZID=America/Los_Angeles:20260905T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -635,7 +791,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-09-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260905T080000
 DTEND;TZID=America/Los_Angeles:20260905T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -650,7 +810,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-09-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260905T080000
 DTEND;TZID=America/Los_Angeles:20260905T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -666,7 +830,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:medal-madness-5k-10k-13-1m-26-2m-at-everett-wa-36-2026-09-05@www.run206
  .com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260905T083000
 DTEND;TZID=America/Los_Angeles:20260905T103000
 SUMMARY:Medal Madness 5K\, 10K\, 13.1M & 26.2M at Everett\, WA (36)
@@ -684,7 +852,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-09-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260905T090000
 DTEND;TZID=America/Los_Angeles:20260905T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -699,7 +871,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-morning-on-track-2026-09-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260907T053000
 DTEND;TZID=America/Los_Angeles:20260907T073000
 SUMMARY:Monday Morning On Track (Club Run)
@@ -714,7 +890,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-run-at-flying-lion-2026-09-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260907T180000
 DTEND;TZID=America/Los_Angeles:20260907T200000
 SUMMARY:Monday Run at Flying Lion (Club Run)
@@ -729,7 +909,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-evening-track-2026-09-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260907T183000
 DTEND;TZID=America/Los_Angeles:20260907T203000
 SUMMARY:Monday Evening Track (Club Run)
@@ -744,7 +928,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-miles-2026-09-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260907T183000
 DTEND;TZID=America/Los_Angeles:20260907T203000
 SUMMARY:Monday Miles (Club Run)
@@ -759,7 +947,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:redmond-harvest-half-marathon-2026-09-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260907T083000
 DTEND;TZID=America/Los_Angeles:20260907T103000
 SUMMARY:Redmond Harvest Half Marathon
@@ -776,7 +968,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-group-run-2026-09-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260907T090000
 DTEND;TZID=America/Los_Angeles:20260907T110000
 SUMMARY:Monday Group Run (Club Run)
@@ -790,7 +986,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260908T180000
 DTEND;TZID=America/Los_Angeles:20260908T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -805,7 +1005,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260908T180000
 DTEND;TZID=America/Los_Angeles:20260908T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -820,7 +1024,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:track-night-2026-09-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260908T181500
 DTEND;TZID=America/Los_Angeles:20260908T201500
 SUMMARY:Track Night (Club Run)
@@ -835,7 +1043,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-evening-run-2026-09-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260908T183000
 DTEND;TZID=America/Los_Angeles:20260908T203000
 SUMMARY:Tuesday Evening Run (Club Run)
@@ -850,7 +1062,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-pub-run-2026-09-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260908T090000
 DTEND;TZID=America/Los_Angeles:20260908T110000
 SUMMARY:Tuesday Pub Run (Club Run)
@@ -863,7 +1079,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wake-up-wednesday-2026-09-09@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260909T053000
 DTEND;TZID=America/Los_Angeles:20260909T073000
 SUMMARY:Wake Up Wednesday (Club Run)
@@ -878,7 +1098,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-night-run-2026-09-09@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260909T173000
 DTEND;TZID=America/Los_Angeles:20260909T193000
 SUMMARY:Wednesday Night Run (Club Run)
@@ -893,7 +1117,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-group-run-2026-09-09@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260909T180000
 DTEND;TZID=America/Los_Angeles:20260909T200000
 SUMMARY:Wednesday Group Run (Club Run)
@@ -908,7 +1136,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midweek-group-run-2026-09-09@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260909T181500
 DTEND;TZID=America/Los_Angeles:20260909T201500
 SUMMARY:Midweek Group Run (Club Run)
@@ -922,7 +1154,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-trail-run-2026-09-09@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260909T183000
 DTEND;TZID=America/Los_Angeles:20260909T203000
 SUMMARY:Wednesday Trail Run (Club Run)
@@ -936,7 +1172,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-track-2026-09-09@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260909T090000
 DTEND;TZID=America/Los_Angeles:20260909T110000
 SUMMARY:Wednesday Track (Club Run)
@@ -951,7 +1191,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -966,7 +1210,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -981,7 +1229,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-evening-casual-run-2026-09-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260910T183000
 DTEND;TZID=America/Los_Angeles:20260910T203000
 SUMMARY:Thursday Evening Casual Run (Club Run)
@@ -996,7 +1248,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-brewery-run-2026-09-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260910T090000
 DTEND;TZID=America/Los_Angeles:20260910T110000
 SUMMARY:Thursday Brewery Run (Club Run)
@@ -1009,7 +1265,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-lake-union-run-2026-09-11@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260911T060000
 DTEND;TZID=America/Los_Angeles:20260911T080000
 SUMMARY:Friday Lake Union Run (Club Run)
@@ -1025,7 +1285,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:run-for-the-buns-a-ridiculously-short-0-5k-for-a-meaningful-cause-2026-
  09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T130000
 SUMMARY:Run for the Buns: A ridiculously short 0.5K for a meaningful cause
@@ -1042,7 +1306,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:beat-the-blerch-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T120000
 DTEND;TZID=America/Los_Angeles:20260912T140000
 SUMMARY:Beat the Blerch
@@ -1060,7 +1328,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9-11-heroes-run-tacoma-washington-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T130000
 DTEND;TZID=America/Los_Angeles:20260912T150000
 SUMMARY:9/11 Heroes Run - Tacoma\, Washington
@@ -1077,7 +1349,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T070000
 DTEND;TZID=America/Los_Angeles:20260912T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -1093,6 +1369,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-chocolate-day-run-for-chocolates-5k-10k-13-1-seattle-2026-09-1
  2@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20260912T073000
 DTEND;TZID=America/Los_Angeles:20260912T093000
@@ -1102,6 +1379,17 @@ DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\n🍫🏃‍♀️
  f the Year – The Chocolate Run! Lace up your running shoes and bring you
  r sweet…\nhttps://runsignup.com/Race/WA/Seattle/NationalChocolateDayRunF
  orChocolates5K10KSEATTLE?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+=======
+DTSTAMP:20260829T212524Z
+DTSTART;TZID=America/Los_Angeles:20260912T073000
+DTEND;TZID=America/Los_Angeles:20260912T093000
+SUMMARY:National Chocolate Day: Run for Chocolates 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\nReady\, Set\, Cho
+ colate! Join Us for the Sweetest Run of the Year – The Chocolate Run! La
+ ce up your running shoes and bring your sweet tooth—because…\nhttps://
+ runsignup.com/Race/WA/Seattle/NationalChocolateDayRunForChocolates5K10KSEA
+ TTLE?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/NationalChocolateDayRunForChocola
  tes5K10KSEATTLE?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -1111,7 +1399,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-mental-health-5k-10k-13-1-seattle-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T073000
 DTEND;TZID=America/Los_Angeles:20260912T093000
 SUMMARY:Run for Mental Health 5K/10K/13.1 SEATTLE
@@ -1129,7 +1421,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktoberfest-fly-away-10k-run-5k-run-walk-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T080000
 DTEND;TZID=America/Los_Angeles:20260912T100000
 SUMMARY:Oktoberfest Fly Away 10K Run & 5K Run/Walk
@@ -1146,7 +1442,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T080000
 DTEND;TZID=America/Los_Angeles:20260912T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -1161,7 +1461,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T080000
 DTEND;TZID=America/Los_Angeles:20260912T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -1176,7 +1480,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:medal-madness-5k-10k-13-1m-at-everett-wa-37-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T083000
 DTEND;TZID=America/Los_Angeles:20260912T103000
 SUMMARY:Medal Madness 5K\, 10K\, & 13.1M at Everett\, WA (37)
@@ -1194,7 +1502,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:25th-remembrance-of-9-11-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T090000
 DTEND;TZID=America/Los_Angeles:20260912T110000
 SUMMARY:25th Remembrance of 9/11
@@ -1211,7 +1523,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9-11-heroes-run-snohomish-washington-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T090000
 DTEND;TZID=America/Los_Angeles:20260912T110000
 SUMMARY:9/11 Heroes Run - Snohomish\, Washington
@@ -1228,7 +1544,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T090000
 DTEND;TZID=America/Los_Angeles:20260912T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -1243,7 +1563,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-flag-forward-dupont-jblm-wa-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T090000
 DTEND;TZID=America/Los_Angeles:20260912T110000
 SUMMARY:One Flag Forward - DuPont-JBLM\, WA
@@ -1260,7 +1584,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:recovery-5k-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T090000
 DTEND;TZID=America/Los_Angeles:20260912T110000
 SUMMARY:Recovery 5k
@@ -1277,7 +1605,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:noah-s-5k-duck-dash-run-walk-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T093000
 DTEND;TZID=America/Los_Angeles:20260912T113000
 SUMMARY:Noah's 5K Duck Dash Run/Walk
@@ -1295,7 +1627,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cascade-express-marathon-half-2026-09-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260912T090000
 DTEND;TZID=America/Los_Angeles:20260912T110000
 SUMMARY:Cascade Express Marathon & Half
@@ -1310,7 +1646,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:move-with-madd-seattle-5k-2026-09-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T120000
 SUMMARY:Move With MADD Seattle 5K
@@ -1328,7 +1668,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:seattle-sounders-fc-rave-green-run-presented-by-providence-swedish-2026
  -09-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T120000
 SUMMARY:Seattle Sounders FC Rave Green Run presented by Providence Swedish
@@ -1347,7 +1691,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:healthy-kids-running-series-fall-2026-kitsap-county-wa-2026-09-13@www.r
  un206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260913T140000
 DTEND;TZID=America/Los_Angeles:20260913T160000
 SUMMARY:Healthy Kids Running Series Fall 2026 - Kitsap County\, WA
@@ -1365,7 +1713,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-morning-on-track-2026-09-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260914T053000
 DTEND;TZID=America/Los_Angeles:20260914T073000
 SUMMARY:Monday Morning On Track (Club Run)
@@ -1380,7 +1732,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-run-at-flying-lion-2026-09-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260914T180000
 DTEND;TZID=America/Los_Angeles:20260914T200000
 SUMMARY:Monday Run at Flying Lion (Club Run)
@@ -1395,7 +1751,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-evening-track-2026-09-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260914T183000
 DTEND;TZID=America/Los_Angeles:20260914T203000
 SUMMARY:Monday Evening Track (Club Run)
@@ -1410,7 +1770,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-miles-2026-09-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260914T183000
 DTEND;TZID=America/Los_Angeles:20260914T203000
 SUMMARY:Monday Miles (Club Run)
@@ -1425,7 +1789,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-group-run-2026-09-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260914T090000
 DTEND;TZID=America/Los_Angeles:20260914T110000
 SUMMARY:Monday Group Run (Club Run)
@@ -1439,7 +1807,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260915T180000
 DTEND;TZID=America/Los_Angeles:20260915T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -1454,7 +1826,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260915T180000
 DTEND;TZID=America/Los_Angeles:20260915T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -1469,7 +1845,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:track-night-2026-09-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260915T181500
 DTEND;TZID=America/Los_Angeles:20260915T201500
 SUMMARY:Track Night (Club Run)
@@ -1484,7 +1864,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-evening-run-2026-09-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260915T183000
 DTEND;TZID=America/Los_Angeles:20260915T203000
 SUMMARY:Tuesday Evening Run (Club Run)
@@ -1499,7 +1883,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-pub-run-2026-09-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260915T090000
 DTEND;TZID=America/Los_Angeles:20260915T110000
 SUMMARY:Tuesday Pub Run (Club Run)
@@ -1512,7 +1900,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wake-up-wednesday-2026-09-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260916T053000
 DTEND;TZID=America/Los_Angeles:20260916T073000
 SUMMARY:Wake Up Wednesday (Club Run)
@@ -1527,7 +1919,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-night-run-2026-09-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260916T173000
 DTEND;TZID=America/Los_Angeles:20260916T193000
 SUMMARY:Wednesday Night Run (Club Run)
@@ -1542,7 +1938,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-flag-forward-tacoma-wa-2026-09-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260916T180000
 DTEND;TZID=America/Los_Angeles:20260916T200000
 SUMMARY:One Flag Forward - Tacoma\, WA
@@ -1559,7 +1959,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-group-run-2026-09-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260916T180000
 DTEND;TZID=America/Los_Angeles:20260916T200000
 SUMMARY:Wednesday Group Run (Club Run)
@@ -1574,7 +1978,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midweek-group-run-2026-09-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260916T181500
 DTEND;TZID=America/Los_Angeles:20260916T201500
 SUMMARY:Midweek Group Run (Club Run)
@@ -1588,7 +1996,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-trail-run-2026-09-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260916T183000
 DTEND;TZID=America/Los_Angeles:20260916T203000
 SUMMARY:Wednesday Trail Run (Club Run)
@@ -1602,7 +2014,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:test-climb-2026-09-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260916T080000
 DTEND;TZID=America/Los_Angeles:20260916T100000
 SUMMARY:Test Climb
@@ -1618,7 +2034,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-track-2026-09-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260916T090000
 DTEND;TZID=America/Los_Angeles:20260916T110000
 SUMMARY:Wednesday Track (Club Run)
@@ -1633,7 +2053,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260917T180000
 DTEND;TZID=America/Los_Angeles:20260917T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -1648,7 +2072,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260917T180000
 DTEND;TZID=America/Los_Angeles:20260917T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -1663,7 +2091,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-evening-casual-run-2026-09-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260917T183000
 DTEND;TZID=America/Los_Angeles:20260917T203000
 SUMMARY:Thursday Evening Casual Run (Club Run)
@@ -1678,7 +2110,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-brewery-run-2026-09-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260917T090000
 DTEND;TZID=America/Los_Angeles:20260917T110000
 SUMMARY:Thursday Brewery Run (Club Run)
@@ -1691,7 +2127,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-lake-union-run-2026-09-18@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260918T060000
 DTEND;TZID=America/Los_Angeles:20260918T080000
 SUMMARY:Friday Lake Union Run (Club Run)
@@ -1706,7 +2146,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cirque-series-crystal-mountain-wa-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T100000
 DTEND;TZID=America/Los_Angeles:20260919T120000
 SUMMARY:Cirque Series - Crystal Mountain\, WA
@@ -1724,7 +2168,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:there-s-no-place-like-homeward-pet-5k-walk-run-2026-09-19@www.run206.co
  m
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T103000
 DTEND;TZID=America/Los_Angeles:20260919T123000
 SUMMARY:There's No Place Like Homeward Pet - 5K Walk/Run
@@ -1741,7 +2189,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fall-mud-mountain-dam-marathon-half-marathon-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T070000
 DTEND;TZID=America/Los_Angeles:20260919T090000
 SUMMARY:Fall - Mud Mountain Dam Marathon & Half Marathon
@@ -1759,7 +2211,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T070000
 DTEND;TZID=America/Los_Angeles:20260919T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -1775,7 +2231,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-brooks-orca-half-marathon-presented-by-rei-2026-09-19@www.run206.co
  m
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T072000
 DTEND;TZID=America/Los_Angeles:20260919T092000
 SUMMARY:The Brooks Orca Half Marathon presented by REI
@@ -1792,7 +2252,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T080000
 DTEND;TZID=America/Los_Angeles:20260919T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -1807,7 +2271,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T080000
 DTEND;TZID=America/Los_Angeles:20260919T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -1822,7 +2290,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:medal-madness-5k-10k-13-1m-at-everett-wa-38-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T083000
 DTEND;TZID=America/Los_Angeles:20260919T103000
 SUMMARY:Medal Madness 5K\, 10K & 13.1M at Everett\, WA (38)
@@ -1840,7 +2312,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:step-by-step-s-race-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T083000
 DTEND;TZID=America/Los_Angeles:20260919T103000
 SUMMARY:Step By Step's Race
@@ -1858,7 +2334,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dragonslayer-fantasy-dash-and-strut-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T090000
 DTEND;TZID=America/Los_Angeles:20260919T110000
 SUMMARY:Dragonslayer Fantasy Dash and Strut
@@ -1875,7 +2355,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:last-splash-of-summer-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T090000
 DTEND;TZID=America/Los_Angeles:20260919T110000
 SUMMARY:Last Splash of Summer
@@ -1892,7 +2376,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T090000
 DTEND;TZID=America/Los_Angeles:20260919T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -1907,7 +2395,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ultra-fest-2026-09-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260919T090000
 DTEND;TZID=America/Los_Angeles:20260919T110000
 SUMMARY:Ultra Fest
@@ -1922,7 +2414,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-of-hope-seattle-2026-09-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260920T100000
 DTEND;TZID=America/Los_Angeles:20260920T120000
 SUMMARY:Run of Hope Seattle
@@ -1940,6 +2436,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tacos-cervezas-5k-1-mile-2026-09-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20260920T120000
 DTEND;TZID=America/Los_Angeles:20260920T140000
@@ -1949,6 +2446,16 @@ DESCRIPTION:5K\, Kids\, Walk\n$38–$40\n🌮 TACOS & CERVEZAS 5K 🍺 Run.
   in Woodinville! Join us Sunday\, September 20…\nhttps://runsignup.com/R
  ace/WA/Woodinville/TacosCervezasK?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhq
  snt
+=======
+DTSTAMP:20260829T212524Z
+DTSTART;TZID=America/Los_Angeles:20260920T120000
+DTEND;TZID=America/Los_Angeles:20260920T140000
+SUMMARY:Tacos & Cervezas 5k & 1 mile
+DESCRIPTION:5K\, Kids\, Walk\n$38–$40\nTACOS & CERVEZAS 5K Run. Eat. Cele
+ brate. Celebrate Hispanic Heritage Month with a fun\, festive 5K in Woodin
+ ville! Join us Sunday\, September 20\, 2026…\nhttps://runsignup.com/Race
+ /WA/Woodinville/TacosCervezasK?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Woodinville\, WA
 URL:https://runsignup.com/Race/WA/Woodinville/TacosCervezasK?aflt_token=wc7
  B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -1958,7 +2465,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:quilcene-oyster-races-2026-09-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260920T090000
 DTEND;TZID=America/Los_Angeles:20260920T110000
 SUMMARY:Quilcene Oyster Races
@@ -1976,7 +2487,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-morning-on-track-2026-09-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260921T053000
 DTEND;TZID=America/Los_Angeles:20260921T073000
 SUMMARY:Monday Morning On Track (Club Run)
@@ -1991,7 +2506,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-run-at-flying-lion-2026-09-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260921T180000
 DTEND;TZID=America/Los_Angeles:20260921T200000
 SUMMARY:Monday Run at Flying Lion (Club Run)
@@ -2006,7 +2525,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-evening-track-2026-09-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260921T183000
 DTEND;TZID=America/Los_Angeles:20260921T203000
 SUMMARY:Monday Evening Track (Club Run)
@@ -2021,7 +2544,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-miles-2026-09-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260921T183000
 DTEND;TZID=America/Los_Angeles:20260921T203000
 SUMMARY:Monday Miles (Club Run)
@@ -2036,7 +2563,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-group-run-2026-09-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260921T090000
 DTEND;TZID=America/Los_Angeles:20260921T110000
 SUMMARY:Monday Group Run (Club Run)
@@ -2050,7 +2581,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260922T180000
 DTEND;TZID=America/Los_Angeles:20260922T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -2065,7 +2600,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260922T180000
 DTEND;TZID=America/Los_Angeles:20260922T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -2080,7 +2619,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:track-night-2026-09-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260922T181500
 DTEND;TZID=America/Los_Angeles:20260922T201500
 SUMMARY:Track Night (Club Run)
@@ -2095,7 +2638,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-evening-run-2026-09-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260922T183000
 DTEND;TZID=America/Los_Angeles:20260922T203000
 SUMMARY:Tuesday Evening Run (Club Run)
@@ -2110,7 +2657,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-pub-run-2026-09-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260922T090000
 DTEND;TZID=America/Los_Angeles:20260922T110000
 SUMMARY:Tuesday Pub Run (Club Run)
@@ -2123,7 +2674,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wake-up-wednesday-2026-09-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260923T053000
 DTEND;TZID=America/Los_Angeles:20260923T073000
 SUMMARY:Wake Up Wednesday (Club Run)
@@ -2138,7 +2693,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-night-run-2026-09-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260923T173000
 DTEND;TZID=America/Los_Angeles:20260923T193000
 SUMMARY:Wednesday Night Run (Club Run)
@@ -2153,7 +2712,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-group-run-2026-09-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260923T180000
 DTEND;TZID=America/Los_Angeles:20260923T200000
 SUMMARY:Wednesday Group Run (Club Run)
@@ -2168,7 +2731,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midweek-group-run-2026-09-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260923T181500
 DTEND;TZID=America/Los_Angeles:20260923T201500
 SUMMARY:Midweek Group Run (Club Run)
@@ -2182,7 +2749,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-trail-run-2026-09-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260923T183000
 DTEND;TZID=America/Los_Angeles:20260923T203000
 SUMMARY:Wednesday Trail Run (Club Run)
@@ -2196,7 +2767,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-track-2026-09-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260923T090000
 DTEND;TZID=America/Los_Angeles:20260923T110000
 SUMMARY:Wednesday Track (Club Run)
@@ -2211,7 +2786,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260924T180000
 DTEND;TZID=America/Los_Angeles:20260924T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -2226,7 +2805,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260924T180000
 DTEND;TZID=America/Los_Angeles:20260924T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -2241,7 +2824,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-evening-casual-run-2026-09-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260924T183000
 DTEND;TZID=America/Los_Angeles:20260924T203000
 SUMMARY:Thursday Evening Casual Run (Club Run)
@@ -2256,7 +2843,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-brewery-run-2026-09-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260924T090000
 DTEND;TZID=America/Los_Angeles:20260924T110000
 SUMMARY:Thursday Brewery Run (Club Run)
@@ -2269,7 +2860,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:puesta-del-sol-walkathon-2026-09-25@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260925T150000
 DTEND;TZID=America/Los_Angeles:20260925T170000
 SUMMARY:Puesta del Sol Walkathon
@@ -2285,7 +2880,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-lake-union-run-2026-09-25@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260925T060000
 DTEND;TZID=America/Los_Angeles:20260925T080000
 SUMMARY:Friday Lake Union Run (Club Run)
@@ -2300,7 +2899,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260926T070000
 DTEND;TZID=America/Los_Angeles:20260926T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -2315,6 +2918,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktoberfest-run-5k-10k-13-1-seattle-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20260926T073000
 DTEND;TZID=America/Los_Angeles:20260926T093000
@@ -2324,6 +2928,17 @@ DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\n🥨 Lace up\, ge
  — by running for it! Our delightful 'Oktoberfest Fun Run' is back…\nht
  tps://runsignup.com/Race/WA/Seattle/OktoberfestRun5K10KSEATTLE?aflt_token=
  wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+=======
+DTSTAMP:20260829T212524Z
+DTSTART;TZID=America/Los_Angeles:20260926T073000
+DTEND;TZID=America/Los_Angeles:20260926T093000
+SUMMARY:Oktoberfest Run 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\nLace up\, get fes
+ tive\, and earn your Oktoberfest celebration the best way possible — by 
+ running for it! Our delightful 'Oktoberfest Fun Run' is back…\nhttps://r
+ unsignup.com/Race/WA/Seattle/OktoberfestRun5K10KSEATTLE?aflt_token=wc7B47h
+ 8BqW9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/OktoberfestRun5K10KSEATTLE?aflt_t
  oken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -2333,6 +2948,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-donuts-5k-10k-13-1-seattle-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20260926T073000
 DTEND;TZID=America/Los_Angeles:20260926T093000
@@ -2342,6 +2958,17 @@ DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\n🍩 Join the Don
  lace up for our Donut Run\, where you’ll run a beautiful course and be
  …\nhttps://runsignup.com/Race/WA/Seattle/RunForDonuts5K10KSEATTLE926?afl
  t_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+=======
+DTSTAMP:20260829T212524Z
+DTSTART;TZID=America/Los_Angeles:20260926T073000
+DTEND;TZID=America/Los_Angeles:20260926T093000
+SUMMARY:Run for Donuts 5K/10K/13.1 SEATTLE
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$60\nJoin the Donut Ru
+ n! Get ready for a sweet race! Gather your friends and lace up for our Don
+ ut Run\, where you’ll run a beautiful course and be greeted…\nhttps://
+ runsignup.com/Race/WA/Seattle/RunForDonuts5K10KSEATTLE926?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunForDonuts5K10KSEATTLE926?aflt_
  token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -2351,7 +2978,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260926T080000
 DTEND;TZID=America/Los_Angeles:20260926T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -2366,7 +2997,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260926T080000
 DTEND;TZID=America/Los_Angeles:20260926T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -2381,7 +3016,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260926T090000
 DTEND;TZID=America/Los_Angeles:20260926T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -2396,7 +3035,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pacific-runderland-5k-kids-run-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260926T090000
 DTEND;TZID=America/Los_Angeles:20260926T110000
 SUMMARY:Pacific Runderland 5k & Kids Run
@@ -2413,7 +3056,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:return-of-the-salmon-celebration-salmon-run-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260926T090000
 DTEND;TZID=America/Los_Angeles:20260926T110000
 SUMMARY:Return of the Salmon Celebration - Salmon Run
@@ -2431,7 +3078,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:second-annual-beat-beethoven-5k-2026-09-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260926T090000
 DTEND;TZID=America/Los_Angeles:20260926T110000
 SUMMARY:Second Annual Beat Beethoven 5k
@@ -2448,7 +3099,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-or-wine-5k-10k-september-2026-2026-09-27@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260927T120000
 DTEND;TZID=America/Los_Angeles:20260927T140000
 SUMMARY:Run or Wine 5k & 10k - September 2026
@@ -2466,7 +3121,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:puyallup-valley-half-marathon-and-10k-2026-09-27@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260927T070000
 DTEND;TZID=America/Los_Angeles:20260927T090000
 SUMMARY:Puyallup Valley Half Marathon and 10K
@@ -2483,7 +3142,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:base-2-space-2026-09-27@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260927T073000
 DTEND;TZID=America/Los_Angeles:20260927T093000
 SUMMARY:Base 2 Space
@@ -2501,7 +3164,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:run-with-the-fishes-annual-5k-10k-kids-fun-run-2026-09-27@www.run206.co
  m
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260927T093000
 DTEND;TZID=America/Los_Angeles:20260927T113000
 SUMMARY:Run with the Fishes Annual 5K\, 10K\, & Kids' Fun Run
@@ -2519,7 +3186,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-morning-on-track-2026-09-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260928T053000
 DTEND;TZID=America/Los_Angeles:20260928T073000
 SUMMARY:Monday Morning On Track (Club Run)
@@ -2534,7 +3205,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-run-at-flying-lion-2026-09-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260928T180000
 DTEND;TZID=America/Los_Angeles:20260928T200000
 SUMMARY:Monday Run at Flying Lion (Club Run)
@@ -2549,7 +3224,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-evening-track-2026-09-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260928T183000
 DTEND;TZID=America/Los_Angeles:20260928T203000
 SUMMARY:Monday Evening Track (Club Run)
@@ -2564,7 +3243,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-miles-2026-09-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260928T183000
 DTEND;TZID=America/Los_Angeles:20260928T203000
 SUMMARY:Monday Miles (Club Run)
@@ -2579,7 +3262,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-group-run-2026-09-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260928T090000
 DTEND;TZID=America/Los_Angeles:20260928T110000
 SUMMARY:Monday Group Run (Club Run)
@@ -2593,7 +3280,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-09-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260929T180000
 DTEND;TZID=America/Los_Angeles:20260929T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -2608,7 +3299,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-09-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260929T180000
 DTEND;TZID=America/Los_Angeles:20260929T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -2623,7 +3318,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:track-night-2026-09-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260929T181500
 DTEND;TZID=America/Los_Angeles:20260929T201500
 SUMMARY:Track Night (Club Run)
@@ -2638,7 +3337,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-evening-run-2026-09-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260929T183000
 DTEND;TZID=America/Los_Angeles:20260929T203000
 SUMMARY:Tuesday Evening Run (Club Run)
@@ -2653,7 +3356,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-pub-run-2026-09-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260929T090000
 DTEND;TZID=America/Los_Angeles:20260929T110000
 SUMMARY:Tuesday Pub Run (Club Run)
@@ -2666,7 +3373,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wake-up-wednesday-2026-09-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260930T053000
 DTEND;TZID=America/Los_Angeles:20260930T073000
 SUMMARY:Wake Up Wednesday (Club Run)
@@ -2681,7 +3392,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-night-run-2026-09-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260930T173000
 DTEND;TZID=America/Los_Angeles:20260930T193000
 SUMMARY:Wednesday Night Run (Club Run)
@@ -2696,7 +3411,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-group-run-2026-09-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260930T180000
 DTEND;TZID=America/Los_Angeles:20260930T200000
 SUMMARY:Wednesday Group Run (Club Run)
@@ -2711,7 +3430,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midweek-group-run-2026-09-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260930T181500
 DTEND;TZID=America/Los_Angeles:20260930T201500
 SUMMARY:Midweek Group Run (Club Run)
@@ -2725,7 +3448,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-trail-run-2026-09-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260930T183000
 DTEND;TZID=America/Los_Angeles:20260930T203000
 SUMMARY:Wednesday Trail Run (Club Run)
@@ -2739,7 +3466,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-track-2026-09-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20260930T090000
 DTEND;TZID=America/Los_Angeles:20260930T110000
 SUMMARY:Wednesday Track (Club Run)
@@ -2754,7 +3485,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-10-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261001T180000
 DTEND;TZID=America/Los_Angeles:20261001T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -2769,7 +3504,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-10-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261001T180000
 DTEND;TZID=America/Los_Angeles:20261001T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -2784,7 +3523,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-evening-casual-run-2026-10-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261001T183000
 DTEND;TZID=America/Los_Angeles:20261001T203000
 SUMMARY:Thursday Evening Casual Run (Club Run)
@@ -2799,7 +3542,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-brewery-run-2026-10-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261001T090000
 DTEND;TZID=America/Los_Angeles:20261001T110000
 SUMMARY:Thursday Brewery Run (Club Run)
@@ -2812,7 +3559,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-lake-union-run-2026-10-02@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261002T060000
 DTEND;TZID=America/Los_Angeles:20261002T080000
 SUMMARY:Friday Lake Union Run (Club Run)
@@ -2827,7 +3578,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T070000
 DTEND;TZID=America/Los_Angeles:20261003T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -2842,7 +3597,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:north-bend-trail-fest-30k-10k-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T080000
 DTEND;TZID=America/Los_Angeles:20261003T100000
 SUMMARY:North Bend Trail Fest 30k - 10k
@@ -2859,7 +3618,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-the-gnomes-half-marathon-5k-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T080000
 DTEND;TZID=America/Los_Angeles:20261003T100000
 SUMMARY:Run for the Gnomes Half Marathon & 5K
@@ -2877,7 +3640,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T080000
 DTEND;TZID=America/Los_Angeles:20261003T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -2892,7 +3659,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T080000
 DTEND;TZID=America/Los_Angeles:20261003T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -2907,7 +3678,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:community-energy-run-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T090000
 DTEND;TZID=America/Los_Angeles:20261003T110000
 SUMMARY:Community Energy Run
@@ -2924,7 +3699,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T090000
 DTEND;TZID=America/Los_Angeles:20261003T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -2939,7 +3718,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monster-mad-dash-5k-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T090000
 DTEND;TZID=America/Los_Angeles:20261003T110000
 SUMMARY:Monster Mad Dash 5K
@@ -2956,7 +3739,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:seattle-kraken-5k-2026-10-03@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261003T093000
 DTEND;TZID=America/Los_Angeles:20261003T113000
 SUMMARY:Seattle Kraken 5K
@@ -2973,7 +3760,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:grit-city-backyard-ultra-2026-10-04@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261004T080000
 DTEND;TZID=America/Los_Angeles:20261004T100000
 SUMMARY:Grit City Backyard Ultra
@@ -2990,7 +3781,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:poulsbo-half-marathon-10k-2026-10-04@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261004T080000
 DTEND;TZID=America/Los_Angeles:20261004T100000
 SUMMARY:Poulsbo Half Marathon & 10k
@@ -3007,7 +3802,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:baby-steps-5k-2026-2026-10-04@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261004T090000
 DTEND;TZID=America/Los_Angeles:20261004T110000
 SUMMARY:Baby Steps 5K 2026
@@ -3024,7 +3823,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-morning-on-track-2026-10-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261005T053000
 DTEND;TZID=America/Los_Angeles:20261005T073000
 SUMMARY:Monday Morning On Track (Club Run)
@@ -3039,7 +3842,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-run-at-flying-lion-2026-10-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261005T180000
 DTEND;TZID=America/Los_Angeles:20261005T200000
 SUMMARY:Monday Run at Flying Lion (Club Run)
@@ -3054,7 +3861,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-evening-track-2026-10-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261005T183000
 DTEND;TZID=America/Los_Angeles:20261005T203000
 SUMMARY:Monday Evening Track (Club Run)
@@ -3069,7 +3880,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-miles-2026-10-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261005T183000
 DTEND;TZID=America/Los_Angeles:20261005T203000
 SUMMARY:Monday Miles (Club Run)
@@ -3084,7 +3899,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-group-run-2026-10-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261005T090000
 DTEND;TZID=America/Los_Angeles:20261005T110000
 SUMMARY:Monday Group Run (Club Run)
@@ -3098,7 +3917,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-10-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261006T180000
 DTEND;TZID=America/Los_Angeles:20261006T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -3113,7 +3936,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-10-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261006T180000
 DTEND;TZID=America/Los_Angeles:20261006T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -3128,7 +3955,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:track-night-2026-10-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261006T181500
 DTEND;TZID=America/Los_Angeles:20261006T201500
 SUMMARY:Track Night (Club Run)
@@ -3143,7 +3974,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-evening-run-2026-10-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261006T183000
 DTEND;TZID=America/Los_Angeles:20261006T203000
 SUMMARY:Tuesday Evening Run (Club Run)
@@ -3158,7 +3993,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-pub-run-2026-10-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261006T090000
 DTEND;TZID=America/Los_Angeles:20261006T110000
 SUMMARY:Tuesday Pub Run (Club Run)
@@ -3171,7 +4010,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wake-up-wednesday-2026-10-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261007T053000
 DTEND;TZID=America/Los_Angeles:20261007T073000
 SUMMARY:Wake Up Wednesday (Club Run)
@@ -3186,7 +4029,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-night-run-2026-10-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261007T173000
 DTEND;TZID=America/Los_Angeles:20261007T193000
 SUMMARY:Wednesday Night Run (Club Run)
@@ -3201,7 +4048,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-group-run-2026-10-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261007T180000
 DTEND;TZID=America/Los_Angeles:20261007T200000
 SUMMARY:Wednesday Group Run (Club Run)
@@ -3216,7 +4067,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midweek-group-run-2026-10-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261007T181500
 DTEND;TZID=America/Los_Angeles:20261007T201500
 SUMMARY:Midweek Group Run (Club Run)
@@ -3230,7 +4085,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-trail-run-2026-10-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261007T183000
 DTEND;TZID=America/Los_Angeles:20261007T203000
 SUMMARY:Wednesday Trail Run (Club Run)
@@ -3244,7 +4103,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-track-2026-10-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261007T090000
 DTEND;TZID=America/Los_Angeles:20261007T110000
 SUMMARY:Wednesday Track (Club Run)
@@ -3259,7 +4122,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-10-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261008T180000
 DTEND;TZID=America/Los_Angeles:20261008T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -3274,7 +4141,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-10-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261008T180000
 DTEND;TZID=America/Los_Angeles:20261008T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -3289,7 +4160,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-evening-casual-run-2026-10-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261008T183000
 DTEND;TZID=America/Los_Angeles:20261008T203000
 SUMMARY:Thursday Evening Casual Run (Club Run)
@@ -3304,7 +4179,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-brewery-run-2026-10-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261008T090000
 DTEND;TZID=America/Los_Angeles:20261008T110000
 SUMMARY:Thursday Brewery Run (Club Run)
@@ -3317,7 +4196,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-lake-union-run-2026-10-09@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261009T060000
 DTEND;TZID=America/Los_Angeles:20261009T080000
 SUMMARY:Friday Lake Union Run (Club Run)
@@ -3332,7 +4215,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:emerald-city-open-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T103000
 DTEND;TZID=America/Los_Angeles:20261010T123000
 SUMMARY:Emerald City Open
@@ -3349,7 +4236,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T070000
 DTEND;TZID=America/Los_Angeles:20261010T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -3364,7 +4255,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:night-nation-run-seattle-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T190000
 DTEND;TZID=America/Los_Angeles:20261010T210000
 SUMMARY:NIGHT NATION RUN - SEATTLE
@@ -3381,6 +4276,7 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+<<<<<<< HEAD
 UID:bagel-run-5k-10k-13-1-seattle-2026-10-10@www.run206.com
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20261010T073000
@@ -3399,14 +4295,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:coffee-lovers-run-5k-10k-13-1-seattle-2026-10-10@www.run206.com
 DTSTAMP:20260829T165858Z
+=======
+UID:coffee-lovers-run-5k-10k-13-1-seattle-2026-10-10@www.run206.com
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T073000
 DTEND;TZID=America/Los_Angeles:20261010T093000
 SUMMARY:Coffee Lovers Run 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n☕️ 🏃‍♂
- ️ Love running? Love coffee? Why not both? Join us for the Coffee Lovers
-  Run\, where every mile leads you closer to great coffee\, good vibes…\n
- https://runsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1010?aflt
- _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nLove running? Lov
+ e coffee? Why not both? Join us for the Coffee Lovers Run\, where every mi
+ le leads you closer to great coffee\, good vibes\, and even…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1010?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1010?a
  flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -3416,15 +4316,26 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cookie-run-5k-10k-13-1-seattle-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T073000
 DTEND;TZID=America/Los_Angeles:20261010T093000
 SUMMARY:Cookie Run 5K/10K/13.1 SEATTLE
 DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nGet Ready for the
+<<<<<<< HEAD
   Cookie Run! 🍪✨ Join us for the Cookie Run It's not just a race\, it'
  s an adventure filled with delicious cookies for those who run…\nhttps:/
  /runsignup.com/Race/WA/Seattle/BagelRun5K10KSEATTLE1010?aflt_token=wc7B47h
  8BqW9drLnekNygSAMxqwhqsnt
+=======
+  Cookie Run! Join us for the Cookie Run It's not just a race\, it's an adv
+ enture filled with delicious cookies for those who run with…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/BagelRun5K10KSEATTLE1010?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/BagelRun5K10KSEATTLE1010?aflt_tok
  en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -3434,7 +4345,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:defiance-50k-30k-15k-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T080000
 DTEND;TZID=America/Los_Angeles:20261010T100000
 SUMMARY:Defiance 50K / 30K / 15K
@@ -3452,7 +4367,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T080000
 DTEND;TZID=America/Los_Angeles:20261010T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -3467,7 +4386,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T080000
 DTEND;TZID=America/Los_Angeles:20261010T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -3482,7 +4405,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:haunted-5k-10k-13-1m-at-everett-wa-41-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T083000
 DTEND;TZID=America/Los_Angeles:20261010T103000
 SUMMARY:Haunted 5K\, 10K\, & 13.1M at Everett WA (41)
@@ -3499,7 +4426,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5th-annual-fall-classic-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T090000
 DTEND;TZID=America/Los_Angeles:20261010T110000
 SUMMARY:5th Annual Fall Classic
@@ -3516,7 +4447,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:howl-o-ween-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T090000
 DTEND;TZID=America/Los_Angeles:20261010T110000
 SUMMARY:Howl - O - Ween
@@ -3534,7 +4469,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T090000
 DTEND;TZID=America/Los_Angeles:20261010T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -3549,7 +4488,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:spiritwalk-warrior-run-2026-2026-10-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261010T090000
 DTEND;TZID=America/Los_Angeles:20261010T110000
 SUMMARY:SpiritWalk & Warrior Run 2026
@@ -3566,7 +4509,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:the-stein-dash-2026-10-11@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261011T100000
 DTEND;TZID=America/Los_Angeles:20261011T120000
 SUMMARY:The Stein Dash
@@ -3583,7 +4530,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pumpkin-spice-run-2026-10-11@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261011T101500
 DTEND;TZID=America/Los_Angeles:20261011T121500
 SUMMARY:Pumpkin Spice Run
@@ -3601,14 +4552,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hope-and-heroes-run-2026-10-11@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261011T091500
 DTEND;TZID=America/Los_Angeles:20261011T111500
 SUMMARY:Hope and Heroes Run
-DESCRIPTION:5K\, 10K\, Kids\n$5–$36\n🦸 CAPES ON. COSTUMES READY. IT'S 
- TIME TO UNITE. Join us at beautiful Marymoor Park in Redmond for a family-
- friendly\, superhero-themed race day…\nhttps://runsignup.com/Race/WA/Red
- mond/HopeandHeroesrun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:5K\, 10K\, Kids\n$5–$36\nCAPES ON. COSTUMES READY. IT'S TIME 
+ TO UNITE. Join us at beautiful Marymoor Park in Redmond for a family-frien
+ dly\, superhero-themed race day…\nhttps://runsignup.com/Race/WA/Redmond/
+ HopeandHeroesrun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Redmond\, WA
 URL:https://runsignup.com/Race/WA/Redmond/HopeandHeroesrun?aflt_token=wc7B4
  7h8BqW9drLnekNygSAMxqwhqsnt
@@ -3619,7 +4574,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-the-snohomish-river-run-marathon-half-marathon-10k-and-5k-2026-10-
  11@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261011T093000
 DTEND;TZID=America/Los_Angeles:20261011T113000
 SUMMARY:2026 The Snohomish River Run Marathon\, Half Marathon\, 10K and 5K
@@ -3637,7 +4596,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-morning-on-track-2026-10-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261012T053000
 DTEND;TZID=America/Los_Angeles:20261012T073000
 SUMMARY:Monday Morning On Track (Club Run)
@@ -3652,7 +4615,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-run-at-flying-lion-2026-10-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261012T180000
 DTEND;TZID=America/Los_Angeles:20261012T200000
 SUMMARY:Monday Run at Flying Lion (Club Run)
@@ -3667,7 +4634,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-evening-track-2026-10-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261012T183000
 DTEND;TZID=America/Los_Angeles:20261012T203000
 SUMMARY:Monday Evening Track (Club Run)
@@ -3682,7 +4653,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-miles-2026-10-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261012T183000
 DTEND;TZID=America/Los_Angeles:20261012T203000
 SUMMARY:Monday Miles (Club Run)
@@ -3697,7 +4672,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-group-run-2026-10-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261012T090000
 DTEND;TZID=America/Los_Angeles:20261012T110000
 SUMMARY:Monday Group Run (Club Run)
@@ -3711,7 +4690,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-10-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261013T180000
 DTEND;TZID=America/Los_Angeles:20261013T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -3726,7 +4709,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-10-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261013T180000
 DTEND;TZID=America/Los_Angeles:20261013T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -3741,7 +4728,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:track-night-2026-10-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261013T181500
 DTEND;TZID=America/Los_Angeles:20261013T201500
 SUMMARY:Track Night (Club Run)
@@ -3756,7 +4747,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-evening-run-2026-10-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261013T183000
 DTEND;TZID=America/Los_Angeles:20261013T203000
 SUMMARY:Tuesday Evening Run (Club Run)
@@ -3771,7 +4766,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-pub-run-2026-10-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261013T090000
 DTEND;TZID=America/Los_Angeles:20261013T110000
 SUMMARY:Tuesday Pub Run (Club Run)
@@ -3784,7 +4783,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wake-up-wednesday-2026-10-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261014T053000
 DTEND;TZID=America/Los_Angeles:20261014T073000
 SUMMARY:Wake Up Wednesday (Club Run)
@@ -3799,7 +4802,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-night-run-2026-10-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261014T173000
 DTEND;TZID=America/Los_Angeles:20261014T193000
 SUMMARY:Wednesday Night Run (Club Run)
@@ -3814,7 +4821,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-group-run-2026-10-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261014T180000
 DTEND;TZID=America/Los_Angeles:20261014T200000
 SUMMARY:Wednesday Group Run (Club Run)
@@ -3829,7 +4840,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midweek-group-run-2026-10-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261014T181500
 DTEND;TZID=America/Los_Angeles:20261014T201500
 SUMMARY:Midweek Group Run (Club Run)
@@ -3843,7 +4858,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-trail-run-2026-10-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261014T183000
 DTEND;TZID=America/Los_Angeles:20261014T203000
 SUMMARY:Wednesday Trail Run (Club Run)
@@ -3857,7 +4876,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-track-2026-10-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261014T090000
 DTEND;TZID=America/Los_Angeles:20261014T110000
 SUMMARY:Wednesday Track (Club Run)
@@ -3872,7 +4895,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-10-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261015T180000
 DTEND;TZID=America/Los_Angeles:20261015T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -3887,7 +4914,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-10-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261015T180000
 DTEND;TZID=America/Los_Angeles:20261015T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -3902,7 +4933,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-evening-casual-run-2026-10-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261015T183000
 DTEND;TZID=America/Los_Angeles:20261015T203000
 SUMMARY:Thursday Evening Casual Run (Club Run)
@@ -3917,7 +4952,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-brewery-run-2026-10-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261015T090000
 DTEND;TZID=America/Los_Angeles:20261015T110000
 SUMMARY:Thursday Brewery Run (Club Run)
@@ -3930,7 +4969,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-lake-union-run-2026-10-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261016T060000
 DTEND;TZID=America/Los_Angeles:20261016T080000
 SUMMARY:Friday Lake Union Run (Club Run)
@@ -3945,7 +4988,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:where-s-bigfoot-5k-2026-10-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261017T100000
 DTEND;TZID=America/Los_Angeles:20261017T120000
 SUMMARY:Where's Bigfoot 5k
@@ -3962,7 +5009,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-10-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261017T070000
 DTEND;TZID=America/Los_Angeles:20261017T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -3977,7 +5028,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lake-washington-half-marathon-2026-10-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261017T080000
 DTEND;TZID=America/Los_Angeles:20261017T100000
 SUMMARY:Lake Washington Half Marathon
@@ -3994,7 +5049,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-10-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261017T080000
 DTEND;TZID=America/Los_Angeles:20261017T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -4009,7 +5068,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-10-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261017T080000
 DTEND;TZID=America/Los_Angeles:20261017T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -4024,7 +5087,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:haunted-5k-10k-13-1m-at-everett-wa-42-2026-10-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261017T083000
 DTEND;TZID=America/Los_Angeles:20261017T103000
 SUMMARY:Haunted 5K\, 10K & 13.1M at Everett\, WA (42)
@@ -4042,7 +5109,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-10-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261017T090000
 DTEND;TZID=America/Los_Angeles:20261017T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -4057,7 +5128,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:juanita-unified-5k-heroes-in-motion-2026-10-17@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261017T093000
 DTEND;TZID=America/Los_Angeles:20261017T113000
 SUMMARY:Juanita Unified 5K - Heroes in motion
@@ -4074,7 +5149,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:running-scared-5k-13k-seattle-2026-10-18@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261018T150000
 DTEND;TZID=America/Los_Angeles:20261018T170000
 SUMMARY:Running Scared 5K/13K - Seattle
@@ -4091,7 +5170,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:alaska-airlines-dawg-dash-5k-10k-2026-10-18@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261018T090000
 DTEND;TZID=America/Los_Angeles:20261018T110000
 SUMMARY:Alaska Airlines Dawg Dash 5K/10K
@@ -4108,7 +5191,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:i-can-and-i-will-run-2026-10-18@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261018T090000
 DTEND;TZID=America/Los_Angeles:20261018T110000
 SUMMARY:I Can And I Will Run!
@@ -4126,7 +5213,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:puyallup-valley-fall-hops-harvest-5k-2026-10-18@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261018T090000
 DTEND;TZID=America/Los_Angeles:20261018T110000
 SUMMARY:Puyallup Valley Fall Hops Harvest 5K
@@ -4143,7 +5234,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-morning-on-track-2026-10-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261019T053000
 DTEND;TZID=America/Los_Angeles:20261019T073000
 SUMMARY:Monday Morning On Track (Club Run)
@@ -4158,7 +5253,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-run-at-flying-lion-2026-10-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261019T180000
 DTEND;TZID=America/Los_Angeles:20261019T200000
 SUMMARY:Monday Run at Flying Lion (Club Run)
@@ -4173,7 +5272,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-evening-track-2026-10-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261019T183000
 DTEND;TZID=America/Los_Angeles:20261019T203000
 SUMMARY:Monday Evening Track (Club Run)
@@ -4188,7 +5291,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-miles-2026-10-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261019T183000
 DTEND;TZID=America/Los_Angeles:20261019T203000
 SUMMARY:Monday Miles (Club Run)
@@ -4203,7 +5310,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:monday-group-run-2026-10-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261019T090000
 DTEND;TZID=America/Los_Angeles:20261019T110000
 SUMMARY:Monday Group Run (Club Run)
@@ -4217,7 +5328,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-10-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261020T180000
 DTEND;TZID=America/Los_Angeles:20261020T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -4232,7 +5347,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-10-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261020T180000
 DTEND;TZID=America/Los_Angeles:20261020T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -4247,7 +5366,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:track-night-2026-10-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261020T181500
 DTEND;TZID=America/Los_Angeles:20261020T201500
 SUMMARY:Track Night (Club Run)
@@ -4262,7 +5385,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-evening-run-2026-10-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261020T183000
 DTEND;TZID=America/Los_Angeles:20261020T203000
 SUMMARY:Tuesday Evening Run (Club Run)
@@ -4277,7 +5404,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tuesday-pub-run-2026-10-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261020T090000
 DTEND;TZID=America/Los_Angeles:20261020T110000
 SUMMARY:Tuesday Pub Run (Club Run)
@@ -4290,7 +5421,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wake-up-wednesday-2026-10-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261021T053000
 DTEND;TZID=America/Los_Angeles:20261021T073000
 SUMMARY:Wake Up Wednesday (Club Run)
@@ -4305,7 +5440,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-night-run-2026-10-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261021T173000
 DTEND;TZID=America/Los_Angeles:20261021T193000
 SUMMARY:Wednesday Night Run (Club Run)
@@ -4320,7 +5459,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-group-run-2026-10-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261021T180000
 DTEND;TZID=America/Los_Angeles:20261021T200000
 SUMMARY:Wednesday Group Run (Club Run)
@@ -4335,7 +5478,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midweek-group-run-2026-10-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261021T181500
 DTEND;TZID=America/Los_Angeles:20261021T201500
 SUMMARY:Midweek Group Run (Club Run)
@@ -4349,7 +5496,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-trail-run-2026-10-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261021T183000
 DTEND;TZID=America/Los_Angeles:20261021T203000
 SUMMARY:Wednesday Trail Run (Club Run)
@@ -4363,7 +5514,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wednesday-track-2026-10-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261021T090000
 DTEND;TZID=America/Los_Angeles:20261021T110000
 SUMMARY:Wednesday Track (Club Run)
@@ -4378,7 +5533,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:brooks-run-club-2026-10-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261022T180000
 DTEND;TZID=America/Los_Angeles:20261022T200000
 SUMMARY:Brooks Run Club (Brand Event)
@@ -4393,7 +5552,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fleet-feet-run-club-2026-10-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261022T180000
 DTEND;TZID=America/Los_Angeles:20261022T200000
 SUMMARY:Fleet Feet Run Club (Brand Event)
@@ -4408,7 +5571,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-evening-casual-run-2026-10-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261022T183000
 DTEND;TZID=America/Los_Angeles:20261022T203000
 SUMMARY:Thursday Evening Casual Run (Club Run)
@@ -4423,7 +5590,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thursday-brewery-run-2026-10-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261022T090000
 DTEND;TZID=America/Los_Angeles:20261022T110000
 SUMMARY:Thursday Brewery Run (Club Run)
@@ -4436,7 +5607,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-lake-union-run-2026-10-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261023T060000
 DTEND;TZID=America/Los_Angeles:20261023T080000
 SUMMARY:Friday Lake Union Run (Club Run)
@@ -4451,7 +5626,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:issaquah-schools-foundation-monster-mash-5k-2026-10-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T120000
 SUMMARY:Issaquah Schools Foundation Monster Mash 5K
@@ -4468,7 +5647,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rise-shine-long-run-2026-10-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261024T070000
 DTEND;TZID=America/Los_Angeles:20261024T090000
 SUMMARY:Rise & Shine Long Run (Club Run)
@@ -4483,7 +5666,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-long-run-2026-10-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261024T080000
 DTEND;TZID=America/Los_Angeles:20261024T100000
 SUMMARY:Saturday Long Run (Club Run)
@@ -4498,7 +5685,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-morning-miles-2026-10-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261024T080000
 DTEND;TZID=America/Los_Angeles:20261024T100000
 SUMMARY:Saturday Morning Miles (Club Run)
@@ -4513,7 +5704,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-greenlake-5k-and-wellness-festival-2026-10-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261024T083000
 DTEND;TZID=America/Los_Angeles:20261024T103000
 SUMMARY:2026 Greenlake 5K and Wellness Festival
@@ -4530,7 +5725,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mid-morning-run-2026-10-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261024T090000
 DTEND;TZID=America/Los_Angeles:20261024T110000
 SUMMARY:Mid-Morning Run (Club Run)
@@ -4545,7 +5744,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:peaks-and-professors-5k-2026-10-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261024T090000
 DTEND;TZID=America/Los_Angeles:20261024T110000
 SUMMARY:Peaks and Professors 5k
@@ -4562,7 +5765,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:west-seattle-monster-dash-2026-2026-10-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261024T093000
 DTEND;TZID=America/Los_Angeles:20261024T113000
 SUMMARY:West Seattle Monster Dash 2026
@@ -4580,7 +5787,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:captain-jack-s-treasure-run-2026-10-25@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261025T100000
 DTEND;TZID=America/Los_Angeles:20261025T120000
 SUMMARY:Captain Jack's Treasure Run
@@ -4598,7 +5809,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:snoqualmie-valley-harvest-run-2026-10-25@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261025T093500
 DTEND;TZID=America/Los_Angeles:20261025T113500
 SUMMARY:Snoqualmie Valley Harvest Run
@@ -4616,7 +5831,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-scared-2026-10-25@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261025T094500
 DTEND;TZID=America/Los_Angeles:20261025T114500
 SUMMARY:Run Scared
@@ -4634,7 +5853,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ten-trails-active-club-trot-n-treat-relay-scramble-2026-10-28@www.run20
  6.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261028T183000
 DTEND;TZID=America/Los_Angeles:20261028T203000
 SUMMARY:Ten Trails Active Club Trot n' Treat Relay Scramble
@@ -4652,6 +5875,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:trick-or-treat-5k-2026-10-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20261031T100000
 DTEND;TZID=America/Los_Angeles:20261031T120000
@@ -4661,6 +5885,16 @@ DESCRIPTION:5K\, Kids\, Walk\n$34–$39\n🎃👻 Join us for a spooktacula
   running shoes\, and head to Seward Park for a…\nhttps://runsignup.com/R
  ace/WA/Seattle/TrickorTreat5k2021?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhq
  snt
+=======
+DTSTAMP:20260829T212524Z
+DTSTART;TZID=America/Los_Angeles:20261031T100000
+DTEND;TZID=America/Los_Angeles:20261031T120000
+SUMMARY:Trick or Treat 5k
+DESCRIPTION:5K\, Kids\, Walk\n$34–$39\nJoin us for a spooktacular time at
+  the Trick-or-Treat 5K! Grab your costume\, lace up your running shoes\, a
+ nd head to Seward Park for a frightfully…\nhttps://runsignup.com/Race/WA
+ /Seattle/TrickorTreat5k2021?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/TrickorTreat5k2021?aflt_token=wc7
  B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -4671,15 +5905,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:halloween-trick-or-trot-run-5k-10k-13-1-seattle-2026-10-31@www.run206.c
  om
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261031T073000
 DTEND;TZID=America/Los_Angeles:20261031T093000
 SUMMARY:Halloween Trick or Trot Run 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🎃 👻 Trick o
- r Trot! 👻 🎃 Run in our annual Halloween Run\, where healthy fitness 
- meets frightful fun! We'll even give you some free Halloween candy…\nhtt
- ps://runsignup.com/Race/WA/Seattle/HalloweenTrickOrTrotRun5K10KSEATTLE1031
- ?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nTrick or Trot! Ru
+ n in our annual Halloween Run\, where healthy fitness meets frightful fun!
+  We'll even give you some free Halloween candy after your…\nhttps://runs
+ ignup.com/Race/WA/Seattle/HalloweenTrickOrTrotRun5K10KSEATTLE1031?aflt_tok
+ en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/HalloweenTrickOrTrotRun5K10KSEATT
  LE1031?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -4689,15 +5927,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pb-j-fuel-run-5k-10k-13-1-seattle-2026-10-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261031T073000
 DTEND;TZID=America/Los_Angeles:20261031T093000
 SUMMARY:PB&J Fuel Run 5K/10K/13.1 SEATTLE
 DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nSmooth vibes. Swe
- et energy. Bold moves. 🥜🍓 PB&J Fuel Run is all about a combo that ju
- st works. Mix your pace\, spread the fun\, and stick with it all…\nhttps
- ://runsignup.com/Race/WA/Seattle/PBJFuelRun5K10KSEATTLE1031?aflt_token=wc7
- B47h8BqW9drLnekNygSAMxqwhqsnt
+ et energy. Bold moves. PB&J Fuel Run is all about a combo that just works.
+  Mix your pace\, spread the fun\, and stick with it all the…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/PBJFuelRun5K10KSEATTLE1031?aflt_token=wc7B47h8
+ BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/PBJFuelRun5K10KSEATTLE1031?aflt_t
  oken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -4707,7 +5949,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cougar-mountain-trail-run-series-october-2026-10-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261031T080000
 DTEND;TZID=America/Los_Angeles:20261031T100000
 SUMMARY:Cougar Mountain Trail Run Series (October)
@@ -4725,7 +5971,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:haunted-hustle-5k-10k-2026-10-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261031T090000
 DTEND;TZID=America/Los_Angeles:20261031T110000
 SUMMARY:Haunted Hustle 5K & 10K
@@ -4742,7 +5992,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wicked-fast-5k-10k-2026-10-31@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261031T093000
 DTEND;TZID=America/Los_Angeles:20261031T113000
 SUMMARY:Wicked Fast 5K & 10K
@@ -4759,7 +6013,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:gobbler-5k-10k-13-1m-at-everett-wa-45-2026-11-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261107T083000
 DTEND;TZID=America/Los_Angeles:20261107T103000
 SUMMARY:Gobbler 5K\, 10K\, & 13.1M at Everett\, WA (45)
@@ -4777,7 +6035,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-the-bay-2026-11-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261108T090000
 DTEND;TZID=America/Los_Angeles:20261108T110000
 SUMMARY:Run the Bay
@@ -4792,7 +6054,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:let-me-run-spring-fest-5k-2026-2026-11-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261114T100000
 DTEND;TZID=America/Los_Angeles:20261114T120000
 SUMMARY:Let Me Run Spring Fest 5K 2026
@@ -4809,7 +6075,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-mental-health-5k-10k-13-1-seattle-2026-11-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261114T073000
 DTEND;TZID=America/Los_Angeles:20261114T093000
 SUMMARY:Run for Mental Health 5K/10K/13.1 SEATTLE
@@ -4827,15 +6097,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:veterans-day-freedom-run-5k-10k-13-1-seattle-2026-11-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261114T073000
 DTEND;TZID=America/Los_Angeles:20261114T093000
 SUMMARY:Veterans Day Freedom Run 5K/10K/13.1 SEATTLE
 DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nCelebrate this Ve
- terans Day with our annual Freedom Run! 🏃‍♂️💨 Kick off your we
- ekend with purpose and pride by joining our 5K\, 10K\, or Half-Marathon…
- \nhttps://runsignup.com/Race/WA/Seattle/VeteransDayFreedomRun5K10KSEATTLE1
- 114?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+ terans Day with our annual Freedom Run! Kick off your weekend with purpose
+  and pride by joining our 5K\, 10K\, or Half-Marathon…\nhttps://runsignu
+ p.com/Race/WA/Seattle/VeteransDayFreedomRun5K10KSEATTLE1114?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/VeteransDayFreedomRun5K10KSEATTLE
  1114?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -4845,7 +6119,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:gobbler-5k-10k-13-1m-at-everett-wa-46-2026-11-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261114T083000
 DTEND;TZID=America/Los_Angeles:20261114T103000
 SUMMARY:Gobbler 5K\, 10K\, & 13.1M at Everett\, WA (46)
@@ -4862,7 +6140,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:never-ending-nolte-6-hour-2026-11-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261114T093000
 DTEND;TZID=America/Los_Angeles:20261114T113000
 SUMMARY:Never Ending Nolte 6-Hour
@@ -4880,7 +6162,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-kirkland-turkey-trot-2026-11-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261115T090000
 DTEND;TZID=America/Los_Angeles:20261115T110000
 SUMMARY:2026 Kirkland Turkey Trot
@@ -4895,7 +6181,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:celebrate-veterans-5k-2026-11-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261115T091000
 DTEND;TZID=America/Los_Angeles:20261115T111000
 SUMMARY:Celebrate Veterans 5K
@@ -4912,7 +6202,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:gobbler-5k-10k-13-1m-at-everett-wa-47-2026-11-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261121T083000
 DTEND;TZID=America/Los_Angeles:20261121T103000
 SUMMARY:Gobbler 5K\, 10K\, & 13.1M at Everett\, WA (47)
@@ -4930,7 +6224,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:carnation-turkey-trot-2026-2026-11-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261121T090000
 DTEND;TZID=America/Los_Angeles:20261121T110000
 SUMMARY:Carnation Turkey Trot 2026
@@ -4947,7 +6245,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tacky-turkey-sweater-5k-2026-11-22@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261122T100000
 DTEND;TZID=America/Los_Angeles:20261122T120000
 SUMMARY:Tacky Turkey Sweater 5k
@@ -4965,7 +6267,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:8th-annual-maple-valley-turkey-trot-thanksgiving-day-5k-2026-11-26@www.
  run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T073000
 DTEND;TZID=America/Los_Angeles:20261126T093000
 SUMMARY:8th Annual Maple Valley Turkey Trot: Thanksgiving Day 5K
@@ -4983,7 +6289,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:holmes-chiropractic-care-gig-harbor-turkey-trot-2026-11-26@www.run206.c
  om
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T080000
 DTEND;TZID=America/Los_Angeles:20261126T100000
 SUMMARY:Holmes Chiropractic Care Gig Harbor Turkey Trot!
@@ -5000,7 +6310,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-mukilteo-turkey-trot-5k-and-10k-2026-11-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T081500
 DTEND;TZID=America/Los_Angeles:20261126T101500
 SUMMARY:2026 Mukilteo Turkey Trot 5K and 10K
@@ -5017,7 +6331,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:silverdale-rotary-turkey-trot-2026-2026-11-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T081500
 DTEND;TZID=America/Los_Angeles:20261126T101500
 SUMMARY:Silverdale Rotary Turkey Trot 2026
@@ -5034,7 +6352,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ten-trails-active-club-5k-turkey-trot-2026-11-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T083000
 DTEND;TZID=America/Los_Angeles:20261126T103000
 SUMMARY:Ten Trails Active Club 5k Turkey Trot
@@ -5051,7 +6373,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:gobble-gobble-5k-10k-2026-11-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T084000
 DTEND;TZID=America/Los_Angeles:20261126T104000
 SUMMARY:Gobble Gobble 5K & 10K
@@ -5068,7 +6394,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tacoma-city-turkey-trot-2026-11-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T090000
 DTEND;TZID=America/Los_Angeles:20261126T110000
 SUMMARY:Tacoma City Turkey Trot
@@ -5085,7 +6415,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:woodinville-turkey-trot-5k-2026-11-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T090000
 DTEND;TZID=America/Los_Angeles:20261126T110000
 SUMMARY:Woodinville Turkey Trot 5K
@@ -5103,7 +6437,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:magnuson-turkey-trot-2026-11-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T093000
 DTEND;TZID=America/Los_Angeles:20261126T113000
 SUMMARY:Magnuson Turkey Trot
@@ -5119,7 +6457,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:thanksgiving-day-apple-cup-5k-2026-11-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261126T093000
 DTEND;TZID=America/Los_Angeles:20261126T113000
 SUMMARY:Thanksgiving Day Apple Cup 5K
@@ -5136,7 +6478,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-seattle-ghost-marathon-half-50k-2026-11-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261128T070000
 DTEND;TZID=America/Los_Angeles:20261128T090000
 SUMMARY:2026 Seattle Ghost Marathon\, Half & 50K
@@ -5154,15 +6500,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:coffee-lovers-run-5k-10k-13-1-seattle-2026-11-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261128T073000
 DTEND;TZID=America/Los_Angeles:20261128T093000
 SUMMARY:Coffee Lovers Run 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n☕️ 🏃‍♂
- ️ Love running? Love coffee? Why not both? Join us for the Coffee Lovers
-  Run\, where every mile leads you closer to great coffee\, good vibes…\n
- https://runsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1128?aflt
- _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nLove running? Lov
+ e coffee? Why not both? Join us for the Coffee Lovers Run\, where every mi
+ le leads you closer to great coffee\, good vibes\, and even…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1128?aflt_token=wc7
+ B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1128?a
  flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5173,15 +6523,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:thanksgiving-gobble-trot-run-5k-10k-13-1-seattle-2026-11-28@www.run206.
  com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261128T073000
 DTEND;TZID=America/Los_Angeles:20261128T093000
 SUMMARY:Thanksgiving Gobble Trot Run 5K/10K/13.1 SEATTLE
 DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nGet Ready to Wobb
- le Before You Gobble! 🦃 Join us for the annual Thanksgiving Gobble Trot
- ! Before you dive into the turkey and stuffing\, enjoy the…\nhttps://run
- signup.com/Race/WA/Seattle/ThanksgivingGobbleTrotRun5K10KSEATTLE1128?aflt_
- token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+ le Before You Gobble! Join us for the annual Thanksgiving Gobble Trot! Bef
+ ore you dive into the turkey and stuffing\, enjoy the…\nhttps://runsignu
+ p.com/Race/WA/Seattle/ThanksgivingGobbleTrotRun5K10KSEATTLE1128?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/ThanksgivingGobbleTrotRun5K10KSEA
  TTLE1128?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5191,7 +6545,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-seattle-kids-marathon-2026-11-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261128T090000
 DTEND;TZID=America/Los_Angeles:20261128T110000
 SUMMARY:2026 Seattle Kids Marathon
@@ -5206,7 +6564,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-uw-medicine-seattle-marathon-and-half-marathon-2026-11-29@www.run2
  06.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261129T070000
 DTEND;TZID=America/Los_Angeles:20261129T090000
 SUMMARY:2026 UW Medicine Seattle Marathon and Half Marathon
@@ -5221,7 +6583,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:santa-sleighs-5k-2026-12-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261205T100000
 DTEND;TZID=America/Los_Angeles:20261205T120000
 SUMMARY:Santa Sleighs 5K
@@ -5238,7 +6604,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:the-electric-cookie-run-2026-12-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261205T170000
 DTEND;TZID=America/Los_Angeles:20261205T190000
 SUMMARY:The Electric Cookie Run
@@ -5255,7 +6625,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:holiday-5k-10k-13-1m-at-everett-wa-49-2026-12-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261205T083000
 DTEND;TZID=America/Los_Angeles:20261205T103000
 SUMMARY:Holiday 5K\, 10K\, & 13.1M at Everett\, WA (49)
@@ -5272,7 +6646,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:celebrate-woodinville-winterfest-5k-2026-12-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261205T093000
 DTEND;TZID=America/Los_Angeles:20261205T113000
 SUMMARY:Celebrate Woodinville Winterfest 5k
@@ -5289,7 +6667,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-or-wine-5k-series-december-2026-2026-12-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261206T120000
 DTEND;TZID=America/Los_Angeles:20261206T140000
 SUMMARY:Run or Wine 5K Series - December 2026
@@ -5307,7 +6689,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-holiday-on-the-bay-5k-and-kids-dash-2026-12-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261206T090000
 DTEND;TZID=America/Los_Angeles:20261206T110000
 SUMMARY:2026 Holiday on the Bay 5K and Kids Dash
@@ -5325,14 +6711,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:holiday-grinch-5k-2026-12-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261206T090000
 DTEND;TZID=America/Los_Angeles:20261206T110000
 SUMMARY:Holiday Grinch 5K
-DESCRIPTION:5K\n$25\n🎄💚 Grinch Out Puyallup 5K Sunday\, December 6th 
- 💚🎄 Get ready to Grinch out the City of Puyallup in this festive\, fu
- n-filled holiday run! We’ll start…\nhttps://runsignup.com/Race/WA/Puya
- llup/HolidayGrinch5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:5K\n$25\nGrinch Out Puyallup 5K Sunday\, December 6th Get ready
+  to Grinch out the City of Puyallup in this festive\, fun-filled holiday r
+ un! We’ll start and…\nhttps://runsignup.com/Race/WA/Puyallup/HolidayGr
+ inch5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Puyallup\, WA
 URL:https://runsignup.com/Race/WA/Puyallup/HolidayGrinch5K?aflt_token=wc7B4
  7h8BqW9drLnekNygSAMxqwhqsnt
@@ -5342,7 +6732,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:k9-candy-cane-5k-fun-run-2026-12-06@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261206T091500
 DTEND;TZID=America/Los_Angeles:20261206T111500
 SUMMARY:K9 Candy Cane 5K Fun Run
@@ -5359,15 +6753,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-breast-cancer-5k-10k-13-1-seattle-2026-12-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261212T073000
 DTEND;TZID=America/Los_Angeles:20261212T093000
 SUMMARY:Run for Breast Cancer 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🎀 Join the Fig
- ht: Breast Cancer Run! 🎀 Lace up and make a difference at our annual Br
- east Cancer Run! Together\, we can raise awareness and funds to…\nhttps:
- //runsignup.com/Race/WA/Seattle/RunForBreastCancer5K10KSEATTLE1212?aflt_to
- ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the Fight: B
+ reast Cancer Run! Lace up and make a difference at our annual Breast Cance
+ r Run! Together\, we can raise awareness and funds to…\nhttps://runsignu
+ p.com/Race/WA/Seattle/RunForBreastCancer5K10KSEATTLE1212?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunForBreastCancer5K10KSEATTLE121
  2?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5377,15 +6775,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sunrise-marathon-5k-10k-13-1-seattle-2026-12-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261212T073000
 DTEND;TZID=America/Los_Angeles:20261212T093000
 SUMMARY:Sunrise Marathon 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🌅Run at Sunris
- e with pretty scenic views! Start your day — and your journey — with a
-  breathtaking sunrise and fellow runners chasing greatness…\nhttps://run
- signup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE1212?aflt_token=wc7B
- 47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nRun at Sunrise wi
+ th pretty scenic views! Start your day — and your journey — with a bre
+ athtaking sunrise and fellow runners chasing greatness. Forget…\nhttps:/
+ /runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE1212?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE1212?a
  flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5395,7 +6797,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:santa-runs-tacoma-2026-12-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261212T081000
 DTEND;TZID=America/Los_Angeles:20261212T101000
 SUMMARY:Santa Runs Tacoma
@@ -5412,7 +6818,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:holiday-5k-10k-13-1m-at-everett-wa-50-2026-12-12@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261212T083000
 DTEND;TZID=America/Los_Angeles:20261212T103000
 SUMMARY:Holiday 5K\, 10K\, & 13.1M at Everett\, WA (50)
@@ -5429,7 +6839,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-jingle-bell-run-seattle-wa-2026-12-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261213T083000
 DTEND;TZID=America/Los_Angeles:20261213T103000
 SUMMARY:2026 Jingle Bell Run - Seattle\, WA
@@ -5446,7 +6860,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:holiday-fun-run-2026-12-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261219T100000
 DTEND;TZID=America/Los_Angeles:20261219T120000
 SUMMARY:Holiday fun Run
@@ -5462,7 +6880,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:holiday-5k-10k-13-1m-at-everett-wa-51-2026-12-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261219T083000
 DTEND;TZID=America/Los_Angeles:20261219T103000
 SUMMARY:Holiday 5K\, 10K\, & 13.1M at Everett\, WA (51)
@@ -5480,6 +6902,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sleigh-that-5k-2026-12-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20261220T100000
 DTEND;TZID=America/Los_Angeles:20261220T120000
@@ -5488,6 +6911,16 @@ DESCRIPTION:5K\, Kids\, Walk\n$34–$39\n🎄 Sleigh That 5K 🎄 Dashing T
  hrough the Snow... in Running Shoes! Get ready to sleigh your way into the
   holiday season! Join us at Green Lake Park for…\nhttps://runsignup.com/
  Race/WA/Seattle/Sleighthat5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+=======
+DTSTAMP:20260829T212524Z
+DTSTART;TZID=America/Los_Angeles:20261220T100000
+DTEND;TZID=America/Los_Angeles:20261220T120000
+SUMMARY:Sleigh that 5k
+DESCRIPTION:5K\, Kids\, Walk\n$34–$39\nSleigh That 5K Dashing Through the
+  Snow... in Running Shoes! Get ready to sleigh your way into the holiday s
+ eason! Join us at Green Lake Park for the…\nhttps://runsignup.com/Race/W
+ A/Seattle/Sleighthat5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/Sleighthat5k?aflt_token=wc7B47h8B
  qW9drLnekNygSAMxqwhqsnt
@@ -5497,15 +6930,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-eve-ugly-sweater-2026-12-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261224T100000
 DTEND;TZID=America/Los_Angeles:20261224T120000
 SUMMARY:Christmas Eve Ugly Sweater
-DESCRIPTION:5K\, Kids\n$15–$30\n🎄✨ Ugly Sweater & Elf Dash – Chris
- tmas Eve 5K Run/Walk ✨🎄 Join us for the 8th Annual Christmas Eve Ugly
-  Sweater & Elf Dash 5K Run/Walk at Bradley…\nhttps://runsignup.com/Race/
- WA/Puyallup/ChristmasEveUglySweater?aflt_token=wc7B47h8BqW9drLnekNygSAMxqw
- hqsnt
+DESCRIPTION:5K\, Kids\n$15–$30\nUgly Sweater & Elf Dash – Christmas Eve
+  5K Run/Walk Join us for the 8th Annual Christmas Eve Ugly Sweater & Elf D
+ ash 5K Run/Walk at Bradley Lake Park…\nhttps://runsignup.com/Race/WA/Puy
+ allup/ChristmasEveUglySweater?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Puyallup\, WA
 URL:https://runsignup.com/Race/WA/Puyallup/ChristmasEveUglySweater?aflt_tok
  en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5515,15 +6951,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a-merry-christmas-run-5k-10k-13-1-seattle-2026-12-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261226T073000
 DTEND;TZID=America/Los_Angeles:20261226T093000
 SUMMARY:A Merry Christmas Run 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🎅 🎄 Join th
- e Christmas Run! 🎄 🎅 Jingle All the Way: A Merry Christmas Run!" is 
- a delightful Holiday run that reminds us of the true essence of…\nhttps:
- //runsignup.com/Race/WA/Seattle/AMerryChristmasRun5K10KSEATTLE1226?aflt_to
- ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the Christma
+ s Run! Jingle All the Way: A Merry Christmas Run!" is a delightful Holiday
+  run that reminds us of the true essence of Christmas –…\nhttps://runs
+ ignup.com/Race/WA/Seattle/AMerryChristmasRun5K10KSEATTLE1226?aflt_token=wc
+ 7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/AMerryChristmasRun5K10KSEATTLE122
  6?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5533,15 +6973,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-s-run-5k-10k-13-1-seattle-2026-12-26@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20261226T073000
 DTEND;TZID=America/Los_Angeles:20261226T093000
 SUMMARY:New Year's Run 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🎉 Start Your Y
- ear on the Right Foot! 🏃‍♀️🏃‍♂️ Join the New Year's Run 
- - New Beginnings Starts Today! Kick off the new year with energy\, excitem
- ent…\nhttps://runsignup.com/Race/WA/Seattle/NewYearSRun5K10KSEATTLE1226?
- aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nStart Your Year o
+ n the Right Foot! Join the New Year's Run - New Beginnings Starts Today! K
+ ick off the new year with energy\, excitement\, and a…\nhttps://runsignu
+ p.com/Race/WA/Seattle/NewYearSRun5K10KSEATTLE1226?aflt_token=wc7B47h8BqW9d
+ rLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/NewYearSRun5K10KSEATTLE1226?aflt_
  token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5551,7 +6995,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-s-day-5k-8k-2027-01-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270101T100000
 DTEND;TZID=America/Los_Angeles:20270101T120000
 SUMMARY:New Year's Day 5K & 8K
@@ -5568,7 +7016,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:resolution-run-5k-and-polar-bear-dive-2027-2027-01-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270101T103000
 DTEND;TZID=America/Los_Angeles:20270101T123000
 SUMMARY:Resolution Run 5K and Polar Bear Dive - 2027
@@ -5586,7 +7038,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:unicorns-rainbows-5k-2027-01-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270110T100000
 DTEND;TZID=America/Los_Angeles:20270110T120000
 SUMMARY:Unicorns & Rainbows 5k
@@ -5603,7 +7059,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mlk-jr-freedom-run-5k-10k-13-1-seattle-2027-01-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270116T073000
 DTEND;TZID=America/Los_Angeles:20270116T093000
 SUMMARY:MLK Jr. Freedom Run 5K/10K/13.1 SEATTLE
@@ -5621,15 +7081,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sunrise-marathon-5k-10k-13-1-seattle-2027-01-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270116T073000
 DTEND;TZID=America/Los_Angeles:20270116T093000
 SUMMARY:Sunrise Marathon 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n✨🌄 Chasing t
- he Sun\, Crushing Goals! 🏃‍♀️💨 Welcome to the 2027 Sunrise Mar
- athon 5K/10K/13.1! There is no better way to start your day than stepping 
- up…\nhttps://runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE01
- 16?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nChasing the Sun\,
+  Crushing Goals! Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There i
+ s no better way to start your day than stepping up to the…\nhttps://runs
+ ignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE0116?aflt_token=wc7B4
+ 7h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE0116?a
  flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5639,15 +7103,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:coffee-lover-run-seattle-2027-01-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270130T073000
 DTEND;TZID=America/Los_Angeles:20270130T093000
 SUMMARY:Coffee Lover Run SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n☕️ 🏃‍♂
- ️ ☕️ 🏃‍♂️ ☕️ 🏃‍♂️ For all the Coffee Lovers\, 
- this run is for you! You’ll love the shirt we send you. Set a goal\, bri
- ng a friend\, and join this…\nhttps://runsignup.com/Race/WA/Seattle/Coff
- eeLoverRunSEATTLE?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nFor all the Coffe
+ e Lovers\, this run is for you! You’ll love the shirt we send you. Set a
+  goal\, bring a friend\, and join this super fun 5K/10K/13.1…\nhttps://r
+ unsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE?aflt_token=wc7B47h8BqW9
+ drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE?aflt_token=
  wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5657,15 +7125,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-donut-seattle-2027-01-30@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270130T073000
 DTEND;TZID=America/Los_Angeles:20270130T093000
 SUMMARY:Run for Donut SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🎈🍩 Donut Mi
- nd If I Do! 🏃‍♂️💨 Get ready for a race day fueled by laughter\
- , community\, and a shared love for the world's best treat! 🍩✨ The 20
- 27 Run…\nhttps://runsignup.com/Race/WA/Seattle/RunForDonutSEATTLE?aflt_t
- oken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nDonut Mind If I D
+ o! Get ready for a race day fueled by laughter\, community\, and a shared 
+ love for the world's best treat! The 2027 Run for Donut is…\nhttps://run
+ signup.com/Race/WA/Seattle/RunForDonutSEATTLE?aflt_token=wc7B47h8BqW9drLne
+ kNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunForDonutSEATTLE?aflt_token=wc7
  B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5675,6 +7147,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:galentine-s-5k-2027-02-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20270213T100000
 DTEND;TZID=America/Los_Angeles:20270213T120000
@@ -5683,6 +7156,16 @@ DESCRIPTION:5K\, Kids\, Walk\n$34–$39\n🎀 Galentine’s 5K Fun Run/Walk
   🎀 Because nothing says “girl power” like running with your besties
  ! Grab your gals\, your soul sisters\, your…\nhttps://runsignup.com/Race
  /WA/Seattle/Galentines5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+=======
+DTSTAMP:20260829T212524Z
+DTSTART;TZID=America/Los_Angeles:20270213T100000
+DTEND;TZID=America/Los_Angeles:20270213T120000
+SUMMARY:Galentine's 5k
+DESCRIPTION:5K\, Kids\, Walk\n$34–$39\nGalentine’s 5K Fun Run/Walk Beca
+ use nothing says “girl power” like running with your besties! Grab you
+ r gals\, your soul sisters\, your ride-or-dies…\nhttps://runsignup.com/R
+ ace/WA/Seattle/Galentines5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/Galentines5k?aflt_token=wc7B47h8B
  qW9drLnekNygSAMxqwhqsnt
@@ -5692,15 +7175,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-chocolate-5k-10k-13-1-seattle-2027-02-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270213T073000
 DTEND;TZID=America/Los_Angeles:20270213T093000
 SUMMARY:Run for Chocolate 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🔥 Run Now\, Ch
- ocolate Later! 😋🏆 Who says you can't have your chocolate—and run i
- t too? The 2027 Run for Chocolate is coming\, and it’s sweeter than…\n
- https://runsignup.com/Race/WA/Seattle/RunForChocolate5k10kSEATTLE0213?aflt
- _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nRun Now\, Chocola
+ te Later! Who says you can't have your chocolate—and run it too? The 202
+ 7 Run for Chocolate is coming\, and it’s sweeter than ever!…\nhttps://
+ runsignup.com/Race/WA/Seattle/RunForChocolate5k10kSEATTLE0213?aflt_token=w
+ c7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunForChocolate5k10kSEATTLE0213?a
  flt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5710,15 +7197,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:valentine-s-day-run-5k-10k-13-1-seattle-2027-02-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270213T073000
 DTEND;TZID=America/Los_Angeles:20270213T093000
 SUMMARY:Valentine's Day Run 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n💘 Celebrate lo
- ve and fitness this Valentine’s Day with our charming Valentine's Run! W
- hether you’re running solo\, with a partner\, or with friends…\nhttps:
- //runsignup.com/Race/WA/Seattle/ValentineSDayRun5K10KSEATTLE?aflt_token=wc
- 7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nCelebrate love an
+ d fitness this Valentine’s Day with our charming Valentine's Run! Whethe
+ r you’re running solo\, with a partner\, or with friends\, this…\nhttp
+ s://runsignup.com/Race/WA/Seattle/ValentineSDayRun5K10KSEATTLE?aflt_token=
+ wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/ValentineSDayRun5K10KSEATTLE?aflt
  _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5728,7 +7219,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ten-trails-active-club-heartfelt-hustle-2027-02-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270213T080000
 DTEND;TZID=America/Los_Angeles:20270213T100000
 SUMMARY:Ten Trails Active Club Heartfelt Hustle
@@ -5745,7 +7240,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:alexander-s-hope-valentine-s-day-dash-2027-02-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270213T090000
 DTEND;TZID=America/Los_Angeles:20270213T110000
 SUMMARY:Alexander's Hope Valentine's Day Dash
@@ -5762,7 +7261,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:super-seattle-5k-2027-02-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270214T093000
 DTEND;TZID=America/Los_Angeles:20270214T113000
 SUMMARY:Super Seattle 5K
@@ -5779,15 +7282,26 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-mental-health-seattle-2027-02-27@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270227T073000
 DTEND;TZID=America/Los_Angeles:20270227T093000
 SUMMARY:Run For Mental Health SEATTLE
 DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the "Run for
+<<<<<<< HEAD
   Mental Health"! A journey of hope and connection. 💙 Every step is a re
  minder that no one has to face life’s challenges alone…\nhttps://runsi
  gnup.com/Race/WA/Seattle/RunForMentalHealthSEATTLE0227?aflt_token=wc7B47h8
  BqW9drLnekNygSAMxqwhqsnt
+=======
+  Mental Health"! A journey of hope and connection. Every step is a reminde
+ r that no one has to face life’s challenges alone. Whether…\nhttps://r
+ unsignup.com/Race/WA/Seattle/RunForMentalHealthSEATTLE0227?aflt_token=wc7B
+ 47h8BqW9drLnekNygSAMxqwhqsnt
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunForMentalHealthSEATTLE0227?afl
  t_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5797,15 +7311,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-together-against-breast-cancer-seattle-2027-02-27@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270227T073000
 DTEND;TZID=America/Los_Angeles:20270227T093000
 SUMMARY:Run Together Against Breast Cancer SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🎀 Join the Fig
- ht: Breast Cancer Run! 🎀 Lace up and make a difference at our annual Br
- east Cancer Run! Together\, we can raise awareness and funds to…\nhttps:
- //runsignup.com/Race/WA/Seattle/RunTogetherAgainstBreastCancerSEATTLE0227?
- aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nJoin the Fight: B
+ reast Cancer Run! Lace up and make a difference at our annual Breast Cance
+ r Run! Together\, we can raise awareness and funds to…\nhttps://runsignu
+ p.com/Race/WA/Seattle/RunTogetherAgainstBreastCancerSEATTLE0227?aflt_token
+ =wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunTogetherAgainstBreastCancerSEA
  TTLE0227?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5815,7 +7333,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-or-wine-5k-series-february-2027-2027-02-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270228T120000
 DTEND;TZID=America/Los_Angeles:20270228T140000
 SUMMARY:Run or Wine 5K Series - February 2027
@@ -5834,7 +7356,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:brooks-lake-sammamish-half-marathon-presented-by-rei-2027-03-06@www.run
  206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270306T073000
 DTEND;TZID=America/Los_Angeles:20270306T093000
 SUMMARY:Brooks Lake Sammamish Half Marathon presented by REI
@@ -5851,7 +7377,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-woodinville-half-and-10k-2027-03-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270307T080000
 DTEND;TZID=America/Los_Angeles:20270307T100000
 SUMMARY:2027 Woodinville Half and 10K
@@ -5869,7 +7399,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:celebrate-women-5k-10k-2027-03-07@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270307T090000
 DTEND;TZID=America/Los_Angeles:20270307T110000
 SUMMARY:Celebrate Women 5K & 10K
@@ -5886,7 +7420,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-kirkland-shamrock-run-2027-03-13@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270313T090000
 DTEND;TZID=America/Los_Angeles:20270313T110000
 SUMMARY:2027 Kirkland Shamrock Run
@@ -5901,15 +7439,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:snoqualmie-valley-st-patrick-s-day-fun-run-2027-03-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270314T093000
 DTEND;TZID=America/Los_Angeles:20270314T113000
 SUMMARY:Snoqualmie Valley St. Patrick's Day Fun Run
 DESCRIPTION:5K\, Kids\, Walk\n$35\nJoin us for the Snoqualmie Valley St. Pa
- trick's Day Fun Run!🍀 Celebrate St. Patrick’s Day with this festive\,
-  family-friendly 5K walk/run and Kids…\nhttps://runsignup.com/Race/WA/Sn
- oqualmie/SnoqualmieValleyShamrockShuffle?aflt_token=wc7B47h8BqW9drLnekNygS
- AMxqwhqsnt
+ trick's Day Fun Run! Celebrate St. Patrick’s Day with this festive\, fam
+ ily-friendly 5K walk/run and Kids…\nhttps://runsignup.com/Race/WA/Snoqua
+ lmie/SnoqualmieValleyShamrockShuffle?aflt_token=wc7B47h8BqW9drLnekNygSAMxq
+ whqsnt
 LOCATION:Snoqualmie\, WA
 URL:https://runsignup.com/Race/WA/Snoqualmie/SnoqualmieValleyShamrockShuffl
  e?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5919,15 +7461,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:st-paddy-s-day-lucky-run-5k-10k-13-1-seattle-2027-03-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270320T073000
 DTEND;TZID=America/Los_Angeles:20270320T093000
 SUMMARY:St. Paddy's Day Lucky Run 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🍀 St. Paddy's 
- Day Run: Luck\, Laughs\, and Laces! 🍀 Celebrate St. Patrick’s Day wit
- h a fun and festive run that’s as much about the spirit of the…\nhttps
- ://runsignup.com/Race/WA/Seattle/StPaddySDayLuckyRun5K10KSEATTLE0320?aflt_
- token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nSt. Paddy's Day R
+ un: Luck\, Laughs\, and Laces! Celebrate St. Patrick’s Day with a fun an
+ d festive run that’s as much about the spirit of the holiday…\nhttps:/
+ /runsignup.com/Race/WA/Seattle/StPaddySDayLuckyRun5K10KSEATTLE0320?aflt_to
+ ken=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/StPaddySDayLuckyRun5K10KSEATTLE03
  20?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5937,15 +7483,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:sunrise-marathon-5k-10k-13-1-seattle-2027-03-20@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270320T073000
 DTEND;TZID=America/Los_Angeles:20270320T093000
 SUMMARY:Sunrise Marathon 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n✨🌄 Chasing t
- he Sun\, Crushing Goals! 🏃‍♀️💨 Welcome to the 2027 Sunrise Mar
- athon 5K/10K/13.1! There is no better way to start your day than stepping 
- up…\nhttps://runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE32
- 0?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nChasing the Sun\,
+  Crushing Goals! Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There i
+ s no better way to start your day than stepping up to the…\nhttps://runs
+ ignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE320?aflt_token=wc7B47
+ h8BqW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/SunriseMarathon5K10KSEATTLE320?af
  lt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -5955,6 +7505,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-forest-run-5k-2027-03-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
 DTSTART;TZID=America/Los_Angeles:20270321T100000
 DTEND;TZID=America/Los_Angeles:20270321T120000
@@ -5964,6 +7515,17 @@ DESCRIPTION:5K\, Kids\, Walk\n$35–$38\n🏃‍♂️ Run Forest Run 5K
   Gump and thought\, “Hey\, I could run across America too… or…\nhttp
  s://runsignup.com/Race/WA/Seattle/RunForestRun5k?aflt_token=wc7B47h8BqW9dr
  LnekNygSAMxqwhqsnt
+=======
+DTSTAMP:20260829T212524Z
+DTSTART;TZID=America/Los_Angeles:20270321T100000
+DTEND;TZID=America/Los_Angeles:20270321T120000
+SUMMARY:Run Forest Run 5k
+DESCRIPTION:5K\, Kids\, Walk\n$35–$38\nRun Forest Run 5K — A Forrest Gu
+ mp-Inspired Fun Run! If you’ve ever watched Forrest Gump and thought\, 
+ “Hey\, I could run across America too… or at…\nhttps://runsignup.com
+ /Race/WA/Seattle/RunForestRun5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsn
+ t
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunForestRun5k?aflt_token=wc7B47h
  8BqW9drLnekNygSAMxqwhqsnt
@@ -5973,7 +7535,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:test-rr-race-2027-03-25@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270325T093000
 DTEND;TZID=America/Los_Angeles:20270325T113000
 SUMMARY:Test RR Race
@@ -5988,15 +7554,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:always-hope-easter-run-seattle-2027-03-27@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270327T073000
 DTEND;TZID=America/Los_Angeles:20270327T093000
 SUMMARY:Always Hope Easter Run SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🐣🏃‍♀️
- Hop Into Action at the Always Hope Easter Run! Spring into the season with
-  purpose\, community\, and fun! Whether you're chasing a personal best…\
- nhttps://runsignup.com/Race/WA/Seattle/AlwaysHopeEasterRunSEATTLE0327?aflt
- _token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nHop Into Action a
+ t the Always Hope Easter Run! Spring into the season with purpose\, commun
+ ity\, and fun! Whether you're chasing a personal best…\nhttps://runsignu
+ p.com/Race/WA/Seattle/AlwaysHopeEasterRunSEATTLE0327?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/AlwaysHopeEasterRunSEATTLE0327?af
  lt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -6006,7 +7576,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-mill-town-half-marathon-10k-and-5k-2027-03-27@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270327T080000
 DTEND;TZID=America/Los_Angeles:20270327T100000
 SUMMARY:2027 Mill Town Half Marathon\, 10K and 5K
@@ -6024,15 +7598,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-for-bagels-5k-10k-13-1-seattle-2027-04-10@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270410T073000
 DTEND;TZID=America/Los_Angeles:20270410T093000
 SUMMARY:Run for Bagels 5K/10K/13.1 SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n🥯🏃‍♂️
-  Run for the carbs. Stay for the bagels. Love running? Love bagels? This o
- ne’s for you. Whether you’re chasing a workout or just here for the…
- \nhttps://runsignup.com/Race/WA/Seattle/RunForBagels5K10KSEATTLE?aflt_toke
- n=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nRun for the carbs
+ . Stay for the bagels. Love running? Love bagels? This one’s for you. Wh
+ ether you’re chasing a workout or just here for the carbs…\nhttps://ru
+ nsignup.com/Race/WA/Seattle/RunForBagels5K10KSEATTLE?aflt_token=wc7B47h8Bq
+ W9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/RunForBagels5K10KSEATTLE?aflt_tok
  en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -6042,7 +7620,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:washington-state-marathon-2027-04-18@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270418T080000
 DTEND;TZID=America/Los_Angeles:20270418T100000
 SUMMARY:Washington State Marathon
@@ -6059,15 +7641,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:coffee-lover-run-seattle-2027-04-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270424T073000
 DTEND;TZID=America/Los_Angeles:20270424T093000
 SUMMARY:Coffee Lover Run SEATTLE
-DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\n☕️ 🏃‍♂
- ️ ☕️ 🏃‍♂️ ☕️ 🏃‍♂️ For all the Coffee Lovers\, 
- this run is for you! You’ll love the shirt we send you. Set a goal\, bri
- ng a friend\, and join this…\nhttps://runsignup.com/Race/WA/Seattle/Coff
- eeLoverRunSEATTLE424?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
+DESCRIPTION:1 Mile\, 5K\, 10K\, Half Marathon\n$30–$45\nFor all the Coffe
+ e Lovers\, this run is for you! You’ll love the shirt we send you. Set a
+  goal\, bring a friend\, and join this super fun 5K/10K/13.1…\nhttps://r
+ unsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE424?aflt_token=wc7B47h8B
+ qW9drLnekNygSAMxqwhqsnt
 LOCATION:Seattle\, WA
 URL:https://runsignup.com/Race/WA/Seattle/CoffeeLoverRunSEATTLE424?aflt_tok
  en=wc7B47h8BqW9drLnekNygSAMxqwhqsnt
@@ -6077,7 +7663,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:i-love-the-90s-5k-2027-04-25@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270425T100000
 DTEND;TZID=America/Los_Angeles:20270425T120000
 SUMMARY:I love the 90s 5k
@@ -6094,7 +7684,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ten-trails-active-club-5k-training-program-2027-04-28@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270428T180000
 DTEND;TZID=America/Los_Angeles:20270428T200000
 SUMMARY:Ten Trails Active Club 5k Training Program
@@ -6111,7 +7705,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:tacoma-city-marathon-half-ghost-10k-5k-1k-2027-05-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270501T073000
 DTEND;TZID=America/Los_Angeles:20270501T093000
 SUMMARY:Tacoma City Marathon / Half / Ghost / 10K / 5K / 1K
@@ -6129,7 +7727,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:atfs-garage-sale-5k-2027-05-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270501T090000
 DTEND;TZID=America/Los_Angeles:20270501T110000
 SUMMARY:ATFS! Garage Sale 5K
@@ -6146,7 +7748,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:kirkland-half-marathon-5k-2027-05-02@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270502T080000
 DTEND;TZID=America/Los_Angeles:20270502T100000
 SUMMARY:Kirkland Half Marathon & 5K
@@ -6165,7 +7771,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:bainbridge-island-parks-trails-foundation-trillium-trail-run-2027-05-08
  @www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270508T090000
 DTEND;TZID=America/Los_Angeles:20270508T110000
 SUMMARY:Bainbridge Island Parks & Trails Foundation Trillium Trail Run
@@ -6183,7 +7793,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:inspiring-hope-run-5k-10k-2027-05-15@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270515T090000
 DTEND;TZID=America/Los_Angeles:20270515T110000
 SUMMARY:Inspiring Hope Run 5k/10k
@@ -6201,7 +7815,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:seattle-ataturk-unity-run-2027-05-16@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270516T094500
 DTEND;TZID=America/Los_Angeles:20270516T114500
 SUMMARY:Seattle Atatürk Unity Run
@@ -6219,7 +7837,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-evergreen-half-and-5-mile-2027-05-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270523T080000
 DTEND;TZID=America/Los_Angeles:20270523T100000
 SUMMARY:2027 Evergreen Half and 5 Mile
@@ -6237,7 +7859,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-to-end-weekend-hunger-5k-2027-05-23@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270523T090000
 DTEND;TZID=America/Los_Angeles:20270523T110000
 SUMMARY:Run to END Weekend Hunger 5K
@@ -6254,7 +7880,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lookin-for-a-cure-seattle-2027-05-29@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270529T090000
 DTEND;TZID=America/Los_Angeles:20270529T110000
 SUMMARY:Lookin For A Cure Seattle
@@ -6271,7 +7901,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:northshore-spring-5k-for-schools-2027-06-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270601T090000
 DTEND;TZID=America/Los_Angeles:20270601T110000
 SUMMARY:Northshore Spring 5k for Schools
@@ -6288,7 +7922,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-seattle-marathon-summer-events-2027-06-05@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270605T060000
 DTEND;TZID=America/Los_Angeles:20270605T080000
 SUMMARY:2027 Seattle Marathon Summer Events
@@ -6305,7 +7943,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-centennial-100-2027-06-19@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270619T060000
 DTEND;TZID=America/Los_Angeles:20270619T080000
 SUMMARY:2027 Centennial 100
@@ -6322,7 +7964,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:puyallup-trail-challenge-2027-07-24@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270724T090000
 DTEND;TZID=America/Los_Angeles:20270724T110000
 SUMMARY:Puyallup Trail Challenge
@@ -6340,7 +7986,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:craft-classic-seattle-2027-08-01@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270801T073000
 DTEND;TZID=America/Los_Angeles:20270801T093000
 SUMMARY:Craft Classic Seattle
@@ -6358,7 +8008,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:18th-lake-union-10k-run-walk-2027-08-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270808T080000
 DTEND;TZID=America/Los_Angeles:20270808T100000
 SUMMARY:18th Lake Union 10K Run/Walk
@@ -6375,7 +8029,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:vashon-dock-to-dock-run-15-mile-run-and-relay-2027-08-08@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270808T090000
 DTEND;TZID=America/Los_Angeles:20270808T110000
 SUMMARY:Vashon Dock to Dock Run - 15 mile Run and Relay
@@ -6393,7 +8051,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-step-closer-2027-08-14@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270814T200000
 DTEND;TZID=America/Los_Angeles:20270814T220000
 SUMMARY:One Step Closer
@@ -6411,7 +8073,11 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:run-a-muk-5k-10k-2027-08-21@www.run206.com
+<<<<<<< HEAD
 DTSTAMP:20260829T165858Z
+=======
+DTSTAMP:20260829T212524Z
+>>>>>>> 42ce54d (Multi-select filters, row thumbnails, and a real typeface)
 DTSTART;TZID=America/Los_Angeles:20270821T090000
 DTEND;TZID=America/Los_Angeles:20270821T110000
 SUMMARY:Run A Muk 5k/10k

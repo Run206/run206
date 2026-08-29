@@ -7,6 +7,7 @@ means search engines see the full event list in the initial response.
 
 import json
 import os
+import re
 from datetime import date
 
 from lib import ics
@@ -16,7 +17,10 @@ DOW = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
-DISTANCE_CHIPS = ["All", "5K", "10K", "Half", "Marathon", "Ultra", "Trail", "Free"]
+# "Free" is a price, not a distance — it lived in this row purely because it
+# was convenient, which pushed the row to a second line and put an unrelated
+# control next to the distances. It now has its own toggle.
+DISTANCE_CHIPS = ["All", "5K", "10K", "Half", "Marathon", "Ultra", "Trail"]
 
 TAG_CLASS = {"Race": "tag-race", "Club Run": "tag-club", "Brand Event": "tag-brand"}
 # Google only surfaces near-term events in rich results, and every extra entry
@@ -68,6 +72,12 @@ def render_site(config, events, today, out_dir, root):
     # 392 pages inlining the same 13 KB was 5 MB of duplication, rewritten in
     # full on every CSS change and committed twice a day.
     _write(os.path.join(out_dir, "styles.css"), styles)
+
+    # Self-hosted display face, referenced by @font-face in the stylesheet.
+    with open(os.path.join(root, "site", "vendor", "bricolage.woff2"), "rb") as handle:
+        font = handle.read()
+    with open(os.path.join(out_dir, "bricolage.woff2"), "wb") as handle:
+        handle.write(font)
 
     _write_calendars(events, domain, out_dir)
     slugs = _write_event_pages(config, events, today, out_dir, styles)
@@ -233,14 +243,14 @@ def _distance_chips(events):
         present.update(event.get("distance_tags") or [])
     parts = []
     for label in DISTANCE_CHIPS:
-        if label not in ("All", "Free") and label not in present:
+        if label != "All" and label not in present:
             continue
         pressed = "true" if label == "All" else "false"
-        text = "Any distance" if label == "All" else (
-            "Free only" if label == "Free" else label)
+        css = "chip chip-all" if label == "All" else "chip"
+        text = "Any" if label == "All" else label
         parts.append(
-            '<button class="chip" type="button" data-value="{}" aria-pressed="{}">{}</button>'
-            .format(esc(label), pressed, esc(text))
+            '<button class="{}" type="button" data-value="{}" aria-pressed="{}">{}</button>'
+            .format(css, esc(label), pressed, esc(text))
         )
     return "\n      ".join(parts)
 
@@ -272,6 +282,42 @@ def _list(events, today):
             )
         )
     return "\n".join(chunks)
+
+
+_LEADING_NOISE = re.compile(r"^\s*(?:20\d\d|\d{1,3}(?:st|nd|rd|th)|the|a|an)\s+", re.I)
+
+
+def _monogram(name):
+    """First meaningful letter, skipping a leading year or ordinal.
+
+    "2026 Kirk-Wood Half Marathon" -> "K", not "2".
+    """
+    cleaned = _LEADING_NOISE.sub("", str(name or "")).strip()
+    for char in cleaned:
+        if char.isalnum():
+            return char.upper()
+    return "*"
+
+
+def _thumb(event):
+    """A square visual anchor for every row.
+
+    Race logos are ~300px and roughly square, so they're contained rather than
+    cropped — cropping a logo looks broken. Only about half the events have one,
+    so the rest get a tinted monogram instead: a ragged mix of images and gaps
+    reads worse than a consistent column.
+
+    Images are lazy so only the handful on screen are fetched, and no-referrer
+    keeps the visitor's page out of the image host's logs.
+    """
+    kind = {"Race": "race", "Club Run": "club",
+            "Brand Event": "brand"}.get(event["type"], "race")
+    if event.get("image"):
+        return ('<div class="thumb thumb-{}"><img src="{}" alt="" loading="lazy" '
+                'decoding="async" referrerpolicy="no-referrer"></div>').format(
+                    kind, esc(event["image"]))
+    return ('<div class="thumb thumb-{} is-mono" aria-hidden="true">{}</div>'
+            .format(kind, esc(_monogram(event["name"]))))
 
 
 def _row(event, today):
@@ -331,6 +377,7 @@ def _row(event, today):
         '  <article class="row" data-type="{type}" data-tags="{tags}" '
         'data-free="{free}">\n'
         '    <time class="date"{dt}>{date_html}</time>\n'
+        "    {thumb}\n"
         '    <div class="body">\n'
         '      <div class="title-line"><span class="title">{title}</span>{badges}</div>\n'
         '      <div class="meta">{meta}</div>\n'
@@ -340,7 +387,7 @@ def _row(event, today):
         "  </article>"
     ).format(
         type=esc(event["type"]), tags=esc(tags), free="1" if event["free"] else "0",
-        dt=datetime_attr, date_html=date_html,
+        dt=datetime_attr, date_html=date_html, thumb=_thumb(event),
         title=title, badges="".join(badges), meta=meta, desc=desc,
         aside="".join(aside),
     )

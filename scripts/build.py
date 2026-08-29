@@ -210,6 +210,9 @@ def build_events(config, today, offline=False):
             "recurring": bool(event.get("recurring")),
             "schedule": event.get("schedule", ""),
             "source": event.get("source", ""),
+            # Race logos, ~300px square. Used as a row thumbnail so the list
+            # isn't an undifferentiated wall of text.
+            "image": event.get("image", ""),
             # Preserved so an --offline rebuild reproduces the same suppression
             # decisions as the online build that cached this data.
             "community_id": event.get("community_id", ""),

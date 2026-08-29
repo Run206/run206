@@ -19,6 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from lib.normalize import summarize_distances  # noqa: E402
 from lib.util import (  # noqa: E402
+    strip_emoji,
     clean_description, format_price_range, get_json, parse_api_date, parse_money,
     strip_html, truncate,
 )
@@ -110,12 +111,12 @@ def _normalise(race, start):
         # This endpoint exposes no organiser field, and echoing the race name
         # back as its own organiser just prints it twice.
         "org": "",
-        "desc": truncate(clean_description(strip_html(race.get("description"))), 150),
+        "desc": truncate(strip_emoji(clean_description(strip_html(race.get("description")))), 150),
         "url": race.get("url") or race.get("external_race_url") or "",
         "price": format_price_range(low, high),
         "price_low": low,
         "registration_open": race.get("is_registration_open") == "T",
-        "logo": race.get("logo_url") or "",
+        "image": race.get("logo_url") or "",
         "source": "runsignup",
         "source_id": race.get("race_id"),
         "recurring": False,

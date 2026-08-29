@@ -29,7 +29,9 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import urllib.error  # noqa: E402
 import urllib.request  # noqa: E402
 
-from lib.util import USER_AGENT, strip_html, truncate  # noqa: E402
+from lib.util import (  # noqa: E402
+    USER_AGENT, strip_emoji, strip_html, truncate,
+)
 
 SITEMAP_URL = "https://sitemap.raceroster.com/sitemaps/events_{}.xml"
 LOC_RE = re.compile(r"<loc>(.*?)</loc>")
@@ -40,6 +42,12 @@ EVENT_URL_RE = re.compile(r"^https://raceroster\.com/events/(\d{4})/(\d+)/([a-z0
 
 CRAWL_DELAY = 5
 MAX_EVENTS = 60
+
+# Bump when the shape of a cached event changes. Without this, adding a field
+# meant cached entries kept serving the old shape forever — which is exactly
+# how `image` stayed empty for every Race Roster event through several
+# rebuilds, invisibly.
+CACHE_VERSION = 2
 
 # Slug fragments that suggest a Seattle-area event. Deliberately generous — a
 # false positive costs one request and is then dropped by the WA address check.
@@ -160,9 +168,10 @@ def _parse(html, url, event_id, start):
         "distances": "",
         "location": "{}, WA".format(city),
         "org": "",
-        "desc": truncate(_clean_desc(strip_html(node.get("description")), name), 150),
+        "desc": truncate(strip_emoji(_clean_desc(strip_html(node.get("description")), name)), 150),
         "url": node.get("url") or url,
         "price": "",
+        "image": node.get("image") or "",
         "source": "raceroster",
         "source_id": "rr-{}".format(event_id),
         "recurring": False,
@@ -217,9 +226,12 @@ def _load_cache(config):
         return {}
     try:
         with open(path) as handle:
-            return json.load(handle)
+            raw = json.load(handle)
     except ValueError:
         return {}
+    if not isinstance(raw, dict) or raw.get("_version") != CACHE_VERSION:
+        return {}          # stale shape: refetch rather than serve old fields
+    return raw.get("events") or {}
 
 
 def _save_cache(config, cache):
@@ -227,4 +239,5 @@ def _save_cache(config, cache):
     today = datetime.utcnow().date().isoformat()
     pruned = {k: v for k, v in cache.items() if (v.get("date") or "") >= today}
     with open(_cache_path(config), "w") as handle:
-        json.dump(pruned, handle, indent=1, ensure_ascii=False, sort_keys=True)
+        json.dump({"_version": CACHE_VERSION, "events": pruned},
+                  handle, indent=1, ensure_ascii=False, sort_keys=True)
