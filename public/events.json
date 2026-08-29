@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-29T00:00:00Z",
- "count": 409,
+ "count": 410,
  "events": [
   {
    "id": "rise-shine-long-run-2026-08-29",
@@ -189,26 +189,26 @@
    "date": "2026-08-29",
    "time": "8:00 AM",
    "type": "Club Run",
-   "distances": "",
+   "distances": "All distances",
    "distance_tags": [],
-   "location": "860 Terry Avenue North, Seattle",
+   "location": "MOHAI parking lot",
    "org": "Club Seattle Runners Division",
-   "desc": "Meet up at 8am in the MOHAI parking lot! All paces and faces welcome. Free parking along Westlake. Parking is $1.50/hr in the main MOHAI lot. Some…",
-   "url": "https://www.heylo.com/event/-P-oSVoeS4StA1DoMwm4",
+   "desc": "Saturday long run, all distances welcome. Check Heylo for collab events.",
+   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
    "affiliate": false,
    "affiliate_platform": "",
    "price": "Free",
    "free": true,
-   "recurring": false,
-   "schedule": "",
-   "source": "heylo",
-   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "recurring": true,
+   "schedule": "Every Sat",
+   "source": "manual",
+   "community_id": "",
    "group": "this-week",
    "group_label": "This week",
    "group_order": 0,
    "coords": [
-    47.62751,
-    -122.33675
+    47.6275,
+    -122.336
    ]
   },
   {
@@ -10898,6 +10898,39 @@
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
    "price": "$25",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "community_id": "",
+   "group": "2027-02",
+   "group_label": "February 2027",
+   "group_order": 24328,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
+   "id": "run-for-mental-health-seattle-2027-02-27",
+   "name": "Run For Mental Health SEATTLE",
+   "date": "2027-02-27",
+   "time": "7:30 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K",
+    "Mile"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Join the \"Run for Mental Health\"! A journey of hope and connection. 💙 Every step is a reminder that no one has to face life’s challenges alone…",
+   "url": "https://runsignup.com/Race/WA/Seattle/RunForMentalHealthSEATTLE0227?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$45",
    "free": false,
    "recurring": false,
    "schedule": "",
