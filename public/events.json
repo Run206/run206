@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-01T00:00:00Z",
- "count": 401,
+ "count": 402,
  "events": [
   {
    "id": "brooks-run-club-2026-09-01",
@@ -7385,6 +7385,38 @@
    "coords": [
     47.97934,
     -122.2127
+   ]
+  },
+  {
+   "id": "the-salty-half-and-10k-too-2026-10-17",
+   "name": "The Salty Half and 10K too!",
+   "date": "2026-10-17",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Join us for a Fun Fall Run! The 18th Annual Salty Half and 10k too! Saturday, October 17th, 2026 8:30am Don Armeni Boat Ramp 1222 Harbor Ave SW…",
+   "url": "https://runsignup.com/Race/WA/Seattle/SaltyHalf?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$39",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race120823-logo-0.bHFjvw.png",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
