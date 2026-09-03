@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-03T00:00:00Z",
- "count": 405,
+ "count": 406,
  "events": [
   {
    "id": "brooks-run-club-2026-09-03",
@@ -4938,7 +4938,7 @@
    "recurring": false,
    "schedule": "",
    "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/running-shoe-300px.bMjMog.png",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/img/logos/genericWebsiteLogos/walk-shoe-300px.bMjMog.png",
    "community_id": "",
    "group": "2026-10",
    "group_label": "October",
@@ -10234,6 +10234,38 @@
    "coords": [
     47.47991,
     -122.20345
+   ]
+  },
+  {
+   "id": "christmas-rush-2026-12-12",
+   "name": "Christmas Rush",
+   "date": "2026-12-12",
+   "time": "10:00 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Walk",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Kent, WA",
+   "org": "",
+   "desc": "The Christmas Rush will celebrate 44 years on December 12. The race features a 5k run/walk and a 10k run. along the scenic green river. NEW 10k…",
+   "url": "https://runsignup.com/Race/WA/Kent/ChristmasRush?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$20",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "2026-12",
+   "group_label": "December",
+   "group_order": 24326,
+   "coords": [
+    47.38269,
+    -122.22703
    ]
   },
   {

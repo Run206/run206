@@ -304,6 +304,22 @@
    "time": "7:30 AM",
    "type": "Race",
    "url": "https://raceroster.com/events/2027/139209/valentines-day-run-5k10k131-seattle"
+  },
+  "141263": {
+   "date": "2027-02-27",
+   "desc": "Lincoln Park, 8011 Fauntleroy Way Southwest, Seattle, Washington - Join the Fight: Breast Cancer Run! Lace up and make a…",
+   "distances": "",
+   "image": "https://cdn.raceroster.com/event-logo/gc5xrkxuaz9zup3a._original.png",
+   "location": "Seattle, WA",
+   "name": "Run Together Against Breast Cancer SEATTLE",
+   "org": "",
+   "price": "",
+   "recurring": false,
+   "source": "raceroster",
+   "source_id": "rr-141263",
+   "time": "7:30 AM",
+   "type": "Race",
+   "url": "https://raceroster.com/events/2027/141263/run-together-against-breast-cancer-seattle"
   }
  }
 }
