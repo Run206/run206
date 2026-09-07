@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-07T00:00:00Z",
- "count": 407,
+ "count": 408,
  "events": [
   {
    "id": "monday-morning-on-track-2026-09-07",
@@ -96,35 +96,29 @@
    ]
   },
   {
-   "id": "monday-miles-2026-09-07",
-   "name": "Monday Miles",
+   "id": "no-monday-night-miles-2026-09-07",
+   "name": "No Monday Night Miles",
    "date": "2026-09-07",
    "time": "6:30 PM",
    "type": "Club Run",
-   "distances": "1-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "MOHAI, under the canopy by the museum",
+   "distances": "",
+   "distance_tags": [],
+   "location": "",
    "org": "Club Seattle Runners Division",
-   "desc": "All paces and all faces welcome. Seattle's largest independent run crew.",
-   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "desc": "No official run tonight! Enjoy your day and see you next week for the End of Summer Run! 🎉",
+   "url": "https://www.heylo.com/event/-P0wiYZYB3NI_8sUoVx4",
    "affiliate": false,
    "affiliate_platform": "",
    "price": "Free",
    "free": true,
-   "recurring": true,
-   "schedule": "Every Mon",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
+   "recurring": false,
+   "schedule": "",
+   "source": "heylo",
+   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/15a616c0-c443-41e6-8e35-2a801d13e043.png",
+   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
    "group": "this-week",
    "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6275,
-    -122.336
-   ]
+   "group_order": 0
   },
   {
    "id": "redmond-harvest-half-marathon-2026-09-07",
@@ -4454,6 +4448,35 @@
    "group": "2026-10",
    "group_label": "October",
    "group_order": 24324
+  },
+  {
+   "id": "marvista-miler-2026-10-02",
+   "name": "Marvista Miler",
+   "date": "2026-10-02",
+   "time": "9:25 AM",
+   "type": "Race",
+   "distances": "Marvista Miler- Volunteers",
+   "distance_tags": [],
+   "location": "Normandy Park, WA",
+   "org": "",
+   "desc": "Welcome Orcas! THANK YOU for your interest in volunteering for the Marvista Miler 2026. We appreciate your support! Please use the volunteer link to…",
+   "url": "https://runsignup.com/Race/WA/NormandyPark/MarvistaMiler?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "Free",
+   "free": true,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-261545-1756663572.1772-0.bOTi8u.png",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.43515,
+    -122.3396
+   ]
   },
   {
    "id": "rise-shine-long-run-2026-10-03",
