@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-08T00:00:00Z",
- "count": 408,
+ "count": 409,
  "events": [
   {
    "id": "brooks-run-club-2026-09-08",
@@ -9456,6 +9456,39 @@
    "coords": [
     47.64751,
     -121.91294
+   ]
+  },
+  {
+   "id": "jumping-mouse-turkey-trot-2026-11-21",
+   "name": "Jumping Mouse Turkey Trot",
+   "date": "2026-11-21",
+   "time": "9:30 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, Kids, Walk",
+   "distance_tags": [
+    "Kids",
+    "5K",
+    "Mile"
+   ],
+   "location": "Port Townsend, WA",
+   "org": "",
+   "desc": "Join us for the Jumping Mouse Annual Turkey Trot 5K — a community tradition that brings people together to celebrate health, gratitude, and giving…",
+   "url": "https://runsignup.com/Race/WA/PortTownsend/JumpingMouseTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$15–$35",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-236248-1756311911.8904-0.bORZfN.png",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    48.11797,
+    -122.76954
    ]
   },
   {
