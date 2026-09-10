@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-10T00:00:00Z",
- "count": 408,
+ "count": 407,
  "events": [
   {
    "id": "brooks-run-club-2026-09-10",
@@ -12159,38 +12159,6 @@
    "coords": [
     48.00747,
     -121.73049
-   ]
-  },
-  {
-   "id": "livfree-24-hour-hockey-marathon-kraken-2027-06-26",
-   "name": "LivFree 24 Hour Hockey Marathon - Kraken",
-   "date": "2027-06-26",
-   "time": "10:00 AM",
-   "type": "Race",
-   "distances": "Skater, Goalie",
-   "distance_tags": [
-    "Ultra",
-    "Marathon"
-   ],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "What is the LivSports 24 Hour Adult Hockey Marathon benefiting LivFree? Here’s how it all works - the event is a continuous game with 60 to 90…",
-   "url": "https://runsignup.com/Race/WA/Seattle/LivFree24HourHockeyMarathonKraken?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$50",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-274800-1788187557.5382-0.bQLzoL.png",
-   "community_id": "",
-   "group": "2027-06",
-   "group_label": "June 2027",
-   "group_order": 24332,
-   "coords": [
-    47.60383,
-    -122.33006
    ]
   },
   {
