@@ -320,6 +320,54 @@
    "time": "7:30 AM",
    "type": "Race",
    "url": "https://raceroster.com/events/2027/141263/run-together-against-breast-cancer-seattle"
+  },
+  "141316": {
+   "date": "2027-03-20",
+   "desc": "Lincoln Park, Fauntleroy Way Southwest, Seattle, WA 98136, U.S. - St. Paddy's Day Run: Luck, Laughs, and Laces! Celebrate…",
+   "distances": "",
+   "image": "https://cdn.raceroster.com/event-logo/2ufnfkkhrssqjj6f._original.png",
+   "location": "Seattle, WA",
+   "name": "St. Paddy's Day Lucky Run 5K/10K/13.1 SEATTLE",
+   "org": "",
+   "price": "",
+   "recurring": false,
+   "source": "raceroster",
+   "source_id": "rr-141316",
+   "time": "7:30 AM",
+   "type": "Race",
+   "url": "https://raceroster.com/events/2027/141316/st-paddys-day-lucky-run-5k10k131-seattle"
+  },
+  "141328": {
+   "date": "2027-03-27",
+   "desc": "Lincoln Park, 8011 Fauntleroy Way Southwest, Seattle, Washington - Hop Into Action at the Always Hope Easter Run! Spring…",
+   "distances": "",
+   "image": "https://cdn.raceroster.com/event-logo/eyj6xygs9wd2v29n._original.png",
+   "location": "Seattle, WA",
+   "name": "Always Hope Easter Run SEATTLE",
+   "org": "",
+   "price": "",
+   "recurring": false,
+   "source": "raceroster",
+   "source_id": "rr-141328",
+   "time": "7:30 AM",
+   "type": "Race",
+   "url": "https://raceroster.com/events/2027/141328/always-hope-easter-run-seattle"
+  },
+  "141344": {
+   "date": "2027-04-24",
+   "desc": "Lincoln Park, 8011 Fauntleroy Way Southwest, Seattle, Washington - For all the Coffee Lovers, this…",
+   "distances": "",
+   "image": "https://cdn.raceroster.com/event-logo/d24p24agsffjzd7h._original.png",
+   "location": "Seattle, WA",
+   "name": "Coffee Lover Run SEATTLE",
+   "org": "",
+   "price": "",
+   "recurring": false,
+   "source": "raceroster",
+   "source_id": "rr-141344",
+   "time": "7:30 AM",
+   "type": "Race",
+   "url": "https://raceroster.com/events/2027/141344/coffee-lover-run-seattle"
   }
  }
 }
