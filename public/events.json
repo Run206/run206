@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-12T00:00:00Z",
- "count": 408,
+ "count": 409,
  "events": [
   {
    "id": "annual-zia-larson-ray-of-light-foundation-5k-2026-09-12",
@@ -310,6 +310,37 @@
    "coords": [
     47.62751,
     -122.33675
+   ]
+  },
+  {
+   "id": "swim-across-america-seattle-2026-09-12",
+   "name": "Swim Across America Seattle",
+   "date": "2026-09-12",
+   "time": "8:00 AM",
+   "type": "Race",
+   "distances": "1 Mile, 2 Mile",
+   "distance_tags": [
+    "Mile"
+   ],
+   "location": "Issaquah, WA",
+   "org": "",
+   "desc": "",
+   "url": "https://runsignup.com/Race/WA/Issaquah/SwimAcrossAmericaSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.53488,
+    -122.0433
    ]
   },
   {
@@ -1358,8 +1389,8 @@
    "group_label": "This week",
    "group_order": 0,
    "coords": [
-    47.12224,
-    -122.50127
+    47.13095,
+    -122.50269
    ]
   },
   {
