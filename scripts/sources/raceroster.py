@@ -80,7 +80,7 @@ def fetch(config, start, log=print):
     for year in years:
         try:
             xml = _get(SITEMAP_URL.format(year))
-        except (urllib.error.URLError, urllib.error.HTTPError) as exc:
+        except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
             log("  raceroster: sitemap {} unavailable ({})".format(year, exc))
             continue
 
@@ -116,7 +116,7 @@ def fetch(config, start, log=print):
 
         try:
             html = _get(url)
-        except (urllib.error.URLError, urllib.error.HTTPError) as exc:
+        except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
             log("    raceroster: {} unreachable ({})".format(event_id, exc))
             continue
 

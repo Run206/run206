@@ -85,7 +85,7 @@ def fetch(config, start, log=print):
 
         try:
             payload = _next_data(_get_html(GROUP_URL.format(community_id)))
-        except (urllib.error.URLError, urllib.error.HTTPError) as exc:
+        except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
             log("  heylo: {} unreachable ({})".format(org, exc))
             continue
 
@@ -109,7 +109,7 @@ def fetch(config, start, log=print):
             time.sleep(DELAY_SECONDS)
             try:
                 detail = _event_detail(event_id)
-            except (urllib.error.URLError, urllib.error.HTTPError) as exc:
+            except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
                 log("    skipped {} ({})".format(entry.get("name"), exc))
                 continue
 

@@ -35,7 +35,13 @@ def get_json(url, params=None, retries=3, timeout=30):
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 payload = json.loads(resp.read().decode("utf-8"))
-        except (urllib.error.URLError, urllib.error.HTTPError, ValueError) as exc:
+        except (urllib.error.URLError, urllib.error.HTTPError,
+                ValueError, OSError) as exc:
+            # OSError matters: a connection reset mid-response surfaces as
+            # ConnectionResetError, which is an OSError and *not* a URLError.
+            # Without it a transient blip escaped these retries and killed the
+            # whole build — which is how a one-second network hiccup turned
+            # into a failed deploy.
             last = exc
             if attempt < retries - 1:
                 time.sleep(2 ** attempt)
