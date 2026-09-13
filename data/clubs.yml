@@ -442,3 +442,25 @@
   desc: Guided runs and meetups organised through the NRC app.
   url: https://www.nike.com/nrc
   price: Free
+
+# Run Budz has no fixed slot: it ran Tue 18 Aug at Green Lake, then Thu 27 Aug
+# at Lake Washington Blvd S. Day *and* location both move, and each run is
+# announced individually. Hence `irregular` — a weekly rule here would send
+# people to the wrong park on the wrong evening.
+#
+# The Strava link is where the club publishes; Run206 links to it but does not
+# read it. strava.com/robots.txt disallows automated crawling outright.
+- name: Run Budz
+  club: Run Budz
+  type: Club Run
+  cadence: irregular
+  schedule: Announced per run — day and meeting point both vary
+  location: Varies around Seattle (Green Lake, Lake Washington Blvd)
+  distances: ~2.8 miles
+  desc: >-
+    Social run club founded by Seattle Storm guard Natisha Hiedeman. All paces,
+    walkers welcome, stretches before and snacks after. Check Instagram or
+    Strava for the next one.
+  url: https://www.strava.com/clubs/2296736
+  instagram: "@run.budz"
+  price: Free

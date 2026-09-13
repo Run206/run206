@@ -124,6 +124,27 @@ attribution.
 run somewhere else — their Instagram, Meetup, Heylo, or their own site. Get it
 from there, or ask the club to submit it.
 
+### Worked example: Run Budz
+
+Asked for in September 2026, given only a Strava club URL
+(`strava.com/clubs/2296736`). Handled without touching Strava:
+
+1. **Linked, not crawled.** robots.txt governs crawling; a link is just a link,
+   so the club's Strava page is the entry's `url`. The page is auth-gated
+   anyway — logged out it returns a login wall, not a schedule.
+2. **Details came from news coverage** — FOX 13 and Secret Seattle — which is
+   public, indexable and not disallowed.
+3. **No dates invented.** The reporting showed it ran Tue 18 Aug at Green Lake
+   and Thu 27 Aug at Lake Washington Blvd S. Day *and* location both move, so
+   the entry is `cadence: irregular`. A weekly rule would have sent people to
+   the wrong park on the wrong evening — the exact failure the irregular
+   cadence exists to prevent.
+
+The cost of that honesty: Run Budz doesn't appear in the calendar feeds or on
+the map, because both need a real date. That's correct, not a gap. If the club
+settles into a fixed slot, change `cadence` to `weekly` and add `days`/`time`
+and it joins both automatically.
+
 ---
 
 ## The pattern worth noticing

@@ -1,6 +1,10 @@
 {
  "generated": "2026-09-13T00:00:00Z",
+<<<<<<< HEAD
  "count": 390,
+=======
+ "count": 391,
+>>>>>>> 958fe85f (Add Run Budz, without touching Strava)
  "events": [
   {
    "id": "move-with-madd-seattle-5k-2026-09-13",
@@ -2555,6 +2559,35 @@
    "coords": [
     47.66353,
     -122.29978
+   ]
+  },
+  {
+   "id": "run-budz-ongoing",
+   "name": "Run Budz",
+   "date": null,
+   "time": "",
+   "type": "Club Run",
+   "distances": "~2.8 miles",
+   "distance_tags": [],
+   "location": "Varies around Seattle (Green Lake, Lake Washington Blvd)",
+   "org": "Run Budz",
+   "desc": "Social run club founded by Seattle Storm guard Natisha Hiedeman. All paces, walkers welcome, stretches before and snacks after. Check Instagram or Strava for the next one.",
+   "url": "https://www.strava.com/clubs/2296736",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Announced per run — day and meeting point both vary",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "ongoing",
+   "group_label": "Ongoing & irregular",
+   "group_order": 9999,
+   "coords": [
+    47.6806,
+    -122.3287
    ]
   },
   {
