@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-14T00:00:00Z",
- "count": 393,
+ "count": 394,
  "events": [
   {
    "id": "monday-morning-on-track-2026-09-14",
@@ -11132,8 +11132,8 @@
    ]
   },
   {
-   "id": "run-for-bagels-5k-10k-13-1-seattle-2027-04-10",
-   "name": "Run for Bagels 5K/10K/13.1 SEATTLE",
+   "id": "sloth-run-5k-10k-13-1-seattle-2027-04-10",
+   "name": "Sloth Run 5K/10K/13.1 SEATTLE",
    "date": "2027-04-10",
    "time": "7:30 AM",
    "type": "Race",
@@ -11423,6 +11423,40 @@
    "coords": [
     47.67654,
     -122.20708
+   ]
+  },
+  {
+   "id": "run-for-chocolate-5k-10k-13-1-seattle-2027-05-08",
+   "name": "Run for Chocolate 5k/10k/13.1 SEATTLE",
+   "date": "2027-05-08",
+   "time": "7:30 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K",
+    "Mile"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Run Now, Chocolate Later! Who says you can't have your chocolate—and run it too? The 2027 Run for Chocolate is coming, and it’s sweeter than ever!…",
+   "url": "https://runsignup.com/Race/WA/Seattle/RunForChocolate5k10kSEATTLE0508?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$45",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-286247-1787647708.0915-0.bQJvBC.png",
+   "community_id": "",
+   "group": "2027-05",
+   "group_label": "May 2027",
+   "group_order": 24331,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
