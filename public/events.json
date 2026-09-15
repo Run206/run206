@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-15T00:00:00Z",
- "count": 393,
+ "count": 394,
  "events": [
   {
    "id": "brooks-run-club-2026-09-15",
@@ -10539,6 +10539,40 @@
    "coords": [
     47.61442,
     -122.19234
+   ]
+  },
+  {
+   "id": "my-better-half-marathon-2027-02-14",
+   "name": "My Better Half Marathon",
+   "date": "2027-02-14",
+   "time": "8:00 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon, Relay",
+   "distance_tags": [
+    "Relay",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Prepare yourself for a running event like no other. Romance. Kitsch. Sweat. My Better Half Marathon is a celebration of running, romance and…",
+   "url": "https://runsignup.com/Race/WA/Seattle/MyBetterHalfMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$45–$94",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race37523-logo-0.bEl3vi.png",
+   "community_id": "",
+   "group": "2027-02",
+   "group_label": "February 2027",
+   "group_order": 24328,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
