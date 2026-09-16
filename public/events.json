@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-16T00:00:00Z",
- "count": 395,
+ "count": 396,
  "events": [
   {
    "id": "seattle-cf-stairclimb-2026-09-16",
@@ -561,6 +561,35 @@
    ]
   },
   {
+   "id": "1-hotel-seattle-x-csrd-saturday-morning-miles-2026-09-19",
+   "name": "1 Hotel Seattle x CSRD Saturday Morning Miles",
+   "date": "2026-09-19",
+   "time": "8:00 AM",
+   "type": "Brand Event",
+   "distances": "",
+   "distance_tags": [],
+   "location": "2125 Terry Avenue, Seattle",
+   "org": "Club Seattle Runners Division",
+   "desc": "Join us for Saturday Morning Miles hosted in partnership with 1 Hotel Seattle. All paces and all faces are welcome. We’ll meet in the hotel lobby at…",
+   "url": "https://www.heylo.com/event/-P1VxQkswevjmavFbELk",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": false,
+   "schedule": "",
+   "source": "heylo",
+   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/851894a4-8233-401a-9850-516a6baf32ab.jpg",
+   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.61826,
+    -122.33746
+   ]
+  },
+  {
    "id": "saturday-long-run-2026-09-19",
    "name": "Saturday Long Run",
    "date": "2026-09-19",
@@ -584,35 +613,6 @@
    "group": "this-week",
    "group_label": "This week",
    "group_order": 0
-  },
-  {
-   "id": "saturday-morning-miles-2026-09-19",
-   "name": "Saturday Morning Miles",
-   "date": "2026-09-19",
-   "time": "8:00 AM",
-   "type": "Club Run",
-   "distances": "",
-   "distance_tags": [],
-   "location": "860 Terry Avenue North, Seattle",
-   "org": "Club Seattle Runners Division",
-   "desc": "Meet up at 8am in the MOHAI parking lot! All paces and faces welcome. Free parking along Westlake. Parking is $1.50/hr in the main MOHAI lot. Some…",
-   "url": "https://www.heylo.com/event/-P1VxQkswevjmavFbELk",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": false,
-   "schedule": "",
-   "source": "heylo",
-   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/851894a4-8233-401a-9850-516a6baf32ab.jpg",
-   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.62751,
-    -122.33675
-   ]
   },
   {
    "id": "medal-madness-5k-10k-13-1m-at-everett-wa-38-2026-09-19",
@@ -11774,6 +11774,40 @@
    "coords": [
     48.00747,
     -121.73049
+   ]
+  },
+  {
+   "id": "run-juneteenth-day-5k-10k-13-1-seattle-2027-06-19",
+   "name": "Run Juneteenth Day 5K/10K/13.1 SEATTLE",
+   "date": "2027-06-19",
+   "time": "7:30 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K",
+    "Mile"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "On Juneteenth, we remember resilience, honor progress, and run toward a brighter future. Join the Juneteenth Day Run — an event that celebrates…",
+   "url": "https://runsignup.com/Race/WA/Seattle/RunJuneteenthDay5K10KSEATTLE619?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$45",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288892-1789477675.7869-0.bQQumR.png",
+   "community_id": "",
+   "group": "2027-06",
+   "group_label": "June 2027",
+   "group_order": 24332,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
