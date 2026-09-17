@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-17T00:00:00Z",
- "count": 393,
+ "count": 394,
  "events": [
   {
    "id": "brooks-run-club-2026-09-17",
@@ -10745,6 +10745,38 @@
    "coords": [
     47.1849,
     -122.29214
+   ]
+  },
+  {
+   "id": "run-the-green-2027-03-13",
+   "name": "Run The Green",
+   "date": "2027-03-13",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K"
+   ],
+   "location": "Kent, WA",
+   "org": "",
+   "desc": "Join us on March 13, 2027 for Run the Green! The half marathon and 10K courses are out and backs on the Green River Trail, and along the way you'll…",
+   "url": "https://runsignup.com/Race/WA/Kent/RunTheGreen?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$51–$79",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race123548-logo-0.bJkGix.png",
+   "community_id": "",
+   "group": "2027-03",
+   "group_label": "March 2027",
+   "group_order": 24329,
+   "coords": [
+    47.38269,
+    -122.22703
    ]
   },
   {
