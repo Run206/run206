@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-18T00:00:00Z",
- "count": 391,
+ "count": 392,
  "events": [
   {
    "id": "friday-lake-union-run-2026-09-18",
@@ -3682,7 +3682,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/CoffeeLoversRun5K10KSEATTLE1010?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$30–$45",
+   "price": "$30–$50",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -3716,7 +3716,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/BagelRun5K10KSEATTLE1010?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$30–$45",
+   "price": "$30–$50",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -11261,7 +11261,7 @@
    "url": "https://runsignup.com/Race/WA/Kirkland/KirklandHalf5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$12–$75",
+   "price": "$15–$75",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -11622,6 +11622,38 @@
    "schedule": "",
    "source": "runsignup",
    "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288892-1789477675.7869-0.bQQumR.png",
+   "community_id": "",
+   "group": "2027-06",
+   "group_label": "June 2027",
+   "group_order": 24332,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
+   "id": "livfree-24-hour-hockey-marathon-seattle-2027-06-26",
+   "name": "LivFree 24 Hour Hockey Marathon - Seattle",
+   "date": "2027-06-26",
+   "time": "10:00 AM",
+   "type": "Race",
+   "distances": "Skater, Goalie",
+   "distance_tags": [
+    "Ultra",
+    "Marathon"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "What is the LivSports 24 Hour Adult Hockey Marathon benefiting LivFree? Here’s how it all works - the event is a continuous game with 60 to 90…",
+   "url": "https://runsignup.com/Race/WA/Seattle/LivFree24HourHockeyMarathonKraken?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$50",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-274800-1788187557.5382-0.bQLzoL.png",
    "community_id": "",
    "group": "2027-06",
    "group_label": "June 2027",
