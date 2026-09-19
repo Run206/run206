@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-19T00:00:00Z",
- "count": 397,
+ "count": 398,
  "events": [
   {
    "id": "cirque-series-crystal-mountain-wa-2026-09-19",
@@ -364,6 +364,39 @@
    "coords": [
     47.6806,
     -122.3287
+   ]
+  },
+  {
+   "id": "jblm-half-marathon-5k-1k-2026-09-19",
+   "name": "JBLM Half-Marathon 5K & 1K",
+   "date": "2026-09-19",
+   "time": "9:15 AM",
+   "type": "Race",
+   "distances": "5K, Half Marathon",
+   "distance_tags": [
+    "Marathon",
+    "Half",
+    "5K"
+   ],
+   "location": "Mcchord Afb, WA",
+   "org": "",
+   "desc": "JBLM Half-Marathon 5K & 1K",
+   "url": "https://runsignup.com/Race/WA/McchordAfb/JBLMHalfMarathon5K1K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.13095,
+    -122.50269
    ]
   },
   {
