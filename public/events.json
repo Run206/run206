@@ -1,7 +1,36 @@
 {
  "generated": "2026-09-20T00:00:00Z",
- "count": 384,
+ "count": 386,
  "events": [
+  {
+   "id": "cyo-xc-1-2026-09-20",
+   "name": "CYO XC 1",
+   "date": "2026-09-20",
+   "time": "10:00 AM",
+   "type": "Race",
+   "distances": "4th Grade Pool A, 5th Grade Pool A",
+   "distance_tags": [],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "",
+   "url": "https://runsignup.com/Race/WA/Seattle/CYOXC1?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
   {
    "id": "run-of-hope-seattle-2026-09-20",
    "name": "Run of Hope Seattle",
@@ -10672,6 +10701,40 @@
    "coords": [
     47.97934,
     -122.2127
+   ]
+  },
+  {
+   "id": "run-for-pb-j-5k-10k-13-1-seattle-2027-04-10",
+   "name": "Run for PB&J 5k/10k/13.1 SEATTLE",
+   "date": "2027-04-10",
+   "time": "7:30 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K",
+    "Mile"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Smooth vibes. Sweet energy. Bold moves. PB&J Fuel Run is all about a combo that just works. Mix your pace, spread the fun, and stick with it all the…",
+   "url": "https://runsignup.com/Race/WA/Seattle/RunForPBJ5k10kSEATTLE0410?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$45",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289806-1788171259.0914-0.bQLvp7.png",
+   "community_id": "",
+   "group": "2027-04",
+   "group_label": "April 2027",
+   "group_order": 24330,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
