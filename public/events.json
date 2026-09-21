@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-21T00:00:00Z",
- "count": 387,
+ "count": 389,
  "events": [
   {
    "id": "monday-morning-on-track-2026-09-21",
@@ -6446,7 +6446,7 @@
    ],
    "location": "Puyallup, WA",
    "org": "",
-   "desc": "We’re back from the beyond for the Haunted Hustle 5K & 10K Run/Walk—a fun, costume-themed, non-timed, and family-friendly Halloween tradition! Come…",
+   "desc": "Costumes on. Spirits high. Let’s get haunted. We’re back from the beyond! The Haunted Hustle 5K & 10K Run/Walk is back for another Halloween…",
    "url": "https://runsignup.com/Race/WA/Puyallup/HauntedHustle5K10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -11439,6 +11439,39 @@
    ]
   },
   {
+   "id": "snoqualmie-valley-half-2027-06-19",
+   "name": "Snoqualmie Valley Half",
+   "date": "2027-06-19",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "10K, Marathon",
+   "distance_tags": [
+    "Marathon",
+    "Half",
+    "10K"
+   ],
+   "location": "Carnation, WA",
+   "org": "",
+   "desc": "The Snoqualmie Valley Trail meanders through one of the area’s most beautiful agricultural areas, the Snoqualmie Valley Half showcases this natural…",
+   "url": "https://runsignup.com/Race/WA/Carnation/SnoqualmieValley?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$50–$88",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race38818-logo-0.byBxsj.png",
+   "community_id": "",
+   "group": "2027-06",
+   "group_label": "June 2027",
+   "group_order": 24332,
+   "coords": [
+    47.64751,
+    -121.91294
+   ]
+  },
+  {
    "id": "livfree-24-hour-hockey-marathon-seattle-2027-06-26",
    "name": "LivFree 24 Hour Hockey Marathon - Seattle",
    "date": "2027-06-26",
@@ -11751,6 +11784,37 @@
    "coords": [
     47.66941,
     -122.12388
+   ]
+  },
+  {
+   "id": "the-brooks-orca-half-marathon-presented-by-rei-2027-09-18",
+   "name": "The Brooks Orca Half Marathon presented by REI",
+   "date": "2027-09-18",
+   "time": "7:20 AM",
+   "type": "Race",
+   "distances": "8 Mile, Half Marathon",
+   "distance_tags": [
+    "Half"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "The Brooks Orca Half is a half marathon along the shores of West Seattle, starting at Lincoln Park and finishing at Don Armeni Boat Launch. The half…",
+   "url": "https://runsignup.com/Race/WA/Seattle/OrcaHalf?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$60–$160",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-40602-1787096621.0413-0.bQHo4T.png",
+   "community_id": "",
+   "group": "2027-09",
+   "group_label": "September 2027",
+   "group_order": 24335,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   }
  ]
