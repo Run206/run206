@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-24T00:00:00Z",
- "count": 391,
+ "count": 392,
  "events": [
   {
    "id": "brooks-run-club-2026-09-24",
@@ -2988,7 +2988,7 @@
    ],
    "location": "Puyallup, WA",
    "org": "",
-   "desc": "5Ks are fun. Beer is fun. 5Ks & Beer are typically not a natural pairing….typically. However, on Sunday, October 11th, the best of both worlds…",
+   "desc": "The Stein Dash - Brought to you by the Washington State Fair Foundation 5Ks are fun. Beer is fun. 5Ks & Beer are typically not a natural…",
    "url": "https://runsignup.com/Race/WA/Puyallup/TheSteinDash?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -9506,6 +9506,38 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "12ks-of-christmas-2026-12-13",
+   "name": "12ks of Christmas",
+   "date": "2026-12-13",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K, 12K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Redmond, WA",
+   "org": "",
+   "desc": "Celebrate the Season at the 12Ks of Christmas! Gather your family, friends, coworkers, and running buddies for a festive holiday adventure at Redmond…",
+   "url": "https://runsignup.com/Race/WA/Redmond/12kOfChristmas?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$15–$55",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "2026-12",
+   "group_label": "December",
+   "group_order": 24326,
+   "coords": [
+    47.66941,
+    -122.12388
    ]
   },
   {
