@@ -368,6 +368,22 @@
    "time": "7:30 AM",
    "type": "Race",
    "url": "https://raceroster.com/events/2027/141344/coffee-lover-run-seattle"
+  },
+  "141977": {
+   "date": "2027-04-10",
+   "desc": "Lincoln Park, Fauntleroy Way Southwest, Seattle, WA 98136, U.S. - Love running (eventually)? Love taking it easy? This one's…",
+   "distances": "",
+   "image": "https://cdn.raceroster.com/event-logo/zfwamsejjyrcywmr._original.png",
+   "location": "Seattle, WA",
+   "name": "Sloth Run 5K/10K/13.1 SEATTLE",
+   "org": "",
+   "price": "",
+   "recurring": false,
+   "source": "raceroster",
+   "source_id": "rr-141977",
+   "time": "7:30 AM",
+   "type": "Race",
+   "url": "https://raceroster.com/events/2027/141977/sloth-run-5k10k131-seattle"
   }
  }
 }
