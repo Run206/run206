@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-25T00:00:00Z",
- "count": 390,
+ "count": 393,
  "events": [
   {
    "id": "puesta-del-sol-walkathon-2026-09-25",
@@ -50,6 +50,31 @@
    "recurring": true,
    "schedule": "Every Fri",
    "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0
+  },
+  {
+   "id": "jblm-commander-s-cup-2-miler-2026-09-25",
+   "name": "JBLM Commander's Cup 2-Miler",
+   "date": "2026-09-25",
+   "time": "7:00 AM",
+   "type": "Race",
+   "distances": "2-Miler",
+   "distance_tags": [],
+   "location": "Joint Base Lewis-McChord, WA",
+   "org": "",
+   "desc": "This page is for results only; use the link above to reach the JBLM races page where you can view and register for all upcoming races.",
+   "url": "https://runsignup.com/Race/WA/JointBaseLewisMcChord/JBLMCommandersCup2Miler?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
    "image": "",
    "community_id": "",
    "group": "this-week",
@@ -7720,7 +7745,7 @@
    ],
    "location": "Tacoma, WA",
    "org": "",
-   "desc": "ALL THINGS FUN SPORTS PRESENTS CELEBRATE VETERANS 5K RUN WITH PURPOSE. HONOR WITH PRIDE. SUNDAY, NOVEMBER 15, 2026 9:10 AM START PIPELINE / ORANGE…",
+   "desc": "RUN WITH PURPOSE. HONOR WITH PRIDE. Every Step Matters Join us for the Celebrate Veterans 5K as we come together to honor and recognize the brave men…",
    "url": "https://runsignup.com/Race/WA/Tacoma/CelebrateVeterans5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -9743,6 +9768,38 @@
    ]
   },
   {
+   "id": "2027-fort-steilacoom-resolution-series-2027-01-09",
+   "name": "2027 Fort Steilacoom Resolution Series",
+   "date": "2027-01-09",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K, 10K, 15K, 20K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Lakewood, WA",
+   "org": "",
+   "desc": "EVENT CALENDAR January 9, 2027 – 5K and 10K February 6, 2027 – 5K, 10K, 15K March 6, 2027 – 5K, 10K, 20K PRE-REGISTRATION: Available through Weds…",
+   "url": "https://runsignup.com/Race/WA/Lakewood/FtSteilacoomResolutionRunSeries?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$60",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race25466-logo-0.bJqKzj.png",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    47.17176,
+    -122.51846
+   ]
+  },
+  {
    "id": "unicorns-rainbows-5k-2027-01-10",
    "name": "Unicorns & Rainbows 5k",
    "date": "2027-01-10",
@@ -11248,6 +11305,38 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "spring-mud-mountain-dam-marathon-half-marathon-2027-05-29",
+   "name": "Spring - Mud Mountain Dam Marathon & Half Marathon",
+   "date": "2027-05-29",
+   "time": "7:00 AM",
+   "type": "Race",
+   "distances": "Half Marathon, Marathon",
+   "distance_tags": [
+    "Marathon",
+    "Half"
+   ],
+   "location": "Enumclaw, WA",
+   "org": "",
+   "desc": "Start Planning Now for Your Next Boston Qualifier! Get ready to do the dam thing! Take on a beautiful, fully paved downhill course with no tunnel, no…",
+   "url": "https://runsignup.com/Race/WA/Enumclaw/MudMountainDamMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$70–$80",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race133944-logo-0.bLgiNl.png",
+   "community_id": "",
+   "group": "2027-05",
+   "group_label": "May 2027",
+   "group_order": 24331,
+   "coords": [
+    47.20478,
+    -121.99164
    ]
   },
   {
