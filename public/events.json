@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-27T00:00:00Z",
- "count": 386,
+ "count": 385,
  "events": [
   {
    "id": "run-or-wine-5k-10k-september-2026-2026-09-27",
@@ -124,35 +124,6 @@
    "coords": [
     47.60383,
     -122.33006
-   ]
-  },
-  {
-   "id": "trails-series-finale-seward-park-2026-09-27",
-   "name": "Trails Series Finale - Seward Park",
-   "date": "2026-09-27",
-   "time": "9:00 AM",
-   "type": "Brand Event",
-   "distances": "",
-   "distance_tags": [],
-   "location": "5900 Lake Washington Boulevard South, Seattle",
-   "org": "Club Seattle Runners Division",
-   "desc": "Join us as we wrap up our Trails Series in a very special way! In partnership with South End Running Exchange we will be celebrating their Grand…",
-   "url": "https://www.heylo.com/event/-P1gzNg1VNd8PbV1KCZA",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": false,
-   "schedule": "",
-   "source": "heylo",
-   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/523a10f2-9bf9-49e5-8b56-9d63aad53561.png",
-   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.55152,
-    -122.25723
    ]
   },
   {
