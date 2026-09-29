@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-29T00:00:00Z",
- "count": 387,
+ "count": 388,
  "events": [
   {
    "id": "brooks-run-club-2026-09-29",
@@ -9675,6 +9675,38 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "coffee-lovers-and-chocolate-lovers-5k-10k-2027-01-17",
+   "name": "Coffee Lovers and Chocolate Lovers 5K & 10K",
+   "date": "2027-01-17",
+   "time": "9:15 AM",
+   "type": "Race",
+   "distances": "5K, 10K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Puyallup, WA",
+   "org": "",
+   "desc": "Chocolate. Coffee. Miles. What’s not to love? Join us for a uniquely Upper Left of the PNW experience combining two of life’s greatest pleasures —…",
+   "url": "https://runsignup.com/Race/WA/Puyallup/CoffeeLoversAndChocolateLovers5K10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$35–$40",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-262288-1790701560.6506-0.bQU-_4.png",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    47.1849,
+    -122.29214
    ]
   },
   {
