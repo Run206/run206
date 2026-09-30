@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-30T00:00:00Z",
- "count": 390,
+ "count": 392,
  "events": [
   {
    "id": "wake-up-wednesday-2026-09-30",
@@ -11193,11 +11193,11 @@
    ],
    "location": "Enumclaw, WA",
    "org": "",
-   "desc": "Start Planning Now for Your Next Boston Qualifier! Get ready to do the dam thing! Take on a beautiful, fully paved downhill course with no tunnel, no…",
+   "desc": "Start Planning Now for Your Next Boston Qualifier! Take on a beautiful, fully paved downhill course with no tunnel, no dirt, and no BQ downhill…",
    "url": "https://runsignup.com/Race/WA/Enumclaw/MudMountainDamMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$70–$80",
+   "price": "$90–$100",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -11210,6 +11210,40 @@
    "coords": [
     47.20478,
     -121.99164
+   ]
+  },
+  {
+   "id": "superheroes-run-seattle-2027-05-29",
+   "name": "SuperHeroes Run SEATTLE",
+   "date": "2027-05-29",
+   "time": "7:30 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K",
+    "Mile"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Not all superheroes wear capes—some wear running shoes! From everyday champions like dedicated moms , healthcare heroes & front-line workers , to the…",
+   "url": "https://runsignup.com/Race/WA/Seattle/SuperHeroesRunSEATTLE0529?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$45",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289801-1788419886.9104-0.bQMr8U.png",
+   "community_id": "",
+   "group": "2027-05",
+   "group_label": "May 2027",
+   "group_order": 24331,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
@@ -11779,6 +11813,38 @@
    "coords": [
     47.49578,
     -121.78489
+   ]
+  },
+  {
+   "id": "fall-mud-mountain-dam-marathon-half-marathon-2027-09-04",
+   "name": "Fall - Mud Mountain Dam Marathon & Half Marathon",
+   "date": "2027-09-04",
+   "time": "7:00 AM",
+   "type": "Race",
+   "distances": "Half Marathon, Marathon",
+   "distance_tags": [
+    "Marathon",
+    "Half"
+   ],
+   "location": "Enumclaw, WA",
+   "org": "",
+   "desc": "Start Planning Now for Your Next Boston Qualifier! Take on a beautiful, fully paved downhill course with no tunnel, no dirt, and no BQ downhill…",
+   "url": "https://runsignup.com/Race/WA/Enumclaw/FallMudMountainDamMarathonHalfMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$90–$100",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race133944-logo-0.bLgiNl.png",
+   "community_id": "",
+   "group": "2027-09",
+   "group_label": "September 2027",
+   "group_order": 24335,
+   "coords": [
+    47.20478,
+    -121.99164
    ]
   },
   {
