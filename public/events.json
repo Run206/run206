@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-04T00:00:00Z",
- "count": 382,
+ "count": 383,
  "events": [
   {
    "id": "grit-city-backyard-ultra-2026-10-04",
@@ -11608,6 +11608,38 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "run-for-the-gnomes-half-marathon-5k-2027-10-02",
+   "name": "Run for the Gnomes Half Marathon & 5K",
+   "date": "2027-10-02",
+   "time": "8:00 AM",
+   "type": "Race",
+   "distances": "5K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "5K"
+   ],
+   "location": "Maple Valley, WA",
+   "org": "",
+   "desc": "Experience the beauty of Maple Valley with a race designed for speed and serenity. This fast, flat, and scenic course offers runners the perfect…",
+   "url": "https://runsignup.com/Race/WA/MapleValley/RunForTheGnomesHalfMarathonAnd10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$32–$80",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-256466-1750379391.5558-0.bOvkT_.png",
+   "community_id": "",
+   "group": "2027-10",
+   "group_label": "October 2027",
+   "group_order": 24336,
+   "coords": [
+    47.36642,
+    -122.04371
    ]
   }
  ]
