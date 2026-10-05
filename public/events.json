@@ -1,132 +1,7 @@
 {
- "generated": "2026-10-04T00:00:00Z",
- "count": 383,
+ "generated": "2026-10-05T00:00:00Z",
+ "count": 385,
  "events": [
-  {
-   "id": "grit-city-backyard-ultra-2026-10-04",
-   "name": "Grit City Backyard Ultra",
-   "date": "2026-10-04",
-   "time": "8:00 AM",
-   "type": "Race",
-   "distances": "GCBYU",
-   "distance_tags": [
-    "Ultra"
-   ],
-   "location": "Tacoma, WA",
-   "org": "",
-   "desc": "Fifteen hours. Hourly loops through downtown Tacoma. See how far you get. The Grit City Backyard Ultra is Tacoma’s take on the backyard ultra format…",
-   "url": "https://runsignup.com/Race/WA/Tacoma/GritCityBackyardUltra?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$40",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289969-1787239439.0743-0.bQHXWp.jpg",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.2455,
-    -122.43833
-   ]
-  },
-  {
-   "id": "poulsbo-half-marathon-10k-2026-10-04",
-   "name": "Poulsbo Half Marathon & 10k",
-   "date": "2026-10-04",
-   "time": "8:00 AM",
-   "type": "Race",
-   "distances": "10K, Half Marathon",
-   "distance_tags": [
-    "Half",
-    "10K"
-   ],
-   "location": "Poulsbo, WA",
-   "org": "",
-   "desc": "The Poulsbo Half Marathon/10k has a beautiful new loop course that takes you through \"Little Norway\". It will feature chip timing, a participant's…",
-   "url": "https://runsignup.com/Race/WA/Poulsbo/ThePoulsboHalf10k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$38–$65",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race47088-logo-0.bzjJf-.png",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.73914,
-    -122.63928
-   ]
-  },
-  {
-   "id": "baby-steps-5k-2026-2026-10-04",
-   "name": "Baby Steps 5K 2026",
-   "date": "2026-10-04",
-   "time": "9:00 AM",
-   "type": "Race",
-   "distances": "5K",
-   "distance_tags": [
-    "5K"
-   ],
-   "location": "Auburn, WA",
-   "org": "",
-   "desc": "Please join us for our EIGHTH annual Baby Steps Foundation 5K to support those affected by pregnancy and infant loss. It's so crazy to see this crazy…",
-   "url": "https://runsignup.com/Race/WA/Auburn/BabySteps5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$10–$25",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-136731-1724286054.3324-0.bMXOrM.png",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.30754,
-    -122.23018
-   ]
-  },
-  {
-   "id": "miles-for-melanoma-seattle-2026-10-04",
-   "name": "Miles for Melanoma - Seattle",
-   "date": "2026-10-04",
-   "time": "9:00 AM",
-   "type": "Race",
-   "distances": "Kids",
-   "distance_tags": [
-    "Kids"
-   ],
-   "location": "Redmond, WA",
-   "org": "",
-   "desc": "The event site is located in between the Velodrome Picnic Shelter and Marymoor Climbing Wall. Parking is available in Lot I.",
-   "url": "https://runsignup.com/Race/WA/Redmond/MilesForMelanomaSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-293060-1790731038.6317-0.bQVgmE.png",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.66941,
-    -122.12388
-   ]
-  },
   {
    "id": "monday-morning-on-track-2026-10-05",
    "name": "Monday Morning On Track",
@@ -221,34 +96,32 @@
    ]
   },
   {
-   "id": "monday-miles-2026-10-05",
-   "name": "Monday Miles",
+   "id": "monday-night-miles-2026-10-05",
+   "name": "Monday Night Miles",
    "date": "2026-10-05",
    "time": "6:30 PM",
    "type": "Club Run",
-   "distances": "1-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "MOHAI, under the canopy by the museum",
+   "distances": "",
+   "distance_tags": [],
+   "location": "860 Terry Avenue North, Seattle",
    "org": "Club Seattle Runners Division",
-   "desc": "All paces and all faces welcome. Seattle's largest independent run crew.",
-   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "desc": "Routes include a 1-5 mile run or walk with the best company! All paces and faces welcomed. Free parking in the front lot! 3 miles…",
+   "url": "https://www.heylo.com/event/-P38ElhpKzaz-j9Q7_GY",
    "affiliate": false,
    "affiliate_platform": "",
    "price": "Free",
    "free": true,
-   "recurring": true,
-   "schedule": "Every Mon",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
+   "recurring": false,
+   "schedule": "",
+   "source": "heylo",
+   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/8800a125-3da8-49aa-a916-450bc3b1d95f.jpg",
+   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
    "group": "this-week",
    "group_label": "This week",
    "group_order": 0,
    "coords": [
-    47.6275,
-    -122.336
+    47.62751,
+    -122.33675
    ]
   },
   {
@@ -1291,9 +1164,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6764,
     -122.3175
@@ -1322,9 +1195,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.5595,
     -122.287
@@ -1353,9 +1226,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6689,
     -122.3419
@@ -1384,9 +1257,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6275,
     -122.336
@@ -1413,9 +1286,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6806,
     -122.3287
@@ -2313,6 +2186,159 @@
    ]
   },
   {
+   "id": "monday-morning-on-track-2026-10-19",
+   "name": "Monday Morning On Track",
+   "date": "2026-10-19",
+   "time": "5:30 AM",
+   "type": "Club Run",
+   "distances": "Track workout",
+   "distance_tags": [
+    "Track"
+   ],
+   "location": "Roosevelt High School track",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Early-bird speed work before the workday.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6764,
+    -122.3175
+   ]
+  },
+  {
+   "id": "monday-run-at-flying-lion-2026-10-19",
+   "name": "Monday Run at Flying Lion",
+   "date": "2026-10-19",
+   "time": "6:00 PM",
+   "type": "Club Run",
+   "distances": "5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Flying Lion Brewing, Columbia City",
+   "org": "Seattle Running Club",
+   "desc": "All paces. Members get $1 off the first pint. Trail-focused club, est. 2005.",
+   "url": "https://www.seattlerunningclub.org",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.5595,
+    -122.287
+   ]
+  },
+  {
+   "id": "monday-evening-track-2026-10-19",
+   "name": "Monday Evening Track",
+   "date": "2026-10-19",
+   "time": "6:30 PM",
+   "type": "Club Run",
+   "distances": "Track workout",
+   "distance_tags": [
+    "Track"
+   ],
+   "location": "Lower Woodland Park track",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Intervals and drills for all speeds. Milkshakes at Kidd Valley after.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6689,
+    -122.3419
+   ]
+  },
+  {
+   "id": "monday-miles-2026-10-19",
+   "name": "Monday Miles",
+   "date": "2026-10-19",
+   "time": "6:30 PM",
+   "type": "Club Run",
+   "distances": "1-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "MOHAI, under the canopy by the museum",
+   "org": "Club Seattle Runners Division",
+   "desc": "All paces and all faces welcome. Seattle's largest independent run crew.",
+   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6275,
+    -122.336
+   ]
+  },
+  {
+   "id": "monday-group-run-2026-10-19",
+   "name": "Monday Group Run",
+   "date": "2026-10-19",
+   "time": "Evening",
+   "type": "Club Run",
+   "distances": "Various",
+   "distance_tags": [],
+   "location": "Green Lake store",
+   "org": "Super Jock 'n Jill",
+   "desc": "Group run from Seattle's iconic running store.",
+   "url": "https://www.superjocknjill.com",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
    "id": "alki-beach-run-ongoing",
    "name": "Alki Beach Run",
    "date": null,
@@ -2637,159 +2663,6 @@
    "group": "ongoing",
    "group_label": "Ongoing & irregular",
    "group_order": 9999,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "monday-morning-on-track-2026-10-19",
-   "name": "Monday Morning On Track",
-   "date": "2026-10-19",
-   "time": "5:30 AM",
-   "type": "Club Run",
-   "distances": "Track workout",
-   "distance_tags": [
-    "Track"
-   ],
-   "location": "Roosevelt High School track",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Early-bird speed work before the workday.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Mon",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
-   "coords": [
-    47.6764,
-    -122.3175
-   ]
-  },
-  {
-   "id": "monday-run-at-flying-lion-2026-10-19",
-   "name": "Monday Run at Flying Lion",
-   "date": "2026-10-19",
-   "time": "6:00 PM",
-   "type": "Club Run",
-   "distances": "5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Flying Lion Brewing, Columbia City",
-   "org": "Seattle Running Club",
-   "desc": "All paces. Members get $1 off the first pint. Trail-focused club, est. 2005.",
-   "url": "https://www.seattlerunningclub.org",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Mon",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
-   "coords": [
-    47.5595,
-    -122.287
-   ]
-  },
-  {
-   "id": "monday-evening-track-2026-10-19",
-   "name": "Monday Evening Track",
-   "date": "2026-10-19",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "Track workout",
-   "distance_tags": [
-    "Track"
-   ],
-   "location": "Lower Woodland Park track",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Intervals and drills for all speeds. Milkshakes at Kidd Valley after.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Mon",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
-   "coords": [
-    47.6689,
-    -122.3419
-   ]
-  },
-  {
-   "id": "monday-miles-2026-10-19",
-   "name": "Monday Miles",
-   "date": "2026-10-19",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "1-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "MOHAI, under the canopy by the museum",
-   "org": "Club Seattle Runners Division",
-   "desc": "All paces and all faces welcome. Seattle's largest independent run crew.",
-   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Mon",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
-   "coords": [
-    47.6275,
-    -122.336
-   ]
-  },
-  {
-   "id": "monday-group-run-2026-10-19",
-   "name": "Monday Group Run",
-   "date": "2026-10-19",
-   "time": "Evening",
-   "type": "Club Run",
-   "distances": "Various",
-   "distance_tags": [],
-   "location": "Green Lake store",
-   "org": "Super Jock 'n Jill",
-   "desc": "Group run from Seattle's iconic running store.",
-   "url": "https://www.superjocknjill.com",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Mon",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
    "coords": [
     47.6806,
     -122.3287
@@ -8438,6 +8311,159 @@
    ]
   },
   {
+   "id": "monday-morning-on-track-2026-11-30",
+   "name": "Monday Morning On Track",
+   "date": "2026-11-30",
+   "time": "5:30 AM",
+   "type": "Club Run",
+   "distances": "Track workout",
+   "distance_tags": [
+    "Track"
+   ],
+   "location": "Roosevelt High School track",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Early-bird speed work before the workday.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.6764,
+    -122.3175
+   ]
+  },
+  {
+   "id": "monday-run-at-flying-lion-2026-11-30",
+   "name": "Monday Run at Flying Lion",
+   "date": "2026-11-30",
+   "time": "6:00 PM",
+   "type": "Club Run",
+   "distances": "5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Flying Lion Brewing, Columbia City",
+   "org": "Seattle Running Club",
+   "desc": "All paces. Members get $1 off the first pint. Trail-focused club, est. 2005.",
+   "url": "https://www.seattlerunningclub.org",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.5595,
+    -122.287
+   ]
+  },
+  {
+   "id": "monday-evening-track-2026-11-30",
+   "name": "Monday Evening Track",
+   "date": "2026-11-30",
+   "time": "6:30 PM",
+   "type": "Club Run",
+   "distances": "Track workout",
+   "distance_tags": [
+    "Track"
+   ],
+   "location": "Lower Woodland Park track",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Intervals and drills for all speeds. Milkshakes at Kidd Valley after.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.6689,
+    -122.3419
+   ]
+  },
+  {
+   "id": "monday-miles-2026-11-30",
+   "name": "Monday Miles",
+   "date": "2026-11-30",
+   "time": "6:30 PM",
+   "type": "Club Run",
+   "distances": "1-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "MOHAI, under the canopy by the museum",
+   "org": "Club Seattle Runners Division",
+   "desc": "All paces and all faces welcome. Seattle's largest independent run crew.",
+   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.6275,
+    -122.336
+   ]
+  },
+  {
+   "id": "monday-group-run-2026-11-30",
+   "name": "Monday Group Run",
+   "date": "2026-11-30",
+   "time": "Evening",
+   "type": "Club Run",
+   "distances": "Various",
+   "distance_tags": [],
+   "location": "Green Lake store",
+   "org": "Super Jock 'n Jill",
+   "desc": "Group run from Seattle's iconic running store.",
+   "url": "https://www.superjocknjill.com",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Mon",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
    "id": "santa-sleighs-5k-2026-12-05",
    "name": "Santa Sleighs 5K",
    "date": "2026-12-05",
@@ -9901,6 +9927,39 @@
    "coords": [
     47.1849,
     -122.29214
+   ]
+  },
+  {
+   "id": "st-paddy-s-day-run-tacoma-2027-03-13",
+   "name": "St. Paddy's Day Run Tacoma",
+   "date": "2027-03-13",
+   "time": "8:10 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Tacoma, WA",
+   "org": "",
+   "desc": "The half marathon is a gorgeous out-and-back course starting in downtown Tacoma , with a few rolling hills to keep those legs awake and working…",
+   "url": "https://runsignup.com/Race/WA/Tacoma/TCMAStPaddysRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$40–$85",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-148838-1773269991.5713-0.bPSFpN.png",
+   "community_id": "",
+   "group": "2027-03",
+   "group_label": "March 2027",
+   "group_order": 24329,
+   "coords": [
+    47.2455,
+    -122.43833
    ]
   },
   {
