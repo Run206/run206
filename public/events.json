@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-06T00:00:00Z",
- "count": 386,
+ "count": 387,
  "events": [
   {
    "id": "brooks-run-club-2026-10-06",
@@ -3092,8 +3092,8 @@
    ]
   },
   {
-   "id": "2026-greenlake-5k-and-wellness-festival-2026-10-24",
-   "name": "2026 Greenlake 5K and Wellness Festival",
+   "id": "2026-green-lake-5k-wellness-festival-2026-10-24",
+   "name": "2026 Green Lake 5K & Wellness Festival",
    "date": "2026-10-24",
    "time": "8:30 AM",
    "type": "Race",
@@ -3103,7 +3103,7 @@
    ],
    "location": "Seattle, WA",
    "org": "",
-   "desc": "October 24th, 2026 The Green Lake 5K & Wellness Festival Get ready for the ultimate blend of movement, community, and good vibes at the Green Lake 5K…",
+   "desc": "Saturday, October 24, 2026 · Green Lake Arch, Seattle Run. Move. Recover. Connect. Celebrate. Join us at Green Lake for a community-wide celebration…",
    "url": "https://runsignup.com/Race/WA/Seattle/Greenlake5KAndWellnessFestival?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -3112,7 +3112,38 @@
    "recurring": false,
    "schedule": "",
    "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-281222-1777403700.5915-0.bP8qC0.jpg",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-281222-1791311340.5238-0.bQXt3S.png",
+   "community_id": "",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
+   "id": "greenlake-5k-2026-10-24",
+   "name": "Greenlake 5K",
+   "date": "2026-10-24",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Greenlake, Seattle, WA - Saturday, October 24thSet the stage for something special…",
+   "url": "https://raceroster.com/events/2026/118226/greenlake-5k",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "raceroster",
+   "image": "https://cdn.raceroster.com/event-logo/gbqsbcswmxpkgggd._original.jpg",
    "community_id": "",
    "group": "2026-10",
    "group_label": "October",
