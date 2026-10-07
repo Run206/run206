@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-07T00:00:00Z",
- "count": 390,
+ "count": 391,
  "events": [
   {
    "id": "wake-up-wednesday-2026-10-07",
@@ -332,7 +332,7 @@
    ],
    "location": "Seattle, WA",
    "org": "",
-   "desc": "If you are a college coach you need to register your team on Direct Athletics: https://www.directathletics.com/meets/xc/28770.html If you are…",
+   "desc": "If you are a NCAA college coach you need to register your team on Direct Athletics so we can get the TFFRS number…",
    "url": "https://runsignup.com/Race/WA/Seattle/EmeraldCityOpen?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -3293,6 +3293,35 @@
    ]
   },
   {
+   "id": "halloween-night-miles-2026-10-26",
+   "name": "HALLOWEEN NIGHT MILES",
+   "date": "2026-10-26",
+   "time": "6:30 PM",
+   "type": "Brand Event",
+   "distances": "",
+   "distance_tags": [],
+   "location": "860 Terry Avenue North, Seattle",
+   "org": "Club Seattle Runners Division",
+   "desc": "Join us for our Monday Night Miles, the Halloween edition! We will have a costume contest and there will be prizes from New Balance for 3 categories…",
+   "url": "https://www.heylo.com/event/-P3MJ4sihM9pBpzW3mOH",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": false,
+   "schedule": "",
+   "source": "heylo",
+   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/f5a8287a-a89a-44c5-923d-89f9b881c69e.jpg",
+   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "group": "2026-10",
+   "group_label": "October",
+   "group_order": 24324,
+   "coords": [
+    47.62751,
+    -122.33675
+   ]
+  },
+  {
    "id": "monday-evening-track-2026-10-26",
    "name": "Monday Evening Track",
    "date": "2026-10-26",
@@ -3321,37 +3350,6 @@
    "coords": [
     47.6689,
     -122.3419
-   ]
-  },
-  {
-   "id": "monday-miles-2026-10-26",
-   "name": "Monday Miles",
-   "date": "2026-10-26",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "1-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "MOHAI, under the canopy by the museum",
-   "org": "Club Seattle Runners Division",
-   "desc": "All paces and all faces welcome. Seattle's largest independent run crew.",
-   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Mon",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-10",
-   "group_label": "October",
-   "group_order": 24324,
-   "coords": [
-    47.6275,
-    -122.336
    ]
   },
   {
@@ -5667,7 +5665,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/RunForMentalHealth5K10KSEATTLE1114?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$30–$50",
+   "price": "$30–$60",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -5701,7 +5699,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/VeteransDayFreedomRun5K10KSEATTLE1114?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$30–$50",
+   "price": "$30–$60",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -11785,6 +11783,35 @@
    "coords": [
     47.66941,
     -122.12388
+   ]
+  },
+  {
+   "id": "cirque-series-crystal-mountain-wa-2027-09-11",
+   "name": "Cirque Series - Crystal Mountain, WA",
+   "date": "2027-09-11",
+   "time": "10:00 AM",
+   "type": "Race",
+   "distances": "Expert Division, Pro Division",
+   "distance_tags": [],
+   "location": "Crystal Mountain, WA",
+   "org": "",
+   "desc": "Join us at Cirque Series at Crystal Mountain. 7.9 miles featuring 2,614' ft vert. Prizes Prizes will be distributed at the end of each race and for…",
+   "url": "https://runsignup.com/Race/WA/CrystalMountain/wash?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$99",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-239526-1733343086.9115-0.bNulDU.png",
+   "community_id": "",
+   "group": "2027-09",
+   "group_label": "September 2027",
+   "group_order": 24335,
+   "coords": [
+    46.93274,
+    -121.48773
    ]
   },
   {
