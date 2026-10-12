@@ -145,6 +145,22 @@ the map, because both need a real date. That's correct, not a gap. If the club
 settles into a fixed slot, change `cadence` to `weekly` and add `days`/`time`
 and it joins both automatically.
 
+### Worked example: Orca Run Club
+
+Asked for in October 2026 as `strava.com/clubs/1348827`. Same rule — Strava was
+linked, never fetched — but a different outcome, because this club publishes
+its schedule on its own site (`orcarunclub.com`) and on `orcarunning.com`.
+
+Those pages give a fixed slot, Tuesdays at 6 pm, with a meeting point that
+rotates by week of the month: East Lake Sammamish on the 1st, Lincoln Park on
+the 2nd, Gene Coulon in Renton on the 3rd, and a "field trip" somewhere new on
+the 4th. A plain weekly rule would have been right about the day and wrong
+about the place three weeks in four, so `clubs.yml` grew a `rotation:` list
+and the recurrence engine picks the slot by week of month. The field-trip
+weeks keep their date but carry `geocode: false` — they're real runs with no
+fixed pin. The October expansion was checked against the club's own posted
+October schedule before publishing.
+
 ---
 
 ## The pattern worth noticing

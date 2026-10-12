@@ -13,6 +13,13 @@
 #
 # Times are 24h "HH:MM". Omit `time` if the club only says "evening"; put the
 # vague wording in `time_text` instead.
+#
+# A weekly entry whose *meeting point* moves by week of the month can add a
+# `rotation:` list — each slot names the `weeks` it covers (1 = the 1st Tuesday,
+# 2 = the 2nd …) and its own `location`. Slots may also override `desc` and
+# `distances`, and `geocode: false` keeps "announced on Strava" weeks off the
+# map while still giving them a date. Weeks no slot covers fall back to the
+# entry's own `location`. See Orca Run Club.
 
 - name: Monday Miles
   club: Club Seattle Runners Division
@@ -463,4 +470,45 @@
     Strava for the next one.
   url: https://www.strava.com/clubs/2296736
   instagram: "@run.budz"
+  price: Free
+
+- name: Orca Run Club
+  club: Orca Running
+  type: Club Run
+  cadence: weekly
+  days: [tuesday]
+  time: "18:00"
+  location: Rotates — see this week's slot
+  distances: ~40 min out-and-back
+  desc: >-
+    Free Tuesday run from the people behind the Orca Half. 20 minutes out,
+    20 back, so every pace finishes together. Meeting point rotates by week;
+    attendance punches earn a race tee or a free Orca entry.
+  rotation:
+    - weeks: [1]
+      location: Big Block Brewing lot, 3310 E Lake Sammamish Pkwy SE, Sammamish
+      desc: >-
+        1st Tuesday, East Lake Sammamish Trail. Park at Big Block Brewing and
+        cross at the crosswalk to the trail. 20 min out, 20 back, all paces;
+        leashed dogs welcome.
+    - weeks: [2]
+      location: Lincoln Park Little League field, 8011 Fauntleroy Way SW, West Seattle
+      distances: ~40 min out-and-back or 2.2 mi loop
+      desc: >-
+        2nd Tuesday, Lincoln Park. 20 min out, 20 back along the bluff, or the
+        2.2-mile One Step Closer loop. All paces; leashed dogs welcome.
+    - weeks: [3]
+      location: Gene Coulon Memorial Beach Park, outside Ivar's, Renton
+      desc: >-
+        3rd Tuesday, Gene Coulon in Renton. Meet outside Ivar's on the
+        waterfront; big free lot. 20 min out, 20 back, all paces. No dogs here.
+    - weeks: [4, 5]
+      location: Field trip — somewhere new, announced on Strava
+      geocode: false
+      desc: >-
+        4th Tuesday is the Orca Field Trip: a different park or a visit to
+        another club each month. The spot is posted on the Strava club and
+        @orcarunclub the week of.
+  url: https://orcarunclub.com/
+  instagram: "@orcarunclub"
   price: Free

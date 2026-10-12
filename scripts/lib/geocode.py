@@ -47,6 +47,8 @@ KNOWN = {
     "roosevelt high school": (47.6764, -122.3175),
     "cleveland high school": (47.5478, -122.3125),
     "hiawatha": (47.5610, -122.3865),
+    "gene coulon": (47.5070, -122.2025),          # Ivar's, Renton waterfront
+    "big block brewing": (47.5793, -122.0748),    # E Lake Sammamish trailhead
 }
 
 
@@ -116,6 +118,8 @@ def resolve(events, root, log=print):
     pending = []
 
     for event in events:
+        if event.get("no_geocode"):
+            continue   # a real date with no fixed place: nothing to pin
         key = normalise(event.get("location"))
         if not key:
             continue
@@ -156,6 +160,8 @@ def resolve(events, root, log=print):
     for event in events:
         if event.get("coords"):
             located += 1
+            continue
+        if event.get("no_geocode"):
             continue
         key = normalise(event.get("location"))
         if key and cache.get(key):

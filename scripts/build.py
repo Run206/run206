@@ -220,6 +220,10 @@ def build_events(config, today, offline=False):
             "group_label": group_label,
             "group_order": group_order,
         })
+        if event.get("no_geocode"):
+            # A dated run with no fixed place (a club "field trip" announced
+            # the week of). Keep it off the map rather than pin a guess.
+            prepared[-1]["no_geocode"] = True
 
     _ensure_unique_ids(prepared)
 
