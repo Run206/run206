@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-12T00:00:00Z",
- "count": 387,
+ "count": 388,
  "events": [
   {
    "id": "monday-morning-on-track-2026-10-12",
@@ -11643,7 +11643,7 @@
    ],
    "location": "Maple Valley, WA",
    "org": "",
-   "desc": "Experience the beauty of Maple Valley with a race designed for speed and serenity. This fast, flat, and scenic course offers runners the perfect…",
+   "desc": "Experience the beauty of Maple Valley with a race designed for speed and serenity. This fast, mostly flat, and scenic course offers runners the…",
    "url": "https://runsignup.com/Race/WA/MapleValley/RunForTheGnomesHalfMarathonAnd10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -11722,6 +11722,40 @@
    "coords": [
     47.2455,
     -122.43833
+   ]
+  },
+  {
+   "id": "2027-the-snohomish-river-run-marathon-half-marathon-10k-and-5k-2027-10-17",
+   "name": "2027 The Snohomish River Run Marathon, Half Marathon, 10K and 5K",
+   "date": "2027-10-17",
+   "time": "9:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon, Marathon",
+   "distance_tags": [
+    "Marathon",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Snohomish, WA",
+   "org": "",
+   "desc": "Snohomish River Run – Sunday, October 17th, 2027 Experience the magic of fall in the Pacific Northwest at the Snohomish River Run-where crisp autumn…",
+   "url": "https://runsignup.com/Race/WA/Snohomish/TheSnohomishRiverRunMarathonHalfMarathon10KAnd5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$40–$80",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race42063-logo-0.bz7IaS.png",
+   "community_id": "",
+   "group": "2027-10",
+   "group_label": "October 2027",
+   "group_order": 24336,
+   "coords": [
+    48.00747,
+    -121.73049
    ]
   }
  ]
