@@ -1,7 +1,36 @@
 {
  "generated": "2026-10-14T00:00:00Z",
- "count": 390,
+ "count": 391,
  "events": [
+  {
+   "id": "metro-xc-week-5-prep-host-2026-10-14",
+   "name": "Metro XC Week 5 Prep Host",
+   "date": "2026-10-14",
+   "time": "3:00 PM",
+   "type": "Race",
+   "distances": "Boys Top 14-20, Girls Top 14-20",
+   "distance_tags": [],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "",
+   "url": "https://runsignup.com/Race/WA/Seattle/MetroXCWeek5PrepHost?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
   {
    "id": "wake-up-wednesday-2026-10-14",
    "name": "Wake Up Wednesday",
