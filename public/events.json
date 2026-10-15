@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-15T00:00:00Z",
- "count": 388,
+ "count": 389,
  "events": [
   {
    "id": "brooks-run-club-2026-10-15",
@@ -10703,6 +10703,37 @@
    "coords": [
     47.65151,
     -122.52468
+   ]
+  },
+  {
+   "id": "uw-bothell-husky-5k-2027-05-08",
+   "name": "UW Bothell Husky 5K",
+   "date": "2027-05-08",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "1K, 5K",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Bothell, WA",
+   "org": "",
+   "desc": "The UW Bothell Husky 5K is back for 2027! Run with the Pack at the UW Bothell Husky 5k! Walk, run and have fun at this spirited, family and…",
+   "url": "https://runsignup.com/Race/WA/Bothell/UWBothellHusky?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$10–$30",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-245686-1771963808.2283-0.bPNGwG.png",
+   "community_id": "",
+   "group": "2027-05",
+   "group_label": "May 2027",
+   "group_order": 24331,
+   "coords": [
+    47.76232,
+    -122.2054
    ]
   },
   {
