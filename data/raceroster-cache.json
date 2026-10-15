@@ -81,22 +81,6 @@
    "type": "Race",
    "url": "https://raceroster.com/events/2027/116539/2027-kirkland-shamrock-run"
   },
-  "116776": {
-   "date": "2026-10-10",
-   "desc": "Lincoln Park, 8011 Fauntleroy Way Southwest, Seattle, Washington - Get Ready for the Cookie Run! Join us for the Cookie Run…",
-   "distances": "",
-   "image": "https://cdn.raceroster.com/event-logo/fk7guhmgs52gvcjh._original.png",
-   "location": "Seattle, WA",
-   "name": "Cookie Run 5K/10K/13.1 SEATTLE",
-   "org": "",
-   "price": "",
-   "recurring": false,
-   "source": "raceroster",
-   "source_id": "rr-116776",
-   "time": "7:30 AM",
-   "type": "Race",
-   "url": "https://raceroster.com/events/2026/116776/cookie-run-5k10k131-seattle"
-  },
   "116801": {
    "date": "2026-11-14",
    "desc": "Lincoln Park, 8011 Fauntleroy Way Southwest, Seattle, Washington - Join the Movement for Mental Health!Introducing the \"Run…",
@@ -128,22 +112,6 @@
    "time": "7:30 AM",
    "type": "Race",
    "url": "https://raceroster.com/events/2026/116954/coffee-lovers-run-5k10k131-seattle"
-  },
-  "116978": {
-   "date": "2026-10-10",
-   "desc": "Lincoln Park, 8011 Fauntleroy Way Southwest, Seattle, Washington - Love running? Love coffee? Why not both?Join us for…",
-   "distances": "",
-   "image": "https://cdn.raceroster.com/event-logo/q64p4kpyjttm93mg._original.png",
-   "location": "Seattle, WA",
-   "name": "Coffee Lovers Run 5K/10K/13.1 SEATTLE",
-   "org": "",
-   "price": "",
-   "recurring": false,
-   "source": "raceroster",
-   "source_id": "rr-116978",
-   "time": "7:30 AM",
-   "type": "Race",
-   "url": "https://raceroster.com/events/2026/116978/coffee-lovers-run-5k10k131-seattle"
   },
   "117071": {
    "date": "2026-10-31",
@@ -400,6 +368,22 @@
    "time": "7:30 AM",
    "type": "Race",
    "url": "https://raceroster.com/events/2027/141977/sloth-run-5k10k131-seattle"
+  },
+  "165694": {
+   "date": "2026-10-24",
+   "desc": "Green Lake Park, East Green Lake Drive North, Seattle, WA",
+   "distances": "",
+   "image": "https://cdn.raceroster.com/event-logo/pqsrzagc53cgnfcp._original.png",
+   "location": "Seattle, WA",
+   "name": "The Greenlake 5K 2026",
+   "org": "",
+   "price": "",
+   "recurring": false,
+   "source": "raceroster",
+   "source_id": "rr-165694",
+   "time": "",
+   "type": "Race",
+   "url": "https://raceroster.com/events/2026/165694/the-greenlake-5k-2026"
   }
  }
 }

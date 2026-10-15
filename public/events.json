@@ -6315,8 +6315,9 @@
    "date": "2026-11-26",
    "time": "8:15 AM",
    "type": "Race",
-   "distances": "5K, 10K",
+   "distances": "2 Mile, 5K, 10K, Kids",
    "distance_tags": [
+    "Kids",
     "10K",
     "5K"
    ],
@@ -6326,7 +6327,7 @@
    "url": "https://runsignup.com/Race/WA/Mukilteo/2017MukilteoTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$40–$50",
+   "price": "$15–$50",
    "free": false,
    "recurring": false,
    "schedule": "",
