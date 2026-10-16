@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-16T00:00:00Z",
- "count": 386,
+ "count": 387,
  "events": [
   {
    "id": "friday-lake-union-run-2026-10-16",
@@ -54,6 +54,35 @@
    "coords": [
     47.17176,
     -122.51846
+   ]
+  },
+  {
+   "id": "goose-chase-2026-10-17",
+   "name": "Goose Chase",
+   "date": "2026-10-17",
+   "time": "10:00 AM",
+   "type": "Race",
+   "distances": "6 & Under Girls, 6 & Under Boys",
+   "distance_tags": [],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "https://rainierbeachxc.com/wp-content/uploads/2025/09/rainierbeachgoosechaseflyer2025.pdf",
+   "url": "https://runsignup.com/Race/WA/Seattle/GooseChase?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
