@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-18T00:00:00Z",
- "count": 378,
+ "count": 379,
  "events": [
   {
    "id": "running-scared-5k-13k-seattle-2026-10-18",
@@ -10433,6 +10433,38 @@
    "coords": [
     47.9474,
     -122.3037
+   ]
+  },
+  {
+   "id": "operation-school-bell-5k-run-walk-assistance-league-the-eastside-may-15-2027-2027-05-15",
+   "name": "Operation School Bell® 5K Run/Walk Assistance League® the Eastside May 15, 2027",
+   "date": "2027-05-15",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K, Kids, Walk",
+   "distance_tags": [
+    "Kids",
+    "5K"
+   ],
+   "location": "Redmond, WA",
+   "org": "",
+   "desc": "Run a 5K. Help a Local Child Attend School with Confidence. Join us for a fun, family-friendly 5K at Marymoor Park—where every step you take helps…",
+   "url": "https://runsignup.com/Race/WA/Redmond/AssistanceLeague5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$5–$35",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-256038-1777564959.1903-0.bP830F.png",
+   "community_id": "",
+   "group": "2027-05",
+   "group_label": "May 2027",
+   "group_order": 24331,
+   "coords": [
+    47.66941,
+    -122.12388
    ]
   },
   {
