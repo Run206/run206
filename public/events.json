@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-21T00:00:00Z",
- "count": 382,
+ "count": 383,
  "events": [
   {
    "id": "wake-up-wednesday-2026-10-21",
@@ -11523,6 +11523,37 @@
    "coords": [
     47.2455,
     -122.43833
+   ]
+  },
+  {
+   "id": "running-scared-5k-13k-seattle-2027-10-17",
+   "name": "Running Scared 5K/13K - Seattle",
+   "date": "2027-10-17",
+   "time": "3:00 PM",
+   "type": "Race",
+   "distances": "5K, 13K",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Get ready for a spine-tingling race experience at the Running Scared 5K & 13K —where thrills, chills, and fast times collide! Whether you’re brave…",
+   "url": "https://runsignup.com/Race/WA/Seattle/RunningScared5K13KSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$55",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-236255-1781839409.1147-0.bQnlyX.png",
+   "community_id": "",
+   "group": "2027-10",
+   "group_label": "October 2027",
+   "group_order": 24336,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
