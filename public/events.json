@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-22T00:00:00Z",
- "count": 383,
+ "count": 379,
  "events": [
   {
    "id": "brooks-run-club-2026-10-22",
@@ -279,37 +279,6 @@
    "schedule": "",
    "source": "runsignup",
    "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-281222-1791311340.5238-0.bQXt3S.png",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.60383,
-    -122.33006
-   ]
-  },
-  {
-   "id": "greenlake-5k-2026-10-24",
-   "name": "Greenlake 5K",
-   "date": "2026-10-24",
-   "time": "9:00 AM",
-   "type": "Race",
-   "distances": "",
-   "distance_tags": [
-    "5K"
-   ],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "Greenlake, Seattle, WA - Saturday, October 24thSet the stage for something special…",
-   "url": "https://raceroster.com/events/2026/118226/greenlake-5k",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "raceroster",
-   "image": "https://cdn.raceroster.com/event-logo/gbqsbcswmxpkgggd._original.jpg",
    "community_id": "",
    "group": "this-week",
    "group_label": "This week",
@@ -5579,37 +5548,6 @@
    "group_order": 24325
   },
   {
-   "id": "seattle-marathon-vendors-2026-2026-11-27",
-   "name": "Seattle Marathon Vendors 2026",
-   "date": "2026-11-27",
-   "time": "6:00 AM",
-   "type": "Race",
-   "distances": "",
-   "distance_tags": [
-    "Marathon"
-   ],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "Exhibit at Seattle Marathon Association Events!Get ready to…",
-   "url": "https://raceroster.com/events/2026/139124/seattle-marathon-vendors-2026",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "raceroster",
-   "image": "https://cdn.raceroster.com/event-logo/4p2bxtbx6r2gwg4u._original.png",
-   "community_id": "",
-   "group": "2026-11",
-   "group_label": "November",
-   "group_order": 24325,
-   "coords": [
-    47.60383,
-    -122.33006
-   ]
-  },
-  {
    "id": "puyallup-donut-run-2026-11-27",
    "name": "Puyallup Donut Run",
    "date": "2026-11-27",
@@ -5856,38 +5794,6 @@
    ]
   },
   {
-   "id": "2026-seattle-kids-marathon-2026-11-28",
-   "name": "2026 Seattle Kids Marathon",
-   "date": "2026-11-28",
-   "time": "9:00 AM",
-   "type": "Race",
-   "distances": "",
-   "distance_tags": [
-    "Kids",
-    "Marathon"
-   ],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "USA - Saturday, November 28, 2026Location: Bell Harbor, Pier…",
-   "url": "https://raceroster.com/events/2026/115515/2026-seattle-kids-marathon",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "raceroster",
-   "image": "https://cdn.raceroster.com/event-logo/vycuc7x7j25w9mwe._original.png",
-   "community_id": "",
-   "group": "2026-11",
-   "group_label": "November",
-   "group_order": 24325,
-   "coords": [
-    47.60383,
-    -122.33006
-   ]
-  },
-  {
    "id": "mid-morning-run-2026-11-28",
    "name": "Mid-Morning Run",
    "date": "2026-11-28",
@@ -5914,38 +5820,6 @@
    "coords": [
     47.6806,
     -122.3287
-   ]
-  },
-  {
-   "id": "2026-uw-medicine-seattle-marathon-and-half-marathon-2026-11-29",
-   "name": "2026 UW Medicine Seattle Marathon and Half Marathon",
-   "date": "2026-11-29",
-   "time": "7:00 AM",
-   "type": "Race",
-   "distances": "",
-   "distance_tags": [
-    "Marathon",
-    "Half"
-   ],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "The UW Medicine Seattle Marathon…",
-   "url": "https://raceroster.com/events/2026/112954/2026-uw-medicine-seattle-marathon-and-half-marathon",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "raceroster",
-   "image": "https://cdn.raceroster.com/event-logo/rnzjgtd6usbkjjuz._original.png",
-   "community_id": "",
-   "group": "2026-11",
-   "group_label": "November",
-   "group_order": 24325,
-   "coords": [
-    47.60383,
-    -122.33006
    ]
   },
   {
