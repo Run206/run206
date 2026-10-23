@@ -1,123 +1,7 @@
 {
- "generated": "2026-10-22T00:00:00Z",
- "count": 379,
+ "generated": "2026-10-23T00:00:00Z",
+ "count": 381,
  "events": [
-  {
-   "id": "brooks-run-club-2026-10-22",
-   "name": "Brooks Run Club",
-   "date": "2026-10-22",
-   "time": "6:00 PM",
-   "type": "Brand Event",
-   "distances": "3-6 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Brooks Trailhead, 3400 Stone Way N",
-   "org": "Brooks Running",
-   "desc": "Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.",
-   "url": "https://www.brooksrunning.com/en_us/brooks-run-club",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Tue & Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6497,
-    -122.3424
-   ]
-  },
-  {
-   "id": "fleet-feet-run-club-2026-10-22",
-   "name": "Fleet Feet Run Club",
-   "date": "2026-10-22",
-   "time": "6:00 PM",
-   "type": "Brand Event",
-   "distances": "3-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Capitol Hill and Ballard stores",
-   "org": "Fleet Feet Seattle",
-   "desc": "Social runs from both stores. Thursday is a pub run ending at a brewery.",
-   "url": "https://www.fleetfeet.com/s/seattle",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Tue & Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0
-  },
-  {
-   "id": "thursday-evening-casual-run-2026-10-22",
-   "name": "Thursday Evening Casual Run",
-   "date": "2026-10-22",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "3-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Green Lake",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "The most social run of the week. Takeout dinner by the lake after.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "thursday-brewery-run-2026-10-22",
-   "name": "Thursday Brewery Run",
-   "date": "2026-10-22",
-   "time": "Evening",
-   "type": "Club Run",
-   "distances": "5-10K",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Rotating breweries in Fremont and Ballard",
-   "org": "Frelard Run Club",
-   "desc": "Social run ending at a brewery. Check Instagram for the week's location.",
-   "url": "",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0
-  },
   {
    "id": "friday-lake-union-run-2026-10-23",
    "name": "Friday Lake Union Run",
@@ -279,6 +163,37 @@
    "schedule": "",
    "source": "runsignup",
    "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-281222-1791311340.5238-0.bQXt3S.png",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
+   "id": "greenlake-5k-2026-10-24",
+   "name": "Greenlake 5K",
+   "date": "2026-10-24",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Greenlake, Seattle, WA - Saturday, October 24thSet the stage for something special…",
+   "url": "https://raceroster.com/events/2026/118226/greenlake-5k",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "raceroster",
+   "image": "https://cdn.raceroster.com/event-logo/gbqsbcswmxpkgggd._original.jpg",
    "community_id": "",
    "group": "this-week",
    "group_label": "This week",
@@ -1172,9 +1087,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0
   },
   {
    "id": "trick-or-treat-5k-2026-10-31",
@@ -2104,6 +2019,31 @@
    "group_order": 1
   },
   {
+   "id": "friday-lake-union-run-2026-11-06",
+   "name": "Friday Lake Union Run",
+   "date": "2026-11-06",
+   "time": "6:00 AM",
+   "type": "Club Run",
+   "distances": "Various",
+   "distance_tags": [],
+   "location": "Lake Union - check Meetup for the exact spot",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Early Friday miles around Lake Union.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Fri",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1
+  },
+  {
    "id": "alki-beach-run-ongoing",
    "name": "Alki Beach Run",
    "date": null,
@@ -2432,31 +2372,6 @@
     47.6806,
     -122.3287
    ]
-  },
-  {
-   "id": "friday-lake-union-run-2026-11-06",
-   "name": "Friday Lake Union Run",
-   "date": "2026-11-06",
-   "time": "6:00 AM",
-   "type": "Club Run",
-   "distances": "Various",
-   "distance_tags": [],
-   "location": "Lake Union - check Meetup for the exact spot",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Early Friday miles around Lake Union.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Fri",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-11",
-   "group_label": "November",
-   "group_order": 24325
   },
   {
    "id": "rise-shine-long-run-2026-11-07",
@@ -5548,6 +5463,37 @@
    "group_order": 24325
   },
   {
+   "id": "seattle-marathon-vendors-2026-2026-11-27",
+   "name": "Seattle Marathon Vendors 2026",
+   "date": "2026-11-27",
+   "time": "6:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [
+    "Marathon"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Exhibit at Seattle Marathon Association Events!Get ready to…",
+   "url": "https://raceroster.com/events/2026/139124/seattle-marathon-vendors-2026",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "raceroster",
+   "image": "https://cdn.raceroster.com/event-logo/4p2bxtbx6r2gwg4u._original.png",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
    "id": "puyallup-donut-run-2026-11-27",
    "name": "Puyallup Donut Run",
    "date": "2026-11-27",
@@ -5794,6 +5740,38 @@
    ]
   },
   {
+   "id": "2026-seattle-kids-marathon-2026-11-28",
+   "name": "2026 Seattle Kids Marathon",
+   "date": "2026-11-28",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [
+    "Kids",
+    "Marathon"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "USA - Saturday, November 28, 2026Location: Bell Harbor, Pier…",
+   "url": "https://raceroster.com/events/2026/115515/2026-seattle-kids-marathon",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "raceroster",
+   "image": "https://cdn.raceroster.com/event-logo/vycuc7x7j25w9mwe._original.png",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
    "id": "mid-morning-run-2026-11-28",
    "name": "Mid-Morning Run",
    "date": "2026-11-28",
@@ -5820,6 +5798,38 @@
    "coords": [
     47.6806,
     -122.3287
+   ]
+  },
+  {
+   "id": "2026-uw-medicine-seattle-marathon-and-half-marathon-2026-11-29",
+   "name": "2026 UW Medicine Seattle Marathon and Half Marathon",
+   "date": "2026-11-29",
+   "time": "7:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [
+    "Marathon",
+    "Half"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "The UW Medicine Seattle Marathon…",
+   "url": "https://raceroster.com/events/2026/112954/2026-uw-medicine-seattle-marathon-and-half-marathon",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "raceroster",
+   "image": "https://cdn.raceroster.com/event-logo/rnzjgtd6usbkjjuz._original.png",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
@@ -8463,6 +8473,31 @@
    "group_order": 24326
   },
   {
+   "id": "friday-lake-union-run-2026-12-18",
+   "name": "Friday Lake Union Run",
+   "date": "2026-12-18",
+   "time": "6:00 AM",
+   "type": "Club Run",
+   "distances": "Various",
+   "distance_tags": [],
+   "location": "Lake Union - check Meetup for the exact spot",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Early Friday miles around Lake Union.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Fri",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2026-12",
+   "group_label": "December",
+   "group_order": 24326
+  },
+  {
    "id": "holiday-fun-run-2026-12-19",
    "name": "Holiday fun Run",
    "date": "2026-12-19",
@@ -8769,7 +8804,7 @@
    ],
    "location": "Seattle, WA",
    "org": "",
-   "desc": "Let's begin 2026 on a very happy note. Because who doesn't like unicorns and rainbows? FAQs: https://run2befit.com/unicorns-%26-rainbows-5k-1",
+   "desc": "Let's begin 2026 on a very happy note. Start 2027 with a little sparkle, a lot of color, and some magical miles! Whether you run, walk, or skip to…",
    "url": "https://runsignup.com/Race/WA/Seattle/UnicornsRainbowsFunRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -8778,7 +8813,7 @@
    "recurring": false,
    "schedule": "",
    "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race120407-logo-0.bJt3SV.png",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-126983-1792710707.3002-0.bQ2PGZ.jpg",
    "community_id": "",
    "group": "2027-01",
    "group_label": "January 2027",
@@ -10928,6 +10963,38 @@
    "coords": [
     47.65151,
     -122.52468
+   ]
+  },
+  {
+   "id": "christmas-in-july-5k-2027-07-10",
+   "name": "Christmas in July 5k",
+   "date": "2027-07-10",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K, Kids, Walk",
+   "distance_tags": [
+    "Kids",
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Winter vibes. Summer skies. Santa’s on vacation—and he’s running a 5K! The Christmas in July 5K mixes festive flair with summer fun for a jolly good…",
+   "url": "https://runsignup.com/Race/WA/Seattle/TheChristmasInJuly5k?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$23–$33",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-273262-1769565155.1715-0.bPEwVJ.png",
+   "community_id": "",
+   "group": "2027-07",
+   "group_label": "July 2027",
+   "group_order": 24333,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
