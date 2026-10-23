@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-23T00:00:00Z",
- "count": 381,
+ "count": 382,
  "events": [
   {
    "id": "friday-lake-union-run-2026-10-23",
@@ -2371,6 +2371,35 @@
    "coords": [
     47.6806,
     -122.3287
+   ]
+  },
+  {
+   "id": "city-slickers-2026-a-race-through-seattle-p-b-soar-2026-11-07",
+   "name": "City Slickers 2026: A Race Through Seattle p/b SOAR",
+   "date": "2026-11-07",
+   "time": "11:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "We're excited to host the third edition of City Slickers, a running alley cat race through the city of Seattle, on November 7th. This one is…",
+   "url": "https://runsignup.com/Race/WA/Seattle/CitySlickers2024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$25",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-240010-1729570982.6539-0.bNfYIM.jpg",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
@@ -9022,6 +9051,40 @@
    ]
   },
   {
+   "id": "my-better-half-marathon-2027-02-07",
+   "name": "My Better Half Marathon",
+   "date": "2027-02-07",
+   "time": "8:00 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon, Relay",
+   "distance_tags": [
+    "Relay",
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Prepare yourself for a running event like no other. Romance. Kitsch. Sweat. My Better Half Marathon is a celebration of running, romance and…",
+   "url": "https://runsignup.com/Race/WA/Seattle/MyBetterHalfMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$40–$94",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race37523-logo-0.bEl3vi.png",
+   "community_id": "",
+   "group": "2027-02",
+   "group_label": "February 2027",
+   "group_order": 24328,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
    "id": "galentine-s-5k-2027-02-13",
    "name": "Galentine's 5k",
    "date": "2027-02-13",
@@ -9182,40 +9245,6 @@
    "coords": [
     47.61442,
     -122.19234
-   ]
-  },
-  {
-   "id": "my-better-half-marathon-2027-02-14",
-   "name": "My Better Half Marathon",
-   "date": "2027-02-14",
-   "time": "8:00 AM",
-   "type": "Race",
-   "distances": "5K, 10K, Half Marathon, Relay",
-   "distance_tags": [
-    "Relay",
-    "Half",
-    "10K",
-    "5K"
-   ],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "Prepare yourself for a running event like no other. Romance. Kitsch. Sweat. My Better Half Marathon is a celebration of running, romance and…",
-   "url": "https://runsignup.com/Race/WA/Seattle/MyBetterHalfMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$45–$94",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race37523-logo-0.bEl3vi.png",
-   "community_id": "",
-   "group": "2027-02",
-   "group_label": "February 2027",
-   "group_order": 24328,
-   "coords": [
-    47.60383,
-    -122.33006
    ]
   },
   {
