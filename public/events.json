@@ -1,36 +1,7 @@
 {
  "generated": "2026-10-26T00:00:00Z",
- "count": 378,
+ "count": 379,
  "events": [
-  {
-   "id": "amazon-2026-pro-bono-wellness-distance-challenge-2026-10-26",
-   "name": "Amazon 2026 Pro Bono Wellness Distance Challenge",
-   "date": "2026-10-26",
-   "time": "12:00 AM",
-   "type": "Race",
-   "distances": "",
-   "distance_tags": [],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "We're excited to bring back the 2026 Pro Bono Wellness Distance Challenge! Compete individually and as DZ-direct teams to rack up miles through…",
-   "url": "https://runsignup.com/Race/WA/Seattle/AmazonProBonoWellnessDistanceChallenge?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "Free",
-   "free": true,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.60383,
-    -122.33006
-   ]
-  },
   {
    "id": "monday-morning-on-track-2026-10-26",
    "name": "Monday Morning On Track",
@@ -60,6 +31,35 @@
    "coords": [
     47.6764,
     -122.3175
+   ]
+  },
+  {
+   "id": "amazon-2026-pro-bono-wellness-distance-challenge-2026-10-26",
+   "name": "Amazon 2026 Pro Bono Wellness Distance Challenge",
+   "date": "2026-10-26",
+   "time": "6:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "We're excited to bring back the 2026 Pro Bono Wellness Distance Challenge! Compete individually and as DZ-direct teams to rack up miles through…",
+   "url": "https://runsignup.com/Race/WA/Seattle/AmazonProBonoWellnessDistanceChallenge?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "Free",
+   "free": true,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
@@ -3869,6 +3869,37 @@
    "group": "2026-11",
    "group_label": "November",
    "group_order": 24325
+  },
+  {
+   "id": "pntf-regional-xc-race-2026-11-21",
+   "name": "PNTF Regional XC Race",
+   "date": "2026-11-21",
+   "time": "10:30 AM",
+   "type": "Race",
+   "distances": "6K, 8K, 10K",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "",
+   "url": "https://runsignup.com/Race/WA/Seattle/PNTFRegionalXCRace?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "2026-11",
+   "group_label": "November",
+   "group_order": 24325,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
   },
   {
    "id": "rise-shine-long-run-2026-11-21",
