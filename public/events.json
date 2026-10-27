@@ -4881,7 +4881,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/SeattleTurkeyTrot2?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$6–$43",
+   "price": "$6–$46",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -8833,7 +8833,7 @@
    "recurring": false,
    "schedule": "",
    "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-266638-1768494059.0852-0.bPArpR.png",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-286383-1793106593.3483-0.bQ4kkH.png",
    "community_id": "",
    "group": "2027-01",
    "group_label": "January 2027",
@@ -9890,8 +9890,8 @@
    ]
   },
   {
-   "id": "washington-state-marathon-2027-04-18",
-   "name": "Washington State Marathon",
+   "id": "2027-washington-state-marathon-2027-04-18",
+   "name": "2027 Washington State Marathon",
    "date": "2027-04-18",
    "time": "8:00 AM",
    "type": "Race",
@@ -11357,37 +11357,6 @@
    ]
   },
   {
-   "id": "f-cancer-5k-run-walk-2027-10-02",
-   "name": "F Cancer 5k Run & Walk",
-   "date": "2027-10-02",
-   "time": "9:00 AM",
-   "type": "Race",
-   "distances": "5K",
-   "distance_tags": [
-    "5K"
-   ],
-   "location": "Tacoma, WA",
-   "org": "",
-   "desc": "A family friendly 5k run or walk through Point Defiance where everyone who’s been affected in any way by cancer can come together and feel less…",
-   "url": "https://runsignup.com/Race/WA/Tacoma/FCancer5kFamilyRunWalk?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$40",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289647-1791504175.3375-0.bQYc8V.jpg",
-   "community_id": "",
-   "group": "2027-10",
-   "group_label": "October 2027",
-   "group_order": 24336,
-   "coords": [
-    47.2455,
-    -122.43833
-   ]
-  },
-  {
    "id": "grit-city-backyard-ultra-2027-10-03",
    "name": "Grit City Backyard Ultra",
    "date": "2027-10-03",
@@ -11409,6 +11378,37 @@
    "schedule": "",
    "source": "runsignup",
    "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289969-1787239439.0743-0.bQHXWp.jpg",
+   "community_id": "",
+   "group": "2027-10",
+   "group_label": "October 2027",
+   "group_order": 24336,
+   "coords": [
+    47.2455,
+    -122.43833
+   ]
+  },
+  {
+   "id": "f-cancer-5k-run-walk-2027-10-03",
+   "name": "F Cancer 5k Run & Walk",
+   "date": "2027-10-03",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Tacoma, WA",
+   "org": "",
+   "desc": "A family friendly 5k run or walk through Point Defiance where everyone who’s been affected in any way by cancer can come together and feel less…",
+   "url": "https://runsignup.com/Race/WA/Tacoma/FCancer5kFamilyRunWalk?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$40",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-289647-1791504175.3375-0.bQYc8V.jpg",
    "community_id": "",
    "group": "2027-10",
    "group_label": "October 2027",
