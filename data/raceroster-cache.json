@@ -129,22 +129,6 @@
    "type": "Race",
    "url": "https://raceroster.com/events/2026/117071/pb-and-j-fuel-run-5k10k131-seattle"
   },
-  "118226": {
-   "date": "2026-10-24",
-   "desc": "Greenlake, Seattle, WA - Saturday, October 24thSet the stage for something special…",
-   "distances": "",
-   "image": "https://cdn.raceroster.com/event-logo/gbqsbcswmxpkgggd._original.jpg",
-   "location": "Seattle, WA",
-   "name": "Greenlake 5K",
-   "org": "",
-   "price": "",
-   "recurring": false,
-   "source": "raceroster",
-   "source_id": "rr-118226",
-   "time": "9:00 AM",
-   "type": "Race",
-   "url": "https://raceroster.com/events/2026/118226/greenlake-5k"
-  },
   "118977": {
    "date": "2026-10-31",
    "desc": "Golden Gardens Park, Seaview Place Northwest, Seattle, WA - Trick or Trot! Run in our annual Halloween Run,…",
@@ -369,21 +353,37 @@
    "type": "Race",
    "url": "https://raceroster.com/events/2027/141977/sloth-run-5k10k131-seattle"
   },
-  "165694": {
-   "date": "2026-10-24",
-   "desc": "Green Lake Park, East Green Lake Drive North, Seattle, WA",
+  "165966": {
+   "date": "2026-11-15",
+   "desc": "Juanita Beach Park, Northeast Juanita Drive, Kirkland, WA",
    "distances": "",
-   "image": "https://cdn.raceroster.com/event-logo/pqsrzagc53cgnfcp._original.png",
-   "location": "Seattle, WA",
-   "name": "The Greenlake 5K 2026",
+   "image": "https://cdn.raceroster.com/event-logo/p7bafqs3ytahbh6y._original.jpg",
+   "location": "Kirkland, WA",
+   "name": "Kirkland Turkey Trot 2026",
    "org": "",
    "price": "",
    "recurring": false,
    "source": "raceroster",
-   "source_id": "rr-165694",
+   "source_id": "rr-165966",
    "time": "",
    "type": "Race",
-   "url": "https://raceroster.com/events/2026/165694/the-greenlake-5k-2026"
+   "url": "https://raceroster.com/events/2026/165966/kirkland-turkey-trot-2026"
+  },
+  "165998": {
+   "date": "2026-11-26",
+   "desc": "Kamiak High School, Harbour Pointe Boulevard, Mukilteo, WA",
+   "distances": "",
+   "image": "https://cdn.raceroster.com/event-logo/qqf6jefxtq3pnd5z._original.jpg",
+   "location": "Mukilteo, WA",
+   "name": "Mukilteo Turkey Trot 2026",
+   "org": "",
+   "price": "",
+   "recurring": false,
+   "source": "raceroster",
+   "source_id": "rr-165998",
+   "time": "",
+   "type": "Race",
+   "url": "https://raceroster.com/events/2026/165998/mukilteo-turkey-trot-2026"
   }
  }
 }
