@@ -1,123 +1,7 @@
 {
- "generated": "2026-10-29T00:00:00Z",
- "count": 377,
+ "generated": "2026-10-30T00:00:00Z",
+ "count": 376,
  "events": [
-  {
-   "id": "brooks-run-club-2026-10-29",
-   "name": "Brooks Run Club",
-   "date": "2026-10-29",
-   "time": "6:00 PM",
-   "type": "Brand Event",
-   "distances": "3-6 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Brooks Trailhead, 3400 Stone Way N",
-   "org": "Brooks Running",
-   "desc": "Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.",
-   "url": "https://www.brooksrunning.com/en_us/brooks-run-club",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Tue & Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6497,
-    -122.3424
-   ]
-  },
-  {
-   "id": "fleet-feet-run-club-2026-10-29",
-   "name": "Fleet Feet Run Club",
-   "date": "2026-10-29",
-   "time": "6:00 PM",
-   "type": "Brand Event",
-   "distances": "3-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Capitol Hill and Ballard stores",
-   "org": "Fleet Feet Seattle",
-   "desc": "Social runs from both stores. Thursday is a pub run ending at a brewery.",
-   "url": "https://www.fleetfeet.com/s/seattle",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Tue & Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0
-  },
-  {
-   "id": "thursday-evening-casual-run-2026-10-29",
-   "name": "Thursday Evening Casual Run",
-   "date": "2026-10-29",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "3-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Green Lake",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "The most social run of the week. Takeout dinner by the lake after.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "thursday-brewery-run-2026-10-29",
-   "name": "Thursday Brewery Run",
-   "date": "2026-10-29",
-   "time": "Evening",
-   "type": "Club Run",
-   "distances": "5-10K",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Rotating breweries in Fremont and Ballard",
-   "org": "Frelard Run Club",
-   "desc": "Social run ending at a brewery. Check Instagram for the week's location.",
-   "url": "",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0
-  },
   {
    "id": "friday-lake-union-run-2026-10-30",
    "name": "Friday Lake Union Run",
@@ -1122,9 +1006,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0
   },
   {
    "id": "city-slickers-2026-a-race-through-seattle-p-b-soar-2026-11-07",
@@ -1982,6 +1866,31 @@
    "group_order": 1
   },
   {
+   "id": "friday-lake-union-run-2026-11-13",
+   "name": "Friday Lake Union Run",
+   "date": "2026-11-13",
+   "time": "6:00 AM",
+   "type": "Club Run",
+   "distances": "Various",
+   "distance_tags": [],
+   "location": "Lake Union - check Meetup for the exact spot",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Early Friday miles around Lake Union.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Fri",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1
+  },
+  {
    "id": "alki-beach-run-ongoing",
    "name": "Alki Beach Run",
    "date": null,
@@ -2310,31 +2219,6 @@
     47.6806,
     -122.3287
    ]
-  },
-  {
-   "id": "friday-lake-union-run-2026-11-13",
-   "name": "Friday Lake Union Run",
-   "date": "2026-11-13",
-   "time": "6:00 AM",
-   "type": "Club Run",
-   "distances": "Various",
-   "distance_tags": [],
-   "location": "Lake Union - check Meetup for the exact spot",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Early Friday miles around Lake Union.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Fri",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-11",
-   "group_label": "November",
-   "group_order": 24325
   },
   {
    "id": "let-me-run-spring-fest-5k-2026-2026-11-14",
@@ -8497,6 +8381,31 @@
    "group_order": 24326
   },
   {
+   "id": "friday-lake-union-run-2026-12-25",
+   "name": "Friday Lake Union Run",
+   "date": "2026-12-25",
+   "time": "6:00 AM",
+   "type": "Club Run",
+   "distances": "Various",
+   "distance_tags": [],
+   "location": "Lake Union - check Meetup for the exact spot",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "Early Friday miles around Lake Union.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Fri",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2026-12",
+   "group_label": "December",
+   "group_order": 24326
+  },
+  {
    "id": "a-merry-christmas-run-5k-10k-13-1-seattle-2026-12-26",
    "name": "A Merry Christmas Run 5K/10K/13.1 SEATTLE",
    "date": "2026-12-26",
@@ -8626,6 +8535,35 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "2027-src-season-pass-and-multi-race-passes-2027-01-01",
+   "name": "2027 SRC Season Pass and Multi-Race Passes",
+   "date": "2027-01-01",
+   "time": "12:00 AM",
+   "type": "Race",
+   "distances": "2027 Season Pass, 2027 5 Race Pass",
+   "distance_tags": [],
+   "location": "Snohomish, WA",
+   "org": "",
+   "desc": "Make 2027 Your Year of Running! Join Snohomish Running Company with a Season Pass, 5-Race Pass, or 4-Race Pass and save big all year long. The more…",
+   "url": "https://runsignup.com/Race/WA/Snohomish/SRCSeasonPassAndMultiRacePasses?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$150–$450",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-291684-1789086898.9778-0.bQO0YY.jpg",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    48.00747,
+    -121.73049
    ]
   },
   {
@@ -11053,6 +10991,35 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "olympic-peninsula-2027-08-16",
+   "name": "Olympic Peninsula",
+   "date": "2027-08-16",
+   "time": "10:00 AM",
+   "type": "Race",
+   "distances": "Olympic Peninsula 2027",
+   "distance_tags": [],
+   "location": "Medina, WA",
+   "org": "",
+   "desc": "Olympic Peninsula Bike Tour 2027: A Pacific Northwest Cycling Adventure Join us for a weeklong journey that encapsulates the best of Washington state…",
+   "url": "https://runsignup.com/Race/WA/Medina/OlympicPeninsula?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$25",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "",
+   "community_id": "",
+   "group": "2027-08",
+   "group_label": "August 2027",
+   "group_order": 24334,
+   "coords": [
+    47.62055,
+    -122.22645
    ]
   },
   {
