@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-03T00:00:00Z",
- "count": 376,
+ "count": 377,
  "events": [
   {
    "id": "brooks-run-club-2026-11-03",
@@ -501,7 +501,7 @@
    "distance_tags": [],
    "location": "Seattle, WA",
    "org": "",
-   "desc": "We're excited to host the third edition of City Slickers, a running alley cat race through the city of Seattle, on November 7th. This one is…",
+   "desc": "We're excited to host the fourth edition of City Slickers, a running alley cat race through the city of Seattle, on November 7th. This one is…",
    "url": "https://runsignup.com/Race/WA/Seattle/CitySlickers2024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -1723,7 +1723,7 @@
    "url": "https://runsignup.com/Race/WA/Kirkland/KirklandTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$35–$45",
+   "price": "$35–$50",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -10496,6 +10496,39 @@
    ]
   },
   {
+   "id": "made-in-the-usa-5k-10k-15k-half-seattle-2027-06-12",
+   "name": "Made in the USA 5K/10K/15K/Half - Seattle",
+   "date": "2027-06-12",
+   "time": "8:00 AM",
+   "type": "Race",
+   "distances": "5K, 10K, 15K",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Celebrate America’s birthday on the run at the Made in the USA 5K/10K/15K/Half Marathon, taking place the Saturday! This patriotic race offers four…",
+   "url": "https://runsignup.com/Race/WA/Seattle/MadeInTheUSA5K10K15KHalfSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$35–$55",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-66760-1771636131.6588-0.bPMqwJ.png",
+   "community_id": "",
+   "group": "2027-06",
+   "group_label": "June 2027",
+   "group_order": 24332,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
    "id": "2027-centennial-100-2027-06-19",
    "name": "2027 Centennial 100",
    "date": "2027-06-19",
@@ -10738,7 +10771,7 @@
    "url": "https://runsignup.com/Race/WA/Kirkland/KirkWoodHalfMarathon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$75",
+   "price": "$65",
    "free": false,
    "recurring": false,
    "schedule": "",
