@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-05T00:00:00Z",
- "count": 375,
+ "count": 374,
  "events": [
   {
    "id": "brooks-run-club-2026-11-05",
@@ -1022,37 +1022,6 @@
    "group": "next-week",
    "group_label": "Next week",
    "group_order": 1
-  },
-  {
-   "id": "let-me-run-spring-fest-5k-2026-2026-11-14",
-   "name": "Let Me Run Spring Fest 5K 2026",
-   "date": "2026-11-14",
-   "time": "10:00 AM",
-   "type": "Race",
-   "distances": "5K",
-   "distance_tags": [
-    "5K"
-   ],
-   "location": "Seattle, WA",
-   "org": "",
-   "desc": "Come celebrate the end of season 5K for the Let Me Run program. At Let Me Run we inspire boys through the power of running to be courageous enough to…",
-   "url": "https://runsignup.com/Race/WA/Seattle/LMRFallfest5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-134230-1721774475.4869-0.bMOdgl.jpg",
-   "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
-   "coords": [
-    47.60383,
-    -122.33006
-   ]
   },
   {
    "id": "rise-shine-long-run-2026-11-14",
