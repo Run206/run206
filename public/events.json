@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-06T00:00:00Z",
- "count": 372,
+ "count": 373,
  "events": [
   {
    "id": "friday-lake-union-run-2026-11-06",
@@ -116,27 +116,27 @@
    "date": "2026-11-07",
    "time": "8:00 AM",
    "type": "Club Run",
-   "distances": "All distances",
+   "distances": "",
    "distance_tags": [],
-   "location": "MOHAI parking lot",
+   "location": "860 Terry Avenue North, Seattle",
    "org": "Club Seattle Runners Division",
-   "desc": "Saturday long run, all distances welcome. Check Heylo for collab events.",
-   "url": "https://www.heylo.com/g/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
+   "desc": "Meet up at 8am in the MOHAI parking lot! All paces and faces welcome. Free parking along Westlake. Parking is $1.50/hr in the main MOHAI lot. Some…",
+   "url": "https://www.heylo.com/event/-P5lmqhirpZP0qHXNdak",
    "affiliate": false,
    "affiliate_platform": "",
    "price": "Free",
    "free": true,
-   "recurring": true,
-   "schedule": "Every Sat",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
+   "recurring": false,
+   "schedule": "",
+   "source": "heylo",
+   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/26437551-2efb-46fa-8be3-093240c7f195.jpg",
+   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
    "group": "this-week",
    "group_label": "This week",
    "group_order": 0,
    "coords": [
-    47.6275,
-    -122.336
+    47.62751,
+    -122.33675
    ]
   },
   {
@@ -202,6 +202,40 @@
    ]
   },
   {
+   "id": "grand-ridge-trail-run-2026-11-07",
+   "name": "Grand Ridge Trail Run",
+   "date": "2026-11-07",
+   "time": "9:30 AM",
+   "type": "Race",
+   "distances": "5 Mile, Half Marathon, Marathon, 50K",
+   "distance_tags": [
+    "Ultra",
+    "Marathon",
+    "Half",
+    "10K"
+   ],
+   "location": "Issaquah, WA",
+   "org": "",
+   "desc": "Join us for a trail run at Grand Ridge Regional Park, just across I-90 from Tiger Mountain. A great trail system awaits.",
+   "url": "https://runsignup.com/Race/WA/Issaquah/GrandRidgeTrailRun?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$37–$102",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race69043-logo-0.bJwgh2.png",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.53488,
+    -122.0433
+   ]
+  },
+  {
    "id": "pntf-open-masters-xc-2026-11-08",
    "name": "PNTF Open & Masters XC",
    "date": "2026-11-08",
@@ -213,7 +247,7 @@
    ],
    "location": "Seattle, WA",
    "org": "",
-   "desc": "PNTF XC Race at Lincoln Park. You can create a new team, sign up on a already existing team or sign up individually and run unattached.",
+   "desc": "PNTF XC Race at Lincoln Park. You can create a new team, sign up on an already existing team or sign up individually and run unattached. No…",
    "url": "https://runsignup.com/Race/WA/Seattle/PNTFOpenMastersXC?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -2256,7 +2290,7 @@
    ],
    "location": "Seattle, WA",
    "org": "",
-   "desc": "You may register for this race as part of a team or as an individual running unmatched. All participants running on a team must be registered by Nov…",
+   "desc": "When you register you have the option to create a new team, join an already existing team or register individually and run unattached. All…",
    "url": "https://runsignup.com/Race/WA/Seattle/PNTFRegionalXCRace?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
