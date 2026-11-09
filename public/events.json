@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-09T00:00:00Z",
- "count": 375,
+ "count": 374,
  "events": [
   {
    "id": "monday-morning-on-track-2026-11-09",
@@ -1650,12 +1650,12 @@
    "group_order": 1
   },
   {
-   "id": "pntf-regional-xc-race-2026-11-21",
-   "name": "PNTF Regional XC Race",
+   "id": "pnw-regional-xc-race-2026-11-21",
+   "name": "PNW Regional XC Race",
    "date": "2026-11-21",
    "time": "10:30 AM",
    "type": "Race",
-   "distances": "6K, 8K, 10K",
+   "distances": "6K, 8K",
    "distance_tags": [
     "10K"
    ],
@@ -3013,7 +3013,7 @@
    "url": "https://runsignup.com/Race/WA/Puyallup/GobbleGobble5K10K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$30–$45",
+   "price": "$20–$45",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -10601,37 +10601,6 @@
    "coords": [
     47.60383,
     -122.33006
-   ]
-  },
-  {
-   "id": "black-diamond-triathlon-2027-06-26",
-   "name": "Black Diamond Triathlon",
-   "date": "2027-06-26",
-   "time": "9:00 AM",
-   "type": "Race",
-   "distances": "Relay",
-   "distance_tags": [
-    "Relay"
-   ],
-   "location": "Enumclaw, WA",
-   "org": "",
-   "desc": "This is where your story begins. Welcome to the Black Diamond Triathlon , the official season opener for the 2026 RTB series. Known as \"The Opener,\"…",
-   "url": "https://runsignup.com/Race/WA/Enumclaw/BlackDiamondTriathlon?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$85–$109",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race53471-logo-0.bAa1AL.png",
-   "community_id": "",
-   "group": "2027-06",
-   "group_label": "June 2027",
-   "group_order": 24332,
-   "coords": [
-    47.20478,
-    -121.99164
    ]
   },
   {
