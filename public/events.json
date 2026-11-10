@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-10T00:00:00Z",
- "count": 375,
+ "count": 377,
  "events": [
   {
    "id": "brooks-run-club-2026-11-10",
@@ -774,7 +774,7 @@
    "distance_tags": [],
    "location": "Enumclaw, WA",
    "org": "",
-   "desc": "What is it? A 6-Hour race around scenic Nolte State Park, featuring a 1.4 mile loop course. With minimal elevation gain, crushed gravel/packed dirt…",
+   "desc": "***Race Full*** The race is currently full, but you can add yourself to the waiting list. What is it? A 6-Hour race around scenic Nolte State Park…",
    "url": "https://runsignup.com/Race/WA/Enumclaw/Neverendingnolte6hour?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -7862,6 +7862,37 @@
    ]
   },
   {
+   "id": "prance-n-plunge-2026-2027-01-01",
+   "name": "Prance N Plunge 2026",
+   "date": "2027-01-01",
+   "time": "10:00 AM",
+   "type": "Race",
+   "distances": "5K, Walk",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Bremerton, WA",
+   "org": "",
+   "desc": "Want to start the new year with a splash? Join us for the annual Prance and Plunge, held at Wildcat Lake Park. Grab your friends and family and skip…",
+   "url": "https://runsignup.com/Race/WA/Bremerton/PranceNPlungeReturns?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$35",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-145600-1732664910.6339-0.bNrL5o.jpg",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    47.56537,
+    -122.62468
+   ]
+  },
+  {
    "id": "resolution-run-5k-and-polar-bear-dive-2027-2027-01-01",
    "name": "Resolution Run 5K and Polar Bear Dive - 2027",
    "date": "2027-01-01",
@@ -10622,6 +10653,37 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "maple-valley-bear-run-walk-5k-2027-06-26",
+   "name": "Maple Valley Bear Run & Walk 5K",
+   "date": "2027-06-26",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K, Walk",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Maple Valley, WA",
+   "org": "",
+   "desc": "REGISTRATION NOW OPEN!! $35 for adults ; kids 12 and under are FREE , thanks to our sponsors, when you register online by May 31st (a small handling…",
+   "url": "https://runsignup.com/Race/WA/MapleValley/TheBearRun5KRunWalk?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$35",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race57047-logo-0.bLsxEh.png",
+   "community_id": "",
+   "group": "2027-06",
+   "group_label": "June 2027",
+   "group_order": 24332,
+   "coords": [
+    47.36642,
+    -122.04371
    ]
   },
   {
