@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-11T00:00:00Z",
- "count": 377,
+ "count": 389,
  "events": [
   {
    "id": "wake-up-wednesday-2026-11-11",
@@ -7861,6 +7861,39 @@
    ]
   },
   {
+   "id": "new-year-5k-10k-13-1m-everett-wa-01-2027-01-02",
+   "name": "New Year 5K, 10K, & 13.1M, Everett, WA (01)",
+   "date": "2027-01-02",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/Langus162024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-219158-1733270184.5039-0.bNt5QO.png",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    47.97934,
+    -122.2127
+   ]
+  },
+  {
    "id": "mid-morning-run-2027-01-02",
    "name": "Mid-Morning Run",
    "date": "2027-01-02",
@@ -8391,6 +8424,39 @@
    ]
   },
   {
+   "id": "new-year-5k-10k-13-1m-everett-wa-02-2027-01-09",
+   "name": "New Year 5K, 10K, & 13.1M, Everett, WA (02)",
+   "date": "2027-01-09",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/McCollum02?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-265183-1759843923.068-0.bO5rzt.png",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    47.97934,
+    -122.2127
+   ]
+  },
+  {
    "id": "2027-fort-steilacoom-resolution-series-2027-01-09",
    "name": "2027 Fort Steilacoom Resolution Series",
    "date": "2027-01-09",
@@ -8653,6 +8719,39 @@
    ]
   },
   {
+   "id": "pirate-5k-10k-13-1m-at-everett-wa-06-2027-02-06",
+   "name": "Pirate 5K, 10K, & 13.1M at Everett, WA (06)",
+   "date": "2027-02-06",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/Langus232024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-219183-1794410659.4862-0.bQ9iIJ.png",
+   "community_id": "",
+   "group": "2027-02",
+   "group_label": "February 2027",
+   "group_order": 24328,
+   "coords": [
+    47.97934,
+    -122.2127
+   ]
+  },
+  {
    "id": "galentine-s-5k-2027-02-13",
    "name": "Galentine's 5k",
    "date": "2027-02-13",
@@ -8781,6 +8880,39 @@
    "coords": [
     47.30831,
     -122.00376
+   ]
+  },
+  {
+   "id": "medal-madness-5k-10k-13-1m-at-everett-wa-07-2027-02-13",
+   "name": "Medal Madness 5K, 10K, & 13.1M at Everett, WA (07)",
+   "date": "2027-02-13",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/McCollum07?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-265184-1794410765.5953-0.bQ9iKn.png",
+   "community_id": "",
+   "group": "2027-02",
+   "group_label": "February 2027",
+   "group_order": 24328,
+   "coords": [
+    47.97934,
+    -122.2127
    ]
   },
   {
@@ -9003,7 +9135,7 @@
    "recurring": false,
    "schedule": "",
    "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285588-1782337608.6028-0.bQpfbi.png",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285588-1794423543.4779-0.bQ9lR3.png",
    "community_id": "",
    "group": "2027-02",
    "group_label": "February 2027",
@@ -9077,6 +9209,39 @@
    ]
   },
   {
+   "id": "medal-madness-5k-10k-13-1m-at-everett-wa-10-2027-03-06",
+   "name": "Medal Madness 5K, 10K, & 13.1M at Everett, WA (10)",
+   "date": "2027-03-06",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/Langus322024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-219184-1794410971.1465-0.bQ9iNB.png",
+   "community_id": "",
+   "group": "2027-03",
+   "group_label": "March 2027",
+   "group_order": 24329,
+   "coords": [
+    47.97934,
+    -122.2127
+   ]
+  },
+  {
    "id": "celebrate-women-5k-10k-2027-03-07",
    "name": "Celebrate Women 5K & 10K",
    "date": "2027-03-07",
@@ -9139,6 +9304,39 @@
    "coords": [
     47.2455,
     -122.43833
+   ]
+  },
+  {
+   "id": "pirate-5k-10k-13-1m-at-everett-wa-11-2027-03-13",
+   "name": "Pirate 5K, 10K, & 13.1M at Everett, WA (11)",
+   "date": "2027-03-13",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/McCollum11?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-265185-1794411069.4806-0.bQ9iO9.png",
+   "community_id": "",
+   "group": "2027-03",
+   "group_label": "March 2027",
+   "group_order": 24329,
+   "coords": [
+    47.97934,
+    -122.2127
    ]
   },
   {
@@ -9502,6 +9700,39 @@
    ]
   },
   {
+   "id": "bunny-5k-10k-13-1m-at-everett-wa-14-2027-04-03",
+   "name": "Bunny 5K, 10K, & 13.1M at Everett, WA (14)",
+   "date": "2027-04-03",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/Langus462024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-219185-1794412428.2042-0.bQ9i-m.png",
+   "community_id": "",
+   "group": "2027-04",
+   "group_label": "April 2027",
+   "group_order": 24330,
+   "coords": [
+    47.97934,
+    -122.2127
+   ]
+  },
+  {
    "id": "run-for-pb-j-5k-10k-13-1-seattle-2027-04-10",
    "name": "Run for PB&J 5k/10k/13.1 SEATTLE",
    "date": "2027-04-10",
@@ -9567,6 +9798,39 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "bunny-5k-10k-13-1m-at-everett-wa-15-2027-04-10",
+   "name": "Bunny 5K, 10K, & 13.1M at Everett, WA (15)",
+   "date": "2027-04-10",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/McCollum15?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-265187-1794412594.9909-0.bQ9jaY.png",
+   "community_id": "",
+   "group": "2027-04",
+   "group_label": "April 2027",
+   "group_order": 24330,
+   "coords": [
+    47.97934,
+    -122.2127
    ]
   },
   {
@@ -9795,6 +10059,39 @@
    ]
   },
   {
+   "id": "luau-5k-10k-13-1m-at-everett-wa-18-2027-05-01",
+   "name": "Luau 5K, 10K, & 13.1M at Everett, WA (18)",
+   "date": "2027-05-01",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/Langus542024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-219186-1736408466.6357-0.bNF32s.png",
+   "community_id": "",
+   "group": "2027-05",
+   "group_label": "May 2027",
+   "group_order": 24331,
+   "coords": [
+    47.97934,
+    -122.2127
+   ]
+  },
+  {
    "id": "atfs-garage-sale-5k-2027-05-01",
    "name": "ATFS! Garage Sale 5K",
    "date": "2027-05-01",
@@ -9955,6 +10252,38 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "medal-madness-5k-10k-13-1m-at-everett-wa-19-2027-05-08",
+   "name": "Medal Madness 5K, 10K, & 13.1M at Everett, WA (19)",
+   "date": "2027-05-08",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/McCollum19?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-265188-1794412746.6637-0.bQ9jdk.png",
+   "community_id": "",
+   "group": "2027-05",
+   "group_label": "May 2027",
+   "group_order": 24331,
+   "coords": [
+    47.97934,
+    -122.2127
    ]
   },
   {
@@ -10376,6 +10705,38 @@
    ]
   },
   {
+   "id": "medal-madness-5k-10k-13-1m-at-everett-wa-23-2027-06-05",
+   "name": "Medal Madness 5K, 10K, & 13.1M at Everett, WA (23)",
+   "date": "2027-06-05",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/Langus612024?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-219187-1794412859.4032-0.bQ9je7.png",
+   "community_id": "",
+   "group": "2027-06",
+   "group_label": "June 2027",
+   "group_order": 24332,
+   "coords": [
+    47.97934,
+    -122.2127
+   ]
+  },
+  {
    "id": "the-great-ferry-race-2027-06-06",
    "name": "The Great Ferry Race",
    "date": "2027-06-06",
@@ -10468,6 +10829,38 @@
    "coords": [
     47.2455,
     -122.43833
+   ]
+  },
+  {
+   "id": "luau-5k-10k-13-1m-at-everett-wa-24-2027-06-12",
+   "name": "Luau 5K, 10K, & 13.1M at Everett, WA (24)",
+   "date": "2027-06-12",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, 10K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Everett, WA",
+   "org": "",
+   "desc": "US Road Running Races US Road Running races are built for runners and walkers who like friendly, low-pressure race days with just enough competition…",
+   "url": "https://runsignup.com/Race/WA/Everett/MedalMadness5K10KHalfMarathonAtMcCollumParkEverettWAS?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$65",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-265190-1794412939.8962-0.bQ9jgl.png",
+   "community_id": "",
+   "group": "2027-06",
+   "group_label": "June 2027",
+   "group_order": 24332,
+   "coords": [
+    47.97934,
+    -122.2127
    ]
   },
   {
