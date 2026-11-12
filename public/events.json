@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-12T00:00:00Z",
- "count": 388,
+ "count": 389,
  "events": [
   {
    "id": "brooks-run-club-2026-11-12",
@@ -11274,6 +11274,39 @@
    "coords": [
     47.42088,
     -122.47371
+   ]
+  },
+  {
+   "id": "twilight-at-the-bay-2027-08-14",
+   "name": "Twilight at the Bay",
+   "date": "2027-08-14",
+   "time": "5:00 PM",
+   "type": "Race",
+   "distances": "5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K"
+   ],
+   "location": "University Place, WA",
+   "org": "",
+   "desc": "Loops will be an incredibly enjoyable experience while simultaneously basking in the breathtaking panoramic views of the magnificent Bay! This…",
+   "url": "https://runsignup.com/Race/WA/UniversityPlace/TwilightattheBay?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-221575-1786400634.8548-0.bQEK96.png",
+   "community_id": "",
+   "group": "2027-08",
+   "group_label": "August 2027",
+   "group_order": 24334,
+   "coords": [
+    47.22582,
+    -122.53713
    ]
   },
   {
