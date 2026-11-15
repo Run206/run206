@@ -1,36 +1,7 @@
 {
  "generated": "2026-11-15T00:00:00Z",
- "count": 380,
+ "count": 379,
  "events": [
-  {
-   "id": "surprise-one-last-trail-run-with-nb-2026-11-15",
-   "name": "Surprise!! One last trail run with NB",
-   "date": "2026-11-15",
-   "time": "9:00 AM",
-   "type": "Club Run",
-   "distances": "",
-   "distance_tags": [],
-   "location": "950 Northwest Carkeek Park Road, Seattle",
-   "org": "Club Seattle Runners Division",
-   "desc": "As the sun sets on our trail series you may have thought our amazing trail runs were over… but NOT YET! Join us at Carkeek to see the salmon and some…",
-   "url": "https://www.heylo.com/event/-P6Cir_foGjz6KOg2w6l",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": false,
-   "schedule": "",
-   "source": "heylo",
-   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/79d09a57-a6ce-4f8f-8d8b-96ab51eb8a5a.jpg",
-   "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.71155,
-    -122.36865
-   ]
-  },
   {
    "id": "celebrate-veterans-5k-2026-11-15",
    "name": "Celebrate Veterans 5K",
