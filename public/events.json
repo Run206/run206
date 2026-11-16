@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-16T00:00:00Z",
- "count": 385,
+ "count": 386,
  "events": [
   {
    "id": "monday-morning-on-track-2026-11-16",
@@ -1817,6 +1817,37 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "mercer-island-bluebirds-turkey-trot-5k-2026-11-26",
+   "name": "Mercer Island Bluebirds Turkey Trot 5K",
+   "date": "2026-11-26",
+   "time": "9:30 AM",
+   "type": "Race",
+   "distances": "5K",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Mercer Island, WA",
+   "org": "",
+   "desc": "Second Annual Mercer Island Bluebirds Turkey Trot 5k Join us for the second annual Mercer Island Bluebirds Turkey Trot! This year's event starts at…",
+   "url": "https://runsignup.com/Race/WA/MercerIsland/MercerIslandsBluebirdsTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "Free",
+   "free": true,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-298537-1794866907.4067-0.bQ-37B.jpg",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.57663,
+    -122.22764
    ]
   },
   {
