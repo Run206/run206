@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-18T00:00:00Z",
- "count": 388,
+ "count": 389,
  "events": [
   {
    "id": "wake-up-wednesday-2026-11-18",
@@ -11050,6 +11050,41 @@
    "coords": [
     47.67654,
     -122.20708
+   ]
+  },
+  {
+   "id": "sunrise-marathon-seattle-2027-07-24",
+   "name": "Sunrise Marathon SEATTLE",
+   "date": "2027-07-24",
+   "time": "7:30 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Marathon",
+    "Half",
+    "10K",
+    "5K",
+    "Mile"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Chase the Sun, Crushing your Goals! Welcome to the 2027 Sunrise Marathon 5K/10K/13.1! There is no better way to start your day than stepping up to…",
+   "url": "https://runsignup.com/Race/WA/Seattle/SunriseMarathonSEATTLE0724?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$45",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-288892-1789477675.7869-0.bQQumR.png",
+   "community_id": "",
+   "group": "2027-07",
+   "group_label": "July 2027",
+   "group_order": 24333,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
