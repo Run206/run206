@@ -33,22 +33,6 @@
    "type": "Race",
    "url": "https://raceroster.com/events/2026/112954/2026-uw-medicine-seattle-marathon-and-half-marathon"
   },
-  "112982": {
-   "date": "2026-11-15",
-   "desc": "9703 Juanita Drive Northeast, Kirkland, WA 98034 - The Kirkland Turkey Trot 5k,10K and Kids Race Get ready for…",
-   "distances": "",
-   "image": "https://cdn.raceroster.com/event-logo/pj5yuca7wms3qmf9._original.jpg",
-   "location": "Kirkland, WA",
-   "name": "2026 Kirkland Turkey Trot",
-   "org": "",
-   "price": "",
-   "recurring": false,
-   "source": "raceroster",
-   "source_id": "rr-112982",
-   "time": "9:00 AM",
-   "type": "Race",
-   "url": "https://raceroster.com/events/2026/112982/2026-kirkland-turkey-trot"
-  },
   "115515": {
    "date": "2026-11-28",
    "desc": "USA - Saturday, November 28, 2026Location: Bell Harbor, Pier…",
@@ -80,22 +64,6 @@
    "time": "9:00 AM",
    "type": "Race",
    "url": "https://raceroster.com/events/2027/116539/2027-kirkland-shamrock-run"
-  },
-  "116801": {
-   "date": "2026-11-14",
-   "desc": "Lincoln Park, 8011 Fauntleroy Way Southwest, Seattle, Washington - Join the Movement for Mental Health!Introducing the \"Run…",
-   "distances": "",
-   "image": "https://cdn.raceroster.com/event-logo/ycct9gr3c54g67dc._original.png",
-   "location": "Seattle, WA",
-   "name": "Run for Mental Health 5K/10K/13.1 SEATTLE",
-   "org": "",
-   "price": "",
-   "recurring": false,
-   "source": "raceroster",
-   "source_id": "rr-116801",
-   "time": "7:30 AM",
-   "type": "Race",
-   "url": "https://raceroster.com/events/2026/116801/run-for-mental-health-5k10k131-seattle"
   },
   "116954": {
    "date": "2026-11-28",
@@ -320,22 +288,6 @@
    "time": "7:30 AM",
    "type": "Race",
    "url": "https://raceroster.com/events/2027/141977/sloth-run-5k10k131-seattle"
-  },
-  "165966": {
-   "date": "2026-11-15",
-   "desc": "Juanita Beach Park, Northeast Juanita Drive, Kirkland, WA",
-   "distances": "",
-   "image": "https://cdn.raceroster.com/event-logo/p7bafqs3ytahbh6y._original.jpg",
-   "location": "Kirkland, WA",
-   "name": "Kirkland Turkey Trot 2026",
-   "org": "",
-   "price": "",
-   "recurring": false,
-   "source": "raceroster",
-   "source_id": "rr-165966",
-   "time": "",
-   "type": "Race",
-   "url": "https://raceroster.com/events/2026/165966/kirkland-turkey-trot-2026"
   },
   "165998": {
    "date": "2026-11-26",
