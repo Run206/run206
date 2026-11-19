@@ -144,8 +144,8 @@
    "group_order": 0
   },
   {
-   "id": "pnw-regional-xc-race-2026-11-21",
-   "name": "PNW Regional XC Race",
+   "id": "northwest-region-championship-xc-race-2026-11-21",
+   "name": "Northwest Region Championship XC Race",
    "date": "2026-11-21",
    "time": "10:30 AM",
    "type": "Race",
@@ -1305,7 +1305,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/SeattleTurkeyTrot2?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$6–$46",
+   "price": "$6–$48",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -1753,9 +1753,9 @@
    "distance_tags": [
     "Marathon"
    ],
-   "location": "731 Westlake Avenue North, Seattle",
+   "location": "Seattle",
    "org": "Club Seattle Runners Division",
-   "desc": "Join CSRD, New Balance, and Shokz at Art Marble 21 for a 2.75-mile run or walk filled with good company and race-weekend fun. Whether you’re racing…",
+   "desc": "Join CSRD, New Balance, and Shokz for a 2.75-mile run or walk filled with good company and race-weekend fun. Whether you’re racing Sunday, cheering…",
    "url": "https://www.heylo.com/event/-P6lxe2jQiJ_OXIEptUV",
    "affiliate": false,
    "affiliate_platform": "",
@@ -1770,8 +1770,8 @@
    "group_label": "Next week",
    "group_order": 1,
    "coords": [
-    47.62643,
-    -122.33945
+    47.60383,
+    -122.33006
    ]
   },
   {
