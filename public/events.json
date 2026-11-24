@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-24T00:00:00Z",
- "count": 387,
+ "count": 390,
  "events": [
   {
    "id": "brooks-run-club-2026-11-24",
@@ -9466,6 +9466,38 @@
    ]
   },
   {
+   "id": "daffodil-classic-5k-8k-2027-04-04",
+   "name": "Daffodil Classic 5K & 8K",
+   "date": "2027-04-04",
+   "time": "9:30 AM",
+   "type": "Race",
+   "distances": "5K, 8K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Puyallup, WA",
+   "org": "",
+   "desc": "Daffodil Classic 5K & 8K Get Ready to Paint the Puyallup Valley YELLOW! Lace up those running shoes and join All Things Fun Sports! on Sunday, April…",
+   "url": "https://runsignup.com/Race/WA/Puyallup/Daffodil8K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$35",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-270984-1795481953.7988-0.bRbofH.png",
+   "community_id": "",
+   "group": "2027-04",
+   "group_label": "April 2027",
+   "group_order": 24330,
+   "coords": [
+    47.1849,
+    -122.29214
+   ]
+  },
+  {
    "id": "run-for-pb-j-5k-10k-13-1-seattle-2027-04-10",
    "name": "Run for PB&J 5k/10k/13.1 SEATTLE",
    "date": "2027-04-10",
@@ -9724,6 +9756,38 @@
    "coords": [
     47.60383,
     -122.33006
+   ]
+  },
+  {
+   "id": "all-in-for-autism-5k-2027-2027-04-25",
+   "name": "All in for Autism 5K - 2027",
+   "date": "2027-04-25",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "5K, Kids, Walk",
+   "distance_tags": [
+    "Kids",
+    "5K"
+   ],
+   "location": "Bellevue, WA",
+   "org": "",
+   "desc": "The race to support kids & families with Autism Spectrum Disorder (ASD) Our cause is to raise awareness and funds to support children with Autism…",
+   "url": "https://runsignup.com/Race/WA/Bellevue/AllinforAutism5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$10–$20",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-245863-1763673466.258-0.bPh4v6.png",
+   "community_id": "",
+   "group": "2027-04",
+   "group_label": "April 2027",
+   "group_order": 24330,
+   "coords": [
+    47.61442,
+    -122.19234
    ]
   },
   {
@@ -11228,6 +11292,37 @@
    "coords": [
     47.62055,
     -122.22645
+   ]
+  },
+  {
+   "id": "the-90s-remix-5k-2027-08-18",
+   "name": "The 90s Remix 5K",
+   "date": "2027-08-18",
+   "time": "6:30 PM",
+   "type": "Race",
+   "distances": "The 90s Remix Classic",
+   "distance_tags": [
+    "5K"
+   ],
+   "location": "Puyallup, WA",
+   "org": "",
+   "desc": "Join us as we travel back in time to when Grunge meets Neon, Boy Bands, and Rap for this fun 5K in downtown Puyallup. Save the Date Tuesday evening…",
+   "url": "https://runsignup.com/Race/WA/Puyallup/TheSRemix5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$35",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-256511-1750176049.7022-0.bOuzeX.png",
+   "community_id": "",
+   "group": "2027-08",
+   "group_label": "August 2027",
+   "group_order": 24334,
+   "coords": [
+    47.1849,
+    -122.29214
    ]
   },
   {
