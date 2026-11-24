@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-24T00:00:00Z",
- "count": 390,
+ "count": 392,
  "events": [
   {
    "id": "brooks-run-club-2026-11-24",
@@ -526,39 +526,6 @@
    ]
   },
   {
-   "id": "2026-mukilteo-turkey-trot-5k-and-10k-2026-11-26",
-   "name": "2026 Mukilteo Turkey Trot 5K and 10K",
-   "date": "2026-11-26",
-   "time": "8:15 AM",
-   "type": "Race",
-   "distances": "2 Mile, 5K, 10K, Kids",
-   "distance_tags": [
-    "Kids",
-    "10K",
-    "5K"
-   ],
-   "location": "Mukilteo, WA",
-   "org": "",
-   "desc": "**If you are registering after November 21st please note that we will not have enough finisher medals for everyone and you will agree to either take…",
-   "url": "https://runsignup.com/Race/WA/Mukilteo/2017MukilteoTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$15–$50",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/races/race47506-logo-0.bzfGjF.png",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.9474,
-    -122.3037
-   ]
-  },
-  {
    "id": "silverdale-rotary-turkey-trot-2026-2026-11-26",
    "name": "Silverdale Rotary Turkey Trot 2026",
    "date": "2026-11-26",
@@ -870,6 +837,35 @@
    "group": "this-week",
    "group_label": "This week",
    "group_order": 0
+  },
+  {
+   "id": "mukilteo-turkey-trot-2026-2026-11-26",
+   "name": "Mukilteo Turkey Trot 2026",
+   "date": "2026-11-26",
+   "time": "",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [],
+   "location": "Mukilteo, WA",
+   "org": "",
+   "desc": "Kamiak High School, Harbour Pointe Boulevard, Mukilteo, WA",
+   "url": "https://raceroster.com/events/2026/165998/mukilteo-turkey-trot-2026",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "raceroster",
+   "image": "https://cdn.raceroster.com/event-logo/qqf6jefxtq3pnd5z._original.jpg",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.9474,
+    -122.3037
+   ]
   },
   {
    "id": "friday-lake-union-run-2026-11-27",
@@ -9630,6 +9626,38 @@
    ]
   },
   {
+   "id": "top-pot-doughnut-dash-5k-2027-04-18",
+   "name": "Top Pot Doughnut Dash 5K",
+   "date": "2027-04-18",
+   "time": "8:30 AM",
+   "type": "Race",
+   "distances": "5K, Kids, Walk",
+   "distance_tags": [
+    "Kids",
+    "5K"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Join us in Greenlake on Sunday, April 19th, 2026 and take part in Seattle's only doughnut-filled 5K!",
+   "url": "https://runsignup.com/Race/WA/Seattle/TopPotDoughnutDash5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$20–$45",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-269360-1765517839.2411-0.bPo6Op.png",
+   "community_id": "",
+   "group": "2027-04",
+   "group_label": "April 2027",
+   "group_order": 24330,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
    "id": "coffee-lover-run-seattle-2027-04-24",
    "name": "Coffee Lover Run SEATTLE",
    "date": "2027-04-24",
@@ -10580,7 +10608,7 @@
    "url": "https://runsignup.com/Race/WA/Seattle/MadeInTheUSA5K10K15KHalfSeattle?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$35–$55",
+   "price": "$20–$45",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -11797,6 +11825,38 @@
    "coords": [
     47.22582,
     -122.53713
+   ]
+  },
+  {
+   "id": "kirkland-turkey-trot-2027-11-14",
+   "name": "Kirkland Turkey Trot",
+   "date": "2027-11-14",
+   "time": "9:20 AM",
+   "type": "Race",
+   "distances": "5K, 10K",
+   "distance_tags": [
+    "10K",
+    "5K"
+   ],
+   "location": "Kirkland, WA",
+   "org": "",
+   "desc": "Run Together at the Kirkland Turkey Trot! Gather your family, invite your friends, and kick off the holiday season together at the Kirkland Turkey…",
+   "url": "https://runsignup.com/Race/WA/Kirkland/KirklandTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$35–$50",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-292033-1790109453.6315-0.bQSUCn.png",
+   "community_id": "",
+   "group": "2027-11",
+   "group_label": "November 2027",
+   "group_order": 24337,
+   "coords": [
+    47.67654,
+    -122.20708
    ]
   }
  ]

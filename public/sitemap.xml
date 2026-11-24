@@ -102,11 +102,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.run206.com/e/2026-mukilteo-turkey-trot-5k-and-10k-2026-11-26/</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://www.run206.com/e/silverdale-rotary-turkey-trot-2026-2026-11-26/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -153,6 +148,11 @@
   </url>
   <url>
     <loc>https://www.run206.com/e/thursday-brewery-run-2026-11-26/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.run206.com/e/mukilteo-turkey-trot-2026-2026-11-26/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
   </url>
@@ -1562,6 +1562,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://www.run206.com/e/top-pot-doughnut-dash-5k-2027-04-18/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.run206.com/e/coffee-lover-run-seattle-2027-04-24/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1898,6 +1903,11 @@
   </url>
   <url>
     <loc>https://www.run206.com/e/run-the-bay-2027-11-14/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.run206.com/e/kirkland-turkey-trot-2027-11-14/</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
   </url>
