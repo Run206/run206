@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-25T00:00:00Z",
- "count": 391,
+ "count": 392,
  "events": [
   {
    "id": "wake-up-wednesday-2026-11-25",
@@ -341,7 +341,7 @@
    ],
    "location": "Silverdale, WA",
    "org": "",
-   "desc": "Please join us for our 9th Annual Silverdale Rotary Turkey Trot! On-line Registration ends Monday, November 23rd at 11:59 pm. See below for in-person…",
+   "desc": "Registration is closed for the 2026 event. Registered runners may pick up their packet on race morning. Please note there will be no registration…",
    "url": "https://runsignup.com/Race/WA/Silverdale/TurkeyTrot18?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -455,6 +455,39 @@
    ]
   },
   {
+   "id": "montlake-turkey-trot-2026-11-26",
+   "name": "Montlake Turkey Trot",
+   "date": "2026-11-26",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "1 Mile, 2 Mile, 5K, Kids",
+   "distance_tags": [
+    "Kids",
+    "5K",
+    "Mile"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "DID YOU KNOW? Unlike many races, who partner with a charity and donate a portion of their proceeds, Montlake Turkey Trot is actually owned by The…",
+   "url": "https://runsignup.com/Race/WA/Seattle/MontlakeTurkeyTrot?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-242746-1764049185.2892-0.bPjueH.jpg",
+   "community_id": "",
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
+   "coords": [
+    47.60383,
+    -122.33006
+   ]
+  },
+  {
    "id": "tacoma-city-turkey-trot-2026-11-26",
    "name": "Tacoma City Turkey Trot",
    "date": "2026-11-26",
@@ -532,7 +565,7 @@
    ],
    "location": "Seattle, WA",
    "org": "",
-   "desc": "Please visit our website magnusonseries.com for all the info. Save the long line on race day and pick up your packet early. Head to Road Runner…",
+   "desc": "Please visit our website magnusonseries.com for all the info.",
    "url": "https://runsignup.com/Race/WA/Seattle/SeattleTurkeyTrot2?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
@@ -1092,7 +1125,7 @@
    "group_order": 0,
    "coords": [
     47.6469,
-    -122.33381
+    -122.3338
    ]
   },
   {
@@ -5182,6 +5215,35 @@
    "coords": [
     47.6275,
     -122.336
+   ]
+  },
+  {
+   "id": "jolly-jog-fun-run-walk-2026-12-26",
+   "name": "Jolly Jog Fun Run/Walk",
+   "date": "2026-12-26",
+   "time": "9:00 AM",
+   "type": "Race",
+   "distances": "Walk",
+   "distance_tags": [],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "Oh What Fun It Is to Run! Jolly Jog Fun Run/Walk - December 26th - Fleet Feet Seattle - Ballard Jolly Jog is Fleet Feet’s holiday celebration in…",
+   "url": "https://runsignup.com/Race/WA/Seattle/JollyJogFunRunSEA?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "Free",
+   "free": true,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-293150-1790864116.7074-0.bQVMR0.jpg",
+   "community_id": "",
+   "group": "2026-12",
+   "group_label": "December",
+   "group_order": 24326,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
@@ -9456,7 +9518,7 @@
    "url": "https://runsignup.com/Race/WA/Puyallup/Daffodil8K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$30–$35",
+   "price": "$29.75–$38.25",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -11298,37 +11360,6 @@
    "coords": [
     47.62055,
     -122.22645
-   ]
-  },
-  {
-   "id": "the-90s-remix-5k-2027-08-18",
-   "name": "The 90s Remix 5K",
-   "date": "2027-08-18",
-   "time": "6:30 PM",
-   "type": "Race",
-   "distances": "The 90s Remix Classic",
-   "distance_tags": [
-    "5K"
-   ],
-   "location": "Puyallup, WA",
-   "org": "",
-   "desc": "Join us as we travel back in time to when Grunge meets Neon, Boy Bands, and Rap for this fun 5K in downtown Puyallup. Save the Date Tuesday evening…",
-   "url": "https://runsignup.com/Race/WA/Puyallup/TheSRemix5K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
-   "affiliate": true,
-   "affiliate_platform": "RunSignUp",
-   "price": "$35",
-   "free": false,
-   "recurring": false,
-   "schedule": "",
-   "source": "runsignup",
-   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-256511-1750176049.7022-0.bOuzeX.png",
-   "community_id": "",
-   "group": "2027-08",
-   "group_label": "August 2027",
-   "group_order": 24334,
-   "coords": [
-    47.1849,
-    -122.29214
    ]
   },
   {
