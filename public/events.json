@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-26T00:00:00Z",
- "count": 390,
+ "count": 391,
  "events": [
   {
    "id": "brooks-run-club-2026-11-26",
@@ -8915,6 +8915,40 @@
    "coords": [
     47.66941,
     -122.12388
+   ]
+  },
+  {
+   "id": "run-for-coffee-lovers-seattle-2027-03-06",
+   "name": "Run for Coffee Lovers SEATTLE",
+   "date": "2027-03-06",
+   "time": "7:30 AM",
+   "type": "Race",
+   "distances": "1 Mile, 5K, 10K, Half Marathon",
+   "distance_tags": [
+    "Half",
+    "10K",
+    "5K",
+    "Mile"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "For all the Coffee Lovers, this run is for you! You’ll love the shirt we send you. Set a goal, bring a friend, and join this super fun 5K/10K/13.1…",
+   "url": "https://runsignup.com/Race/WA/Seattle/RunForCoffeeLoversSEATTLE?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
+   "affiliate": true,
+   "affiliate_platform": "RunSignUp",
+   "price": "$30–$45",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "runsignup",
+   "image": "https://d368g9lw5ileu7.cloudfront.net/uploads/generic/genericImage-websiteLogo-285107-1787795778.9654-0.bQJ5Lc.png",
+   "community_id": "",
+   "group": "2027-03",
+   "group_label": "March 2027",
+   "group_order": 24329,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   },
   {
