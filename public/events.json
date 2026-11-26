@@ -1,183 +1,7 @@
 {
- "generated": "2026-11-25T00:00:00Z",
- "count": 392,
+ "generated": "2026-11-26T00:00:00Z",
+ "count": 390,
  "events": [
-  {
-   "id": "wake-up-wednesday-2026-11-25",
-   "name": "Wake Up Wednesday",
-   "date": "2026-11-25",
-   "time": "5:30 AM",
-   "type": "Club Run",
-   "distances": "3-6 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Starbucks Green Lake",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Lake loops, off-lake routes, or a tempo option.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "wednesday-night-run-2026-11-25",
-   "name": "Wednesday Night Run",
-   "date": "2026-11-25",
-   "time": "5:30 PM",
-   "type": "Club Run",
-   "distances": "~4 miles, hilly",
-   "distance_tags": [],
-   "location": "Brooks Trailhead, 3400 Stone Way N",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "Scenic hilly routes through Fremont, year-round. Fremont Brewing after.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.6497,
-    -122.3424
-   ]
-  },
-  {
-   "id": "wednesday-group-run-2026-11-25",
-   "name": "Wednesday Group Run",
-   "date": "2026-11-25",
-   "time": "6:00 PM",
-   "type": "Club Run",
-   "distances": "Various",
-   "distance_tags": [],
-   "location": "38843 SE Newton St, Snoqualmie",
-   "org": "Snoqualmie Running Company",
-   "desc": "Group run from a woman-owned trail and road shop. Members get 10% off.",
-   "url": "https://www.snoqualmierunning.com",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.52527,
-    -121.82246
-   ]
-  },
-  {
-   "id": "midweek-group-run-2026-11-25",
-   "name": "Midweek Group Run",
-   "date": "2026-11-25",
-   "time": "6:15 PM",
-   "type": "Club Run",
-   "distances": "3-6 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "West Seattle Runner store",
-   "org": "West Seattle Runner",
-   "desc": "Midweek community run from the shop.",
-   "url": "https://www.westseattlerunner.com/events",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0
-  },
-  {
-   "id": "wednesday-trail-run-2026-11-25",
-   "name": "Wednesday Trail Run",
-   "date": "2026-11-25",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "~1 hour on trail",
-   "distance_tags": [],
-   "location": "Seven Hills Running Shop, Magnolia",
-   "org": "Seattle Running Club",
-   "desc": "Discovery Park trail run. All abilities welcome.",
-   "url": "https://www.seattlerunningclub.org",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.66046,
-    -122.39799
-   ]
-  },
-  {
-   "id": "wednesday-track-2026-11-25",
-   "name": "Wednesday Track",
-   "date": "2026-11-25",
-   "time": "Evening",
-   "type": "Club Run",
-   "distances": "Track workout",
-   "distance_tags": [
-    "Track"
-   ],
-   "location": "Cleveland High School track, 13th & Lucile",
-   "org": "Rainier Beach Running Club",
-   "desc": "Weekly track workouts, different each week. South Seattle community.",
-   "url": "https://rbrunclub.wordpress.com",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Wed",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "this-week",
-   "group_label": "This week",
-   "group_order": 0,
-   "coords": [
-    47.5478,
-    -122.3125
-   ]
-  },
   {
    "id": "brooks-run-club-2026-11-26",
    "name": "Brooks Run Club",
@@ -1046,7 +870,7 @@
    "distance_tags": [
     "Marathon"
    ],
-   "location": "2125 Terry Avenue, Seattle",
+   "location": "1150 Fairview Avenue North, Seattle",
    "org": "Club Seattle Runners Division",
    "desc": "Join CSRD, New Balance, and Shokz for a 2.75-mile run or walk filled with good company and race-weekend fun. Whether you’re racing Sunday, cheering…",
    "url": "https://www.heylo.com/event/-P6lxe2jQiJ_OXIEptUV",
@@ -1063,8 +887,8 @@
    "group_label": "This week",
    "group_order": 0,
    "coords": [
-    47.61826,
-    -122.33746
+    47.62974,
+    -122.32908
    ]
   },
   {
@@ -1118,14 +942,14 @@
    "recurring": false,
    "schedule": "",
    "source": "heylo",
-   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/ee41d63a-895e-4e5c-99d3-69b4344ddfc2.jpg",
+   "image": "https://heylo-s1.b-cdn.net/communities/d1fdc906-b4d4-4ac4-9788-cd7b5df4b691/events/65f13ac6-2b39-418e-a4ee-893984a30eb2.jpg",
    "community_id": "d1fdc906-b4d4-4ac4-9788-cd7b5df4b691",
    "group": "this-week",
    "group_label": "This week",
    "group_order": 0,
    "coords": [
-    47.6469,
-    -122.3338
+    47.64755,
+    -122.33275
    ]
   },
   {
@@ -1652,9 +1476,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6497,
     -122.3424
@@ -1683,9 +1507,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0
   },
   {
    "id": "thursday-evening-casual-run-2026-12-03",
@@ -1710,9 +1534,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1,
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0,
    "coords": [
     47.6806,
     -122.3287
@@ -1741,9 +1565,9 @@
    "source": "manual",
    "image": "",
    "community_id": "",
-   "group": "next-week",
-   "group_label": "Next week",
-   "group_order": 1
+   "group": "this-week",
+   "group_label": "This week",
+   "group_order": 0
   },
   {
    "id": "friday-lake-union-run-2026-12-04",
@@ -2638,6 +2462,122 @@
    ]
   },
   {
+   "id": "brooks-run-club-2026-12-10",
+   "name": "Brooks Run Club",
+   "date": "2026-12-10",
+   "time": "6:00 PM",
+   "type": "Brand Event",
+   "distances": "3-6 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Brooks Trailhead, 3400 Stone Way N",
+   "org": "Brooks Running",
+   "desc": "Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.",
+   "url": "https://www.brooksrunning.com/en_us/brooks-run-club",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Tue & Thu",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6497,
+    -122.3424
+   ]
+  },
+  {
+   "id": "fleet-feet-run-club-2026-12-10",
+   "name": "Fleet Feet Run Club",
+   "date": "2026-12-10",
+   "time": "6:00 PM",
+   "type": "Brand Event",
+   "distances": "3-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Capitol Hill and Ballard stores",
+   "org": "Fleet Feet Seattle",
+   "desc": "Social runs from both stores. Thursday is a pub run ending at a brewery.",
+   "url": "https://www.fleetfeet.com/s/seattle",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Tue & Thu",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1
+  },
+  {
+   "id": "thursday-evening-casual-run-2026-12-10",
+   "name": "Thursday Evening Casual Run",
+   "date": "2026-12-10",
+   "time": "6:30 PM",
+   "type": "Club Run",
+   "distances": "3-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Green Lake",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "The most social run of the week. Takeout dinner by the lake after.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Thu",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
+   "id": "thursday-brewery-run-2026-12-10",
+   "name": "Thursday Brewery Run",
+   "date": "2026-12-10",
+   "time": "Evening",
+   "type": "Club Run",
+   "distances": "5-10K",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Rotating breweries in Fremont and Ballard",
+   "org": "Frelard Run Club",
+   "desc": "Social run ending at a brewery. Check Instagram for the week's location.",
+   "url": "",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Thu",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "next-week",
+   "group_label": "Next week",
+   "group_order": 1
+  },
+  {
    "id": "alki-beach-run-ongoing",
    "name": "Alki Beach Run",
    "date": null,
@@ -2966,122 +2906,6 @@
     47.6806,
     -122.3287
    ]
-  },
-  {
-   "id": "brooks-run-club-2026-12-10",
-   "name": "Brooks Run Club",
-   "date": "2026-12-10",
-   "time": "6:00 PM",
-   "type": "Brand Event",
-   "distances": "3-6 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Brooks Trailhead, 3400 Stone Way N",
-   "org": "Brooks Running",
-   "desc": "Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.",
-   "url": "https://www.brooksrunning.com/en_us/brooks-run-club",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Tue & Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-12",
-   "group_label": "December",
-   "group_order": 24326,
-   "coords": [
-    47.6497,
-    -122.3424
-   ]
-  },
-  {
-   "id": "fleet-feet-run-club-2026-12-10",
-   "name": "Fleet Feet Run Club",
-   "date": "2026-12-10",
-   "time": "6:00 PM",
-   "type": "Brand Event",
-   "distances": "3-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Capitol Hill and Ballard stores",
-   "org": "Fleet Feet Seattle",
-   "desc": "Social runs from both stores. Thursday is a pub run ending at a brewery.",
-   "url": "https://www.fleetfeet.com/s/seattle",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Tue & Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-12",
-   "group_label": "December",
-   "group_order": 24326
-  },
-  {
-   "id": "thursday-evening-casual-run-2026-12-10",
-   "name": "Thursday Evening Casual Run",
-   "date": "2026-12-10",
-   "time": "6:30 PM",
-   "type": "Club Run",
-   "distances": "3-5 miles",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Green Lake",
-   "org": "Seattle Green Lake Running Group",
-   "desc": "The most social run of the week. Takeout dinner by the lake after.",
-   "url": "https://www.meetup.com/seattle-greenlake-running-group",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-12",
-   "group_label": "December",
-   "group_order": 24326,
-   "coords": [
-    47.6806,
-    -122.3287
-   ]
-  },
-  {
-   "id": "thursday-brewery-run-2026-12-10",
-   "name": "Thursday Brewery Run",
-   "date": "2026-12-10",
-   "time": "Evening",
-   "type": "Club Run",
-   "distances": "5-10K",
-   "distance_tags": [
-    "10K"
-   ],
-   "location": "Rotating breweries in Fremont and Ballard",
-   "org": "Frelard Run Club",
-   "desc": "Social run ending at a brewery. Check Instagram for the week's location.",
-   "url": "",
-   "affiliate": false,
-   "affiliate_platform": "",
-   "price": "Free",
-   "free": true,
-   "recurring": true,
-   "schedule": "Every Thu",
-   "source": "manual",
-   "image": "",
-   "community_id": "",
-   "group": "2026-12",
-   "group_label": "December",
-   "group_order": 24326
   },
   {
    "id": "friday-lake-union-run-2026-12-11",
@@ -5906,7 +5730,7 @@
    "url": "https://runsignup.com/Race/WA/Auburn/NewYearSDay5K8K?aflt_token=wc7B47h8BqW9drLnekNygSAMxqwhqsnt",
    "affiliate": true,
    "affiliate_platform": "RunSignUp",
-   "price": "$25–$40",
+   "price": "$25–$35",
    "free": false,
    "recurring": false,
    "schedule": "",
@@ -8389,6 +8213,122 @@
     47.5478,
     -122.3125
    ]
+  },
+  {
+   "id": "brooks-run-club-2027-01-21",
+   "name": "Brooks Run Club",
+   "date": "2027-01-21",
+   "time": "6:00 PM",
+   "type": "Brand Event",
+   "distances": "3-6 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Brooks Trailhead, 3400 Stone Way N",
+   "org": "Brooks Running",
+   "desc": "Group runs from Brooks HQ, rotating routes, all paces. 15% off at the Trailhead with a race bib.",
+   "url": "https://www.brooksrunning.com/en_us/brooks-run-club",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Tue & Thu",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    47.6497,
+    -122.3424
+   ]
+  },
+  {
+   "id": "fleet-feet-run-club-2027-01-21",
+   "name": "Fleet Feet Run Club",
+   "date": "2027-01-21",
+   "time": "6:00 PM",
+   "type": "Brand Event",
+   "distances": "3-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Capitol Hill and Ballard stores",
+   "org": "Fleet Feet Seattle",
+   "desc": "Social runs from both stores. Thursday is a pub run ending at a brewery.",
+   "url": "https://www.fleetfeet.com/s/seattle",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Tue & Thu",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327
+  },
+  {
+   "id": "thursday-evening-casual-run-2027-01-21",
+   "name": "Thursday Evening Casual Run",
+   "date": "2027-01-21",
+   "time": "6:30 PM",
+   "type": "Club Run",
+   "distances": "3-5 miles",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Green Lake",
+   "org": "Seattle Green Lake Running Group",
+   "desc": "The most social run of the week. Takeout dinner by the lake after.",
+   "url": "https://www.meetup.com/seattle-greenlake-running-group",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Thu",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327,
+   "coords": [
+    47.6806,
+    -122.3287
+   ]
+  },
+  {
+   "id": "thursday-brewery-run-2027-01-21",
+   "name": "Thursday Brewery Run",
+   "date": "2027-01-21",
+   "time": "Evening",
+   "type": "Club Run",
+   "distances": "5-10K",
+   "distance_tags": [
+    "10K"
+   ],
+   "location": "Rotating breweries in Fremont and Ballard",
+   "org": "Frelard Run Club",
+   "desc": "Social run ending at a brewery. Check Instagram for the week's location.",
+   "url": "",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "Free",
+   "free": true,
+   "recurring": true,
+   "schedule": "Every Thu",
+   "source": "manual",
+   "image": "",
+   "community_id": "",
+   "group": "2027-01",
+   "group_label": "January 2027",
+   "group_order": 24327
   },
   {
    "id": "coffee-lover-run-seattle-2027-01-30",
