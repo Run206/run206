@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-27T00:00:00Z",
- "count": 375,
+ "count": 376,
  "events": [
   {
    "id": "friday-lake-union-run-2026-11-27",
@@ -11341,6 +11341,38 @@
    "coords": [
     47.67654,
     -122.20708
+   ]
+  },
+  {
+   "id": "2027-uw-medicine-seattle-marathon-and-half-marathon-2027-11-28",
+   "name": "2027 UW Medicine Seattle Marathon and Half Marathon",
+   "date": "2027-11-28",
+   "time": "7:00 AM",
+   "type": "Race",
+   "distances": "",
+   "distance_tags": [
+    "Marathon",
+    "Half"
+   ],
+   "location": "Seattle, WA",
+   "org": "",
+   "desc": "The UW Medicine Seattle Marathon…",
+   "url": "https://raceroster.com/events/2027/166709/2027-uw-medicine-seattle-marathon-and-half-marathon",
+   "affiliate": false,
+   "affiliate_platform": "",
+   "price": "",
+   "free": false,
+   "recurring": false,
+   "schedule": "",
+   "source": "raceroster",
+   "image": "https://cdn.raceroster.com/event-logo/w9zdrugsnctu6xyk._original.png",
+   "community_id": "",
+   "group": "2027-11",
+   "group_label": "November 2027",
+   "group_order": 24337,
+   "coords": [
+    47.60383,
+    -122.33006
    ]
   }
  ]
